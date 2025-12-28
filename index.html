@@ -5,54 +5,612 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="MAHBUB - Transportation Engineering Researcher at Chulalongkorn University specializing in AI applications, sustainable mobility, and intelligent transportation systems.">
-    <meta name="keywords" content="Transportation Engineering, AI, Machine Learning, Sustainable Mobility, GTFS, SUMO, EV, Research, Chulalongkorn University">
-    <meta name="author" content="MAHBUB">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Engr. Mahbub Hassan - Transportation Engineering Researcher at Chulalongkorn University specializing in AI, Machine Learning, LLMs, and Intelligent Transportation Systems.">
+    <meta name="keywords" content="Mahbub Hassan, Transportation Engineering, AI, Machine Learning, LLM, ITS, SUMO, Digital Twin, Sustainable Mobility, Chulalongkorn University">
+    <meta name="author" content="Engr. Mahbub Hassan">
     
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
+    <meta property="og:title" content="Engr. Mahbub Hassan | AI & Transportation Research">
+    <meta property="og:description" content="Transportation Engineering Researcher specializing in AI applications, LLMs, and Intelligent Transportation Systems.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mahbubchula.github.io/mahbub/">
-    <meta property="og:title" content="MAHBUB | AI & Transportation Research">
-    <meta property="og:description" content="Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.">
-    <meta property="og:image" content="assets/images/og-image.png">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MAHBUB | AI & Transportation Research">
-    <meta name="twitter:description" content="Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.">
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
-    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="css/pages.css">
     
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     
-    <title>MAHBUB | AI & Transportation Research</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <title>Engr. Mahbub Hassan | AI & Transportation Research</title>
+    
+    <style>
+        /* Enhanced Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
+        }
+        
+        .hero-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-12);
+            align-items: center;
+        }
+        
+        .hero-content {
+            z-index: 2;
+        }
+        
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-2) var(--space-4);
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            border-radius: var(--radius-full);
+            font-size: var(--text-sm);
+            color: var(--accent-cyan-400);
+            margin-bottom: var(--space-6);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        
+        .hero-badge .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-green-500);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: var(--space-4);
+            animation: fadeInUp 0.6s ease 0.1s forwards;
+            opacity: 0;
+        }
+        
+        .hero-name {
+            display: block;
+            background: linear-gradient(135deg, var(--accent-cyan-400), var(--accent-purple-400));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-subtitle {
+            font-size: var(--text-xl);
+            color: var(--dark-text-secondary);
+            margin-bottom: var(--space-6);
+            animation: fadeInUp 0.6s ease 0.2s forwards;
+            opacity: 0;
+        }
+        
+        body.light-mode .hero-subtitle {
+            color: var(--light-text-secondary);
+        }
+        
+        .hero-description {
+            font-size: var(--text-base);
+            color: var(--dark-text-tertiary);
+            max-width: 500px;
+            margin-bottom: var(--space-8);
+            line-height: 1.7;
+            animation: fadeInUp 0.6s ease 0.3s forwards;
+            opacity: 0;
+        }
+        
+        body.light-mode .hero-description {
+            color: var(--light-text-tertiary);
+        }
+        
+        .hero-cta {
+            display: flex;
+            gap: var(--space-4);
+            flex-wrap: wrap;
+            margin-bottom: var(--space-10);
+            animation: fadeInUp 0.6s ease 0.4s forwards;
+            opacity: 0;
+        }
+        
+        .hero-social {
+            display: flex;
+            gap: var(--space-3);
+            animation: fadeInUp 0.6s ease 0.5s forwards;
+            opacity: 0;
+        }
+        
+        .hero-social-link {
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--dark-bg-secondary);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius-lg);
+            color: var(--dark-text-secondary);
+            transition: all var(--duration-300);
+        }
+        
+        body.light-mode .hero-social-link {
+            background: var(--light-bg-secondary);
+            border-color: var(--light-border);
+            color: var(--light-text-secondary);
+        }
+        
+        .hero-social-link:hover {
+            border-color: var(--accent-cyan-500);
+            color: var(--accent-cyan-400);
+            transform: translateY(-3px);
+        }
+        
+        .hero-social-link svg {
+            width: 20px;
+            height: 20px;
+        }
+        
+        /* Hero Visual */
+        .hero-visual {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 1s ease 0.3s forwards;
+            opacity: 0;
+        }
+        
+        .hero-visual-container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+        }
+        
+        /* Animated rings */
+        .hero-ring {
+            position: absolute;
+            border-radius: 50%;
+            border: 1px solid rgba(6, 182, 212, 0.2);
+        }
+        
+        .hero-ring-1 {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            animation: rotate 20s linear infinite;
+        }
+        
+        .hero-ring-2 {
+            width: 80%;
+            height: 80%;
+            top: 10%;
+            left: 10%;
+            border-color: rgba(139, 92, 246, 0.2);
+            animation: rotate 15s linear infinite reverse;
+        }
+        
+        .hero-ring-3 {
+            width: 60%;
+            height: 60%;
+            top: 20%;
+            left: 20%;
+            border-color: rgba(16, 185, 129, 0.2);
+            animation: rotate 10s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Center profile area */
+        .hero-profile {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            background: var(--gradient-card);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--dark-border);
+            z-index: 2;
+        }
+        
+        .hero-profile-icon {
+            font-size: 4rem;
+            margin-bottom: var(--space-2);
+        }
+        
+        .hero-profile-text {
+            font-size: var(--text-xs);
+            color: var(--accent-cyan-400);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        /* Floating icons around the profile */
+        .floating-icon {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: var(--dark-bg-secondary);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            animation: float 3s ease-in-out infinite;
+            z-index: 3;
+        }
+        
+        body.light-mode .floating-icon {
+            background: var(--light-bg-card);
+            border-color: var(--light-border);
+        }
+        
+        .floating-icon-1 { top: 5%; left: 20%; animation-delay: 0s; }
+        .floating-icon-2 { top: 15%; right: 10%; animation-delay: 0.5s; }
+        .floating-icon-3 { bottom: 20%; left: 5%; animation-delay: 1s; }
+        .floating-icon-4 { bottom: 10%; right: 15%; animation-delay: 1.5s; }
+        .floating-icon-5 { top: 40%; left: 0%; animation-delay: 2s; }
+        .floating-icon-6 { top: 35%; right: 0%; animation-delay: 2.5s; }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        /* Stats Section */
+        .stats-section {
+            padding: var(--space-16) 0;
+            background: var(--dark-bg-secondary);
+            border-top: 1px solid var(--dark-border);
+            border-bottom: 1px solid var(--dark-border);
+        }
+        
+        body.light-mode .stats-section {
+            background: var(--light-bg-secondary);
+            border-color: var(--light-border);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-8);
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: var(--space-6);
+        }
+        
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: var(--text-4xl);
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-cyan-400), var(--accent-purple-400));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: var(--space-2);
+        }
+        
+        .stat-label {
+            font-size: var(--text-sm);
+            color: var(--dark-text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        body.light-mode .stat-label {
+            color: var(--light-text-secondary);
+        }
+        
+        /* Research Areas Section */
+        .research-areas {
+            padding: var(--space-20) 0;
+        }
+        
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-6);
+        }
+        
+        .area-card {
+            padding: var(--space-6);
+            background: var(--gradient-card);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius-xl);
+            transition: all var(--duration-300);
+            text-align: center;
+        }
+        
+        body.light-mode .area-card {
+            background: var(--light-bg-card);
+            border-color: var(--light-border);
+        }
+        
+        .area-card:hover {
+            border-color: var(--accent-cyan-500);
+            transform: translateY(-5px);
+        }
+        
+        .area-icon {
+            font-size: 2.5rem;
+            margin-bottom: var(--space-4);
+        }
+        
+        .area-card h4 {
+            font-size: var(--text-lg);
+            margin-bottom: var(--space-2);
+        }
+        
+        .area-card p {
+            font-size: var(--text-sm);
+            color: var(--dark-text-tertiary);
+        }
+        
+        body.light-mode .area-card p {
+            color: var(--light-text-tertiary);
+        }
+        
+        /* Featured Work Section */
+        .featured-section {
+            padding: var(--space-20) 0;
+            background: var(--dark-bg-secondary);
+            border-top: 1px solid var(--dark-border);
+        }
+        
+        body.light-mode .featured-section {
+            background: var(--light-bg-secondary);
+            border-color: var(--light-border);
+        }
+        
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-6);
+        }
+        
+        .featured-card {
+            background: var(--dark-bg-primary);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            transition: all var(--duration-300);
+        }
+        
+        body.light-mode .featured-card {
+            background: var(--light-bg-card);
+            border-color: var(--light-border);
+        }
+        
+        .featured-card:hover {
+            border-color: var(--accent-cyan-500);
+            transform: translateY(-5px);
+        }
+        
+        .featured-card-image {
+            height: 150px;
+            background: var(--gradient-card);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+        }
+        
+        .featured-card-content {
+            padding: var(--space-5);
+        }
+        
+        .featured-card-badge {
+            display: inline-block;
+            padding: var(--space-1) var(--space-2);
+            background: rgba(6, 182, 212, 0.1);
+            border-radius: var(--radius-sm);
+            font-size: var(--text-xs);
+            color: var(--accent-cyan-400);
+            margin-bottom: var(--space-2);
+        }
+        
+        .featured-card h4 {
+            font-size: var(--text-base);
+            margin-bottom: var(--space-2);
+        }
+        
+        .featured-card p {
+            font-size: var(--text-sm);
+            color: var(--dark-text-tertiary);
+            margin-bottom: var(--space-4);
+        }
+        
+        body.light-mode .featured-card p {
+            color: var(--light-text-tertiary);
+        }
+        
+        /* Affiliations Section */
+        .affiliations {
+            padding: var(--space-16) 0;
+        }
+        
+        .affiliations-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--space-12);
+            flex-wrap: wrap;
+        }
+        
+        .affiliation-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--space-2);
+            opacity: 0.7;
+            transition: opacity var(--duration-300);
+        }
+        
+        .affiliation-item:hover {
+            opacity: 1;
+        }
+        
+        .affiliation-icon {
+            font-size: 2rem;
+        }
+        
+        .affiliation-name {
+            font-size: var(--text-sm);
+            color: var(--dark-text-tertiary);
+        }
+        
+        body.light-mode .affiliation-name {
+            color: var(--light-text-tertiary);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: var(--space-20) 0;
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(139, 92, 246, 0.1));
+            border-top: 1px solid var(--dark-border);
+        }
+        
+        body.light-mode .cta-section {
+            border-color: var(--light-border);
+        }
+        
+        .cta-content {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .cta-content h2 {
+            font-size: var(--text-3xl);
+            margin-bottom: var(--space-4);
+        }
+        
+        .cta-content p {
+            color: var(--dark-text-secondary);
+            margin-bottom: var(--space-8);
+        }
+        
+        body.light-mode .cta-content p {
+            color: var(--light-text-secondary);
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-4);
+            flex-wrap: wrap;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .hero-content {
+                order: 2;
+            }
+            
+            .hero-visual {
+                order: 1;
+            }
+            
+            .hero-description {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .hero-cta, .hero-social {
+                justify-content: center;
+            }
+            
+            .hero-visual-container {
+                width: 300px;
+                height: 300px;
+            }
+            
+            .hero-profile {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .hero-profile-icon {
+                font-size: 3rem;
+            }
+            
+            .floating-icon {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .areas-grid, .featured-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: var(--space-4);
+            }
+            
+            .areas-grid, .featured-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-visual-container {
+                width: 250px;
+                height: 250px;
+            }
+            
+            .hero-profile {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .hero-profile-icon {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Page Loader -->
-    <div class="page-loader">
-        <div class="loader">
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-        </div>
-    </div>
-
     <!-- Neural Network Background -->
     <div class="neural-bg">
-        <div class="neural-node"></div>
-        <div class="neural-node"></div>
-        <div class="neural-node"></div>
-        <div class="neural-node"></div>
         <div class="neural-node"></div>
         <div class="neural-node"></div>
         <div class="neural-node"></div>
@@ -64,13 +622,11 @@
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <!-- Logo -->
             <a href="index.html" class="nav-logo">
                 <div class="nav-logo-icon">🚀</div>
                 <span>MAHBUB</span>
             </a>
             
-            <!-- Navigation Menu -->
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html" class="nav-link active">Home</a></li>
                 <li><a href="pages/about.html" class="nav-link">About</a></li>
@@ -82,15 +638,11 @@
                 <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
             </ul>
             
-            <!-- Nav Actions -->
             <div class="nav-actions">
-                <!-- Theme Toggle -->
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
                     <i data-lucide="moon" class="theme-icon-dark"></i>
                     <i data-lucide="sun" class="theme-icon-light" style="display: none;"></i>
                 </button>
-                
-                <!-- Mobile Menu Toggle -->
                 <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
@@ -100,404 +652,304 @@
         </div>
     </nav>
 
-    <!-- ==================== HERO SECTION ==================== -->
-    <section class="hero" id="hero">
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
-            <div class="hero-grid">
+            <div class="hero-container">
                 <!-- Hero Content -->
                 <div class="hero-content">
-                    <!-- Status Badge -->
-                    <div class="hero-badge animate-on-scroll">
-                        <span class="badge-dot badge-dot-green"></span>
-                        <span>Open to Collaboration</span>
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span>
+                        <span>Open to Collaborations</span>
                     </div>
                     
-                    <!-- Main Title -->
-                    <h1 class="hero-title animate-on-scroll">
-                        <span class="hero-title-line">Building the Future of</span>
-                        <span class="hero-title-line text-gradient">Intelligent Mobility</span>
+                    <h1 class="hero-title">
+                        Hi, I'm
+                        <span class="hero-name">Engr. Mahbub Hassan</span>
                     </h1>
                     
-                    <!-- Subtitle -->
-                    <p class="hero-subtitle animate-on-scroll">
-                        Transportation Engineering Researcher at <strong>Chulalongkorn University</strong>, 
-                        specializing in AI applications, sustainable mobility systems, 
-                        and intelligent transportation networks.
+                    <p class="hero-subtitle">
+                        Transportation & AI Researcher
                     </p>
                     
-                    <!-- Stats -->
-                    <div class="hero-stats animate-on-scroll">
-                        <div class="hero-stat">
-                            <div class="hero-stat-value" data-count="10" data-suffix="+">0</div>
-                            <div class="hero-stat-label">Publications</div>
-                        </div>
-                        <div class="hero-stat">
-                            <div class="hero-stat-value" data-count="8" data-suffix="+">0</div>
-                            <div class="hero-stat-label">AI Tools Built</div>
-                        </div>
-                        <div class="hero-stat">
-                            <div class="hero-stat-value" data-count="5" data-suffix="+">0</div>
-                            <div class="hero-stat-label">Active Projects</div>
-                        </div>
-                    </div>
+                    <p class="hero-description">
+                        IEEE Graduate Student Member at Chulalongkorn University, Thailand. I leverage <strong>AI, Machine Learning, and LLMs</strong> to solve complex transportation challenges and build intelligent mobility systems for a sustainable future.
+                    </p>
                     
-                    <!-- CTA Buttons -->
-                    <div class="hero-cta animate-on-scroll">
+                    <div class="hero-cta">
                         <a href="pages/research.html" class="btn btn-primary btn-lg">
                             <i data-lucide="flask-conical"></i>
-                            Explore Research
+                            View Research
                         </a>
-                        <a href="pages/tools.html" class="btn btn-secondary btn-lg">
-                            <i data-lucide="code-2"></i>
-                            View Tools
+                        <a href="pages/publications.html" class="btn btn-secondary btn-lg">
+                            <i data-lucide="file-text"></i>
+                            Publications
                         </a>
-                    </div>
-                </div>
-                
-                <!-- Hero Visual -->
-                <div class="hero-visual animate-on-scroll">
-                    <div class="hero-image-container">
-                        <!-- Profile Image Placeholder - Replace with your image -->
-                        <div class="hero-image-wrapper">
-                            <div class="hero-image-placeholder">
-                                <span>👨‍🔬</span>
-                            </div>
-                            <!-- Uncomment and use your actual image -->
-                            <!-- <img src="assets/images/profile/main.jpg" alt="MAHBUB - Transportation Researcher" class="hero-image"> -->
-                        </div>
-                        
-                        <!-- Floating Cards -->
-                        <div class="hero-floating-card card-1">
-                            <div class="floating-card-icon">🤖</div>
-                            <div class="floating-card-content">
-                                <div class="floating-card-title">AI-Powered</div>
-                                <div class="floating-card-text">Research Tools</div>
-                            </div>
-                        </div>
-                        
-                        <div class="hero-floating-card card-2">
-                            <div class="floating-card-icon">🚌</div>
-                            <div class="floating-card-content">
-                                <div class="floating-card-title">Transit Analysis</div>
-                                <div class="floating-card-text">Malaysia & Thailand</div>
-                            </div>
-                        </div>
-                        
-                        <div class="hero-floating-card card-3">
-                            <div class="floating-card-icon">📊</div>
-                            <div class="floating-card-content">
-                                <div class="floating-card-title">Q1 Journals</div>
-                                <div class="floating-card-text">Published Research</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Scroll Indicator -->
-            <div class="scroll-indicator">
-                <div class="scroll-indicator-mouse">
-                    <div class="scroll-indicator-wheel"></div>
-                </div>
-                <span>Scroll to explore</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== RESEARCH HIGHLIGHTS ==================== -->
-    <section class="section" id="research">
-        <div class="container">
-            <div class="section-header">
-                <div class="badge badge-cyan animate-on-scroll">Research Focus</div>
-                <h2 class="animate-on-scroll">Research <span class="text-gradient">Highlights</span></h2>
-                <p class="animate-on-scroll">Pioneering AI-driven solutions for sustainable transportation and urban mobility challenges.</p>
-            </div>
-            
-            <div class="research-grid">
-                <!-- Research Card 1 -->
-                <div class="card hover-lift animate-on-scroll">
-                    <div class="card-icon card-icon-cyan">🗺️</div>
-                    <h4 class="card-title">GTFS Transit Analysis</h4>
-                    <p class="card-description">
-                        First academic analysis of Malaysia's newly released GTFS datasets, assessing transit network efficiency in Johor Bahru and Penang using advanced network analysis techniques.
-                    </p>
-                    <div class="card-tags">
-                        <span class="tag">GTFS</span>
-                        <span class="tag">Network Analysis</span>
-                        <span class="tag">Malaysia</span>
-                    </div>
-                </div>
-                
-                <!-- Research Card 2 -->
-                <div class="card hover-lift animate-on-scroll">
-                    <div class="card-icon card-icon-green">🚗</div>
-                    <h4 class="card-title">EV Adoption Patterns</h4>
-                    <p class="card-description">
-                        Comprehensive machine learning research analyzing electric vehicle adoption patterns in California and Singapore's EV charging infrastructure for equitable deployment.
-                    </p>
-                    <div class="card-tags">
-                        <span class="tag">Machine Learning</span>
-                        <span class="tag">EV</span>
-                        <span class="tag">Infrastructure</span>
-                    </div>
-                </div>
-                
-                <!-- Research Card 3 -->
-                <div class="card hover-lift animate-on-scroll">
-                    <div class="card-icon card-icon-purple">🌐</div>
-                    <h4 class="card-title">Digital Twin Platform</h4>
-                    <p class="card-description">
-                        Real-time digital twin for Malaysian transit systems combining GTFS data with SUMO microsimulation for RapidKL bus networks, targeting Q1 journal publication.
-                    </p>
-                    <div class="card-tags">
-                        <span class="tag">Digital Twin</span>
-                        <span class="tag">SUMO</span>
-                        <span class="tag">Real-time</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="section-cta animate-on-scroll">
-                <a href="pages/research.html" class="btn btn-secondary">
-                    View All Research
-                    <i data-lucide="arrow-right"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== AI TOOLS SHOWCASE ==================== -->
-    <section class="section section-alt" id="tools">
-        <div class="container">
-            <div class="section-header">
-                <div class="badge badge-green animate-on-scroll">Open Source</div>
-                <h2 class="animate-on-scroll">AI-Powered <span class="text-gradient">Tools</span></h2>
-                <p class="animate-on-scroll">Building accessible tools that democratize transportation analysis and research for everyone.</p>
-            </div>
-            
-            <div class="tools-grid">
-                <!-- Tool Card 1 -->
-                <div class="card card-glass hover-lift animate-on-scroll">
-                    <div class="card-header">
-                        <div class="card-icon card-icon-amber">⚡</div>
-                        <span class="badge badge-green">Live</span>
-                    </div>
-                    <h4 class="card-title">EVChargeAdvisor-AI</h4>
-                    <p class="card-description">
-                        Global EV charging infrastructure equity analysis integrating OpenChargeMap, US Census, and World Bank APIs with LLM-powered insights.
-                    </p>
-                    <div class="card-footer">
-                        <div class="card-tags">
-                            <span class="tag">Groq</span>
-                            <span class="tag">Streamlit</span>
-                        </div>
-                        <a href="#" class="btn btn-ghost btn-sm">
-                            <i data-lucide="external-link"></i>
+                        <a href="assets/docs/cv.pdf" class="btn btn-ghost btn-lg" target="_blank">
+                            <i data-lucide="download"></i>
+                            Download CV
                         </a>
                     </div>
-                </div>
-                
-                <!-- Tool Card 2 -->
-                <div class="card card-glass hover-lift animate-on-scroll">
-                    <div class="card-header">
-                        <div class="card-icon card-icon-cyan">🅿️</div>
-                        <span class="badge badge-green">Live</span>
-                    </div>
-                    <h4 class="card-title">ParkSense-AI</h4>
-                    <p class="card-description">
-                        Real-time parking analysis for Singapore's 2,581 carparks across HDB, LTA, and URA with natural language explanations powered by AI.
-                    </p>
-                    <div class="card-footer">
-                        <div class="card-tags">
-                            <span class="tag">Real-time</span>
-                            <span class="tag">Singapore</span>
-                        </div>
-                        <a href="#" class="btn btn-ghost btn-sm">
-                            <i data-lucide="external-link"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Tool Card 3 -->
-                <div class="card card-glass hover-lift animate-on-scroll">
-                    <div class="card-header">
-                        <div class="card-icon card-icon-purple">📊</div>
-                        <span class="badge badge-green">Live</span>
-                    </div>
-                    <h4 class="card-title">PolicySim-AI</h4>
-                    <p class="card-description">
-                        Agentic system for transportation policy simulation with transparent mathematical models and AI-powered scenario analysis.
-                    </p>
-                    <div class="card-footer">
-                        <div class="card-tags">
-                            <span class="tag">Simulation</span>
-                            <span class="tag">Policy</span>
-                        </div>
-                        <a href="#" class="btn btn-ghost btn-sm">
-                            <i data-lucide="external-link"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Tool Card 4 -->
-                <div class="card card-glass hover-lift animate-on-scroll">
-                    <div class="card-header">
-                        <div class="card-icon card-icon-green">🔧</div>
-                        <span class="badge badge-amber">In Dev</span>
-                    </div>
-                    <h4 class="card-title">SUMO-Forge</h4>
-                    <p class="card-description">
-                        Web-based platform to democratize traffic simulation by abstracting SUMO's technical complexity for researchers and planners.
-                    </p>
-                    <div class="card-footer">
-                        <div class="card-tags">
-                            <span class="tag">SUMO</span>
-                            <span class="tag">Web App</span>
-                        </div>
-                        <a href="#" class="btn btn-ghost btn-sm">
+                    
+                    <div class="hero-social">
+                        <a href="https://github.com/mahbubchula" class="hero-social-link" target="_blank" aria-label="GitHub">
                             <i data-lucide="github"></i>
                         </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="section-cta animate-on-scroll">
-                <a href="pages/tools.html" class="btn btn-primary">
-                    <i data-lucide="grid-3x3"></i>
-                    View All Tools
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== LATEST UPDATES ==================== -->
-    <section class="section" id="updates">
-        <div class="container">
-            <div class="section-header">
-                <div class="badge badge-purple animate-on-scroll">News</div>
-                <h2 class="animate-on-scroll">Latest <span class="text-gradient">Updates</span></h2>
-                <p class="animate-on-scroll">Stay updated with recent research activities, publications, and project milestones.</p>
-            </div>
-            
-            <div class="updates-grid">
-                <!-- Update Card 1 -->
-                <div class="card hover-lift animate-on-scroll">
-                    <div class="update-meta">
-                        <span class="badge badge-green">New</span>
-                        <span class="update-date">June 2025</span>
-                    </div>
-                    <h4 class="card-title">SUMO-Forge Development Kickoff</h4>
-                    <p class="card-description">
-                        Started building a web-based platform to democratize traffic simulation by abstracting SUMO's technical complexity for researchers and urban planners worldwide.
-                    </p>
-                    <a href="#" class="card-link-text">
-                        Read more <i data-lucide="arrow-right"></i>
-                    </a>
-                </div>
-                
-                <!-- Update Card 2 -->
-                <div class="card hover-lift animate-on-scroll">
-                    <div class="update-meta">
-                        <span class="badge badge-cyan">Research</span>
-                        <span class="update-date">May 2025</span>
-                    </div>
-                    <h4 class="card-title">Digital Twin Platform Progress</h4>
-                    <p class="card-description">
-                        Significant progress on the real-time digital twin platform combining GTFS data with SUMO microsimulation for RapidKL bus networks in Malaysia.
-                    </p>
-                    <a href="#" class="card-link-text">
-                        Read more <i data-lucide="arrow-right"></i>
-                    </a>
-                </div>
-                
-                <!-- Update Card 3 -->
-                <div class="card hover-lift animate-on-scroll">
-                    <div class="update-meta">
-                        <span class="badge badge-amber">Publication</span>
-                        <span class="update-date">April 2025</span>
-                    </div>
-                    <h4 class="card-title">Q1 Journal Paper Submitted</h4>
-                    <p class="card-description">
-                        Submitted comprehensive research paper on Malaysia's GTFS transit network analysis to a Q1 transportation journal for peer review.
-                    </p>
-                    <a href="#" class="card-link-text">
-                        Read more <i data-lucide="arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== CTA SECTION ==================== -->
-    <section class="section section-cta-full" id="cta">
-        <div class="container">
-            <div class="cta-content animate-on-scroll">
-                <h2>Interested in <span class="text-gradient">Collaboration</span>?</h2>
-                <p>Let's connect and explore research opportunities together. Open to academic collaborations, industry partnerships, and consulting projects.</p>
-                <div class="cta-buttons">
-                    <a href="pages/contact.html" class="btn btn-primary btn-lg">
-                        <i data-lucide="mail"></i>
-                        Get in Touch
-                    </a>
-                    <a href="assets/docs/cv.pdf" class="btn btn-secondary btn-lg" target="_blank">
-                        <i data-lucide="download"></i>
-                        Download CV
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== FOOTER ==================== -->
-    <footer class="footer" id="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <!-- Brand Column -->
-                <div class="footer-brand">
-                    <a href="index.html" class="nav-logo">
-                        <div class="nav-logo-icon">🚀</div>
-                        <span>MAHBUB</span>
-                    </a>
-                    <p>Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems at Chulalongkorn University.</p>
-                    <div class="footer-social">
-                        <a href="https://github.com/mahbubchula" class="social-link" aria-label="GitHub" target="_blank">
-                            <i data-lucide="github"></i>
-                        </a>
-                        <a href="https://linkedin.com/in/yourprofile" class="social-link" aria-label="LinkedIn" target="_blank">
-                            <i data-lucide="linkedin"></i>
-                        </a>
-                        <a href="https://scholar.google.com/citations?user=yourID" class="social-link" aria-label="Google Scholar" target="_blank">
+                        <a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" class="hero-social-link" target="_blank" aria-label="Google Scholar">
                             <i data-lucide="graduation-cap"></i>
                         </a>
-                        <a href="mailto:your.email@chula.ac.th" class="social-link" aria-label="Email">
+                        <a href="https://www.researchgate.net/profile/Mahbub-Hassan-4" class="hero-social-link" target="_blank" aria-label="ResearchGate">
+                            <i data-lucide="flask-conical"></i>
+                        </a>
+                        <a href="https://orcid.org/0009-0006-1956-8159" class="hero-social-link" target="_blank" aria-label="ORCID">
+                            <i data-lucide="fingerprint"></i>
+                        </a>
+                        <a href="https://www.scopus.com/authid/detail.uri?authorId=59417109900" class="hero-social-link" target="_blank" aria-label="Scopus">
+                            <i data-lucide="book-open"></i>
+                        </a>
+                        <a href="mailto:mahbub.hassan@ieee.org" class="hero-social-link" aria-label="Email">
                             <i data-lucide="mail"></i>
                         </a>
                     </div>
                 </div>
                 
-                <!-- Quick Links -->
+                <!-- Hero Visual -->
+                <div class="hero-visual">
+                    <div class="hero-visual-container">
+                        <!-- Animated Rings -->
+                        <div class="hero-ring hero-ring-1"></div>
+                        <div class="hero-ring hero-ring-2"></div>
+                        <div class="hero-ring hero-ring-3"></div>
+                        
+                        <!-- Center Profile -->
+                        <div class="hero-profile">
+                            <span class="hero-profile-icon">🚀</span>
+                            <span class="hero-profile-text">AI & Transport</span>
+                        </div>
+                        
+                        <!-- Floating Icons -->
+                        <div class="floating-icon floating-icon-1">🤖</div>
+                        <div class="floating-icon floating-icon-2">🚦</div>
+                        <div class="floating-icon floating-icon-3">🌐</div>
+                        <div class="floating-icon floating-icon-4">📊</div>
+                        <div class="floating-icon floating-icon-5">🚌</div>
+                        <div class="floating-icon floating-icon-6">⚡</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card animate-on-scroll">
+                    <div class="stat-number" data-count="30" data-suffix="+">0</div>
+                    <div class="stat-label">Publications</div>
+                </div>
+                <div class="stat-card animate-on-scroll">
+                    <div class="stat-number" data-count="6" data-suffix="+">0</div>
+                    <div class="stat-label">AI Tools Built</div>
+                </div>
+                <div class="stat-card animate-on-scroll">
+                    <div class="stat-number" data-count="15" data-suffix="+">0</div>
+                    <div class="stat-label">Students Mentored</div>
+                </div>
+                <div class="stat-card animate-on-scroll">
+                    <div class="stat-number" data-count="5" data-suffix="+">0</div>
+                    <div class="stat-label">Countries Presented</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas Section -->
+    <section class="research-areas">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <div class="badge badge-cyan animate-on-scroll">Expertise</div>
+                <h2 class="animate-on-scroll" style="font-size: var(--text-3xl); margin-top: var(--space-4);">Research <span class="text-gradient">Areas</span></h2>
+            </div>
+            
+            <div class="areas-grid">
+                <div class="area-card animate-on-scroll">
+                    <div class="area-icon">🧠</div>
+                    <h4>Large Language Models</h4>
+                    <p>Applying LLMs for traffic analysis, incident detection, and transportation insights</p>
+                </div>
+                <div class="area-card animate-on-scroll">
+                    <div class="area-icon">🚦</div>
+                    <h4>Intelligent Transportation Systems</h4>
+                    <p>Smart traffic management, real-time monitoring, and adaptive control</p>
+                </div>
+                <div class="area-card animate-on-scroll">
+                    <div class="area-icon">🌱</div>
+                    <h4>Sustainable Mobility</h4>
+                    <p>EV infrastructure, public transit optimization, and emission reduction</p>
+                </div>
+                <div class="area-card animate-on-scroll">
+                    <div class="area-icon">🤖</div>
+                    <h4>AI in Transportation</h4>
+                    <p>Machine learning for prediction, classification, and optimization</p>
+                </div>
+                <div class="area-card animate-on-scroll">
+                    <div class="area-icon">🖥️</div>
+                    <h4>Simulation & Optimization</h4>
+                    <p>SUMO, VISSIM traffic microsimulation and network modeling</p>
+                </div>
+                <div class="area-card animate-on-scroll">
+                    <div class="area-icon">🌐</div>
+                    <h4>Digital Twin Systems</h4>
+                    <p>Real-time digital replicas for transit monitoring and analysis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Section -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <div class="badge badge-green animate-on-scroll">Highlights</div>
+                <h2 class="animate-on-scroll" style="font-size: var(--text-3xl); margin-top: var(--space-4);">Featured <span class="text-gradient">Work</span></h2>
+            </div>
+            
+            <div class="featured-grid">
+                <!-- Featured 1: EVChargeAdvisor-AI -->
+                <div class="featured-card animate-on-scroll">
+                    <div class="featured-card-image">⚡</div>
+                    <div class="featured-card-content">
+                        <span class="featured-card-badge">AI Tool</span>
+                        <h4>EVChargeAdvisor-AI</h4>
+                        <p>Global EV charging infrastructure equity analysis with LLM-powered insights</p>
+                        <a href="pages/tools.html" class="btn btn-ghost btn-sm">
+                            Learn More <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Featured 2: IEEE Access Publication -->
+                <div class="featured-card animate-on-scroll">
+                    <div class="featured-card-image">📚</div>
+                    <div class="featured-card-content">
+                        <span class="featured-card-badge">IEEE Access</span>
+                        <h4>ML in Autonomous Vehicles</h4>
+                        <p>Scientometric review of machine learning applications in AVs</p>
+                        <a href="pages/publications.html" class="btn btn-ghost btn-sm">
+                            Read Paper <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Featured 3: SUMO Builder -->
+                <div class="featured-card animate-on-scroll">
+                    <div class="featured-card-image">🚦</div>
+                    <div class="featured-card-content">
+                        <span class="featured-card-badge">Open Source</span>
+                        <h4>SUMO Simulation Builder</h4>
+                        <p>Web-based platform for traffic microsimulation without coding</p>
+                        <a href="pages/tools.html" class="btn btn-ghost btn-sm">
+                            Explore <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Affiliations Section -->
+    <section class="affiliations">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-8);">
+                <h3 class="animate-on-scroll" style="font-size: var(--text-lg); color: var(--dark-text-secondary);">Affiliated With</h3>
+            </div>
+            
+            <div class="affiliations-list">
+                <div class="affiliation-item animate-on-scroll">
+                    <span class="affiliation-icon">🏛️</span>
+                    <span class="affiliation-name">Chulalongkorn University</span>
+                </div>
+                <div class="affiliation-item animate-on-scroll">
+                    <span class="affiliation-icon">📡</span>
+                    <span class="affiliation-name">IEEE Member</span>
+                </div>
+                <div class="affiliation-item animate-on-scroll">
+                    <span class="affiliation-icon">🔬</span>
+                    <span class="affiliation-name">B'Deshi Research Lab</span>
+                </div>
+                <div class="affiliation-item animate-on-scroll">
+                    <span class="affiliation-icon">🎓</span>
+                    <span class="affiliation-name">BEM Registered</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Let's <span class="text-gradient">Collaborate</span></h2>
+                <p>Interested in research collaboration, partnership, or just want to discuss AI and transportation? I'd love to connect!</p>
+                <div class="cta-buttons">
+                    <a href="pages/contact.html" class="btn btn-primary btn-lg">
+                        <i data-lucide="mail"></i>
+                        Get in Touch
+                    </a>
+                    <a href="https://github.com/mahbubchula" class="btn btn-secondary btn-lg" target="_blank">
+                        <i data-lucide="github"></i>
+                        View GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <div class="nav-logo-icon">🚀</div>
+                        <span>MAHBUB</span>
+                    </a>
+                    <p>Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/mahbubchula" class="social-link" aria-label="GitHub" target="_blank">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" class="social-link" aria-label="Google Scholar" target="_blank">
+                            <i data-lucide="graduation-cap"></i>
+                        </a>
+                        <a href="https://www.researchgate.net/profile/Mahbub-Hassan-4" class="social-link" aria-label="ResearchGate" target="_blank">
+                            <i data-lucide="flask-conical"></i>
+                        </a>
+                        <a href="mailto:mahbub.hassan@ieee.org" class="social-link" aria-label="Email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                
                 <div class="footer-column">
                     <h5 class="footer-title">Research</h5>
                     <ul class="footer-links">
                         <li><a href="pages/research.html">Current Projects</a></li>
                         <li><a href="pages/publications.html">Publications</a></li>
                         <li><a href="pages/tools.html">AI Tools</a></li>
-                        <li><a href="pages/team.html">Lab Members</a></li>
                     </ul>
                 </div>
                 
-                <!-- Resources -->
                 <div class="footer-column">
                     <h5 class="footer-title">Resources</h5>
                     <ul class="footer-links">
-                        <li><a href="pages/teaching.html">Courses</a></li>
+                        <li><a href="pages/teaching.html">Teaching</a></li>
                         <li><a href="pages/gallery.html">Gallery</a></li>
                         <li><a href="pages/certificates.html">Certificates</a></li>
-                        <li><a href="pages/blog/index.html">Blog</a></li>
                     </ul>
                 </div>
                 
-                <!-- Connect -->
                 <div class="footer-column">
                     <h5 class="footer-title">Connect</h5>
                     <ul class="footer-links">
@@ -508,9 +960,8 @@
                 </div>
             </div>
             
-            <!-- Footer Bottom -->
             <div class="footer-bottom">
-                <p>&copy; 2025 MAHBUB. All rights reserved.</p>
+                <p>&copy; 2025 Engr. Mahbub Hassan. All rights reserved.</p>
                 <p>Built with ❤️ for research and innovation</p>
             </div>
         </div>
