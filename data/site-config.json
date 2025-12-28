@@ -1,1 +1,47 @@
-
+{
+  "personal": {
+    "name": "MAHBUB",
+    "full_name": "Your Full Name Here",
+    "title": "Transportation Engineering Researcher",
+    "affiliation": "Chulalongkorn University",
+    "department": "Department of Civil Engineering",
+    "location": "Bangkok, Thailand",
+    "email": "your.email@chula.ac.th",
+    "phone": "+66-XX-XXX-XXXX",
+    "bio_short": "Transportation Engineering Researcher specializing in AI applications, sustainable mobility, and intelligent transportation systems.",
+    "bio_long": "I am a Transportation Engineering Researcher at Chulalongkorn University, focusing on sustainable mobility and AI applications in transportation systems. My research involves GTFS transit analysis, EV adoption patterns, and developing AI-powered tools for transportation planning.",
+    "profile_image": "assets/images/profile/main.jpg",
+    "cv_download": "assets/docs/cv.pdf"
+  },
+  "social": {
+    "github": "https://github.com/mahbubchula",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "google_scholar": "https://scholar.google.com/citations?user=yourID",
+    "researchgate": "https://www.researchgate.net/profile/yourprofile",
+    "orcid": "https://orcid.org/0000-0000-0000-0000",
+    "twitter": "",
+    "youtube": ""
+  },
+  "site": {
+    "title": "MAHBUB | AI & Transportation Research",
+    "description": "Transportation Engineering Researcher specializing in AI applications, sustainable mobility, and intelligent transportation systems.",
+    "keywords": "Transportation Engineering, AI, Machine Learning, Sustainable Mobility, GTFS, SUMO, EV, Research, Chulalongkorn University",
+    "url": "https://mahbubchula.github.io/mahbub",
+    "logo_emoji": "🚀",
+    "copyright_year": "2025"
+  },
+  "stats": {
+    "publications": 10,
+    "tools_built": 8,
+    "active_projects": 5,
+    "citations": 50
+  },
+  "research_interests": [
+    "AI in Transportation",
+    "Sustainable Mobility",
+    "Electric Vehicle Infrastructure",
+    "Transit Network Analysis",
+    "Traffic Microsimulation",
+    "Digital Twin Systems"
+  ]
+}
