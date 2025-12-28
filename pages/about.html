@@ -1,1 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="About MAHBUB - Transportation Engineering Researcher at Chulalongkorn University specializing in AI applications and sustainable mobility.">
+    <meta name="keywords" content="MAHBUB, Transportation Engineering, AI, Researcher, Chulalongkorn University">
+    <meta name="author" content="MAHBUB">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="About | MAHBUB - AI & Transportation Research">
+    <meta property="og:description" content="Learn about MAHBUB's research journey, education, and expertise in AI-powered transportation systems.">
+    <meta property="og:type" content="profile">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <title>About | MAHBUB - AI & Transportation Research</title>
+</head>
+<body>
+    <!-- Neural Network Background -->
+    <div class="neural-bg">
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+    </div>
 
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <div class="nav-logo-icon">🚀</div>
+                <span>MAHBUB</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="tools.html" class="nav-link">Tools</a></li>
+                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+                <li><a href="team.html" class="nav-link">Lab</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                    <i data-lucide="sun" class="theme-icon-light" style="display: none;"></i>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content animate-on-scroll">
+                <div class="badge badge-cyan">Get to Know Me</div>
+                <h1>About <span class="text-gradient">Me</span></h1>
+                <p>Transportation researcher passionate about leveraging AI to create sustainable and intelligent mobility solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="section">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Profile Image Column -->
+                <div class="about-image-column animate-on-scroll">
+                    <div class="about-image-wrapper">
+                        <!-- Replace with your actual image -->
+                        <div class="about-image-placeholder">
+                            <span>👨‍🔬</span>
+                        </div>
+                        <!-- <img src="../assets/images/profile/main.jpg" alt="MAHBUB" class="about-image"> -->
+                    </div>
+                    
+                    <!-- Quick Info Cards -->
+                    <div class="about-quick-info">
+                        <div class="quick-info-card">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <span class="quick-info-label">Location</span>
+                                <span class="quick-info-value">Bangkok, Thailand</span>
+                            </div>
+                        </div>
+                        <div class="quick-info-card">
+                            <i data-lucide="building-2"></i>
+                            <div>
+                                <span class="quick-info-label">Affiliation</span>
+                                <span class="quick-info-value">Chulalongkorn University</span>
+                            </div>
+                        </div>
+                        <div class="quick-info-card">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <span class="quick-info-label">Email</span>
+                                <span class="quick-info-value">your.email@chula.ac.th</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="about-cta">
+                        <a href="../assets/docs/cv.pdf" class="btn btn-primary" target="_blank">
+                            <i data-lucide="download"></i>
+                            Download CV
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary">
+                            <i data-lucide="mail"></i>
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Bio Column -->
+                <div class="about-content-column">
+                    <!-- Bio Section -->
+                    <div class="about-section animate-on-scroll">
+                        <h2>Biography</h2>
+                        <div class="about-bio">
+                            <p>
+                                I am a <strong>Transportation Engineering Researcher</strong> at Chulalongkorn University in Bangkok, Thailand, focusing on sustainable mobility and AI applications in transportation systems.
+                            </p>
+                            <p>
+                                My research journey combines my passion for intelligent systems with urban mobility challenges. I have published Q1 journal papers, including being the <strong>first academic to analyze Malaysia's newly released GTFS datasets</strong> for transit network efficiency assessment in Johor Bahru and Penang.
+                            </p>
+                            <p>
+                                Currently, I am developing a <strong>real-time digital twin platform</strong> for Malaysian transit systems, combining GTFS data with SUMO microsimulation for RapidKL bus networks. I am also building <strong>SUMO-Forge</strong>, a web-based platform to democratize traffic simulation by abstracting SUMO's technical complexity.
+                            </p>
+                            <p>
+                                I believe in making research accessible through open-source tools. I have developed multiple AI-powered transportation analysis tools including <strong>EVChargeAdvisor-AI</strong>, <strong>ParkSense-AI</strong>, and <strong>PolicySim-AI</strong>.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Research Interests -->
+                    <div class="about-section animate-on-scroll">
+                        <h2>Research Interests</h2>
+                        <div class="interests-grid">
+                            <div class="interest-item">
+                                <div class="interest-icon">🤖</div>
+                                <span>AI in Transportation</span>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">🌱</div>
+                                <span>Sustainable Mobility</span>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">⚡</div>
+                                <span>EV Infrastructure</span>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">🗺️</div>
+                                <span>Transit Network Analysis</span>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">🚗</div>
+                                <span>Traffic Microsimulation</span>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">🌐</div>
+                                <span>Digital Twin Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll">Education & <span class="text-gradient">Experience</span></h2>
+            </div>
+            
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="badge badge-cyan">Current</span>
+                            <span class="timeline-date">2023 - Present</span>
+                        </div>
+                        <h4>Ph.D. Researcher in Transportation Engineering</h4>
+                        <p class="timeline-place">Chulalongkorn University, Bangkok, Thailand</p>
+                        <p class="timeline-description">
+                            Focusing on AI applications in sustainable mobility, transit network analysis, and digital twin systems for transportation planning.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="badge badge-green">Completed</span>
+                            <span class="timeline-date">2020 - 2023</span>
+                        </div>
+                        <h4>Master's in Transportation Engineering</h4>
+                        <p class="timeline-place">Your University Name</p>
+                        <p class="timeline-description">
+                            Specialized in traffic simulation and sustainable transportation systems. Thesis on transit network optimization.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="badge badge-green">Completed</span>
+                            <span class="timeline-date">2016 - 2020</span>
+                        </div>
+                        <h4>Bachelor's in Civil Engineering</h4>
+                        <p class="timeline-place">Your University Name</p>
+                        <p class="timeline-description">
+                            Foundation in civil engineering principles with focus on transportation infrastructure and urban planning.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll">Skills & <span class="text-gradient">Expertise</span></h2>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skill-category card animate-on-scroll">
+                    <div class="card-icon card-icon-cyan">💻</div>
+                    <h4 class="card-title">Programming & Tools</h4>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">Git/GitHub</span>
+                        <span class="tag">VS Code</span>
+                    </div>
+                </div>
+                
+                <!-- Data & AI -->
+                <div class="skill-category card animate-on-scroll">
+                    <div class="card-icon card-icon-green">🤖</div>
+                    <h4 class="card-title">Data Science & AI</h4>
+                    <div class="skill-tags">
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">LLM/Groq API</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Data Visualization</span>
+                        <span class="tag">Statistical Analysis</span>
+                    </div>
+                </div>
+                
+                <!-- Transportation -->
+                <div class="skill-category card animate-on-scroll">
+                    <div class="card-icon card-icon-purple">🚌</div>
+                    <h4 class="card-title">Transportation Analysis</h4>
+                    <div class="skill-tags">
+                        <span class="tag">GTFS</span>
+                        <span class="tag">SUMO</span>
+                        <span class="tag">Network Analysis</span>
+                        <span class="tag">Transit Planning</span>
+                        <span class="tag">Traffic Simulation</span>
+                    </div>
+                </div>
+                
+                <!-- Research -->
+                <div class="skill-category card animate-on-scroll">
+                    <div class="card-icon card-icon-amber">📚</div>
+                    <h4 class="card-title">Research & Academic</h4>
+                    <div class="skill-tags">
+                        <span class="tag">Academic Writing</span>
+                        <span class="tag">Q1 Publications</span>
+                        <span class="tag">Literature Review</span>
+                        <span class="tag">SEM/SmartPLS</span>
+                        <span class="tag">Survey Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Interests -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll">Beyond <span class="text-gradient">Research</span></h2>
+                <p class="animate-on-scroll">When I'm not analyzing transit data or building AI tools, you can find me...</p>
+            </div>
+            
+            <div class="interests-personal-grid">
+                <div class="personal-interest-card animate-on-scroll">
+                    <span class="personal-interest-icon">📖</span>
+                    <h5>Learning</h5>
+                    <p>Continuously exploring new technologies and methodologies</p>
+                </div>
+                <div class="personal-interest-card animate-on-scroll">
+                    <span class="personal-interest-icon">🌍</span>
+                    <h5>Traveling</h5>
+                    <p>Exploring cities and their transportation systems</p>
+                </div>
+                <div class="personal-interest-card animate-on-scroll">
+                    <span class="personal-interest-icon">🤝</span>
+                    <h5>Collaborating</h5>
+                    <p>Connecting with researchers and industry professionals</p>
+                </div>
+                <div class="personal-interest-card animate-on-scroll">
+                    <span class="personal-interest-icon">🛠️</span>
+                    <h5>Building</h5>
+                    <p>Creating open-source tools for the research community</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-cta-full">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Let's Work <span class="text-gradient">Together</span></h2>
+                <p>Interested in collaboration, research partnerships, or just want to chat about AI and transportation? I'd love to hear from you!</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-lg">
+                        <i data-lucide="mail"></i>
+                        Get in Touch
+                    </a>
+                    <a href="publications.html" class="btn btn-secondary btn-lg">
+                        <i data-lucide="file-text"></i>
+                        View Publications
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="nav-logo">
+                        <div class="nav-logo-icon">🚀</div>
+                        <span>MAHBUB</span>
+                    </a>
+                    <p>Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/mahbubchula" class="social-link" aria-label="GitHub" target="_blank">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="social-link" aria-label="LinkedIn" target="_blank">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=yourID" class="social-link" aria-label="Google Scholar" target="_blank">
+                            <i data-lucide="graduation-cap"></i>
+                        </a>
+                        <a href="mailto:your.email@chula.ac.th" class="social-link" aria-label="Email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Research</h5>
+                    <ul class="footer-links">
+                        <li><a href="research.html">Current Projects</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="tools.html">AI Tools</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="teaching.html">Courses</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Connect</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="../assets/docs/cv.pdf" target="_blank">Download CV</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MAHBUB. All rights reserved.</p>
+                <p>Built with ❤️ for research and innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
