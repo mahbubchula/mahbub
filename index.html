@@ -162,7 +162,7 @@
             height: 20px;
         }
         
-        /* ==================== HERO PHOTO - CLEAN SIMPLE ==================== */
+        /* Hero Visual */
         .hero-visual {
             position: relative;
             display: flex;
@@ -172,38 +172,108 @@
             opacity: 0;
         }
         
-        .hero-photo-container {
+        .hero-visual-container {
             position: relative;
-            width: 380px;
-            max-width: 100%;
+            width: 400px;
+            height: 400px;
         }
         
-        .hero-photo-wrapper {
+        .hero-ring {
+            position: absolute;
+            border-radius: 50%;
+            border: 1px solid rgba(6, 182, 212, 0.2);
+        }
+        
+        .hero-ring-1 {
             width: 100%;
-            border-radius: 24px;
-            overflow: hidden;
-            border: 3px solid var(--dark-border);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
-            transition: all var(--duration-300);
+            height: 100%;
+            top: 0;
+            left: 0;
+            animation: rotate 20s linear infinite;
         }
         
-        body.light-mode .hero-photo-wrapper {
+        .hero-ring-2 {
+            width: 80%;
+            height: 80%;
+            top: 10%;
+            left: 10%;
+            border-color: rgba(139, 92, 246, 0.2);
+            animation: rotate 15s linear infinite reverse;
+        }
+        
+        .hero-ring-3 {
+            width: 60%;
+            height: 60%;
+            top: 20%;
+            left: 20%;
+            border-color: rgba(16, 185, 129, 0.2);
+            animation: rotate 10s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .hero-profile {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            background: var(--gradient-card);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--dark-border);
+            z-index: 2;
+        }
+        
+        .hero-profile-icon {
+            font-size: 4rem;
+            margin-bottom: var(--space-2);
+        }
+        
+        .hero-profile-text {
+            font-size: var(--text-xs);
+            color: var(--accent-cyan-400);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .floating-icon {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: var(--dark-bg-secondary);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            animation: float 3s ease-in-out infinite;
+            z-index: 3;
+        }
+        
+        body.light-mode .floating-icon {
+            background: var(--light-bg-card);
             border-color: var(--light-border);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
         }
         
-        .hero-photo-wrapper:hover {
-            border-color: var(--accent-cyan-500);
-            transform: translateY(-5px);
-            box-shadow: 0 30px 60px rgba(6, 182, 212, 0.2);
-        }
+        .floating-icon-1 { top: 5%; left: 20%; animation-delay: 0s; }
+        .floating-icon-2 { top: 15%; right: 10%; animation-delay: 0.5s; }
+        .floating-icon-3 { bottom: 20%; left: 5%; animation-delay: 1s; }
+        .floating-icon-4 { bottom: 10%; right: 15%; animation-delay: 1.5s; }
+        .floating-icon-5 { top: 40%; left: 0%; animation-delay: 2s; }
+        .floating-icon-6 { top: 35%; right: 0%; animation-delay: 2.5s; }
         
-        .hero-photo {
-            width: 100%;
-            height: auto;
-            display: block;
-            object-fit: cover;
-            object-position: top center;
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
         }
         
         /* ==================== STATS SECTION ==================== */
@@ -722,8 +792,24 @@
                 justify-content: center;
             }
             
-            .hero-photo-container {
-                width: 320px;
+            .hero-visual-container {
+                width: 300px;
+                height: 300px;
+            }
+            
+            .hero-profile {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .hero-profile-icon {
+                font-size: 3rem;
+            }
+            
+            .floating-icon {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
             }
             
             .stats-grid {
@@ -744,10 +830,6 @@
         }
         
         @media (max-width: 768px) {
-            .hero-photo-container {
-                width: 280px;
-            }
-            
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: var(--space-4);
@@ -755,6 +837,20 @@
             
             .areas-grid, .featured-grid {
                 grid-template-columns: 1fr;
+            }
+            
+            .hero-visual-container {
+                width: 250px;
+                height: 250px;
+            }
+            
+            .hero-profile {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .hero-profile-icon {
+                font-size: 2.5rem;
             }
             
             .footer-top {
@@ -859,7 +955,7 @@
                             <i data-lucide="file-text"></i>
                             Publications
                         </a>
-                        <a href="assests/docs/cv.pdf" class="btn btn-ghost btn-lg" target="_blank">
+                        <a href="assets/docs/cv.pdf" class="btn btn-ghost btn-lg" target="_blank">
                             <i data-lucide="download"></i>
                             Download CV
                         </a>
@@ -887,12 +983,23 @@
                     </div>
                 </div>
                 
-                <!-- Hero Visual - Clean Photo Only -->
                 <div class="hero-visual">
-                    <div class="hero-photo-container">
-                        <div class="hero-photo-wrapper">
-                            <img src="assests/images/Main.JPG" alt="Engr. Mahbub Hassan" class="hero-photo">
+                    <div class="hero-visual-container">
+                        <div class="hero-ring hero-ring-1"></div>
+                        <div class="hero-ring hero-ring-2"></div>
+                        <div class="hero-ring hero-ring-3"></div>
+                        
+                        <div class="hero-profile">
+                            <span class="hero-profile-icon">🚀</span>
+                            <span class="hero-profile-text">AI & Transport</span>
                         </div>
+                        
+                        <div class="floating-icon floating-icon-1">🤖</div>
+                        <div class="floating-icon floating-icon-2">🚦</div>
+                        <div class="floating-icon floating-icon-3">🌐</div>
+                        <div class="floating-icon floating-icon-4">📊</div>
+                        <div class="floating-icon floating-icon-5">🚌</div>
+                        <div class="floating-icon floating-icon-6">⚡</div>
                     </div>
                 </div>
             </div>
@@ -1122,7 +1229,7 @@
                     <ul>
                         <li><a href="pages/about.html"><i data-lucide="chevron-right"></i> About Me</a></li>
                         <li><a href="pages/contact.html"><i data-lucide="chevron-right"></i> Contact</a></li>
-                        <li><a href="assests/docs/cv.pdf" target="_blank"><i data-lucide="chevron-right"></i> Download CV</a></li>
+                        <li><a href="assets/docs/cv.pdf" target="_blank"><i data-lucide="chevron-right"></i> Download CV</a></li>
                     </ul>
                 </div>
                 
@@ -1174,7 +1281,7 @@
             <!-- Footer Bottom -->
             <div class="footer-bottom-new">
                 <p class="footer-copyright">
-                    © 2025 Engr. Mahbub Hassan. All rights reserved. Built with ❤️ for research and innovation.
+                    © 2025 Mahbub Hassan. All rights reserved. Built with ❤️ for research and innovation.
                 </p>
                 <div class="footer-legal-links">
                     <a href="pages/about.html">About</a>
