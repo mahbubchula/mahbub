@@ -162,192 +162,48 @@
             height: 20px;
         }
         
-        /* ==================== HERO PHOTO VISUAL ==================== */
+        /* ==================== HERO PHOTO - CLEAN SIMPLE ==================== */
         .hero-visual {
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
-            animation: fadeInRight 1s ease 0.3s forwards;
+            animation: fadeIn 1s ease 0.3s forwards;
             opacity: 0;
         }
         
         .hero-photo-container {
             position: relative;
             width: 380px;
-            height: 450px;
+            max-width: 100%;
         }
         
-        /* Animated background rings behind photo */
-        .photo-ring {
-            position: absolute;
-            border-radius: 30px;
-            border: 2px solid transparent;
-            pointer-events: none;
-        }
-        
-        .photo-ring-1 {
-            width: calc(100% + 40px);
-            height: calc(100% + 40px);
-            top: -20px;
-            left: -20px;
-            border-color: rgba(6, 182, 212, 0.3);
-            animation: pulseRing 3s ease-in-out infinite;
-        }
-        
-        .photo-ring-2 {
-            width: calc(100% + 80px);
-            height: calc(100% + 80px);
-            top: -40px;
-            left: -40px;
-            border-color: rgba(139, 92, 246, 0.2);
-            animation: pulseRing 3s ease-in-out infinite 0.5s;
-        }
-        
-        .photo-ring-3 {
-            width: calc(100% + 120px);
-            height: calc(100% + 120px);
-            top: -60px;
-            left: -60px;
-            border-color: rgba(16, 185, 129, 0.15);
-            animation: pulseRing 3s ease-in-out infinite 1s;
-        }
-        
-        @keyframes pulseRing {
-            0%, 100% {
-                transform: scale(1);
-                opacity: 1;
-            }
-            50% {
-                transform: scale(1.02);
-                opacity: 0.7;
-            }
-        }
-        
-        @keyframes fadeInRight {
-            from {
-                opacity: 0;
-                transform: translateX(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-        
-        /* Photo wrapper with glow effect */
         .hero-photo-wrapper {
-            position: relative;
             width: 100%;
-            height: 100%;
             border-radius: 24px;
             overflow: hidden;
-            z-index: 2;
-        }
-        
-        /* Glow effect behind photo */
-        .hero-photo-wrapper::before {
-            content: '';
-            position: absolute;
-            top: -5px;
-            left: -5px;
-            right: -5px;
-            bottom: -5px;
-            background: linear-gradient(135deg, var(--accent-cyan-500), var(--accent-purple-500), var(--accent-green-500));
-            border-radius: 28px;
-            z-index: -1;
-            animation: glowRotate 4s linear infinite;
-            opacity: 0.7;
-        }
-        
-        @keyframes glowRotate {
-            0% {
-                filter: hue-rotate(0deg);
-            }
-            100% {
-                filter: hue-rotate(360deg);
-            }
-        }
-        
-        /* Inner wrapper for photo */
-        .hero-photo-inner {
-            width: 100%;
-            height: 100%;
-            border-radius: 24px;
-            overflow: hidden;
-            background: var(--dark-bg-secondary);
             border: 3px solid var(--dark-border);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            transition: all var(--duration-300);
         }
         
-        body.light-mode .hero-photo-inner {
-            background: var(--light-bg-secondary);
+        body.light-mode .hero-photo-wrapper {
             border-color: var(--light-border);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hero-photo-wrapper:hover {
+            border-color: var(--accent-cyan-500);
+            transform: translateY(-5px);
+            box-shadow: 0 30px 60px rgba(6, 182, 212, 0.2);
         }
         
         .hero-photo {
             width: 100%;
-            height: 100%;
+            height: auto;
+            display: block;
             object-fit: cover;
             object-position: top center;
-            transition: transform var(--duration-500);
-        }
-        
-        .hero-photo-wrapper:hover .hero-photo {
-            transform: scale(1.05);
-        }
-        
-        /* Floating icons around photo */
-        .floating-icon {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            background: var(--dark-bg-secondary);
-            border: 1px solid var(--dark-border);
-            border-radius: var(--radius-lg);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            animation: float 3s ease-in-out infinite;
-            z-index: 3;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
-        
-        body.light-mode .floating-icon {
-            background: var(--light-bg-card);
-            border-color: var(--light-border);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-        
-        .floating-icon-1 { top: 0%; left: -15%; animation-delay: 0s; }
-        .floating-icon-2 { top: 10%; right: -15%; animation-delay: 0.5s; }
-        .floating-icon-3 { bottom: 30%; left: -20%; animation-delay: 1s; }
-        .floating-icon-4 { bottom: 10%; right: -15%; animation-delay: 1.5s; }
-        .floating-icon-5 { top: 40%; left: -25%; animation-delay: 2s; }
-        .floating-icon-6 { top: 50%; right: -20%; animation-delay: 2.5s; }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-        
-        /* Status badge on photo */
-        .hero-status-badge {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(6, 182, 212, 0.9);
-            backdrop-filter: blur(10px);
-            padding: 8px 20px;
-            border-radius: var(--radius-full);
-            font-size: var(--text-sm);
-            font-weight: 600;
-            color: white;
-            z-index: 5;
-            animation: fadeInUp 0.6s ease 0.8s forwards;
-            opacity: 0;
-            white-space: nowrap;
         }
         
         /* ==================== STATS SECTION ==================== */
@@ -867,22 +723,8 @@
             }
             
             .hero-photo-container {
-                width: 300px;
-                height: 360px;
+                width: 320px;
             }
-            
-            .floating-icon {
-                width: 40px;
-                height: 40px;
-                font-size: 1.2rem;
-            }
-            
-            .floating-icon-1 { left: -10%; }
-            .floating-icon-2 { right: -10%; }
-            .floating-icon-3 { left: -15%; }
-            .floating-icon-4 { right: -10%; }
-            .floating-icon-5 { left: -20%; }
-            .floating-icon-6 { right: -15%; }
             
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -903,20 +745,7 @@
         
         @media (max-width: 768px) {
             .hero-photo-container {
-                width: 260px;
-                height: 320px;
-            }
-            
-            .photo-ring-1,
-            .photo-ring-2,
-            .photo-ring-3 {
-                display: none;
-            }
-            
-            .floating-icon {
-                width: 35px;
-                height: 35px;
-                font-size: 1rem;
+                width: 280px;
             }
             
             .stats-grid {
@@ -1058,33 +887,12 @@
                     </div>
                 </div>
                 
-                <!-- Hero Visual with Real Photo -->
+                <!-- Hero Visual - Clean Photo Only -->
                 <div class="hero-visual">
                     <div class="hero-photo-container">
-                        <!-- Animated rings behind photo -->
-                        <div class="photo-ring photo-ring-1"></div>
-                        <div class="photo-ring photo-ring-2"></div>
-                        <div class="photo-ring photo-ring-3"></div>
-                        
-                        <!-- Photo wrapper with glow -->
                         <div class="hero-photo-wrapper">
-                            <div class="hero-photo-inner">
-                                <img src="assests/images/Main.JPG" alt="Engr. Mahbub Hassan" class="hero-photo">
-                            </div>
+                            <img src="assests/images/Main.JPG" alt="Engr. Mahbub Hassan" class="hero-photo">
                         </div>
-                        
-                        <!-- Status badge -->
-                        <div class="hero-status-badge">
-                            🎓 M.Eng. Student @ Chulalongkorn
-                        </div>
-                        
-                        <!-- Floating icons -->
-                        <div class="floating-icon floating-icon-1">🤖</div>
-                        <div class="floating-icon floating-icon-2">🚦</div>
-                        <div class="floating-icon floating-icon-3">🌐</div>
-                        <div class="floating-icon floating-icon-4">📊</div>
-                        <div class="floating-icon floating-icon-5">🚌</div>
-                        <div class="floating-icon floating-icon-6">⚡</div>
                     </div>
                 </div>
             </div>
