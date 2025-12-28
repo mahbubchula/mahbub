@@ -1,1 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Gallery - Photos from conferences, research activities, workshops, and events by MAHBUB.">
+    <meta name="keywords" content="Gallery, Photos, Conference, Research, Events, Transportation Engineering">
+    <meta name="author" content="MAHBUB">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Gallery | MAHBUB - AI & Transportation Research">
+    <meta property="og:description" content="Browse photos from conferences, workshops, and research activities.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <title>Gallery | MAHBUB - AI & Transportation Research</title>
+</head>
+<body>
+    <!-- Neural Network Background -->
+    <div class="neural-bg">
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+    </div>
 
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <div class="nav-logo-icon">🚀</div>
+                <span>MAHBUB</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="tools.html" class="nav-link">Tools</a></li>
+                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+                <li><a href="team.html" class="nav-link">Lab</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                    <i data-lucide="sun" class="theme-icon-light" style="display: none;"></i>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content animate-on-scroll">
+                <div class="badge badge-amber">Memories</div>
+                <h1>Photo <span class="text-gradient">Gallery</span></h1>
+                <p>Moments captured from conferences, workshops, field visits, and research activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="section-sm">
+        <div class="container">
+            <div class="gallery-filters animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="conference">Conferences</button>
+                <button class="filter-btn" data-filter="workshop">Workshops</button>
+                <button class="filter-btn" data-filter="fieldwork">Field Work</button>
+                <button class="filter-btn" data-filter="lab">Lab Activities</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item gallery-item-wide animate-on-scroll" data-category="conference">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>🎤</span>
+                            <p>Conference Presentation</p>
+                        </div>
+                        <!-- <img src="../assets/images/gallery/conference1.jpg" alt="TRB Conference Presentation"> -->
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>TRB Annual Meeting 2025</h4>
+                            <p>Washington D.C., USA</p>
+                            <span class="gallery-date">January 2025</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item animate-on-scroll" data-category="workshop">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>💻</span>
+                            <p>SUMO Workshop</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>SUMO Training Workshop</h4>
+                            <p>Chulalongkorn University</p>
+                            <span class="gallery-date">March 2025</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item animate-on-scroll" data-category="fieldwork">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>🚌</span>
+                            <p>Field Survey</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>RapidKL Transit Survey</h4>
+                            <p>Kuala Lumpur, Malaysia</p>
+                            <span class="gallery-date">February 2025</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item animate-on-scroll" data-category="conference">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>🏆</span>
+                            <p>Award Ceremony</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Best Paper Award</h4>
+                            <p>ATRS Conference 2024</p>
+                            <span class="gallery-date">December 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item gallery-item-tall animate-on-scroll" data-category="lab">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>👥</span>
+                            <p>Lab Team</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Lab Team Photo 2024</h4>
+                            <p>Intelligent Mobility Lab</p>
+                            <span class="gallery-date">November 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item animate-on-scroll" data-category="workshop">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>📊</span>
+                            <p>Seminar</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>AI in Transportation Seminar</h4>
+                            <p>Bangkok, Thailand</p>
+                            <span class="gallery-date">October 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 7 -->
+                <div class="gallery-item animate-on-scroll" data-category="fieldwork">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>⚡</span>
+                            <p>EV Station</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>EV Charging Station Visit</h4>
+                            <p>Singapore</p>
+                            <span class="gallery-date">September 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 8 -->
+                <div class="gallery-item gallery-item-wide animate-on-scroll" data-category="conference">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>🌏</span>
+                            <p>International Conference</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>IEEE ITSC 2024</h4>
+                            <p>Edmonton, Canada</p>
+                            <span class="gallery-date">September 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 9 -->
+                <div class="gallery-item animate-on-scroll" data-category="lab">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>🎓</span>
+                            <p>Graduation</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Student Graduation</h4>
+                            <p>Chulalongkorn University</p>
+                            <span class="gallery-date">August 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 10 -->
+                <div class="gallery-item animate-on-scroll" data-category="fieldwork">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>🚇</span>
+                            <p>Transit Study</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>BTS Station Survey</h4>
+                            <p>Bangkok, Thailand</p>
+                            <span class="gallery-date">July 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 11 -->
+                <div class="gallery-item animate-on-scroll" data-category="workshop">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>🤝</span>
+                            <p>Collaboration</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Industry Partnership Meeting</h4>
+                            <p>Bangkok, Thailand</p>
+                            <span class="gallery-date">June 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 12 -->
+                <div class="gallery-item animate-on-scroll" data-category="lab">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder">
+                            <span>🎉</span>
+                            <p>Celebration</p>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Lab Celebration</h4>
+                            <p>Publication Milestone</p>
+                            <span class="gallery-date">May 2024</span>
+                        </div>
+                        <button class="gallery-zoom" aria-label="View full image">
+                            <i data-lucide="maximize-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close lightbox">
+            <i data-lucide="x"></i>
+        </button>
+        <button class="lightbox-prev" aria-label="Previous image">
+            <i data-lucide="chevron-left"></i>
+        </button>
+        <button class="lightbox-next" aria-label="Next image">
+            <i data-lucide="chevron-right"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image">
+            <div class="lightbox-caption">
+                <h4></h4>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="nav-logo">
+                        <div class="nav-logo-icon">🚀</div>
+                        <span>MAHBUB</span>
+                    </a>
+                    <p>Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/mahbubchula" class="social-link" aria-label="GitHub" target="_blank">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="social-link" aria-label="LinkedIn" target="_blank">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=yourID" class="social-link" aria-label="Google Scholar" target="_blank">
+                            <i data-lucide="graduation-cap"></i>
+                        </a>
+                        <a href="mailto:your.email@chula.ac.th" class="social-link" aria-label="Email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Research</h5>
+                    <ul class="footer-links">
+                        <li><a href="research.html">Current Projects</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="tools.html">AI Tools</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="teaching.html">Courses</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Connect</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="../assets/docs/cv.pdf" target="_blank">Download CV</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MAHBUB. All rights reserved.</p>
+                <p>Built with ❤️ for research and innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Gallery Filter & Lightbox Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Gallery Filter
+            const filterBtns = document.querySelectorAll('.gallery-filters .filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    galleryItems.forEach(item => {
+                        const category = item.getAttribute('data-category');
+                        if (filter === 'all' || category === filter) {
+                            item.style.display = 'block';
+                            item.style.animation = 'fadeInUp 0.4s ease forwards';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Lightbox (placeholder - images will be added later)
+            const lightbox = document.getElementById('lightbox');
+            const zoomBtns = document.querySelectorAll('.gallery-zoom');
+            const closeBtn = document.querySelector('.lightbox-close');
+            
+            zoomBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Lightbox will work once real images are added
+                    // lightbox.classList.add('active');
+                    alert('Lightbox will work once you add real images!');
+                });
+            });
+            
+            if (closeBtn) {
+                closeBtn.addEventListener('click', function() {
+                    lightbox.classList.remove('active');
+                });
+            }
+            
+            // Close on background click
+            lightbox?.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    lightbox.classList.remove('active');
+                }
+            });
+            
+            // Close on Escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && lightbox?.classList.contains('active')) {
+                    lightbox.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
