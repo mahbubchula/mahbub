@@ -1,1 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Publications by MAHBUB - Q1 journal papers, conference papers, and research articles on AI and transportation.">
+    <meta name="keywords" content="Publications, Research Papers, Q1 Journal, Transportation Engineering, AI Research">
+    <meta name="author" content="MAHBUB">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Publications | MAHBUB - AI & Transportation Research">
+    <meta property="og:description" content="Browse MAHBUB's academic publications in transportation engineering and AI applications.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <title>Publications | MAHBUB - AI & Transportation Research</title>
+</head>
+<body>
+    <!-- Neural Network Background -->
+    <div class="neural-bg">
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+    </div>
 
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <div class="nav-logo-icon">🚀</div>
+                <span>MAHBUB</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="publications.html" class="nav-link active">Publications</a></li>
+                <li><a href="tools.html" class="nav-link">Tools</a></li>
+                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+                <li><a href="team.html" class="nav-link">Lab</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                    <i data-lucide="sun" class="theme-icon-light" style="display: none;"></i>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content animate-on-scroll">
+                <div class="badge badge-cyan">Academic Work</div>
+                <h1>My <span class="text-gradient">Publications</span></h1>
+                <p>Peer-reviewed research contributing to the advancement of transportation engineering and AI applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publication Stats -->
+    <section class="section-sm">
+        <div class="container">
+            <div class="pub-stats-grid">
+                <div class="pub-stat-card animate-on-scroll">
+                    <div class="pub-stat-number" data-count="10" data-suffix="+">0</div>
+                    <div class="pub-stat-label">Total Publications</div>
+                </div>
+                <div class="pub-stat-card animate-on-scroll">
+                    <div class="pub-stat-number" data-count="5" data-suffix="">0</div>
+                    <div class="pub-stat-label">Q1 Journals</div>
+                </div>
+                <div class="pub-stat-card animate-on-scroll">
+                    <div class="pub-stat-number" data-count="50" data-suffix="+">0</div>
+                    <div class="pub-stat-label">Citations</div>
+                </div>
+                <div class="pub-stat-card animate-on-scroll">
+                    <div class="pub-stat-number" data-count="3" data-suffix="">0</div>
+                    <div class="pub-stat-label">Conferences</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="section-sm">
+        <div class="container">
+            <div class="pub-filters animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="journal">Journal Papers</button>
+                <button class="filter-btn" data-filter="conference">Conference</button>
+                <button class="filter-btn" data-filter="q1">Q1 Journals</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications List -->
+    <section class="section">
+        <div class="container">
+            <!-- 2025 Publications -->
+            <div class="pub-year-group animate-on-scroll">
+                <div class="pub-year-header">
+                    <span class="pub-year">2025</span>
+                    <span class="pub-year-count">3 publications</span>
+                </div>
+                
+                <!-- Publication Item 1 -->
+                <div class="pub-card" data-type="journal q1">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-green">Q1 Journal</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Real-Time Digital Twin Framework for Urban Transit Systems: A Case Study of Malaysian Bus Networks</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, Co-Author Name, Supervisor Name
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="book-open"></i>
+                            <span>Transportation Research Part C: Emerging Technologies</span>
+                        </div>
+                        <p class="pub-abstract">
+                            This paper presents a comprehensive digital twin framework integrating GTFS data with SUMO microsimulation for real-time monitoring and predictive analysis of RapidKL bus networks in Malaysia...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">Digital Twin</span>
+                            <span class="tag">GTFS</span>
+                            <span class="tag">SUMO</span>
+                            <span class="tag">Malaysia</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="external-link"></i>
+                                DOI
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="quote"></i>
+                                Cite
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Item 2 -->
+                <div class="pub-card" data-type="journal q1">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-green">Q1 Journal</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Machine Learning Approaches for Electric Vehicle Charging Infrastructure Equity Assessment</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, Research Collaborator, Advisor Name
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="book-open"></i>
+                            <span>Energy Policy</span>
+                        </div>
+                        <p class="pub-abstract">
+                            A comprehensive machine learning framework for analyzing electric vehicle charging infrastructure deployment equity across California and Singapore, identifying socioeconomic disparities...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">EV Infrastructure</span>
+                            <span class="tag">Equity</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="external-link"></i>
+                                DOI
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="quote"></i>
+                                Cite
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Item 3 -->
+                <div class="pub-card" data-type="conference">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-purple">Conference</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">SUMO-Forge: A Web-Based Platform for Democratizing Traffic Microsimulation</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, Team Member
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="users"></i>
+                            <span>Transportation Research Board (TRB) Annual Meeting 2025</span>
+                        </div>
+                        <p class="pub-abstract">
+                            Introducing SUMO-Forge, an innovative web-based platform that abstracts the technical complexity of SUMO traffic simulation, enabling researchers and urban planners without programming expertise...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">SUMO</span>
+                            <span class="tag">Web Platform</span>
+                            <span class="tag">Traffic Simulation</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="presentation"></i>
+                                Slides
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2024 Publications -->
+            <div class="pub-year-group animate-on-scroll">
+                <div class="pub-year-header">
+                    <span class="pub-year">2024</span>
+                    <span class="pub-year-count">4 publications</span>
+                </div>
+
+                <!-- Publication Item 4 -->
+                <div class="pub-card" data-type="journal q1">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-green">Q1 Journal</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Transit Network Efficiency Assessment Using GTFS Data: First Analysis of Malaysia's Public Transport Systems</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, Supervisor Name, Co-Researcher
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="book-open"></i>
+                            <span>Journal of Transport Geography</span>
+                        </div>
+                        <p class="pub-abstract">
+                            This pioneering study presents the first comprehensive academic analysis of Malaysia's newly released GTFS datasets, evaluating transit network efficiency in Johor Bahru and Penang...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">GTFS</span>
+                            <span class="tag">Network Analysis</span>
+                            <span class="tag">Malaysia</span>
+                            <span class="tag">Public Transit</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="external-link"></i>
+                                DOI
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="quote"></i>
+                                Cite
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Item 5 -->
+                <div class="pub-card" data-type="journal">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-cyan">Journal</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">AI-Powered Tools for Transportation Research: A Framework for Accessible Analysis</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, Collaborator Name
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="book-open"></i>
+                            <span>Transportation Research Record</span>
+                        </div>
+                        <p class="pub-abstract">
+                            Presenting a framework for developing accessible AI-powered transportation analysis tools, demonstrated through EVChargeAdvisor-AI, ParkSense-AI, and PolicySim-AI applications...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">AI Tools</span>
+                            <span class="tag">LLM</span>
+                            <span class="tag">Open Source</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="external-link"></i>
+                                DOI
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Item 6 -->
+                <div class="pub-card" data-type="conference">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-purple">Conference</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Real-Time Parking Availability Prediction Using Multi-Agency Data Integration</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, Team Members
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="users"></i>
+                            <span>IEEE International Conference on Intelligent Transportation Systems (ITSC) 2024</span>
+                        </div>
+                        <p class="pub-abstract">
+                            A novel approach to real-time parking availability prediction integrating data from Singapore's HDB, LTA, and URA agencies with natural language AI explanations...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">Parking</span>
+                            <span class="tag">Real-time</span>
+                            <span class="tag">Singapore</span>
+                            <span class="tag">AI</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="presentation"></i>
+                                Slides
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Item 7 -->
+                <div class="pub-card" data-type="journal q1">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-green">Q1 Journal</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Sustainable Urban Mobility Planning: An Integrated Framework for Southeast Asian Cities</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, International Collaborators
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="book-open"></i>
+                            <span>Sustainable Cities and Society</span>
+                        </div>
+                        <p class="pub-abstract">
+                            Developing an integrated framework for sustainable urban mobility planning tailored to the unique challenges and opportunities of Southeast Asian metropolitan areas...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">Sustainable Mobility</span>
+                            <span class="tag">Urban Planning</span>
+                            <span class="tag">Southeast Asia</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="external-link"></i>
+                                DOI
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="quote"></i>
+                                Cite
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2023 Publications -->
+            <div class="pub-year-group animate-on-scroll">
+                <div class="pub-year-header">
+                    <span class="pub-year">2023</span>
+                    <span class="pub-year-count">3 publications</span>
+                </div>
+
+                <!-- Publication Item 8 -->
+                <div class="pub-card" data-type="journal q1">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-green">Q1 Journal</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Choice Modeling for Electric Vehicle Adoption: A Comparative Study</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, Advisor Name
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="book-open"></i>
+                            <span>Transportation Research Part D: Transport and Environment</span>
+                        </div>
+                        <p class="pub-abstract">
+                            A comprehensive choice modeling study examining factors influencing electric vehicle adoption decisions across different demographic segments and geographic regions...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">Choice Modeling</span>
+                            <span class="tag">EV Adoption</span>
+                            <span class="tag">Behavior</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="external-link"></i>
+                                DOI
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="quote"></i>
+                                Cite
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Item 9 -->
+                <div class="pub-card" data-type="journal">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-cyan">Journal</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Synthetic Data Generation for Transportation Survey Research: Methods and Validation</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>, Research Team
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="book-open"></i>
+                            <span>Journal of Transportation Engineering</span>
+                        </div>
+                        <p class="pub-abstract">
+                            Introducing validated methodologies for synthetic survey data generation applicable to transportation research, with applications in SEM, SmartPLS, and fsQCA analyses...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">Synthetic Data</span>
+                            <span class="tag">SEM</span>
+                            <span class="tag">Survey Research</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Item 10 -->
+                <div class="pub-card" data-type="conference">
+                    <div class="pub-type-badge">
+                        <span class="badge badge-purple">Conference</span>
+                    </div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">LLM Applications in Transportation Research: Opportunities and Challenges</h3>
+                        <div class="pub-authors">
+                            <strong>MAHBUB</strong>
+                        </div>
+                        <div class="pub-venue">
+                            <i data-lucide="users"></i>
+                            <span>Asian Transportation Research Society Conference 2023</span>
+                        </div>
+                        <p class="pub-abstract">
+                            Exploring the emerging opportunities and challenges of applying Large Language Models in transportation research, from data analysis to public engagement...
+                        </p>
+                        <div class="pub-tags">
+                            <span class="tag">LLM</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Future Research</span>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="#" class="btn btn-sm btn-secondary">
+                                <i data-lucide="file-text"></i>
+                                PDF
+                            </a>
+                            <a href="#" class="btn btn-sm btn-ghost">
+                                <i data-lucide="presentation"></i>
+                                Slides
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Scholar CTA -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="scholar-cta animate-on-scroll">
+                <div class="scholar-cta-content">
+                    <div class="scholar-icon">🎓</div>
+                    <div class="scholar-text">
+                        <h3>View Complete Publication Record</h3>
+                        <p>For a complete list of publications, citations, and metrics, visit my Google Scholar profile.</p>
+                    </div>
+                </div>
+                <a href="https://scholar.google.com/citations?user=yourID" class="btn btn-primary btn-lg" target="_blank">
+                    <i data-lucide="external-link"></i>
+                    Google Scholar Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="nav-logo">
+                        <div class="nav-logo-icon">🚀</div>
+                        <span>MAHBUB</span>
+                    </a>
+                    <p>Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/mahbubchula" class="social-link" aria-label="GitHub" target="_blank">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="social-link" aria-label="LinkedIn" target="_blank">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=yourID" class="social-link" aria-label="Google Scholar" target="_blank">
+                            <i data-lucide="graduation-cap"></i>
+                        </a>
+                        <a href="mailto:your.email@chula.ac.th" class="social-link" aria-label="Email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Research</h5>
+                    <ul class="footer-links">
+                        <li><a href="research.html">Current Projects</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="tools.html">AI Tools</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="teaching.html">Courses</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h5 class="footer-title">Connect</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="../assets/docs/cv.pdf" target="_blank">Download CV</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MAHBUB. All rights reserved.</p>
+                <p>Built with ❤️ for research and innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Publication Filter Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const pubCards = document.querySelectorAll('.pub-card');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Update active button
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Filter publications
+                    pubCards.forEach(card => {
+                        const type = card.getAttribute('data-type');
+                        if (filter === 'all' || type.includes(filter)) {
+                            card.style.display = 'grid';
+                            card.style.animation = 'fadeInUp 0.4s ease forwards';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
