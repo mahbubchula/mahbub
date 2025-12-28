@@ -2920,3 +2920,438 @@ body.light-mode .mentorship-text p {
         font-size: var(--text-xl);
     }
 }
+
+/* ============================================
+   TEAM / LAB PAGE
+   ============================================ */
+
+/* Lab Overview */
+.lab-overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-8);
+    padding: var(--space-8);
+    background: var(--gradient-card);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-2xl);
+}
+
+body.light-mode .lab-overview {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.lab-overview-content h3 {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-2);
+}
+
+.lab-overview-content p {
+    font-size: var(--text-base);
+    color: var(--dark-text-secondary);
+    max-width: 600px;
+}
+
+body.light-mode .lab-overview-content p {
+    color: var(--light-text-secondary);
+}
+
+.lab-stats {
+    display: flex;
+    gap: var(--space-8);
+}
+
+.lab-stat {
+    text-align: center;
+}
+
+.lab-stat-number {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 700;
+    color: var(--accent-cyan-500);
+    display: block;
+}
+
+.lab-stat-label {
+    font-size: var(--text-sm);
+    color: var(--dark-text-tertiary);
+}
+
+body.light-mode .lab-stat-label {
+    color: var(--light-text-tertiary);
+}
+
+/* PI Card (Principal Investigator) */
+.pi-card {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: var(--space-8);
+    padding: var(--space-8);
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-2xl);
+}
+
+body.light-mode .pi-card {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.pi-image {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+}
+
+.pi-image-placeholder {
+    width: 100%;
+    aspect-ratio: 1;
+    background: var(--gradient-card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+}
+
+.pi-content h3 {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-1);
+}
+
+.pi-title {
+    font-size: var(--text-base);
+    color: var(--accent-cyan-400);
+    margin-bottom: var(--space-2);
+}
+
+.pi-affiliation {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--dark-text-secondary);
+    margin-bottom: var(--space-4);
+}
+
+body.light-mode .pi-affiliation {
+    color: var(--light-text-secondary);
+}
+
+.pi-affiliation svg {
+    width: 16px;
+    height: 16px;
+}
+
+.pi-bio {
+    font-size: var(--text-sm);
+    color: var(--dark-text-secondary);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-4);
+}
+
+body.light-mode .pi-bio {
+    color: var(--light-text-secondary);
+}
+
+.pi-interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+}
+
+.interest-tag {
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    color: var(--accent-cyan-400);
+    background: rgba(0, 212, 255, 0.1);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: var(--radius-full);
+}
+
+.pi-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+/* Team Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-6);
+}
+
+.team-card {
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    transition: all var(--duration-300);
+}
+
+body.light-mode .team-card {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.team-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent-cyan-500);
+}
+
+.team-image {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.team-content {
+    padding: var(--space-4);
+    text-align: center;
+}
+
+.team-content h4 {
+    font-size: var(--text-base);
+    margin-bottom: var(--space-1);
+}
+
+.team-role {
+    font-size: var(--text-sm);
+    color: var(--accent-cyan-400);
+    margin-bottom: var(--space-1);
+}
+
+.team-research {
+    font-size: var(--text-xs);
+    color: var(--dark-text-tertiary);
+    margin-bottom: var(--space-3);
+}
+
+body.light-mode .team-research {
+    color: var(--light-text-tertiary);
+}
+
+.team-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+}
+
+.team-links a {
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-full);
+    background: var(--dark-bg-tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-text-secondary);
+    transition: all var(--duration-200);
+}
+
+body.light-mode .team-links a {
+    background: var(--light-bg-tertiary);
+    color: var(--light-text-secondary);
+}
+
+.team-links a:hover {
+    background: var(--accent-cyan-500);
+    color: var(--primary-900);
+}
+
+.team-links svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Collaborators Grid */
+.collaborators-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+}
+
+.collaborator-card {
+    padding: var(--space-6);
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-xl);
+    text-align: center;
+    transition: all var(--duration-300);
+}
+
+body.light-mode .collaborator-card {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.collaborator-card:hover {
+    border-color: var(--accent-purple-500);
+    transform: translateY(-4px);
+}
+
+.collaborator-logo {
+    font-size: 3rem;
+    margin-bottom: var(--space-3);
+}
+
+.collaborator-card h4 {
+    font-size: var(--text-base);
+    margin-bottom: var(--space-1);
+}
+
+.collaborator-card p {
+    font-size: var(--text-sm);
+    color: var(--dark-text-secondary);
+    margin-bottom: var(--space-2);
+}
+
+body.light-mode .collaborator-card p {
+    color: var(--light-text-secondary);
+}
+
+.collaborator-location {
+    font-size: var(--text-xs);
+    color: var(--dark-text-tertiary);
+}
+
+body.light-mode .collaborator-location {
+    color: var(--light-text-tertiary);
+}
+
+/* Alumni Grid */
+.alumni-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+}
+
+.alumni-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-4);
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-xl);
+    transition: all var(--duration-300);
+}
+
+body.light-mode .alumni-card {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.alumni-card:hover {
+    border-color: var(--accent-cyan-500);
+}
+
+.alumni-avatar {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+.alumni-info h4 {
+    font-size: var(--text-base);
+    margin-bottom: var(--space-1);
+}
+
+.alumni-degree {
+    font-size: var(--text-sm);
+    color: var(--accent-cyan-400);
+    margin-bottom: var(--space-1);
+}
+
+.alumni-current {
+    font-size: var(--text-xs);
+    color: var(--dark-text-tertiary);
+}
+
+body.light-mode .alumni-current {
+    color: var(--light-text-tertiary);
+}
+
+/* Team Page Responsive */
+@media (max-width: 1024px) {
+    .lab-overview {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .lab-overview-content p {
+        max-width: 100%;
+    }
+    
+    .pi-card {
+        grid-template-columns: 1fr;
+    }
+    
+    .pi-image-placeholder {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .pi-content {
+        text-align: center;
+    }
+    
+    .pi-affiliation {
+        justify-content: center;
+    }
+    
+    .pi-interests,
+    .pi-links {
+        justify-content: center;
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .collaborators-grid,
+    .alumni-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .lab-stats {
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+    
+    .team-grid {
+        grid-template-columns: 1fr;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .collaborators-grid,
+    .alumni-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .alumni-card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
