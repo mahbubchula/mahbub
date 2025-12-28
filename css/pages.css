@@ -2495,3 +2495,428 @@ body.light-mode .map-placeholder-content p {
         grid-template-columns: 1fr;
     }
 }
+
+/* ============================================
+   TEACHING PAGE
+   ============================================ */
+
+/* Philosophy Card */
+.philosophy-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
+    padding: var(--space-8);
+    background: var(--gradient-card);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-2xl);
+}
+
+body.light-mode .philosophy-card {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.philosophy-icon {
+    font-size: 4rem;
+    flex-shrink: 0;
+}
+
+.philosophy-content h3 {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-2);
+}
+
+.philosophy-content p {
+    font-size: var(--text-base);
+    color: var(--dark-text-secondary);
+    line-height: var(--leading-relaxed);
+}
+
+body.light-mode .philosophy-content p {
+    color: var(--light-text-secondary);
+}
+
+/* Courses Grid */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+}
+
+.course-card {
+    padding: var(--space-6);
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-xl);
+    transition: all var(--duration-300);
+    display: flex;
+    flex-direction: column;
+}
+
+body.light-mode .course-card {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.course-card:hover {
+    border-color: var(--accent-purple-500);
+    transform: translateY(-4px);
+}
+
+.course-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-3);
+}
+
+.course-code {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--accent-purple-400);
+    padding: var(--space-1) var(--space-2);
+    background: rgba(139, 92, 246, 0.1);
+    border-radius: var(--radius-md);
+}
+
+.course-title {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-3);
+}
+
+.course-description {
+    font-size: var(--text-sm);
+    color: var(--dark-text-secondary);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-4);
+    flex-grow: 1;
+}
+
+body.light-mode .course-description {
+    color: var(--light-text-secondary);
+}
+
+.course-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+}
+
+.course-detail {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    font-size: var(--text-xs);
+    color: var(--dark-text-tertiary);
+}
+
+body.light-mode .course-detail {
+    color: var(--light-text-tertiary);
+}
+
+.course-detail svg {
+    width: 14px;
+    height: 14px;
+}
+
+.course-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+}
+
+.topic-tag {
+    padding: var(--space-1) var(--space-2);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    color: var(--accent-cyan-400);
+    background: rgba(0, 212, 255, 0.1);
+    border-radius: var(--radius-full);
+}
+
+.course-actions {
+    display: flex;
+    gap: var(--space-2);
+    margin-top: auto;
+}
+
+/* Resources Grid */
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+}
+
+.resource-card {
+    padding: var(--space-6);
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-xl);
+    transition: all var(--duration-300);
+}
+
+body.light-mode .resource-card {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.resource-card:hover {
+    border-color: var(--accent-cyan-500);
+    transform: translateY(-4px);
+}
+
+.resource-icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--space-3);
+}
+
+.resource-card h4 {
+    font-size: var(--text-base);
+    margin-bottom: var(--space-2);
+}
+
+.resource-card p {
+    font-size: var(--text-sm);
+    color: var(--dark-text-secondary);
+    margin-bottom: var(--space-4);
+}
+
+body.light-mode .resource-card p {
+    color: var(--light-text-secondary);
+}
+
+.resource-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--accent-cyan-500);
+    transition: gap var(--duration-200);
+}
+
+.resource-link:hover {
+    gap: var(--space-3);
+}
+
+.resource-link svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Workshops List */
+.workshops-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.workshop-card {
+    display: flex;
+    gap: var(--space-6);
+    padding: var(--space-6);
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-xl);
+    transition: all var(--duration-300);
+}
+
+body.light-mode .workshop-card {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.workshop-card:hover {
+    border-color: var(--accent-purple-500);
+}
+
+.workshop-card.workshop-past {
+    opacity: 0.7;
+}
+
+.workshop-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    padding: var(--space-4);
+    background: var(--gradient-accent);
+    border-radius: var(--radius-lg);
+    text-align: center;
+}
+
+.workshop-month {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--primary-900);
+}
+
+.workshop-day {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: var(--primary-900);
+    line-height: 1;
+}
+
+.workshop-year {
+    font-size: var(--text-xs);
+    color: var(--primary-800);
+}
+
+.workshop-content {
+    flex: 1;
+}
+
+.workshop-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-2);
+}
+
+.workshop-type {
+    font-size: var(--text-sm);
+    color: var(--dark-text-tertiary);
+}
+
+body.light-mode .workshop-type {
+    color: var(--light-text-tertiary);
+}
+
+.workshop-content h4 {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-2);
+}
+
+.workshop-content p {
+    font-size: var(--text-sm);
+    color: var(--dark-text-secondary);
+    margin-bottom: var(--space-3);
+}
+
+body.light-mode .workshop-content p {
+    color: var(--light-text-secondary);
+}
+
+.workshop-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+}
+
+.workshop-details span {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    font-size: var(--text-sm);
+    color: var(--dark-text-tertiary);
+}
+
+body.light-mode .workshop-details span {
+    color: var(--light-text-tertiary);
+}
+
+.workshop-details svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Mentorship Banner */
+.mentorship-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-8);
+    padding: var(--space-8);
+    background: var(--gradient-card);
+    border: 1px solid var(--dark-border);
+    border-radius: var(--radius-2xl);
+}
+
+body.light-mode .mentorship-banner {
+    background: var(--light-bg-card);
+    border-color: var(--light-border);
+}
+
+.mentorship-content {
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
+}
+
+.mentorship-icon {
+    font-size: 3rem;
+}
+
+.mentorship-text h3 {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-1);
+}
+
+.mentorship-text p {
+    font-size: var(--text-sm);
+    color: var(--dark-text-secondary);
+    max-width: 500px;
+}
+
+body.light-mode .mentorship-text p {
+    color: var(--light-text-secondary);
+}
+
+/* Teaching Page Responsive */
+@media (max-width: 1024px) {
+    .philosophy-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .courses-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .resources-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .mentorship-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .mentorship-content {
+        flex-direction: column;
+    }
+    
+    .mentorship-text p {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .courses-grid,
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .workshop-card {
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+    
+    .workshop-date {
+        flex-direction: row;
+        gap: var(--space-2);
+        min-width: auto;
+        width: fit-content;
+    }
+    
+    .workshop-day {
+        font-size: var(--text-xl);
+    }
+}
