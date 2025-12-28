@@ -1,1 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="MAHBUB - Transportation Engineering Researcher at Chulalongkorn University specializing in AI applications, sustainable mobility, and intelligent transportation systems.">
+    <meta name="keywords" content="Transportation Engineering, AI, Machine Learning, Sustainable Mobility, GTFS, SUMO, EV, Research, Chulalongkorn University">
+    <meta name="author" content="MAHBUB">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mahbubchula.github.io/mahbub/">
+    <meta property="og:title" content="MAHBUB | AI & Transportation Research">
+    <meta property="og:description" content="Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.">
+    <meta property="og:image" content="assets/images/og-image.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MAHBUB | AI & Transportation Research">
+    <meta name="twitter:description" content="Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/pages.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <title>MAHBUB | AI & Transportation Research</title>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader">
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+        </div>
+    </div>
 
+    <!-- Neural Network Background -->
+    <div class="neural-bg">
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+        <div class="neural-node"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon">🚀</div>
+                <span>MAHBUB</span>
+            </a>
+            
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="pages/about.html" class="nav-link">About</a></li>
+                <li><a href="pages/research.html" class="nav-link">Research</a></li>
+                <li><a href="pages/publications.html" class="nav-link">Publications</a></li>
+                <li><a href="pages/tools.html" class="nav-link">Tools</a></li>
+                <li><a href="pages/teaching.html" class="nav-link">Teaching</a></li>
+                <li><a href="pages/team.html" class="nav-link">Lab</a></li>
+                <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <!-- Nav Actions -->
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                    <i data-lucide="sun" class="theme-icon-light" style="display: none;"></i>
+                </button>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Hero Content -->
+                <div class="hero-content">
+                    <!-- Status Badge -->
+                    <div class="hero-badge animate-on-scroll">
+                        <span class="badge-dot badge-dot-green"></span>
+                        <span>Open to Collaboration</span>
+                    </div>
+                    
+                    <!-- Main Title -->
+                    <h1 class="hero-title animate-on-scroll">
+                        <span class="hero-title-line">Building the Future of</span>
+                        <span class="hero-title-line text-gradient">Intelligent Mobility</span>
+                    </h1>
+                    
+                    <!-- Subtitle -->
+                    <p class="hero-subtitle animate-on-scroll">
+                        Transportation Engineering Researcher at <strong>Chulalongkorn University</strong>, 
+                        specializing in AI applications, sustainable mobility systems, 
+                        and intelligent transportation networks.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="hero-stats animate-on-scroll">
+                        <div class="hero-stat">
+                            <div class="hero-stat-value" data-count="10" data-suffix="+">0</div>
+                            <div class="hero-stat-label">Publications</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="hero-stat-value" data-count="8" data-suffix="+">0</div>
+                            <div class="hero-stat-label">AI Tools Built</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="hero-stat-value" data-count="5" data-suffix="+">0</div>
+                            <div class="hero-stat-label">Active Projects</div>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="hero-cta animate-on-scroll">
+                        <a href="pages/research.html" class="btn btn-primary btn-lg">
+                            <i data-lucide="flask-conical"></i>
+                            Explore Research
+                        </a>
+                        <a href="pages/tools.html" class="btn btn-secondary btn-lg">
+                            <i data-lucide="code-2"></i>
+                            View Tools
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Visual -->
+                <div class="hero-visual animate-on-scroll">
+                    <div class="hero-image-container">
+                        <!-- Profile Image Placeholder - Replace with your image -->
+                        <div class="hero-image-wrapper">
+                            <div class="hero-image-placeholder">
+                                <span>👨‍🔬</span>
+                            </div>
+                            <!-- Uncomment and use your actual image -->
+                            <!-- <img src="assets/images/profile/main.jpg" alt="MAHBUB - Transportation Researcher" class="hero-image"> -->
+                        </div>
+                        
+                        <!-- Floating Cards -->
+                        <div class="hero-floating-card card-1">
+                            <div class="floating-card-icon">🤖</div>
+                            <div class="floating-card-content">
+                                <div class="floating-card-title">AI-Powered</div>
+                                <div class="floating-card-text">Research Tools</div>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-floating-card card-2">
+                            <div class="floating-card-icon">🚌</div>
+                            <div class="floating-card-content">
+                                <div class="floating-card-title">Transit Analysis</div>
+                                <div class="floating-card-text">Malaysia & Thailand</div>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-floating-card card-3">
+                            <div class="floating-card-icon">📊</div>
+                            <div class="floating-card-content">
+                                <div class="floating-card-title">Q1 Journals</div>
+                                <div class="floating-card-text">Published Research</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="scroll-indicator-mouse">
+                    <div class="scroll-indicator-wheel"></div>
+                </div>
+                <span>Scroll to explore</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== RESEARCH HIGHLIGHTS ==================== -->
+    <section class="section" id="research">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge badge-cyan animate-on-scroll">Research Focus</div>
+                <h2 class="animate-on-scroll">Research <span class="text-gradient">Highlights</span></h2>
+                <p class="animate-on-scroll">Pioneering AI-driven solutions for sustainable transportation and urban mobility challenges.</p>
+            </div>
+            
+            <div class="research-grid">
+                <!-- Research Card 1 -->
+                <div class="card hover-lift animate-on-scroll">
+                    <div class="card-icon card-icon-cyan">🗺️</div>
+                    <h4 class="card-title">GTFS Transit Analysis</h4>
+                    <p class="card-description">
+                        First academic analysis of Malaysia's newly released GTFS datasets, assessing transit network efficiency in Johor Bahru and Penang using advanced network analysis techniques.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">GTFS</span>
+                        <span class="tag">Network Analysis</span>
+                        <span class="tag">Malaysia</span>
+                    </div>
+                </div>
+                
+                <!-- Research Card 2 -->
+                <div class="card hover-lift animate-on-scroll">
+                    <div class="card-icon card-icon-green">🚗</div>
+                    <h4 class="card-title">EV Adoption Patterns</h4>
+                    <p class="card-description">
+                        Comprehensive machine learning research analyzing electric vehicle adoption patterns in California and Singapore's EV charging infrastructure for equitable deployment.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">EV</span>
+                        <span class="tag">Infrastructure</span>
+                    </div>
+                </div>
+                
+                <!-- Research Card 3 -->
+                <div class="card hover-lift animate-on-scroll">
+                    <div class="card-icon card-icon-purple">🌐</div>
+                    <h4 class="card-title">Digital Twin Platform</h4>
+                    <p class="card-description">
+                        Real-time digital twin for Malaysian transit systems combining GTFS data with SUMO microsimulation for RapidKL bus networks, targeting Q1 journal publication.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">Digital Twin</span>
+                        <span class="tag">SUMO</span>
+                        <span class="tag">Real-time</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta animate-on-scroll">
+                <a href="pages/research.html" class="btn btn-secondary">
+                    View All Research
+                    <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== AI TOOLS SHOWCASE ==================== -->
+    <section class="section section-alt" id="tools">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge badge-green animate-on-scroll">Open Source</div>
+                <h2 class="animate-on-scroll">AI-Powered <span class="text-gradient">Tools</span></h2>
+                <p class="animate-on-scroll">Building accessible tools that democratize transportation analysis and research for everyone.</p>
+            </div>
+            
+            <div class="tools-grid">
+                <!-- Tool Card 1 -->
+                <div class="card card-glass hover-lift animate-on-scroll">
+                    <div class="card-header">
+                        <div class="card-icon card-icon-amber">⚡</div>
+                        <span class="badge badge-green">Live</span>
+                    </div>
+                    <h4 class="card-title">EVChargeAdvisor-AI</h4>
+                    <p class="card-description">
+                        Global EV charging infrastructure equity analysis integrating OpenChargeMap, US Census, and World Bank APIs with LLM-powered insights.
+                    </p>
+                    <div class="card-footer">
+                        <div class="card-tags">
+                            <span class="tag">Groq</span>
+                            <span class="tag">Streamlit</span>
+                        </div>
+                        <a href="#" class="btn btn-ghost btn-sm">
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Tool Card 2 -->
+                <div class="card card-glass hover-lift animate-on-scroll">
+                    <div class="card-header">
+                        <div class="card-icon card-icon-cyan">🅿️</div>
+                        <span class="badge badge-green">Live</span>
+                    </div>
+                    <h4 class="card-title">ParkSense-AI</h4>
+                    <p class="card-description">
+                        Real-time parking analysis for Singapore's 2,581 carparks across HDB, LTA, and URA with natural language explanations powered by AI.
+                    </p>
+                    <div class="card-footer">
+                        <div class="card-tags">
+                            <span class="tag">Real-time</span>
+                            <span class="tag">Singapore</span>
+                        </div>
+                        <a href="#" class="btn btn-ghost btn-sm">
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Tool Card 3 -->
+                <div class="card card-glass hover-lift animate-on-scroll">
+                    <div class="card-header">
+                        <div class="card-icon card-icon-purple">📊</div>
+                        <span class="badge badge-green">Live</span>
+                    </div>
+                    <h4 class="card-title">PolicySim-AI</h4>
+                    <p class="card-description">
+                        Agentic system for transportation policy simulation with transparent mathematical models and AI-powered scenario analysis.
+                    </p>
+                    <div class="card-footer">
+                        <div class="card-tags">
+                            <span class="tag">Simulation</span>
+                            <span class="tag">Policy</span>
+                        </div>
+                        <a href="#" class="btn btn-ghost btn-sm">
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Tool Card 4 -->
+                <div class="card card-glass hover-lift animate-on-scroll">
+                    <div class="card-header">
+                        <div class="card-icon card-icon-green">🔧</div>
+                        <span class="badge badge-amber">In Dev</span>
+                    </div>
+                    <h4 class="card-title">SUMO-Forge</h4>
+                    <p class="card-description">
+                        Web-based platform to democratize traffic simulation by abstracting SUMO's technical complexity for researchers and planners.
+                    </p>
+                    <div class="card-footer">
+                        <div class="card-tags">
+                            <span class="tag">SUMO</span>
+                            <span class="tag">Web App</span>
+                        </div>
+                        <a href="#" class="btn btn-ghost btn-sm">
+                            <i data-lucide="github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta animate-on-scroll">
+                <a href="pages/tools.html" class="btn btn-primary">
+                    <i data-lucide="grid-3x3"></i>
+                    View All Tools
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== LATEST UPDATES ==================== -->
+    <section class="section" id="updates">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge badge-purple animate-on-scroll">News</div>
+                <h2 class="animate-on-scroll">Latest <span class="text-gradient">Updates</span></h2>
+                <p class="animate-on-scroll">Stay updated with recent research activities, publications, and project milestones.</p>
+            </div>
+            
+            <div class="updates-grid">
+                <!-- Update Card 1 -->
+                <div class="card hover-lift animate-on-scroll">
+                    <div class="update-meta">
+                        <span class="badge badge-green">New</span>
+                        <span class="update-date">June 2025</span>
+                    </div>
+                    <h4 class="card-title">SUMO-Forge Development Kickoff</h4>
+                    <p class="card-description">
+                        Started building a web-based platform to democratize traffic simulation by abstracting SUMO's technical complexity for researchers and urban planners worldwide.
+                    </p>
+                    <a href="#" class="card-link-text">
+                        Read more <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Update Card 2 -->
+                <div class="card hover-lift animate-on-scroll">
+                    <div class="update-meta">
+                        <span class="badge badge-cyan">Research</span>
+                        <span class="update-date">May 2025</span>
+                    </div>
+                    <h4 class="card-title">Digital Twin Platform Progress</h4>
+                    <p class="card-description">
+                        Significant progress on the real-time digital twin platform combining GTFS data with SUMO microsimulation for RapidKL bus networks in Malaysia.
+                    </p>
+                    <a href="#" class="card-link-text">
+                        Read more <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Update Card 3 -->
+                <div class="card hover-lift animate-on-scroll">
+                    <div class="update-meta">
+                        <span class="badge badge-amber">Publication</span>
+                        <span class="update-date">April 2025</span>
+                    </div>
+                    <h4 class="card-title">Q1 Journal Paper Submitted</h4>
+                    <p class="card-description">
+                        Submitted comprehensive research paper on Malaysia's GTFS transit network analysis to a Q1 transportation journal for peer review.
+                    </p>
+                    <a href="#" class="card-link-text">
+                        Read more <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA SECTION ==================== -->
+    <section class="section section-cta-full" id="cta">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Interested in <span class="text-gradient">Collaboration</span>?</h2>
+                <p>Let's connect and explore research opportunities together. Open to academic collaborations, industry partnerships, and consulting projects.</p>
+                <div class="cta-buttons">
+                    <a href="pages/contact.html" class="btn btn-primary btn-lg">
+                        <i data-lucide="mail"></i>
+                        Get in Touch
+                    </a>
+                    <a href="assets/docs/cv.pdf" class="btn btn-secondary btn-lg" target="_blank">
+                        <i data-lucide="download"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <div class="nav-logo-icon">🚀</div>
+                        <span>MAHBUB</span>
+                    </a>
+                    <p>Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems at Chulalongkorn University.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/mahbubchula" class="social-link" aria-label="GitHub" target="_blank">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="social-link" aria-label="LinkedIn" target="_blank">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=yourID" class="social-link" aria-label="Google Scholar" target="_blank">
+                            <i data-lucide="graduation-cap"></i>
+                        </a>
+                        <a href="mailto:your.email@chula.ac.th" class="social-link" aria-label="Email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h5 class="footer-title">Research</h5>
+                    <ul class="footer-links">
+                        <li><a href="pages/research.html">Current Projects</a></li>
+                        <li><a href="pages/publications.html">Publications</a></li>
+                        <li><a href="pages/tools.html">AI Tools</a></li>
+                        <li><a href="pages/team.html">Lab Members</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Resources -->
+                <div class="footer-column">
+                    <h5 class="footer-title">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="pages/teaching.html">Courses</a></li>
+                        <li><a href="pages/gallery.html">Gallery</a></li>
+                        <li><a href="pages/certificates.html">Certificates</a></li>
+                        <li><a href="pages/blog/index.html">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Connect -->
+                <div class="footer-column">
+                    <h5 class="footer-title">Connect</h5>
+                    <ul class="footer-links">
+                        <li><a href="pages/about.html">About Me</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                        <li><a href="assets/docs/cv.pdf" target="_blank">Download CV</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 MAHBUB. All rights reserved.</p>
+                <p>Built with ❤️ for research and innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
