@@ -27,6 +27,69 @@
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     
     <title>About | Engr. Mahbub Hassan - AI & Transportation Research</title>
+    
+    <style>
+        /* ============ FIXED PROFILE IMAGE STYLES ============ */
+        .about-image-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 350px;
+            margin: 0 auto var(--space-6) auto;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            border: 3px solid var(--dark-border);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+            background: var(--dark-bg-secondary);
+        }
+        
+        body.light-mode .about-image-wrapper {
+            border-color: var(--light-border);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+            background: var(--light-bg-secondary);
+        }
+        
+        .about-image-wrapper:hover {
+            border-color: var(--accent-cyan-500);
+            transform: scale(1.02);
+            transition: all var(--duration-300);
+        }
+        
+        .about-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            object-position: top center; /* Shows head/face properly */
+        }
+        
+        /* Fix the about grid layout */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            gap: var(--space-12);
+            align-items: start;
+        }
+        
+        .about-image-column {
+            position: sticky;
+            top: 100px;
+        }
+        
+        @media (max-width: 1024px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .about-image-column {
+                position: relative;
+                top: 0;
+            }
+            
+            .about-image-wrapper {
+                max-width: 300px;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Neural Network Background -->
@@ -44,7 +107,7 @@
         <div class="nav-container">
             <a href="../index.html" class="nav-logo">
                 <div class="nav-logo-icon">🚀</div>
-                <span>Mahbub Hassan</span>
+                <span>MAHBUB</span>
             </a>
             
             <ul class="nav-menu" id="navMenu">
@@ -90,7 +153,6 @@
                 <!-- Profile Image Column -->
                 <div class="about-image-column animate-on-scroll">
                     <div class="about-image-wrapper">
-                        </div>
                         <img src="../assests/images/profile.jpeg" alt="Engr. Mahbub Hassan" class="about-image">
                     </div>
                     
@@ -128,7 +190,7 @@
                     
                     <!-- CTA Buttons -->
                     <div class="about-cta">
-                        <a href="../assets/docs/cv.pdf" class="btn btn-primary" target="_blank">
+                        <a href="../assests/docs/cv.pdf" class="btn btn-primary" target="_blank">
                             <i data-lucide="download"></i>
                             Download CV
                         </a>
@@ -231,13 +293,14 @@
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <span class="badge badge-green">Completed</span>
+                            <span class="timeline-date">October 2020 - September 2024</span>
                         </div>
                         <h4>Bachelor of Civil Engineering with Honours</h4>
                         <p class="timeline-place">Universiti Malaysia Perlis (UniMAP), Malaysia</p>
                         <p class="timeline-description">
                             <strong>Achievements:</strong><br>
                             • Dean's List Awards: 2nd, 3rd, 4th, 5th, 6th, 7th, and 8th Semesters<br>
-                            • Second Place Winner, Final Year Project Competition, UniMAP<br>
+                            • Second Place Winner, Final Year Project Competition, UniMAP 2024<br>
                             • Thesis: <em>Traffic Signal Optimization at Roundabout Using Metering Method</em> (Advisor: Dr. Hong Ki An)
                         </p>
                     </div>
@@ -462,7 +525,7 @@
                 <div class="footer-brand">
                     <a href="../index.html" class="nav-logo">
                         <div class="nav-logo-icon">🚀</div>
-                        <span>Mahbub Hassan</span>
+                        <span>MAHBUB</span>
                     </a>
                     <p>Transportation Engineering Researcher specializing in AI applications and sustainable mobility systems.</p>
                     <div class="footer-social">
@@ -493,7 +556,7 @@
                 <div class="footer-column">
                     <h5 class="footer-title">Resources</h5>
                     <ul class="footer-links">
-                        <li><a href="teaching.html">Courses</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="certificates.html">Certificates</a></li>
                     </ul>
@@ -504,7 +567,7 @@
                     <ul class="footer-links">
                         <li><a href="about.html">About Me</a></li>
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="../assets/docs/cv.pdf" target="_blank">Download CV</a></li>
+                        <li><a href="../assests/docs/cv.pdf" target="_blank">Download CV</a></li>
                     </ul>
                 </div>
             </div>
