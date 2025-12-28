@@ -2156,6 +2156,17 @@ body.light-mode .contact-card-content p {
     color: var(--accent-cyan-300);
 }
 
+.contact-link-label {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--dark-text-tertiary);
+    margin-bottom: var(--space-2);
+}
+
+body.light-mode .contact-link-label {
+    color: var(--light-text-tertiary);
+}
+
 .contact-address {
     font-size: var(--text-sm);
     font-style: normal;
