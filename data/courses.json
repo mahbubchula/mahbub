@@ -1,1 +1,343 @@
-
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "LLM in Transportation",
+            "code": "TRANS-LLM-101",
+            "description": "Comprehensive course on applying Large Language Models to transportation research, policy generation, and intelligent systems",
+            "level": "Undergraduate/Graduate",
+            "duration": "8 weeks",
+            "students": 45,
+            "rating": 4.8,
+            "status": "Active",
+            "topics": [
+                "LLM Fundamentals",
+                "RAG for Transportation",
+                "Traffic Policy Generation",
+                "AI-powered Analysis",
+                "Prompt Engineering for Transport"
+            ],
+            "prerequisites": "Basic Python, Transportation Engineering",
+            "icon": "🤖",
+            "featured": true
+        },
+        {
+            "id": 2,
+            "title": "AI in Transportation",
+            "code": "TRANS-AI-201",
+            "description": "Advanced course covering machine learning, deep learning, and AI applications in intelligent transportation systems",
+            "level": "Undergraduate/Graduate",
+            "duration": "10 weeks",
+            "students": 60,
+            "rating": 4.9,
+            "status": "Active",
+            "topics": [
+                "Machine Learning for ITS",
+                "Computer Vision in Traffic",
+                "Predictive Analytics",
+                "Autonomous Vehicles",
+                "Smart Mobility Solutions"
+            ],
+            "prerequisites": "Programming, Statistics, Transportation Basics",
+            "icon": "🚗",
+            "featured": true
+        },
+        {
+            "id": 3,
+            "title": "SmartPLS4 for Transportation Research",
+            "code": "RES-PLS-301",
+            "description": "Hands-on course on Structural Equation Modeling (SEM) using SmartPLS4 for transportation behavior analysis",
+            "level": "Undergraduate/Graduate",
+            "duration": "6 weeks",
+            "students": 38,
+            "rating": 4.7,
+            "status": "Active",
+            "topics": [
+                "PLS-SEM Fundamentals",
+                "Measurement Models",
+                "Structural Models",
+                "Mediation & Moderation",
+                "Travel Behavior Modeling"
+            ],
+            "prerequisites": "Basic Statistics, Research Methods",
+            "icon": "📊",
+            "featured": true
+        },
+        {
+            "id": 4,
+            "title": "Research for Everybody",
+            "code": "RES-101",
+            "description": "Beginner-friendly course on research methodology, literature review, and academic writing for aspiring researchers",
+            "level": "Undergraduate/Graduate",
+            "duration": "8 weeks",
+            "students": 85,
+            "rating": 4.9,
+            "status": "Active",
+            "topics": [
+                "Research Design",
+                "Literature Review Strategies",
+                "Bibliometric Analysis",
+                "Academic Writing",
+                "Publication Process"
+            ],
+            "prerequisites": "None",
+            "icon": "📚",
+            "featured": true
+        },
+        {
+            "id": 5,
+            "title": "ML and XAI for Researchers",
+            "code": "ML-XAI-401",
+            "description": "Advanced course on Machine Learning and Explainable AI (XAI) techniques for transportation and behavioral research",
+            "level": "Undergraduate/Graduate",
+            "duration": "12 weeks",
+            "students": 42,
+            "rating": 4.8,
+            "status": "Active",
+            "topics": [
+                "ML Algorithms (XGBoost, Random Forest)",
+                "SHAP & LIME",
+                "Interpretable Models",
+                "Feature Importance",
+                "Model Validation"
+            ],
+            "prerequisites": "Python, Statistics, Machine Learning Basics",
+            "icon": "🧠",
+            "featured": true
+        },
+        {
+            "id": 6,
+            "title": "Transportation and Traffic Engineering",
+            "code": "TRANS-ENG-201",
+            "description": "Fundamental course on transportation planning, traffic flow theory, and engineering applications",
+            "level": "Undergraduate/Graduate",
+            "duration": "14 weeks",
+            "students": 55,
+            "rating": 4.6,
+            "status": "Active",
+            "topics": [
+                "Traffic Flow Theory",
+                "Highway Design",
+                "Intersection Analysis",
+                "VISSIM Simulation",
+                "Capacity Analysis"
+            ],
+            "prerequisites": "Engineering Mathematics",
+            "icon": "🚦",
+            "featured": false
+        },
+        {
+            "id": 7,
+            "title": "Intelligent Transportation Systems (ITS)",
+            "code": "ITS-501",
+            "description": "Comprehensive graduate course on ITS technologies, applications, and future trends in smart mobility",
+            "level": "Undergraduate/Graduate",
+            "duration": "10 weeks",
+            "students": 48,
+            "rating": 4.7,
+            "status": "Active",
+            "topics": [
+                "ITS Architecture",
+                "Connected Vehicles",
+                "Smart Traffic Management",
+                "Public Transit Systems",
+                "Sustainable Mobility"
+            ],
+            "prerequisites": "Transportation Engineering, Programming",
+            "icon": "🌐",
+            "featured": false
+        }
+    ],
+    "mentorship": {
+        "program_name": "Transportation AI Research Mentorship",
+        "description": "One-on-one mentorship program for graduate students and early-career researchers in transportation AI and intelligent systems",
+        "active_mentees": 12,
+        "total_mentored": 35,
+        "focus_areas": [
+            "Research Design & Methodology",
+            "Machine Learning Applications",
+            "Academic Writing & Publishing",
+            "Career Development",
+            "Project Guidance"
+        ],
+        "success_stories": [
+            "15 publications co-authored with mentees",
+            "8 conference presentations",
+            "5 successful PhD applications",
+            "3 industry placements"
+        ],
+        "application_status": "Open",
+        "icon": "👨‍🏫"
+    },
+    "webinars": {
+        "upcoming": [
+            {
+                "id": 1,
+                "title": "Large Language Models: Revolutionizing Transportation Research",
+                "date": "2026-02-15",
+                "time": "14:00 UTC+7",
+                "duration": "90 minutes",
+                "platform": "Zoom",
+                "registration_link": "#",
+                "description": "Explore how LLMs are transforming transportation policy, planning, and research methodologies",
+                "topics": [
+                    "LLM Applications",
+                    "RAG Systems",
+                    "Case Studies"
+                ],
+                "expected_attendees": 150,
+                "status": "Registration Open"
+            },
+            {
+                "id": 2,
+                "title": "Explainable AI for Transportation Behavior Analysis",
+                "date": "2026-03-08",
+                "time": "15:00 UTC+7",
+                "duration": "120 minutes",
+                "platform": "Zoom",
+                "registration_link": "#",
+                "description": "Hands-on workshop on using SHAP, LIME, and other XAI techniques for travel behavior research",
+                "topics": [
+                    "XAI Fundamentals",
+                    "SHAP Analysis",
+                    "Practical Applications"
+                ],
+                "expected_attendees": 120,
+                "status": "Registration Open"
+            },
+            {
+                "id": 3,
+                "title": "Getting Started with SmartPLS4: A Beginner's Guide",
+                "date": "2026-03-22",
+                "time": "13:00 UTC+7",
+                "duration": "90 minutes",
+                "platform": "Zoom",
+                "registration_link": "#",
+                "description": "Introduction to PLS-SEM modeling for transportation and behavioral research",
+                "topics": [
+                    "PLS-SEM Basics",
+                    "Model Building",
+                    "Interpretation"
+                ],
+                "expected_attendees": 100,
+                "status": "Registration Open"
+            }
+        ],
+        "past": [
+            {
+                "id": 1,
+                "title": "Machine Learning in Autonomous Vehicles: Current Trends and Future Directions",
+                "date": "2025-12-10",
+                "attendees": 180,
+                "recording_available": true,
+                "description": "Comprehensive review of ML applications in autonomous vehicle research",
+                "feedback_rating": 4.8
+            },
+            {
+                "id": 2,
+                "title": "Bibliometric Analysis for Transportation Researchers",
+                "date": "2025-11-18",
+                "attendees": 145,
+                "recording_available": true,
+                "description": "Step-by-step guide to conducting bibliometric analysis using R and VOSviewer",
+                "feedback_rating": 4.9
+            },
+            {
+                "id": 3,
+                "title": "GTFS Data Analysis: From Basics to Advanced Applications",
+                "date": "2025-10-25",
+                "attendees": 165,
+                "recording_available": true,
+                "description": "Practical workshop on analyzing public transit networks using GTFS data",
+                "feedback_rating": 4.7
+            },
+            {
+                "id": 4,
+                "title": "Big Data Applications in Intelligent Transport Systems",
+                "date": "2025-09-14",
+                "attendees": 200,
+                "recording_available": true,
+                "description": "Exploring big data technologies and applications in modern ITS",
+                "feedback_rating": 4.8
+            },
+            {
+                "id": 5,
+                "title": "Python for Transportation Engineers: A Practical Introduction",
+                "date": "2025-08-20",
+                "attendees": 220,
+                "recording_available": true,
+                "description": "Beginner-friendly workshop on Python programming for transportation analysis",
+                "feedback_rating": 4.9
+            },
+            {
+                "id": 6,
+                "title": "Sustainable Urban Mobility: AI-Driven Solutions",
+                "date": "2025-07-12",
+                "attendees": 175,
+                "recording_available": true,
+                "description": "Discussing AI applications for promoting sustainable transportation",
+                "feedback_rating": 4.6
+            }
+        ]
+    },
+    "seminars": {
+        "upcoming": [
+            {
+                "id": 1,
+                "title": "Research Seminar: Extended Reality in Transportation Systems",
+                "date": "2026-02-28",
+                "venue": "Chulalongkorn University",
+                "type": "In-person",
+                "description": "Presenting latest research on XR technologies in transportation planning and training",
+                "audience": "Faculty, Graduate Students, Industry Professionals"
+            },
+            {
+                "id": 2,
+                "title": "Guest Lecture: Climate-Adaptive Traffic Management",
+                "date": "2026-03-15",
+                "venue": "Department of Civil Engineering",
+                "type": "Hybrid",
+                "description": "Discussing AI-powered approaches to climate-resilient transportation systems",
+                "audience": "Graduate Students, Researchers"
+            }
+        ],
+        "past": [
+            {
+                "id": 1,
+                "title": "Post-COVID Travel Behavior: Insights from Machine Learning",
+                "date": "2025-11-05",
+                "venue": "Transportation Research Conference",
+                "type": "Conference Presentation",
+                "attendees": 85,
+                "description": "Presented research on understanding post-pandemic travel patterns using ML"
+            },
+            {
+                "id": 2,
+                "title": "AI in Public Transit: Case Studies from Malaysia",
+                "date": "2025-09-22",
+                "venue": "Asian Transport Studies Conference",
+                "type": "Invited Talk",
+                "attendees": 120,
+                "description": "Shared insights from GTFS analysis and ridership forecasting projects"
+            },
+            {
+                "id": 3,
+                "title": "Roundabout Performance Analysis Using Microsimulation",
+                "date": "2025-06-18",
+                "venue": "Traffic Engineering Symposium",
+                "type": "Technical Presentation",
+                "attendees": 95,
+                "description": "Presented findings on metering methods for unbalanced roundabouts"
+            }
+        ]
+    },
+    "stats": {
+        "total_courses": 7,
+        "total_students_taught": 373,
+        "average_rating": 4.8,
+        "active_mentees": 12,
+        "upcoming_webinars": 3,
+        "past_webinars": 6,
+        "total_webinar_attendees": 1085
+    }
+}

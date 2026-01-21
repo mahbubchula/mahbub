@@ -1,1 +1,515 @@
-
+{
+    "publications": [
+        {
+            "id": "J-1",
+            "title": "A Study on the Impact of the Newly Constructed Metro Rail in Dhaka on Travel Behavior",
+            "authors": [
+                "Mahbub Hassan",
+                "Farhana Mehjabin",
+                "Abdullah Al Nafees",
+                "Md. Selim Reza"
+            ],
+            "year": "2026",
+            "month": "January",
+            "type": "Journal Article",
+            "journal": "Urban Transportation",
+            "status": "Forthcoming",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/399380044",
+            "abstract": "Study on the impact of Dhaka Metro Rail on travel behavior patterns.",
+            "keywords": [
+                "Metro Rail",
+                "Dhaka",
+                "Travel Behavior",
+                "Public Transit"
+            ],
+            "featured": false
+        },
+        {
+            "id": "J-2",
+            "title": "Large Language Models in Transportation: A Comprehensive Bibliometric Analysis of Emerging Trends, Challenges and Future Research",
+            "authors": [
+                "Mahbub Hassan",
+                "Md. Emtiaz Kabir",
+                "Muzammil Jusoh",
+                "Chengjiang Li"
+            ],
+            "year": "2025",
+            "month": "July",
+            "type": "Journal Article",
+            "journal": "Bibliometric Analysis",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/393738987",
+            "abstract": "Bibliometric analysis using Scopus, VOSviewer, and Python.",
+            "keywords": [
+                "LLM",
+                "Transportation",
+                "Bibliometric Analysis",
+                "Machine Learning"
+            ],
+            "featured": true
+        },
+        {
+            "id": "J-3",
+            "title": "Assessing Public Transit Network Efficiency and Accessibility in Johor Bahru and Penang, Malaysia: A Data-Driven Approach",
+            "authors": [
+                "Mahbub Hassan",
+                "Hridoy Deb Mahin",
+                "Ferdoushi Ahmed",
+                "Masuk Abdullah"
+            ],
+            "year": "2025",
+            "month": "July",
+            "type": "Journal Article",
+            "journal": "Transportation Research",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/393409552",
+            "abstract": "Analysis of myBAS Johor and Rapid Bus Penang systems using GTFS data.",
+            "keywords": [
+                "Public Transit",
+                "GTFS",
+                "Network Efficiency",
+                "Malaysia"
+            ],
+            "featured": true
+        },
+        {
+            "id": "J-4",
+            "title": "Application of machine learning in intelligent transport systems: a comprehensive review and bibliometric analysis",
+            "authors": [
+                "Mahbub Hassan",
+                "Abdullah Al Nafees",
+                "Saikat Sarkar Shraban",
+                "Hridoy Deb Mahin"
+            ],
+            "year": "2025",
+            "month": "May",
+            "type": "Journal Article",
+            "journal": "ITS Research",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/392116588",
+            "abstract": "Comprehensive review and bibliometric analysis of machine learning applications in intelligent transport systems.",
+            "keywords": [
+                "Machine Learning",
+                "ITS",
+                "Bibliometric Analysis",
+                "Review"
+            ],
+            "featured": true
+        },
+        {
+            "id": "J-5",
+            "title": "Integration of Extended Reality Technologies in Transportation Systems: A Bibliometric Analysis and Review of Emerging Trends, Challenges, and Future Research",
+            "authors": [
+                "Mahbub Hassan",
+                "Saikat Sarkar Shraban",
+                "Md Ashequl Islam",
+                "Hiroshi Takemura"
+            ],
+            "year": "2025",
+            "month": "May",
+            "type": "Journal Article",
+            "journal": "Transportation Technology",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/391784803",
+            "abstract": "Bibliometric analysis and review of Extended Reality (XR) technologies in transportation systems.",
+            "keywords": [
+                "Extended Reality",
+                "XR",
+                "Transportation",
+                "Bibliometric Analysis"
+            ],
+            "featured": false
+        },
+        {
+            "id": "J-6",
+            "title": "Big data applications in intelligent transport systems: a bibliometric analysis and review",
+            "authors": [
+                "Mahbub Hassan",
+                "Hridoy Deb Mahin",
+                "Abdullah Al Nafees",
+                "Saikat Sarkar Shraban"
+            ],
+            "year": "2025",
+            "month": "March",
+            "type": "Journal Article",
+            "journal": "Big Data Research",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/389762328",
+            "abstract": "Bibliometric analysis and review of big data applications in intelligent transport systems.",
+            "keywords": [
+                "Big Data",
+                "ITS",
+                "Bibliometric Analysis",
+                "Transportation"
+            ],
+            "featured": true
+        },
+        {
+            "id": "J-7",
+            "title": "Investigating the Performance of Metering Methods in Managing Unbalanced Roundabouts Using VISSIM",
+            "authors": [
+                "Mahbub Hassan",
+                "Hong Ki An",
+                "Hridoy Deb Mahin",
+                "Arpita Paul"
+            ],
+            "year": "2025",
+            "month": "February",
+            "type": "Journal Article",
+            "journal": "Traffic Engineering",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/389265789",
+            "abstract": "Investigation of metering methods for unbalanced roundabouts using VISSIM simulation.",
+            "keywords": [
+                "Roundabouts",
+                "VISSIM",
+                "Traffic Simulation",
+                "Metering"
+            ],
+            "featured": false
+        },
+        {
+            "id": "J-8",
+            "title": "Socioeconomic Mobility and Urban Travel Patterns in Post-Covid U.S.: 2022 NHTS",
+            "authors": [
+                "Hridoy Deb Mahin",
+                "Mahbub Hassan",
+                "Hong Ki An",
+                "Mostafa Sameer"
+            ],
+            "year": "2025",
+            "month": "January",
+            "type": "Journal Article",
+            "journal": "Transportation Research",
+            "status": "Preprint",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/390186796",
+            "abstract": "Analysis of socioeconomic mobility and urban travel patterns in post-COVID U.S. using 2022 NHTS.",
+            "keywords": [
+                "COVID-19",
+                "Travel Patterns",
+                "NHTS",
+                "Socioeconomic"
+            ],
+            "featured": false
+        },
+        {
+            "id": "J-9",
+            "title": "Machine Learning in Travel Mode Choice Studies: A Systematic Literature Review of Applications, Methods, and Challenges",
+            "authors": [
+                "Mahbub Hassan",
+                "Md. Emtiaz Kabir",
+                "Syeda Tamzida Akter",
+                "Md Ashequl Islam"
+            ],
+            "year": "2025",
+            "month": "November",
+            "type": "Journal Article",
+            "journal": "Transportation Review",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/397598451",
+            "abstract": "Systematic literature review of machine learning applications in travel mode choice studies.",
+            "keywords": [
+                "Machine Learning",
+                "Mode Choice",
+                "Literature Review",
+                "Transportation"
+            ],
+            "featured": false
+        },
+        {
+            "id": "J-10",
+            "title": "Mapping the Machine Learning Landscape in Autonomous Vehicles: A Scientometric Review of Research Trends, Applications, Challenges and Future Directions",
+            "authors": [
+                "Mahbub Hassan",
+                "Md. Emtiaz Kabir",
+                "Md KAMRUL Islam",
+                "Mostafa Sameer"
+            ],
+            "year": "2025",
+            "month": "October",
+            "type": "Journal Article",
+            "journal": "Autonomous Vehicles Research",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/396512434",
+            "abstract": "Scientometric review of machine learning applications in autonomous vehicles.",
+            "keywords": [
+                "Machine Learning",
+                "Autonomous Vehicles",
+                "Scientometric Review",
+                "AI"
+            ],
+            "featured": true
+        },
+        {
+            "id": "J-11",
+            "title": "Understanding Post-COVID-19 Household Vehicle Ownership Dynamics Through Explainable Machine Learning",
+            "authors": [
+                "Mahbub Hassan",
+                "Saikat Sarkar Shraban",
+                "Ferdoushi Ahmed",
+                "Zoltán Nagy"
+            ],
+            "year": "2025",
+            "month": "October",
+            "type": "Journal Article",
+            "journal": "Transportation Policy",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/396154973",
+            "abstract": "Explainable ML approach to understanding post-COVID vehicle ownership dynamics.",
+            "keywords": [
+                "COVID-19",
+                "Vehicle Ownership",
+                "Explainable AI",
+                "Machine Learning"
+            ],
+            "featured": false
+        },
+        {
+            "id": "J-12",
+            "title": "A Comprehensive Review on the Impact of Gap Parameters for Multiple Types of Roundabouts in Different Traffic Conditions",
+            "authors": [
+                "Mahbub Hassan",
+                "Hong Ki An",
+                "Hridoy Deb Mahin",
+                "Arpita Paul"
+            ],
+            "year": "2024",
+            "month": "December",
+            "type": "Journal Article",
+            "journal": "Traffic Engineering Review",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/386503012",
+            "abstract": "Comprehensive review of gap parameters impact on different roundabout types.",
+            "keywords": [
+                "Roundabouts",
+                "Gap Parameters",
+                "Traffic Engineering",
+                "Review"
+            ],
+            "featured": false
+        },
+        {
+            "id": "J-13",
+            "title": "Vehicle Class Detection and Counting on a Malaysian Road Using YOLOv8 and OpenCV",
+            "authors": [
+                "Mahbub Hassan",
+                "Hridoy Deb Mahin",
+                "Muzammil Jusoh",
+                "Md Ashequl Islam"
+            ],
+            "year": "2024",
+            "month": "August",
+            "type": "Journal Article",
+            "journal": "Computer Vision in Transportation",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/385414479",
+            "abstract": "Vehicle detection and counting using YOLOv8 and OpenCV on Malaysian roads.",
+            "keywords": [
+                "YOLOv8",
+                "Computer Vision",
+                "Vehicle Detection",
+                "Malaysia"
+            ],
+            "featured": false
+        },
+        {
+            "id": "J-14",
+            "title": "Analyzing Vehicle Emissions and Mitigation Strategies in Chittagong City Using SIDRA",
+            "authors": [
+                "Farhana Mehjabin",
+                "Syeda Tamzida Akter",
+                "Samia Shafique",
+                "Mahbub Hassan"
+            ],
+            "year": "2024",
+            "month": "June",
+            "type": "Journal Article",
+            "journal": "Environmental Transportation",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/395228855",
+            "abstract": "Analysis of vehicle emissions and mitigation strategies in Chittagong using SIDRA.",
+            "keywords": [
+                "Emissions",
+                "SIDRA",
+                "Environmental Impact",
+                "Bangladesh"
+            ],
+            "featured": false
+        },
+        {
+            "id": "C-1",
+            "title": "Explainable Machine Learning for Understanding Trip Mode Choice: Evidence from the 2022 U.S. National Household Travel Survey",
+            "authors": [
+                "Mahbub Hassan",
+                "Syeda Tamzida Akter",
+                "Sayed Shahriar Islam Lamun",
+                "Md Maruf Hassan"
+            ],
+            "year": "2025",
+            "month": "December",
+            "type": "Conference Paper",
+            "journal": "Transportation Research Conference",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/398400990",
+            "abstract": "Explainable ML approach to understanding trip mode choice using 2022 NHTS data.",
+            "keywords": [
+                "Explainable AI",
+                "Mode Choice",
+                "NHTS",
+                "Machine Learning"
+            ],
+            "featured": false
+        },
+        {
+            "id": "C-2",
+            "title": "Energy-Optimal Routing Optimization for Connected and Autonomous Vehicles in Urban Networks: A Numerical Modeling Approach",
+            "authors": [
+                "Mahbub Hassan",
+                "Md. Emtiaz Kabir",
+                "Touhid Bhuiyan",
+                "Md Maruf Hassan"
+            ],
+            "year": "2025",
+            "month": "August",
+            "type": "Conference Paper",
+            "journal": "Transportation Conference",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/398395354",
+            "abstract": "Numerical modeling approach for energy-optimal routing in CAV networks.",
+            "keywords": [
+                "CAV",
+                "Energy Optimization",
+                "Routing",
+                "Autonomous Vehicles"
+            ],
+            "featured": false
+        },
+        {
+            "id": "C-3",
+            "title": "Bilevel Optimization Framework for Urban Toll Pricing under Stochastic User Equilibrium: A Metaheuristic Approach",
+            "authors": [
+                "Mahbub Hassan",
+                "Md. Emtiaz Kabir",
+                "Touhid Bhuiyan",
+                "Md Maruf Hassan"
+            ],
+            "year": "2025",
+            "month": "August",
+            "type": "Conference Paper",
+            "journal": "Transportation Conference",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/398395970",
+            "abstract": "Bilevel optimization framework for urban toll pricing using metaheuristic approaches.",
+            "keywords": [
+                "Toll Pricing",
+                "Optimization",
+                "Metaheuristic",
+                "Urban Planning"
+            ],
+            "featured": false
+        },
+        {
+            "id": "C-4",
+            "title": "Sociodemographic Determinants of Gasoline Vehicle Ownership in the United States: A Machine Learning Approach",
+            "authors": [
+                "Saikat Sarkar Shraban",
+                "Mahbub Hassan",
+                "Touhid Bhuiyan",
+                "Md Maruf Hassan"
+            ],
+            "year": "2025",
+            "month": "August",
+            "type": "Conference Paper",
+            "journal": "Transportation Conference",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/398398849",
+            "abstract": "Machine learning approach to understanding sociodemographic determinants of vehicle ownership.",
+            "keywords": [
+                "Vehicle Ownership",
+                "Machine Learning",
+                "Sociodemographic",
+                "United States"
+            ],
+            "featured": false
+        },
+        {
+            "id": "C-5",
+            "title": "Public Transport Ridership Forecasting Using Machine Learning: A Case Study of Rapid Bus KL in Malaysia",
+            "authors": [
+                "Abdullah Al Nafees",
+                "Mahbub Hassan",
+                "Arpita Paul",
+                "Hridoy Deb Mahin"
+            ],
+            "year": "2024",
+            "month": "December",
+            "type": "Conference Paper",
+            "journal": "Transportation Conference",
+            "status": "Published",
+            "citations": 0,
+            "doi": "",
+            "url": "https://www.researchgate.net/publication/392564317",
+            "abstract": "Machine learning approach to forecasting public transport ridership in Kuala Lumpur.",
+            "keywords": [
+                "Ridership Forecasting",
+                "Machine Learning",
+                "Public Transit",
+                "Malaysia"
+            ],
+            "featured": false
+        }
+    ],
+    "stats": {
+        "total_publications": 19,
+        "journal_articles": 14,
+        "conference_papers": 5,
+        "total_citations": 0,
+        "h_index": 3,
+        "years_active": "2024-2026",
+        "research_areas": [
+            "Machine Learning in Transportation",
+            "Intelligent Transport Systems",
+            "Autonomous Vehicles",
+            "Public Transit Analysis",
+            "Bibliometric Analysis",
+            "Traffic Engineering",
+            "Explainable AI"
+        ]
+    }
+}

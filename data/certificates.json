@@ -1,0 +1,1009 @@
+{
+    "certificates": [
+        {
+            "id": 1,
+            "title": "Machine Learning With Big Data",
+            "provider": "Coursera",
+            "issuer": "University of California San Diego",
+            "category": "Machine Learning",
+            "date": "2024",
+            "credential_id": "0Y3PNESDL82F",
+            "credential_url": "https://coursera.org/verify/0Y3PNESDL82F",
+            "certificate_file": "assets/images/certificates/Coursera 0Y3PNESDL82F Machine Learning With Big Data.pdf",
+            "skills": [
+                "Machine Learning",
+                "Big Data",
+                "Apache Spark",
+                "Data Mining"
+            ],
+            "icon": "🤖"
+        },
+        {
+            "id": 2,
+            "title": "Introduction to Statistics",
+            "provider": "Coursera",
+            "issuer": "Stanford University",
+            "category": "Statistics",
+            "date": "2024",
+            "credential_id": "1XLQVNWZU93H",
+            "credential_url": "https://coursera.org/verify/1XLQVNWZU93H",
+            "certificate_file": "assets/images/certificates/Coursera 1XLQVNWZU93H Introduction to Statistics.pdf",
+            "skills": [
+                "Statistics",
+                "Probability",
+                "Data Analysis",
+                "Statistical Inference"
+            ],
+            "icon": "📊"
+        },
+        {
+            "id": 3,
+            "title": "People, Technology and the Future of Mobility",
+            "provider": "Coursera",
+            "issuer": "University of Michigan",
+            "category": "Transportation",
+            "date": "2024",
+            "credential_id": "2AL1LAM39UTD",
+            "credential_url": "https://coursera.org/verify/2AL1LAM39UTD",
+            "certificate_file": "assets/images/certificates/Coursera 2AL1LAM39UTD People, Technology and the Future of Mobility.pdf",
+            "skills": [
+                "Future Mobility",
+                "Transportation Technology",
+                "Urban Planning"
+            ],
+            "icon": "🚗"
+        },
+        {
+            "id": 4,
+            "title": "Sustainable Neighborhoods",
+            "provider": "Coursera",
+            "issuer": "Lund University",
+            "category": "Sustainable Cities",
+            "date": "2024",
+            "credential_id": "3BKGBZ4KBVU4",
+            "credential_url": "https://coursera.org/verify/3BKGBZ4KBVU4",
+            "certificate_file": "assets/images/certificates/Coursera 3BKGBZ4KBVU4 Sustainable Neighborhoods.pdf",
+            "skills": [
+                "Urban Sustainability",
+                "Neighborhood Planning",
+                "Green Infrastructure"
+            ],
+            "icon": "🌱"
+        },
+        {
+            "id": 5,
+            "title": "Graph Analytics for Big Data",
+            "provider": "Coursera",
+            "issuer": "University of California San Diego",
+            "category": "Big Data",
+            "date": "2024",
+            "credential_id": "4QSK1TL68UW7",
+            "credential_url": "https://coursera.org/verify/4QSK1TL68UW7",
+            "certificate_file": "assets/images/certificates/Coursera 4QSK1TL68UW7 Graph Analytics for Big Data.pdf",
+            "skills": [
+                "Graph Analytics",
+                "Big Data",
+                "Network Analysis",
+                "Graph Algorithms"
+            ],
+            "icon": "🔗"
+        },
+        {
+            "id": 6,
+            "title": "Supervised Machine Learning: Regression",
+            "provider": "Coursera",
+            "issuer": "IBM",
+            "category": "Machine Learning",
+            "date": "2024",
+            "credential_id": "6EO5QYA25XKE",
+            "credential_url": "https://coursera.org/verify/6EO5QYA25XKE",
+            "certificate_file": "assets/images/certificates/Coursera 6EO5QYA25XKE Supervised Machine Learning Regression.pdf",
+            "skills": [
+                "Supervised Learning",
+                "Regression",
+                "Predictive Modeling",
+                "Machine Learning"
+            ],
+            "icon": "📈"
+        },
+        {
+            "id": 7,
+            "title": "Smart Cities – Management of Smart Urban Infrastructures",
+            "provider": "Coursera",
+            "issuer": "École Polytechnique Fédérale de Lausanne",
+            "category": "Smart Cities",
+            "date": "2024",
+            "credential_id": "6LCJTXRWVNK8",
+            "credential_url": "https://coursera.org/verify/6LCJTXRWVNK8",
+            "certificate_file": "assets/images/certificates/Coursera 6LCJTXRWVNK8 Smart Cities – Management of Smart Urban Infrastructures.pdf",
+            "skills": [
+                "Smart Cities",
+                "Urban Infrastructure",
+                "IoT",
+                "City Management"
+            ],
+            "icon": "🏙️"
+        },
+        {
+            "id": 8,
+            "title": "Using Python to Access Web Data",
+            "provider": "Coursera",
+            "issuer": "University of Michigan",
+            "category": "Python Programming",
+            "date": "2024",
+            "credential_id": "7VQQ4NJARECZ",
+            "credential_url": "https://coursera.org/verify/7VQQ4NJARECZ",
+            "certificate_file": "assets/images/certificates/Coursera 7VQQ4NJARECZ Using Python to Access Web Data.pdf",
+            "skills": [
+                "Python",
+                "Web Scraping",
+                "APIs",
+                "Data Collection"
+            ],
+            "icon": "🐍"
+        },
+        {
+            "id": 9,
+            "title": "Sustainable Transportation Networks and Streetscapes",
+            "provider": "Coursera",
+            "issuer": "Lund University",
+            "category": "Transportation",
+            "date": "2024",
+            "credential_id": "BKR4D2LD1QCU",
+            "credential_url": "https://coursera.org/verify/BKR4D2LD1QCU",
+            "certificate_file": "assets/images/certificates/Coursera BKR4D2LD1QCU Sustainable Transportation Networks and Streetscapes.pdf",
+            "skills": [
+                "Sustainable Transportation",
+                "Network Design",
+                "Street Planning"
+            ],
+            "icon": "🚲"
+        },
+        {
+            "id": 10,
+            "title": "Introduction to Big Data",
+            "provider": "Coursera",
+            "issuer": "University of California San Diego",
+            "category": "Big Data",
+            "date": "2024",
+            "credential_id": "C8YXW5DBJQR8",
+            "credential_url": "https://coursera.org/verify/C8YXW5DBJQR8",
+            "certificate_file": "assets/images/certificates/Coursera C8YXW5DBJQR8 Introduction to Big Data.pdf",
+            "skills": [
+                "Big Data",
+                "Hadoop",
+                "Data Processing",
+                "Distributed Systems"
+            ],
+            "icon": "💾"
+        },
+        {
+            "id": 11,
+            "title": "Python Data Structures",
+            "provider": "Coursera",
+            "issuer": "University of Michigan",
+            "category": "Python Programming",
+            "date": "2024",
+            "credential_id": "IJPPXEQ6AB9H",
+            "credential_url": "https://coursera.org/verify/IJPPXEQ6AB9H",
+            "certificate_file": "assets/images/certificates/Coursera IJPPXEQ6AB9H Python Data Structures.pdf",
+            "skills": [
+                "Python",
+                "Data Structures",
+                "Algorithms",
+                "Programming"
+            ],
+            "icon": "🐍"
+        },
+        {
+            "id": 12,
+            "title": "Big Data Modeling and Management Systems",
+            "provider": "Coursera",
+            "issuer": "University of California San Diego",
+            "category": "Big Data",
+            "date": "2024",
+            "credential_id": "JG61VM426P9Z",
+            "credential_url": "https://coursera.org/verify/JG61VM426P9Z",
+            "certificate_file": "assets/images/certificates/Coursera JG61VM426P9Z Big Data Modeling and Management Systems.pdf",
+            "skills": [
+                "Big Data",
+                "Data Modeling",
+                "Database Management",
+                "NoSQL"
+            ],
+            "icon": "🗄️"
+        },
+        {
+            "id": 13,
+            "title": "Big Data Integration and Processing",
+            "provider": "Coursera",
+            "issuer": "University of California San Diego",
+            "category": "Big Data",
+            "date": "2024",
+            "credential_id": "NRKFYVSKRCJ4",
+            "credential_url": "https://coursera.org/verify/NRKFYVSKRCJ4",
+            "certificate_file": "assets/images/certificates/Coursera NRKFYVSKRCJ4 Big Data Integration and Processing.pdf",
+            "skills": [
+                "Big Data",
+                "Data Integration",
+                "ETL",
+                "Data Processing"
+            ],
+            "icon": "⚙️"
+        },
+        {
+            "id": 14,
+            "title": "MaaS: Adoption and Use",
+            "provider": "Coursera",
+            "issuer": "Lund University",
+            "category": "Transportation",
+            "date": "2024",
+            "credential_id": "ORSMBL078570",
+            "credential_url": "https://coursera.org/verify/ORSMBL078570",
+            "certificate_file": "assets/images/certificates/Coursera ORSMBL078570_MaaS Adoption and Use.pdf",
+            "skills": [
+                "Mobility as a Service",
+                "Transportation Planning",
+                "Shared Mobility"
+            ],
+            "icon": "🚌"
+        },
+        {
+            "id": 15,
+            "title": "Programming for Everybody (Getting Started with Python)",
+            "provider": "Coursera",
+            "issuer": "University of Michigan",
+            "category": "Python Programming",
+            "date": "2024",
+            "credential_id": "PPHDUNXE2SN3",
+            "credential_url": "https://coursera.org/verify/PPHDUNXE2SN3",
+            "certificate_file": "assets/images/certificates/Coursera PPHDUNXE2SN3 Programming for Everybody (Getting Started with Python).pdf",
+            "skills": [
+                "Python",
+                "Programming Fundamentals",
+                "Coding"
+            ],
+            "icon": "💻"
+        },
+        {
+            "id": 16,
+            "title": "Electric Vehicles and Mobility",
+            "provider": "Coursera",
+            "issuer": "Lund University",
+            "category": "Transportation",
+            "date": "2024",
+            "credential_id": "PY0JLARWMWL0",
+            "credential_url": "https://coursera.org/verify/PY0JLARWMWL0",
+            "certificate_file": "assets/images/certificates/Coursera PY0JLARWMWL0 Electric Vehicles and Mobility.pdf",
+            "skills": [
+                "Electric Vehicles",
+                "Sustainable Mobility",
+                "EV Infrastructure"
+            ],
+            "icon": "⚡"
+        },
+        {
+            "id": 17,
+            "title": "Sustainable Cities Specialization",
+            "provider": "Coursera",
+            "issuer": "Lund University",
+            "category": "Specialization",
+            "date": "2024",
+            "credential_id": "R1Z8ITTWNH9U",
+            "credential_url": "https://coursera.org/verify/R1Z8ITTWNH9U",
+            "certificate_file": "assets/images/certificates/Coursera R1Z8ITTWNH9U Sustainable Cities_Specialization.pdf",
+            "skills": [
+                "Sustainable Cities",
+                "Urban Planning",
+                "Green Infrastructure",
+                "Transportation"
+            ],
+            "icon": "🏙️",
+            "is_specialization": true
+        },
+        {
+            "id": 18,
+            "title": "Capstone: Retrieving, Processing, and Visualizing Data with Python",
+            "provider": "Coursera",
+            "issuer": "University of Michigan",
+            "category": "Python Programming",
+            "date": "2024",
+            "credential_id": "Y9F02CG57BX9",
+            "credential_url": "https://coursera.org/verify/Y9F02CG57BX9",
+            "certificate_file": "assets/images/certificates/Coursera Y9F02CG57BX9 Capstone Retrieving, Processing, and Visualizing Data with Python.pdf",
+            "skills": [
+                "Python",
+                "Data Visualization",
+                "Data Processing",
+                "APIs"
+            ],
+            "icon": "📊"
+        },
+        {
+            "id": 19,
+            "title": "Sustainable Regional Principles, Planning and Transportation",
+            "provider": "Coursera",
+            "issuer": "Lund University",
+            "category": "Transportation",
+            "date": "2024",
+            "credential_id": "YXRZP39HL450",
+            "credential_url": "https://coursera.org/verify/YXRZP39HL450",
+            "certificate_file": "assets/images/certificates/Coursera YXRZP39HL450 Sustainable Regional Principles, Planning and Transportation.pdf",
+            "skills": [
+                "Regional Planning",
+                "Sustainable Transportation",
+                "Urban Development"
+            ],
+            "icon": "🌍"
+        },
+        {
+            "id": 20,
+            "title": "Exploratory Data Analysis for Machine Learning",
+            "provider": "Coursera",
+            "issuer": "IBM",
+            "category": "Machine Learning",
+            "date": "2024",
+            "credential_id": "Z18BLOOBJ2WY",
+            "credential_url": "https://coursera.org/verify/Z18BLOOBJ2WY",
+            "certificate_file": "assets/images/certificates/Coursera Z18BLOOBJ2WY Exploratory Data Analysis for Machine Learning.pdf",
+            "skills": [
+                "Exploratory Data Analysis",
+                "Machine Learning",
+                "Data Visualization"
+            ],
+            "icon": "🔍"
+        },
+        {
+            "id": 21,
+            "title": "Transportation, Sustainable Buildings, Green Construction",
+            "provider": "Coursera",
+            "issuer": "Lund University",
+            "category": "Sustainable Cities",
+            "date": "2024",
+            "credential_id": "ZYT3DVBM6BJE",
+            "credential_url": "https://coursera.org/verify/ZYT3DVBM6BJE",
+            "certificate_file": "assets/images/certificates/Coursera ZYT3DVBM6BJE Transportation, Sustainable Buildings, Green Construction.pdf",
+            "skills": [
+                "Green Construction",
+                "Sustainable Buildings",
+                "Transportation Planning"
+            ],
+            "icon": "🏗️"
+        },
+        {
+            "id": 22,
+            "title": "Certified Peer Reviewer Course",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-CPR",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/certified-peer-reviewer-course-certificate.pdf",
+            "skills": [
+                "Peer Review",
+                "Academic Publishing",
+                "Research Evaluation",
+                "Manuscript Review"
+            ],
+            "icon": "📝"
+        },
+        {
+            "id": 23,
+            "title": "Fundamentals of Manuscript Preparation",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-FMP",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/fundamentals-manuscript-preparation-certificate.pdf",
+            "skills": [
+                "Manuscript Writing",
+                "Academic Writing",
+                "Data Visualization",
+                "Reference Management"
+            ],
+            "icon": "✍️"
+        },
+        {
+            "id": 24,
+            "title": "Fundamentals of Peer Review",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-FPR",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/fundamentals-peer-review-certificate.pdf",
+            "skills": [
+                "Peer Review",
+                "Research Ethics",
+                "Transparency",
+                "Diversity in Review"
+            ],
+            "icon": "🔍"
+        },
+        {
+            "id": 25,
+            "title": "Fundamentals of Publishing",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-FP",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/fundamentals-publishing-certificate.pdf",
+            "skills": [
+                "Academic Publishing",
+                "Journal Publishing",
+                "ORCID",
+                "Scholarly Communication"
+            ],
+            "icon": "📚"
+        },
+        {
+            "id": 26,
+            "title": "Becoming a Peer Reviewer",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-BPR",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Becoming a peer reviewer/becoming-peer-reviewer-certificate.pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation",
+                "Editorial Process"
+            ],
+            "icon": "👨‍🏫"
+        },
+        {
+            "id": 27,
+            "title": "Going Through Peer Review",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-GTPR",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Going through peer review",
+            "skills": [
+                "Peer Review Process",
+                "Responding to Reviewers",
+                "Manuscript Revision"
+            ],
+            "icon": "🔄"
+        },
+        {
+            "id": 28,
+            "title": "Research Data Management",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-RDM",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management",
+            "skills": [
+                "Data Management",
+                "Research Data",
+                "Data Sharing",
+                "Open Science"
+            ],
+            "icon": "💾"
+        },
+        {
+            "id": 29,
+            "title": "Research Design",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-RD",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research design",
+            "skills": [
+                "Research Methodology",
+                "Study Design",
+                "Research Planning"
+            ],
+            "icon": "🔬"
+        },
+        {
+            "id": 30,
+            "title": "Research Metrics",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-RM",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics",
+            "skills": [
+                "Research Metrics",
+                "Citation Analysis",
+                "Impact Factor",
+                "Bibliometrics"
+            ],
+            "icon": "📊"
+        },
+        {
+            "id": 31,
+            "title": "Technical Writing Skills",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-TWS",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills",
+            "skills": [
+                "Technical Writing",
+                "Scientific Communication",
+                "Writing Clarity"
+            ],
+            "icon": "📄"
+        },
+        {
+            "id": 32,
+            "title": "Writing Skills",
+            "provider": "Elsevier Research Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-WS",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills",
+            "skills": [
+                "Academic Writing",
+                "Writing Skills",
+                "Scientific Writing"
+            ],
+            "icon": "✏️"
+        },
+        {
+            "id": 33,
+            "title": "Best International Student Award 2024",
+            "provider": "Conference Award",
+            "issuer": "Chulalongkorn University",
+            "category": "Awards & Honors",
+            "date": "2024",
+            "credential_id": "AWARD-BISA-2024",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/Best International Student Award_2024.pdf",
+            "skills": [
+                "Academic Excellence",
+                "International Recognition"
+            ],
+            "icon": "🏆"
+        },
+        {
+            "id": 34,
+            "title": "Research Paper Presenter - IICAIET 2025",
+            "provider": "Conference Presentation",
+            "issuer": "International Conference on AI, IoT & Engineering Technology",
+            "category": "Conference Presentations",
+            "date": "2025",
+            "credential_id": "IICAIET-2025",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/IICAIET2025 Certificate_Presenter_187 188 190 Mahbub.pdf",
+            "skills": [
+                "Research Presentation",
+                "AI",
+                "IoT",
+                "Engineering"
+            ],
+            "icon": "🎤"
+        },
+        {
+            "id": 35,
+            "title": "Research Paper Presenter - IICAIET 2024 (Malaysia)",
+            "provider": "Conference Presentation",
+            "issuer": "Universiti Malaysia Sabah",
+            "category": "Conference Presentations",
+            "date": "2024",
+            "credential_id": "IICAIET-2024-UMS",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/Research Paper Presenter_ IICAIET2024_UMS_Malaysia_2024.pdf",
+            "skills": [
+                "Research Presentation",
+                "Transportation",
+                "AI"
+            ],
+            "icon": "🎤"
+        },
+        {
+            "id": 36,
+            "title": "Research Paper Presenter - APTE 2024 (Singapore)",
+            "provider": "Conference Presentation",
+            "issuer": "National University of Singapore",
+            "category": "Conference Presentations",
+            "date": "2024",
+            "credential_id": "APTE-2024-NUS",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/Research Paper Presenter_APTE_NUS_Singapore_2024.pdf",
+            "skills": [
+                "Research Presentation",
+                "Transportation Engineering"
+            ],
+            "icon": "🎤"
+        },
+        {
+            "id": 37,
+            "title": "Research Paper Presenter - Civentech 2023 (Malaysia)",
+            "provider": "Conference Presentation",
+            "issuer": "Universiti Malaysia Perlis",
+            "category": "Conference Presentations",
+            "date": "2023",
+            "credential_id": "CIVENTECH-2023",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/Research Paper Presenter_Civentech_UniMAP_Malaysia_2023.pdf",
+            "skills": [
+                "Research Presentation",
+                "Civil Engineering"
+            ],
+            "icon": "🎤"
+        },
+        {
+            "id": 38,
+            "title": "Winner Second Position - FYP Competition",
+            "provider": "Competition Award",
+            "issuer": "Universiti Malaysia Perlis",
+            "category": "Awards & Honors",
+            "date": "2024",
+            "credential_id": "FYP-2024-2ND",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/Winner Second Position_FYP Compettion_UniMAP_Malaysia_2024.pdf",
+            "skills": [
+                "Project Management",
+                "Research Excellence"
+            ],
+            "icon": "🥈"
+        },
+        {
+            "id": 39,
+            "title": "3rd Place - International Concrete Competition",
+            "provider": "Competition Award",
+            "issuer": "Indonesia",
+            "category": "Awards & Honors",
+            "date": "2024",
+            "credential_id": "ICC-2024-3RD",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/3rd Place_International Concrete Competition _Indonesia.pdf",
+            "skills": [
+                "Concrete Technology",
+                "Competition"
+            ],
+            "icon": "🥉"
+        },
+        {
+            "id": 40,
+            "title": "IEEE Conference Presentation - Malaysia",
+            "provider": "Conference Presentation",
+            "issuer": "IEEE Malaysia",
+            "category": "Conference Presentations",
+            "date": "2024",
+            "credential_id": "IEEE-MY-2024",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/Malaysia ieee conference.pdf",
+            "skills": [
+                "IEEE",
+                "Research Presentation",
+                "Transportation"
+            ],
+            "icon": "🎤"
+        },
+        {
+            "id": 41,
+            "title": "Conference Presentation - Saudi Arabia",
+            "provider": "Conference Presentation",
+            "issuer": "Saudi Arabia",
+            "category": "Conference Presentations",
+            "date": "2024",
+            "credential_id": "SA-CONF-2024",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/saudi arabia.pdf",
+            "skills": [
+                "International Presentation",
+                "Research"
+            ],
+            "icon": "🎤"
+        },
+        {
+            "id": 42,
+            "title": "Conference Presentation - India 1",
+            "provider": "Conference Presentation",
+            "issuer": "India",
+            "category": "Conference Presentations",
+            "date": "2024",
+            "credential_id": "INDIA-CONF-2024-1",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/india 1.pdf",
+            "skills": [
+                "International Presentation",
+                "Research"
+            ],
+            "icon": "🎤"
+        },
+        {
+            "id": 43,
+            "title": "Conference Presentation - India 2",
+            "provider": "Conference Presentation",
+            "issuer": "India",
+            "category": "Conference Presentations",
+            "date": "2024",
+            "credential_id": "INDIA-CONF-2024-2",
+            "credential_url": "",
+            "certificate_file": "assets/images/conference certificate/india 2.pdf",
+            "skills": [
+                "International Presentation",
+                "Research"
+            ],
+            "icon": "🎤"
+        },
+        {
+            "id": 44,
+            "title": "Recognized Reviewer - ACTPSY Journal",
+            "provider": "Peer Review",
+            "issuer": "ACTPSY Journal",
+            "category": "Peer Review",
+            "date": "2025",
+            "credential_id": "ACTPSY-REVIEWER",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Certificate_ACTPSY_Recognised.pdf",
+            "skills": [
+                "Peer Review",
+                "Academic Evaluation",
+                "Research Assessment"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 45,
+            "title": "Recognized Reviewer - MEASUR Journal",
+            "provider": "Peer Review",
+            "issuer": "MEASUR Journal",
+            "category": "Peer Review",
+            "date": "2025",
+            "credential_id": "MEASUR-REVIEWER",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Certificate_MEASUR_Recognised (1).pdf",
+            "skills": [
+                "Peer Review",
+                "Academic Evaluation",
+                "Research Assessment"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 46,
+            "title": "Peer Reviewer Certificate - January 2026",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-01",
+            "credential_id": "REVIEW-2026-01-21",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 21 January 2026 (1).pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 47,
+            "title": "Peer Reviewer Certificate - January 2026 (2)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-01",
+            "credential_id": "REVIEW-2026-01-15-1",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 15 January 2026.pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 48,
+            "title": "Peer Reviewer Certificate - January 2026 (3)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-01",
+            "credential_id": "REVIEW-2026-01-15-2",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 15 January 2026 (1).pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 49,
+            "title": "Peer Reviewer Certificate - January 2026 (4)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-01",
+            "credential_id": "REVIEW-2026-01-04",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 04 January 2026.pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 50,
+            "title": "Peer Reviewer Certificate - November 2025 (1)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2025-11",
+            "credential_id": "REVIEW-2025-11-19",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 19 November 2025 (1).pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 51,
+            "title": "Peer Reviewer Certificate - November 2025 (2)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2025-11",
+            "credential_id": "REVIEW-2025-11-08",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 08 November 2025.pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 52,
+            "title": "Peer Reviewer Certificate - October 2025",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2025-10",
+            "credential_id": "REVIEW-2025-10-16",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 16 October 2025.pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ],
+            "icon": "📋"
+        },
+        {
+            "id": 53,
+            "title": "Peer Reviewer Certificate - September 2025",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2025-09",
+            "credential_id": "REVIEW-2025-09-26",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 26 September 2025.pdf",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ],
+            "icon": "📋"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Machine Learning",
+            "count": 3,
+            "icon": "🤖"
+        },
+        {
+            "name": "Big Data",
+            "count": 4,
+            "icon": "💾"
+        },
+        {
+            "name": "Python Programming",
+            "count": 4,
+            "icon": "🐍"
+        },
+        {
+            "name": "Transportation",
+            "count": 5,
+            "icon": "🚗"
+        },
+        {
+            "name": "Sustainable Cities",
+            "count": 3,
+            "icon": "🏙️"
+        },
+        {
+            "name": "Statistics",
+            "count": 1,
+            "icon": "📊"
+        },
+        {
+            "name": "Specialization",
+            "count": 1,
+            "icon": "🎓"
+        },
+        {
+            "name": "Academic Publishing",
+            "count": 5,
+            "icon": "📝"
+        },
+        {
+            "name": "Academic Writing",
+            "count": 3,
+            "icon": "✍️"
+        },
+        {
+            "name": "Research Skills",
+            "count": 3,
+            "icon": "🔬"
+        },
+        {
+            "name": "Conference Presentations",
+            "count": 8,
+            "icon": "🎤"
+        },
+        {
+            "name": "Awards & Honors",
+            "count": 3,
+            "icon": "🏆"
+        },
+        {
+            "name": "Peer Review",
+            "count": 10,
+            "icon": "📋"
+        }
+    ],
+    "stats": {
+        "total_certificates": 53,
+        "specializations": 1,
+        "providers": [
+            "Coursera",
+            "Elsevier Research Academy",
+            "Conference Award",
+            "Conference Presentation",
+            "Competition Award",
+            "Peer Review"
+        ],
+        "institutions": [
+            "University of California San Diego",
+            "Stanford University",
+            "University of Michigan",
+            "Lund University",
+            "IBM",
+            "École Polytechnique Fédérale de Lausanne",
+            "Elsevier",
+            "Chulalongkorn University",
+            "International Conference on AI, IoT & Engineering Technology",
+            "Universiti Malaysia Sabah",
+            "National University of Singapore",
+            "Universiti Malaysia Perlis",
+            "Indonesia",
+            "IEEE Malaysia",
+            "Saudi Arabia",
+            "India",
+            "ACTPSY Journal",
+            "MEASUR Journal",
+            "Academic Journals"
+        ]
+    }
+}

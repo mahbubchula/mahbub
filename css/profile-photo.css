@@ -1,0 +1,173 @@
+/* ============================================
+   HERO PROFILE PHOTO STYLING
+   ============================================ */
+
+/* Hero Content Wrapper - Two Column Layout */
+.hero-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-16);
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+
+/* Profile Photo Section */
+.hero-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile-image-wrapper {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    border: 5px solid var(--dark-bg-secondary);
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Floating Animation */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Glowing Background Effect */
+.profile-glow {
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    opacity: 0.3;
+    filter: blur(40px);
+    z-index: 1;
+    animation: pulse-glow 4s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+}
+
+/* Rotating Ring */
+.profile-ring {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: var(--primary-color);
+    border-right-color: var(--secondary-color);
+    z-index: 1;
+    animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Hover Effect */
+.profile-image-wrapper:hover .profile-image {
+    transform: scale(1.05);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.profile-image-wrapper:hover .profile-glow {
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-content-wrapper {
+        grid-template-columns: 1fr;
+        gap: var(--space-12);
+    }
+
+    .hero-profile {
+        order: -1;
+        /* Show photo first on mobile */
+        margin-bottom: var(--space-8);
+    }
+
+    .profile-image-wrapper {
+        width: 300px;
+        height: 300px;
+    }
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .profile-glow {
+        width: 280px;
+        height: 280px;
+    }
+
+    .profile-ring {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 640px) {
+    .profile-image-wrapper {
+        width: 250px;
+        height: 250px;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-glow {
+        width: 230px;
+        height: 230px;
+    }
+
+    .profile-ring {
+        width: 270px;
+        height: 270px;
+    }
+}

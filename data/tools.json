@@ -1,1 +1,353 @@
-
+{
+    "tools": [
+        {
+            "id": 1,
+            "name": "clickSUMO",
+            "description": "AI-powered platform for SUMO traffic simulation with RAG-enhanced search and signal optimization",
+            "category": "AI Transportation Tools",
+            "tech_stack": [
+                "HTML",
+                "AI/RAG",
+                "SUMO"
+            ],
+            "github_url": "https://github.com/mahbubchula/clickSUMO",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": true,
+            "icon": "🚦"
+        },
+        {
+            "id": 2,
+            "name": "TrafficGen-AI",
+            "description": "Advanced AI-powered climate-adaptive traffic policy generation platform",
+            "category": "AI Transportation Tools",
+            "tech_stack": [
+                "Python",
+                "AI",
+                "Machine Learning"
+            ],
+            "github_url": "https://github.com/mahbubchula/TrafficGen-AI",
+            "stars": 0,
+            "forks": 1,
+            "status": "Active",
+            "featured": true,
+            "icon": "🌐"
+        },
+        {
+            "id": 3,
+            "name": "ParkSense-AI",
+            "description": "Intelligent real-time parking analysis system for Singapore with LLM-powered insights",
+            "category": "AI Transportation Tools",
+            "tech_stack": [
+                "Python",
+                "LLM",
+                "Real-time Analysis"
+            ],
+            "github_url": "https://github.com/mahbubchula/ParkSense-AI",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": true,
+            "icon": "🅿️"
+        },
+        {
+            "id": 4,
+            "name": "DataSmartPLS4.0",
+            "description": "Synthetic survey data generator for SEM, fsQCA, and advanced behavioral modeling",
+            "category": "Research Tools",
+            "tech_stack": [
+                "Python",
+                "SmartPLS",
+                "SEM"
+            ],
+            "github_url": "https://github.com/researchermahbub/DataSmartPLS4.0",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": true,
+            "icon": "📊"
+        },
+        {
+            "id": 5,
+            "name": "SmartPLS4 Research Assistant",
+            "description": "Interactive Streamlit-based application for guiding PLS-SEM analysis",
+            "category": "Research Tools",
+            "tech_stack": [
+                "Python",
+                "Streamlit",
+                "SmartPLS"
+            ],
+            "github_url": "https://github.com/researchermahbub/SmartPLS4-Research-Assistant",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": true,
+            "icon": "🔬"
+        },
+        {
+            "id": 6,
+            "name": "urbanFlow-AI",
+            "description": "AI-driven urban traffic flow optimization tool",
+            "category": "AI Transportation Tools",
+            "tech_stack": [
+                "Python",
+                "AI",
+                "Traffic Optimization"
+            ],
+            "github_url": "https://github.com/mahbubchula/urbanFlow-AI",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "🏙️"
+        },
+        {
+            "id": 7,
+            "name": "TransitGenie",
+            "description": "Intelligent transit network optimization and prediction system",
+            "category": "AI Transportation Tools",
+            "tech_stack": [
+                "Python",
+                "ML",
+                "Transit Analysis"
+            ],
+            "github_url": "https://github.com/mahbubchula/TransitGenie",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "🚌"
+        },
+        {
+            "id": 8,
+            "name": "Professor-Tracker",
+            "description": "Cloud-synchronized PhD planner using Google Sheets for academic organization",
+            "category": "Academic Productivity",
+            "tech_stack": [
+                "Python",
+                "Google Sheets API"
+            ],
+            "github_url": "https://github.com/researchermahbub/Professor-Tracker",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "📝"
+        },
+        {
+            "id": 9,
+            "name": "CA-EV-Adoption-Research",
+            "description": "Interpretable ML for EV adoption using XGBoost & SHAP (96% accuracy)",
+            "category": "Research Projects",
+            "tech_stack": [
+                "Python",
+                "XGBoost",
+                "SHAP",
+                "ML"
+            ],
+            "github_url": "https://github.com/mahbubchula/CA-EV-Adoption-Research",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "🔋"
+        },
+        {
+            "id": 10,
+            "name": "Thai-AccidentIQ-AI",
+            "description": "AI-driven analysis of traffic accidents in Thailand",
+            "category": "AI Transportation Tools",
+            "tech_stack": [
+                "Python",
+                "AI",
+                "Data Analysis"
+            ],
+            "github_url": "https://github.com/mahbubchula/Thai-AccidentIQ-AI",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "🚨"
+        },
+        {
+            "id": 11,
+            "name": "ecoMoveAI",
+            "description": "Platform for promoting and analyzing sustainable urban mobility",
+            "category": "Sustainability Tools",
+            "tech_stack": [
+                "Python",
+                "AI",
+                "Sustainability"
+            ],
+            "github_url": "https://github.com/mahbubchula/ecoMoveAI",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "🌱"
+        },
+        {
+            "id": 12,
+            "name": "TinyML-Traffic-Prediction",
+            "description": "Deploying machine learning models for traffic prediction on edge devices",
+            "category": "Edge AI",
+            "tech_stack": [
+                "Python",
+                "TinyML",
+                "Edge Computing"
+            ],
+            "github_url": "https://github.com/mahbubchula/TinyML-Traffic-Prediction",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "📱"
+        },
+        {
+            "id": 13,
+            "name": "Logistics-Risk-Detection",
+            "description": "Deep learning for identifying critical risks in logistics operations",
+            "category": "AI Transportation Tools",
+            "tech_stack": [
+                "Python",
+                "Deep Learning",
+                "Risk Analysis"
+            ],
+            "github_url": "https://github.com/mahbubchula/Logistics-Risk-Detection",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "📦"
+        },
+        {
+            "id": 14,
+            "name": "bdeshi-lab-official",
+            "description": "Official web platform for the B'Deshi Emerging Research Lab",
+            "category": "Web Development",
+            "tech_stack": [
+                "TypeScript",
+                "Web Development"
+            ],
+            "github_url": "https://github.com/researchermahbub/bdeshi-lab-official",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "🔬"
+        },
+        {
+            "id": 15,
+            "name": "ML-for-All",
+            "description": "Automated Machine Learning platform designed for accessibility",
+            "category": "Machine Learning Tools",
+            "tech_stack": [
+                "Python",
+                "AutoML",
+                "Accessibility"
+            ],
+            "github_url": "https://github.com/researchermahbub/ML-for-All",
+            "stars": 0,
+            "forks": 0,
+            "status": "Active",
+            "featured": false,
+            "icon": "🤖"
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "name": "ITS-Course-by-Mahbub",
+            "description": "A complete graduate-level course on Intelligent Transportation Systems",
+            "category": "Transportation",
+            "tech_stack": [
+                "ITS",
+                "Transportation Engineering"
+            ],
+            "github_url": "https://github.com/mahbubchula/ITS-Course-by-Mahbub",
+            "status": "Active",
+            "featured": true,
+            "icon": "🎓"
+        },
+        {
+            "id": 2,
+            "name": "Bibliometric-Guide",
+            "description": "Step-by-step guide to Bibliometric analysis using R Biblioshiny & VOSviewer",
+            "category": "Research Methodology",
+            "tech_stack": [
+                "R",
+                "VOSviewer",
+                "Bibliometrics"
+            ],
+            "github_url": "https://github.com/mahbubchula/Bibliometric-Guide",
+            "status": "Active",
+            "featured": true,
+            "icon": "📚"
+        },
+        {
+            "id": 3,
+            "name": "ML-for-Research",
+            "description": "A comprehensive guide from zero to hybrid models in machine learning",
+            "category": "Machine Learning",
+            "tech_stack": [
+                "Python",
+                "Machine Learning",
+                "Research"
+            ],
+            "github_url": "https://github.com/mahbubchula/ML-for-Research",
+            "status": "Active",
+            "featured": true,
+            "icon": "🧠"
+        },
+        {
+            "id": 4,
+            "name": "Gemini & Claude CLI",
+            "description": "Power-user workflows for integrating advanced LLMs into research and coding",
+            "category": "AI Tools",
+            "tech_stack": [
+                "CLI",
+                "LLM",
+                "Automation"
+            ],
+            "github_url": "https://github.com/mahbubchula/gemini-claude-cli",
+            "status": "Active",
+            "featured": false,
+            "icon": "💻"
+        },
+        {
+            "id": 5,
+            "name": "easysmartPLS4.0",
+            "description": "Interactive course for mastering PLS-SEM modeling",
+            "category": "Research Methodology",
+            "tech_stack": [
+                "SmartPLS",
+                "SEM",
+                "Statistics"
+            ],
+            "github_url": "https://github.com/mahbubchula/easysmartPLS4.0",
+            "status": "Active",
+            "featured": false,
+            "icon": "📊"
+        }
+    ],
+    "stats": {
+        "total_tools": 15,
+        "total_courses": 5,
+        "total_repositories": 50,
+        "primary_languages": [
+            "Python",
+            "TypeScript",
+            "HTML",
+            "R",
+            "Jupyter Notebook"
+        ],
+        "focus_areas": [
+            "AI Transportation Tools",
+            "Research Tools",
+            "Academic Productivity",
+            "Machine Learning",
+            "Sustainability"
+        ]
+    }
+}

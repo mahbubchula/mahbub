@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Engr. Mahbub Hassan - Transportation Engineering Researcher at Chulalongkorn University specializing in AI, Machine Learning, LLMs, and Intelligent Transportation Systems.">
-    <meta name="keywords" content="Mahbub Hassan, Transportation Engineering, AI, Machine Learning, LLM, ITS, SUMO, Digital Twin, Sustainable Mobility, Chulalongkorn University">
+    <meta name="description"
+        content="Engr. Mahbub Hassan - Transportation Engineering Researcher at Chulalongkorn University specializing in AI, Machine Learning, LLMs, and Intelligent Transportation Systems.">
+    <meta name="keywords"
+        content="Mahbub Hassan, Transportation Engineering, AI, Machine Learning, LLM, ITS, SUMO, Digital Twin, Sustainable Mobility, Chulalongkorn University">
     <meta name="author" content="Engr. Mahbub Hassan">
-    
+
     <!-- Open Graph -->
     <meta property="og:title" content="Engr. Mahbub Hassan | AI & Transportation Research">
-    <meta property="og:description" content="Transportation Engineering Researcher specializing in AI applications, LLMs, and Intelligent Transportation Systems.">
+    <meta property="og:description"
+        content="Transportation Engineering Researcher specializing in AI applications, LLMs, and Intelligent Transportation Systems.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mahbubchula.github.io/mahbub/">
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/animations.css">
-    
+    <link rel="stylesheet" href="css/affiliation-logos.css">
+    <link rel="stylesheet" href="css/profile-photo.css">
+
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    
+
     <title>Engr. Mahbub Hassan | AI & Transportation Research</title>
-    
+
     <style>
         /* ==================== HERO SECTION ==================== */
         .hero {
@@ -38,18 +44,18 @@
             overflow: hidden;
             padding-top: 80px;
         }
-        
+
         .hero-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: var(--space-12);
             align-items: center;
         }
-        
+
         .hero-content {
             z-index: 2;
         }
-        
+
         .hero-badge {
             display: inline-flex;
             align-items: center;
@@ -63,7 +69,7 @@
             margin-bottom: var(--space-6);
             animation: fadeInUp 0.6s ease forwards;
         }
-        
+
         .hero-badge .pulse-dot {
             width: 8px;
             height: 8px;
@@ -71,7 +77,7 @@
             border-radius: 50%;
             animation: pulse 2s infinite;
         }
-        
+
         .hero-title {
             font-family: var(--font-display);
             font-size: clamp(2.5rem, 5vw, 4rem);
@@ -81,7 +87,7 @@
             animation: fadeInUp 0.6s ease 0.1s forwards;
             opacity: 0;
         }
-        
+
         .hero-name {
             display: block;
             background: linear-gradient(135deg, var(--accent-cyan-400), var(--accent-purple-400));
@@ -89,7 +95,7 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        
+
         .hero-subtitle {
             font-size: var(--text-xl);
             color: var(--dark-text-secondary);
@@ -97,11 +103,11 @@
             animation: fadeInUp 0.6s ease 0.2s forwards;
             opacity: 0;
         }
-        
+
         body.light-mode .hero-subtitle {
             color: var(--light-text-secondary);
         }
-        
+
         .hero-description {
             font-size: var(--text-base);
             color: var(--dark-text-tertiary);
@@ -111,11 +117,11 @@
             animation: fadeInUp 0.6s ease 0.3s forwards;
             opacity: 0;
         }
-        
+
         body.light-mode .hero-description {
             color: var(--light-text-tertiary);
         }
-        
+
         .hero-cta {
             display: flex;
             gap: var(--space-4);
@@ -124,14 +130,14 @@
             animation: fadeInUp 0.6s ease 0.4s forwards;
             opacity: 0;
         }
-        
+
         .hero-social {
             display: flex;
             gap: var(--space-3);
             animation: fadeInUp 0.6s ease 0.5s forwards;
             opacity: 0;
         }
-        
+
         .hero-social-link {
             width: 44px;
             height: 44px;
@@ -144,24 +150,24 @@
             color: var(--dark-text-secondary);
             transition: all var(--duration-300);
         }
-        
+
         body.light-mode .hero-social-link {
             background: var(--light-bg-secondary);
             border-color: var(--light-border);
             color: var(--light-text-secondary);
         }
-        
+
         .hero-social-link:hover {
             border-color: var(--accent-cyan-500);
             color: var(--accent-cyan-400);
             transform: translateY(-3px);
         }
-        
+
         .hero-social-link svg {
             width: 20px;
             height: 20px;
         }
-        
+
         /* Hero Visual */
         .hero-visual {
             position: relative;
@@ -171,19 +177,19 @@
             animation: fadeIn 1s ease 0.3s forwards;
             opacity: 0;
         }
-        
+
         .hero-visual-container {
             position: relative;
             width: 400px;
             height: 400px;
         }
-        
+
         .hero-ring {
             position: absolute;
             border-radius: 50%;
             border: 1px solid rgba(6, 182, 212, 0.2);
         }
-        
+
         .hero-ring-1 {
             width: 100%;
             height: 100%;
@@ -191,7 +197,7 @@
             left: 0;
             animation: rotate 20s linear infinite;
         }
-        
+
         .hero-ring-2 {
             width: 80%;
             height: 80%;
@@ -200,7 +206,7 @@
             border-color: rgba(139, 92, 246, 0.2);
             animation: rotate 15s linear infinite reverse;
         }
-        
+
         .hero-ring-3 {
             width: 60%;
             height: 60%;
@@ -209,12 +215,17 @@
             border-color: rgba(16, 185, 129, 0.2);
             animation: rotate 10s linear infinite;
         }
-        
+
         @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
-        
+
         .hero-profile {
             position: absolute;
             top: 50%;
@@ -231,19 +242,19 @@
             border: 2px solid var(--dark-border);
             z-index: 2;
         }
-        
+
         .hero-profile-icon {
             font-size: 4rem;
             margin-bottom: var(--space-2);
         }
-        
+
         .hero-profile-text {
             font-size: var(--text-xs);
             color: var(--accent-cyan-400);
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-        
+
         .floating-icon {
             position: absolute;
             width: 50px;
@@ -258,24 +269,60 @@
             animation: float 3s ease-in-out infinite;
             z-index: 3;
         }
-        
+
         body.light-mode .floating-icon {
             background: var(--light-bg-card);
             border-color: var(--light-border);
         }
-        
-        .floating-icon-1 { top: 5%; left: 20%; animation-delay: 0s; }
-        .floating-icon-2 { top: 15%; right: 10%; animation-delay: 0.5s; }
-        .floating-icon-3 { bottom: 20%; left: 5%; animation-delay: 1s; }
-        .floating-icon-4 { bottom: 10%; right: 15%; animation-delay: 1.5s; }
-        .floating-icon-5 { top: 40%; left: 0%; animation-delay: 2s; }
-        .floating-icon-6 { top: 35%; right: 0%; animation-delay: 2.5s; }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+
+        .floating-icon-1 {
+            top: 5%;
+            left: 20%;
+            animation-delay: 0s;
         }
-        
+
+        .floating-icon-2 {
+            top: 15%;
+            right: 10%;
+            animation-delay: 0.5s;
+        }
+
+        .floating-icon-3 {
+            bottom: 20%;
+            left: 5%;
+            animation-delay: 1s;
+        }
+
+        .floating-icon-4 {
+            bottom: 10%;
+            right: 15%;
+            animation-delay: 1.5s;
+        }
+
+        .floating-icon-5 {
+            top: 40%;
+            left: 0%;
+            animation-delay: 2s;
+        }
+
+        .floating-icon-6 {
+            top: 35%;
+            right: 0%;
+            animation-delay: 2.5s;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
         /* ==================== STATS SECTION ==================== */
         .stats-section {
             padding: var(--space-16) 0;
@@ -283,23 +330,23 @@
             border-top: 1px solid var(--dark-border);
             border-bottom: 1px solid var(--dark-border);
         }
-        
+
         body.light-mode .stats-section {
             background: var(--light-bg-secondary);
             border-color: var(--light-border);
         }
-        
+
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: var(--space-8);
         }
-        
+
         .stat-card {
             text-align: center;
             padding: var(--space-6);
         }
-        
+
         .stat-number {
             font-family: var(--font-display);
             font-size: var(--text-4xl);
@@ -310,29 +357,29 @@
             background-clip: text;
             margin-bottom: var(--space-2);
         }
-        
+
         .stat-label {
             font-size: var(--text-sm);
             color: var(--dark-text-secondary);
             text-transform: uppercase;
             letter-spacing: 1px;
         }
-        
+
         body.light-mode .stat-label {
             color: var(--light-text-secondary);
         }
-        
+
         /* ==================== RESEARCH AREAS ==================== */
         .research-areas {
             padding: var(--space-20) 0;
         }
-        
+
         .areas-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: var(--space-6);
         }
-        
+
         .area-card {
             padding: var(--space-6);
             background: var(--gradient-card);
@@ -341,54 +388,54 @@
             transition: all var(--duration-300);
             text-align: center;
         }
-        
+
         body.light-mode .area-card {
             background: var(--light-bg-card);
             border-color: var(--light-border);
         }
-        
+
         .area-card:hover {
             border-color: var(--accent-cyan-500);
             transform: translateY(-5px);
         }
-        
+
         .area-icon {
             font-size: 2.5rem;
             margin-bottom: var(--space-4);
         }
-        
+
         .area-card h4 {
             font-size: var(--text-lg);
             margin-bottom: var(--space-2);
         }
-        
+
         .area-card p {
             font-size: var(--text-sm);
             color: var(--dark-text-tertiary);
         }
-        
+
         body.light-mode .area-card p {
             color: var(--light-text-tertiary);
         }
-        
+
         /* ==================== FEATURED WORK ==================== */
         .featured-section {
             padding: var(--space-20) 0;
             background: var(--dark-bg-secondary);
             border-top: 1px solid var(--dark-border);
         }
-        
+
         body.light-mode .featured-section {
             background: var(--light-bg-secondary);
             border-color: var(--light-border);
         }
-        
+
         .featured-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: var(--space-6);
         }
-        
+
         .featured-card {
             background: var(--dark-bg-primary);
             border: 1px solid var(--dark-border);
@@ -396,17 +443,17 @@
             overflow: hidden;
             transition: all var(--duration-300);
         }
-        
+
         body.light-mode .featured-card {
             background: var(--light-bg-card);
             border-color: var(--light-border);
         }
-        
+
         .featured-card:hover {
             border-color: var(--accent-cyan-500);
             transform: translateY(-5px);
         }
-        
+
         .featured-card-image {
             height: 150px;
             background: var(--gradient-card);
@@ -415,11 +462,11 @@
             justify-content: center;
             font-size: 3rem;
         }
-        
+
         .featured-card-content {
             padding: var(--space-5);
         }
-        
+
         .featured-card-badge {
             display: inline-block;
             padding: var(--space-1) var(--space-2);
@@ -429,27 +476,27 @@
             color: var(--accent-cyan-400);
             margin-bottom: var(--space-2);
         }
-        
+
         .featured-card h4 {
             font-size: var(--text-base);
             margin-bottom: var(--space-2);
         }
-        
+
         .featured-card p {
             font-size: var(--text-sm);
             color: var(--dark-text-tertiary);
             margin-bottom: var(--space-4);
         }
-        
+
         body.light-mode .featured-card p {
             color: var(--light-text-tertiary);
         }
-        
+
         /* ==================== AFFILIATIONS ==================== */
         .affiliations {
             padding: var(--space-16) 0;
         }
-        
+
         .affiliations-list {
             display: flex;
             justify-content: center;
@@ -457,7 +504,7 @@
             gap: var(--space-12);
             flex-wrap: wrap;
         }
-        
+
         .affiliation-item {
             display: flex;
             flex-direction: column;
@@ -466,74 +513,74 @@
             opacity: 0.7;
             transition: opacity var(--duration-300);
         }
-        
+
         .affiliation-item:hover {
             opacity: 1;
         }
-        
+
         .affiliation-icon {
             font-size: 2rem;
         }
-        
+
         .affiliation-name {
             font-size: var(--text-sm);
             color: var(--dark-text-tertiary);
         }
-        
+
         body.light-mode .affiliation-name {
             color: var(--light-text-tertiary);
         }
-        
+
         /* ==================== CTA SECTION ==================== */
         .cta-section {
             padding: var(--space-20) 0;
             background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(139, 92, 246, 0.1));
             border-top: 1px solid var(--dark-border);
         }
-        
+
         body.light-mode .cta-section {
             border-color: var(--light-border);
         }
-        
+
         .cta-content {
             text-align: center;
             max-width: 600px;
             margin: 0 auto;
         }
-        
+
         .cta-content h2 {
             font-size: var(--text-3xl);
             margin-bottom: var(--space-4);
         }
-        
+
         .cta-content p {
             color: var(--dark-text-secondary);
             margin-bottom: var(--space-8);
         }
-        
+
         body.light-mode .cta-content p {
             color: var(--light-text-secondary);
         }
-        
+
         .cta-buttons {
             display: flex;
             justify-content: center;
             gap: var(--space-4);
             flex-wrap: wrap;
         }
-        
+
         /* ==================== ENHANCED FOOTER ==================== */
         .footer-new {
             background: linear-gradient(180deg, var(--dark-bg-secondary) 0%, var(--dark-bg-primary) 100%);
             border-top: 1px solid var(--dark-border);
             padding-top: var(--space-16);
         }
-        
+
         body.light-mode .footer-new {
             background: linear-gradient(180deg, var(--light-bg-secondary) 0%, var(--light-bg-primary) 100%);
             border-color: var(--light-border);
         }
-        
+
         .footer-top {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -541,15 +588,15 @@
             padding-bottom: var(--space-12);
             border-bottom: 1px solid var(--dark-border);
         }
-        
+
         body.light-mode .footer-top {
             border-color: var(--light-border);
         }
-        
+
         .footer-brand-section {
             padding-right: var(--space-8);
         }
-        
+
         .footer-logo {
             display: flex;
             align-items: center;
@@ -557,7 +604,7 @@
             margin-bottom: var(--space-4);
             text-decoration: none;
         }
-        
+
         .footer-logo-icon {
             width: 48px;
             height: 48px;
@@ -568,34 +615,34 @@
             justify-content: center;
             font-size: 1.5rem;
         }
-        
+
         .footer-logo-text {
             font-family: var(--font-display);
             font-size: var(--text-xl);
             font-weight: 700;
             color: var(--dark-text-primary);
         }
-        
+
         body.light-mode .footer-logo-text {
             color: var(--light-text-primary);
         }
-        
+
         .footer-brand-desc {
             font-size: var(--text-sm);
             color: var(--dark-text-tertiary);
             line-height: 1.7;
             margin-bottom: var(--space-6);
         }
-        
+
         body.light-mode .footer-brand-desc {
             color: var(--light-text-tertiary);
         }
-        
+
         .footer-social-links {
             display: flex;
             gap: var(--space-3);
         }
-        
+
         .footer-social-link {
             width: 40px;
             height: 40px;
@@ -608,24 +655,24 @@
             color: var(--dark-text-secondary);
             transition: all var(--duration-300);
         }
-        
+
         body.light-mode .footer-social-link {
             background: var(--light-bg-card);
             border-color: var(--light-border);
             color: var(--light-text-secondary);
         }
-        
+
         .footer-social-link:hover {
             border-color: var(--accent-cyan-500);
             color: var(--accent-cyan-400);
             transform: translateY(-3px);
         }
-        
+
         .footer-social-link svg {
             width: 18px;
             height: 18px;
         }
-        
+
         .footer-column h5 {
             font-size: var(--text-sm);
             font-weight: 600;
@@ -634,21 +681,21 @@
             color: var(--dark-text-primary);
             margin-bottom: var(--space-4);
         }
-        
+
         body.light-mode .footer-column h5 {
             color: var(--light-text-primary);
         }
-        
+
         .footer-column ul {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        
+
         .footer-column ul li {
             margin-bottom: var(--space-2);
         }
-        
+
         .footer-column ul li a {
             font-size: var(--text-sm);
             color: var(--dark-text-tertiary);
@@ -658,20 +705,20 @@
             align-items: center;
             gap: var(--space-2);
         }
-        
+
         body.light-mode .footer-column ul li a {
             color: var(--light-text-tertiary);
         }
-        
+
         .footer-column ul li a:hover {
             color: var(--accent-cyan-400);
         }
-        
+
         .footer-column ul li a svg {
             width: 14px;
             height: 14px;
         }
-        
+
         .footer-middle {
             display: flex;
             justify-content: space-between;
@@ -681,17 +728,17 @@
             flex-wrap: wrap;
             gap: var(--space-4);
         }
-        
+
         body.light-mode .footer-middle {
             border-color: var(--light-border);
         }
-        
+
         .footer-contact-item {
             display: flex;
             align-items: center;
             gap: var(--space-3);
         }
-        
+
         .footer-contact-icon {
             width: 40px;
             height: 40px;
@@ -702,34 +749,34 @@
             border-radius: var(--radius-lg);
             color: var(--accent-cyan-400);
         }
-        
+
         .footer-contact-icon svg {
             width: 18px;
             height: 18px;
         }
-        
+
         .footer-contact-info span {
             display: block;
         }
-        
+
         .footer-contact-label {
             font-size: var(--text-xs);
             color: var(--dark-text-tertiary);
         }
-        
+
         body.light-mode .footer-contact-label {
             color: var(--light-text-tertiary);
         }
-        
+
         .footer-contact-value {
             font-size: var(--text-sm);
             color: var(--dark-text-primary);
         }
-        
+
         body.light-mode .footer-contact-value {
             color: var(--light-text-primary);
         }
-        
+
         .footer-bottom-new {
             display: flex;
             justify-content: space-between;
@@ -738,140 +785,143 @@
             flex-wrap: wrap;
             gap: var(--space-4);
         }
-        
+
         .footer-copyright {
             font-size: var(--text-sm);
             color: var(--dark-text-tertiary);
         }
-        
+
         body.light-mode .footer-copyright {
             color: var(--light-text-tertiary);
         }
-        
+
         .footer-legal-links {
             display: flex;
             gap: var(--space-6);
         }
-        
+
         .footer-legal-links a {
             font-size: var(--text-sm);
             color: var(--dark-text-tertiary);
             text-decoration: none;
             transition: color var(--duration-200);
         }
-        
+
         body.light-mode .footer-legal-links a {
             color: var(--light-text-tertiary);
         }
-        
+
         .footer-legal-links a:hover {
             color: var(--accent-cyan-400);
         }
-        
+
         /* ==================== RESPONSIVE ==================== */
         @media (max-width: 1024px) {
             .hero-container {
                 grid-template-columns: 1fr;
                 text-align: center;
             }
-            
+
             .hero-content {
                 order: 2;
             }
-            
+
             .hero-visual {
                 order: 1;
             }
-            
+
             .hero-description {
                 margin-left: auto;
                 margin-right: auto;
             }
-            
-            .hero-cta, .hero-social {
+
+            .hero-cta,
+            .hero-social {
                 justify-content: center;
             }
-            
+
             .hero-visual-container {
                 width: 300px;
                 height: 300px;
             }
-            
+
             .hero-profile {
                 width: 150px;
                 height: 150px;
             }
-            
+
             .hero-profile-icon {
                 font-size: 3rem;
             }
-            
+
             .floating-icon {
                 width: 40px;
                 height: 40px;
                 font-size: 1.2rem;
             }
-            
+
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
-            
-            .areas-grid, .featured-grid {
+
+            .areas-grid,
+            .featured-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
-            
+
             .footer-top {
                 grid-template-columns: 1fr 1fr;
             }
-            
+
             .footer-brand-section {
                 grid-column: span 2;
             }
         }
-        
+
         @media (max-width: 768px) {
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: var(--space-4);
             }
-            
-            .areas-grid, .featured-grid {
+
+            .areas-grid,
+            .featured-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .hero-visual-container {
                 width: 250px;
                 height: 250px;
             }
-            
+
             .hero-profile {
                 width: 120px;
                 height: 120px;
             }
-            
+
             .hero-profile-icon {
                 font-size: 2.5rem;
             }
-            
+
             .footer-top {
                 grid-template-columns: 1fr;
                 text-align: center;
             }
-            
+
             .footer-brand-section {
                 grid-column: span 1;
                 padding-right: 0;
             }
-            
+
             .footer-social-links {
                 justify-content: center;
             }
-            
+
             .footer-middle {
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .footer-bottom-new {
                 flex-direction: column;
                 text-align: center;
@@ -879,6 +929,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Neural Network Background -->
     <div class="neural-bg">
@@ -897,7 +948,7 @@
                 <div class="nav-logo-icon">🚦</div>
                 <span>Mahbub Hassan</span>
             </a>
-            
+
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html" class="nav-link active">Home</a></li>
                 <li><a href="pages/about.html" class="nav-link">About</a></li>
@@ -908,7 +959,7 @@
                 <li><a href="pages/team.html" class="nav-link">Lab</a></li>
                 <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
             </ul>
-            
+
             <div class="nav-actions">
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
                     <i data-lucide="moon" class="theme-icon-dark"></i>
@@ -932,20 +983,22 @@
                         <span class="pulse-dot"></span>
                         <span>Open to Collaborations</span>
                     </div>
-                    
+
                     <h1 class="hero-title">
                         Hi, I'm
                         <span class="hero-name">Mahbub Hassan</span>
                     </h1>
-                    
+
                     <p class="hero-subtitle">
                         Transportation & AI Researcher
                     </p>
-                    
+
                     <p class="hero-description">
-                        IEEE Graduate Student Member at Chulalongkorn University, Thailand. I leverage <strong>AI, Machine Learning, and LLMs</strong> to solve complex transportation challenges and build intelligent mobility systems for a sustainable future.
+                        IEEE Graduate Student Member at Chulalongkorn University, Thailand. I leverage <strong>AI,
+                            Machine Learning, and LLMs</strong> to solve complex transportation challenges and build
+                        intelligent mobility systems for a sustainable future.
                     </p>
-                    
+
                     <div class="hero-cta">
                         <a href="pages/research.html" class="btn btn-primary btn-lg">
                             <i data-lucide="flask-conical"></i>
@@ -960,21 +1013,26 @@
                             Download CV
                         </a>
                     </div>
-                    
+
                     <div class="hero-social">
-                        <a href="https://github.com/mahbubchula" class="hero-social-link" target="_blank" aria-label="GitHub">
+                        <a href="https://github.com/mahbubchula" class="hero-social-link" target="_blank"
+                            aria-label="GitHub">
                             <i data-lucide="github"></i>
                         </a>
-                        <a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" class="hero-social-link" target="_blank" aria-label="Google Scholar">
+                        <a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" class="hero-social-link"
+                            target="_blank" aria-label="Google Scholar">
                             <i data-lucide="graduation-cap"></i>
                         </a>
-                        <a href="https://www.researchgate.net/profile/Mahbub-Hassan-4" class="hero-social-link" target="_blank" aria-label="ResearchGate">
+                        <a href="https://www.researchgate.net/profile/Mahbub-Hassan-4" class="hero-social-link"
+                            target="_blank" aria-label="ResearchGate">
                             <i data-lucide="flask-conical"></i>
                         </a>
-                        <a href="https://orcid.org/0009-0006-1956-8159" class="hero-social-link" target="_blank" aria-label="ORCID">
+                        <a href="https://orcid.org/0009-0006-1956-8159" class="hero-social-link" target="_blank"
+                            aria-label="ORCID">
                             <i data-lucide="fingerprint"></i>
                         </a>
-                        <a href="https://www.scopus.com/authid/detail.uri?authorId=59417109900" class="hero-social-link" target="_blank" aria-label="Scopus">
+                        <a href="https://www.scopus.com/authid/detail.uri?authorId=59417109900" class="hero-social-link"
+                            target="_blank" aria-label="Scopus">
                             <i data-lucide="book-open"></i>
                         </a>
                         <a href="mailto:mahbub.hassan@ieee.org" class="hero-social-link" aria-label="Email">
@@ -982,18 +1040,20 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="hero-visual">
                     <div class="hero-visual-container">
                         <div class="hero-ring hero-ring-1"></div>
                         <div class="hero-ring hero-ring-2"></div>
                         <div class="hero-ring hero-ring-3"></div>
-                        
+
                         <div class="hero-profile">
-                            <span class="hero-profile-icon">🚀</span>
-                            <span class="hero-profile-text">AI & Transport</span>
+                            <div class="profile-image-wrapper">
+                                <div class="profile-glow"></div>
+                                <img src="assets/images/profile.jpeg" alt="Mahbub Hassan" class="profile-image">
+                            </div>
                         </div>
-                        
+
                         <div class="floating-icon floating-icon-1">🤖</div>
                         <div class="floating-icon floating-icon-2">🚦</div>
                         <div class="floating-icon floating-icon-3">🌐</div>
@@ -1023,8 +1083,8 @@
                     <div class="stat-label">Students Mentored</div>
                 </div>
                 <div class="stat-card animate-on-scroll">
-                    <div class="stat-number" data-count="5" data-suffix="+">0</div>
-                    <div class="stat-label">Countries Presented</div>
+                    <div class="stat-number" data-count="45" data-suffix="+">0</div>
+                    <div class="stat-label">Citations</div>
                 </div>
             </div>
         </div>
@@ -1035,9 +1095,11 @@
         <div class="container">
             <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
                 <div class="badge badge-cyan animate-on-scroll">Expertise</div>
-                <h2 class="animate-on-scroll" style="font-size: var(--text-3xl); margin-top: var(--space-4);">Research <span class="text-gradient">Areas</span></h2>
+                <h2 class="animate-on-scroll" style="font-size: var(--text-3xl); margin-top: var(--space-4);">Research
+                    <span class="text-gradient">Areas</span>
+                </h2>
             </div>
-            
+
             <div class="areas-grid">
                 <div class="area-card animate-on-scroll">
                     <div class="area-icon">🧠</div>
@@ -1078,9 +1140,11 @@
         <div class="container">
             <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
                 <div class="badge badge-green animate-on-scroll">Highlights</div>
-                <h2 class="animate-on-scroll" style="font-size: var(--text-3xl); margin-top: var(--space-4);">Featured <span class="text-gradient">Work</span></h2>
+                <h2 class="animate-on-scroll" style="font-size: var(--text-3xl); margin-top: var(--space-4);">Featured
+                    <span class="text-gradient">Work</span>
+                </h2>
             </div>
-            
+
             <div class="featured-grid">
                 <div class="featured-card animate-on-scroll">
                     <div class="featured-card-image">⚡</div>
@@ -1093,7 +1157,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="featured-card animate-on-scroll">
                     <div class="featured-card-image">📚</div>
                     <div class="featured-card-content">
@@ -1105,7 +1169,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="featured-card animate-on-scroll">
                     <div class="featured-card-image">🚦</div>
                     <div class="featured-card-content">
@@ -1125,24 +1189,27 @@
     <section class="affiliations">
         <div class="container">
             <div class="section-header" style="text-align: center; margin-bottom: var(--space-8);">
-                <h3 class="animate-on-scroll" style="font-size: var(--text-lg); color: var(--dark-text-secondary);">Affiliated With</h3>
+                <h3 class="animate-on-scroll" style="font-size: var(--text-lg); color: var(--dark-text-secondary);">
+                    Affiliated With</h3>
             </div>
-            
+
             <div class="affiliations-list">
                 <div class="affiliation-item animate-on-scroll">
-                    <span class="affiliation-icon">🏛️</span>
+                    <img src="assets/images/logo_Affiliation/Chula logo.png" alt="Chulalongkorn University"
+                        class="affiliation-logo">
                     <span class="affiliation-name">Chulalongkorn University</span>
                 </div>
                 <div class="affiliation-item animate-on-scroll">
-                    <span class="affiliation-icon">📡</span>
+                    <img src="assets/images/logo_Affiliation/IEEE-Logo.jpg" alt="IEEE" class="affiliation-logo">
                     <span class="affiliation-name">IEEE Member</span>
                 </div>
                 <div class="affiliation-item animate-on-scroll">
-                    <span class="affiliation-icon">🔬</span>
+                    <img src="assets/images/logo_Affiliation/logo bdeshi .jpg" alt="B'Deshi Research Lab"
+                        class="affiliation-logo">
                     <span class="affiliation-name">B'Deshi Research Lab</span>
                 </div>
                 <div class="affiliation-item animate-on-scroll">
-                    <span class="affiliation-icon">🎓</span>
+                    <img src="assets/images/logo_Affiliation/BEM logo.webp" alt="BEM" class="affiliation-logo">
                     <span class="affiliation-name">BEM Registered</span>
                 </div>
             </div>
@@ -1154,7 +1221,8 @@
         <div class="container">
             <div class="cta-content animate-on-scroll">
                 <h2>Let's <span class="text-gradient">Collaborate</span></h2>
-                <p>Interested in research collaboration, partnership, or just want to discuss AI and transportation? I'd love to connect!</p>
+                <p>Interested in research collaboration, partnership, or just want to discuss AI and transportation? I'd
+                    love to connect!</p>
                 <div class="cta-buttons">
                     <a href="pages/contact.html" class="btn btn-primary btn-lg">
                         <i data-lucide="mail"></i>
@@ -1181,27 +1249,34 @@
                         <span class="footer-logo-text">Mahbub Hassan</span>
                     </a>
                     <p class="footer-brand-desc">
-                        Transportation Engineering Researcher at Chulalongkorn University, specializing in AI applications, Machine Learning, LLMs, and Intelligent Transportation Systems. Building open-source tools for sustainable mobility.
+                        Transportation Engineering Researcher at Chulalongkorn University, specializing in AI
+                        applications, Machine Learning, LLMs, and Intelligent Transportation Systems. Building
+                        open-source tools for sustainable mobility.
                     </p>
                     <div class="footer-social-links">
-                        <a href="https://github.com/mahbubchula" class="footer-social-link" target="_blank" aria-label="GitHub">
+                        <a href="https://github.com/mahbubchula" class="footer-social-link" target="_blank"
+                            aria-label="GitHub">
                             <i data-lucide="github"></i>
                         </a>
-                        <a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" class="footer-social-link" target="_blank" aria-label="Google Scholar">
+                        <a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ"
+                            class="footer-social-link" target="_blank" aria-label="Google Scholar">
                             <i data-lucide="graduation-cap"></i>
                         </a>
-                        <a href="https://www.researchgate.net/profile/Mahbub-Hassan-4" class="footer-social-link" target="_blank" aria-label="ResearchGate">
+                        <a href="https://www.researchgate.net/profile/Mahbub-Hassan-4" class="footer-social-link"
+                            target="_blank" aria-label="ResearchGate">
                             <i data-lucide="flask-conical"></i>
                         </a>
-                        <a href="https://www.youtube.com/@dailymahbub" class="footer-social-link" target="_blank" aria-label="YouTube">
+                        <a href="https://www.youtube.com/@dailymahbub" class="footer-social-link" target="_blank"
+                            aria-label="YouTube">
                             <i data-lucide="youtube"></i>
                         </a>
-                        <a href="https://orcid.org/0009-0006-1956-8159" class="footer-social-link" target="_blank" aria-label="ORCID">
+                        <a href="https://orcid.org/0009-0006-1956-8159" class="footer-social-link" target="_blank"
+                            aria-label="ORCID">
                             <i data-lucide="fingerprint"></i>
                         </a>
                     </div>
                 </div>
-                
+
                 <!-- Research Column -->
                 <div class="footer-column">
                     <h5>Research</h5>
@@ -1211,7 +1286,7 @@
                         <li><a href="pages/tools.html"><i data-lucide="chevron-right"></i> AI Tools</a></li>
                     </ul>
                 </div>
-                
+
                 <!-- Resources Column -->
                 <div class="footer-column">
                     <h5>Resources</h5>
@@ -1222,29 +1297,34 @@
                         <li><a href="pages/team.html"><i data-lucide="chevron-right"></i> Lab Team</a></li>
                     </ul>
                 </div>
-                
+
                 <!-- Quick Links Column -->
                 <div class="footer-column">
                     <h5>Quick Links</h5>
                     <ul>
                         <li><a href="pages/about.html"><i data-lucide="chevron-right"></i> About Me</a></li>
                         <li><a href="pages/contact.html"><i data-lucide="chevron-right"></i> Contact</a></li>
-                        <li><a href="assets/docs/cv.pdf" target="_blank"><i data-lucide="chevron-right"></i> Download CV</a></li>
+                        <li><a href="assets/docs/cv.pdf" target="_blank"><i data-lucide="chevron-right"></i> Download
+                                CV</a></li>
                     </ul>
                 </div>
-                
+
                 <!-- Academic Profiles Column -->
                 <div class="footer-column">
                     <h5>Profiles</h5>
                     <ul>
-                        <li><a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" target="_blank"><i data-lucide="chevron-right"></i> Google Scholar</a></li>
-                        <li><a href="https://www.scopus.com/authid/detail.uri?authorId=59417109900" target="_blank"><i data-lucide="chevron-right"></i> Scopus</a></li>
-                        <li><a href="https://orcid.org/0009-0006-1956-8159" target="_blank"><i data-lucide="chevron-right"></i> ORCID</a></li>
-                        <li><a href="https://www.researchgate.net/profile/Mahbub-Hassan-4" target="_blank"><i data-lucide="chevron-right"></i> ResearchGate</a></li>
+                        <li><a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" target="_blank"><i
+                                    data-lucide="chevron-right"></i> Google Scholar</a></li>
+                        <li><a href="https://www.scopus.com/authid/detail.uri?authorId=59417109900" target="_blank"><i
+                                    data-lucide="chevron-right"></i> Scopus</a></li>
+                        <li><a href="https://orcid.org/0009-0006-1956-8159" target="_blank"><i
+                                    data-lucide="chevron-right"></i> ORCID</a></li>
+                        <li><a href="https://www.researchgate.net/profile/Mahbub-Hassan-4" target="_blank"><i
+                                    data-lucide="chevron-right"></i> ResearchGate</a></li>
                     </ul>
                 </div>
             </div>
-            
+
             <!-- Footer Middle - Contact Info -->
             <div class="footer-middle">
                 <div class="footer-contact-item">
@@ -1256,7 +1336,7 @@
                         <span class="footer-contact-value">mahbub.hassan@ieee.org</span>
                     </div>
                 </div>
-                
+
                 <div class="footer-contact-item">
                     <div class="footer-contact-icon">
                         <i data-lucide="phone"></i>
@@ -1266,7 +1346,7 @@
                         <span class="footer-contact-value">+66 095 225 6651</span>
                     </div>
                 </div>
-                
+
                 <div class="footer-contact-item">
                     <div class="footer-contact-icon">
                         <i data-lucide="map-pin"></i>
@@ -1277,7 +1357,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Footer Bottom -->
             <div class="footer-bottom-new">
                 <p class="footer-copyright">
@@ -1300,4 +1380,5 @@
     <!-- JavaScript -->
     <script src="js/main.js"></script>
 </body>
+
 </html>

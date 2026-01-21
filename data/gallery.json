@@ -1,1 +1,306 @@
-
+{
+    "gallery": [
+        {
+            "id": 1,
+            "title": "Conference Presentation",
+            "description": "Presenting research at international conference",
+            "category": "conference",
+            "location": "International Conference",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7104 - Copy.JPG",
+            "tags": [
+                "Conference",
+                "Presentation",
+                "Research"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Academic Achievement",
+            "description": "Academic event and achievement ceremony",
+            "category": "awards",
+            "location": "Academic Event",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7118.JPG",
+            "tags": [
+                "Achievement",
+                "Award",
+                "Academic"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Research Presentation",
+            "description": "Research presentation at academic venue",
+            "category": "conference",
+            "location": "Conference Venue",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7132.JPG",
+            "tags": [
+                "Research",
+                "Presentation",
+                "Conference"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Academic Gathering",
+            "description": "Academic gathering and networking event",
+            "category": "workshop",
+            "location": "Academic Event",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7139.JPG",
+            "tags": [
+                "Networking",
+                "Academic",
+                "Event"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Conference Participation",
+            "description": "Participating in international conference",
+            "category": "conference",
+            "location": "Conference",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7145.JPG",
+            "tags": [
+                "Conference",
+                "International",
+                "Research"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Research Discussion",
+            "description": "Research discussion and collaboration",
+            "category": "workshop",
+            "location": "Academic Venue",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7147.JPG",
+            "tags": [
+                "Research",
+                "Collaboration",
+                "Discussion"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Academic Event",
+            "description": "Academic event participation",
+            "category": "conference",
+            "location": "Conference Venue",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7152.JPG",
+            "tags": [
+                "Academic",
+                "Event",
+                "Conference"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Research Collaboration",
+            "description": "Collaborative research session",
+            "category": "workshop",
+            "location": "Research Lab",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7172.JPG",
+            "tags": [
+                "Collaboration",
+                "Research",
+                "Workshop"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Academic Achievement Ceremony",
+            "description": "Achievement recognition ceremony",
+            "category": "awards",
+            "location": "University",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/IMG_7271.JPG",
+            "tags": [
+                "Achievement",
+                "Award",
+                "Ceremony"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Dutch Bangla Bank Scholarship",
+            "description": "Dutch Bangla Bank Scholarship Award",
+            "category": "awards",
+            "location": "Bangladesh",
+            "date": "2024",
+            "image": "assets/images/Important_Academic_Pictures/Dutch Bangla Bank Scholarship.png",
+            "tags": [
+                "Scholarship",
+                "Award",
+                "Achievement"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Sonali Bank Scholarship",
+            "description": "Sonali Bank Scholarship Recognition",
+            "category": "awards",
+            "location": "Bangladesh",
+            "date": "2024",
+            "image": "assets/images/Important_Academic_Pictures/sonali Bank .png",
+            "tags": [
+                "Scholarship",
+                "Award",
+                "Recognition"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Dutch Bangla Bank Website Feature",
+            "description": "Featured on Dutch Bangla Bank website for scholarship",
+            "category": "awards",
+            "location": "Online",
+            "date": "2024",
+            "image": "assets/images/Important_Academic_Pictures/website screen_dutch bangla bank .png",
+            "tags": [
+                "Scholarship",
+                "Recognition",
+                "Featured"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Academic Group Photo 1",
+            "description": "Group photo at academic event",
+            "category": "lab",
+            "location": "Academic Event",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/WhatsApp Image 2024-08-30 at 17.11.37_d3ca95e2.jpg",
+            "tags": [
+                "Group Photo",
+                "Academic",
+                "Team"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Academic Group Photo 2",
+            "description": "Team photo at academic gathering",
+            "category": "lab",
+            "location": "Academic Event",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/WhatsApp Image 2024-08-30 at 17.12.00_d581b914.jpg",
+            "tags": [
+                "Group Photo",
+                "Team",
+                "Academic"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Research Poster Presentation",
+            "description": "Presenting research poster",
+            "category": "conference",
+            "location": "Conference",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/WhatsApp Image 2024-08-30 at 17.18.32_72fb4ddd.jpg",
+            "tags": [
+                "Poster",
+                "Research",
+                "Presentation"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Conference Networking 1",
+            "description": "Networking at conference",
+            "category": "conference",
+            "location": "Conference Venue",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/WhatsApp Image 2024-08-30 at 17.18.34_4a04e92e.jpg",
+            "tags": [
+                "Networking",
+                "Conference",
+                "Academic"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Conference Networking 2",
+            "description": "Academic networking session",
+            "category": "conference",
+            "location": "Conference",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/WhatsApp Image 2024-08-30 at 17.18.34_90955e9c.jpg",
+            "tags": [
+                "Networking",
+                "Conference",
+                "Collaboration"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Research Presentation Session",
+            "description": "Research presentation session",
+            "category": "conference",
+            "location": "Conference Hall",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/WhatsApp Image 2024-08-30 at 17.18.35_3c89a179.jpg",
+            "tags": [
+                "Presentation",
+                "Research",
+                "Conference"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Academic Discussion",
+            "description": "Academic discussion and exchange",
+            "category": "workshop",
+            "location": "Workshop Venue",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/WhatsApp Image 2024-08-30 at 17.18.35_76438c9e.jpg",
+            "tags": [
+                "Discussion",
+                "Workshop",
+                "Academic"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Conference Group Photo",
+            "description": "Group photo at conference",
+            "category": "conference",
+            "location": "Conference",
+            "date": "2024-08",
+            "image": "assets/images/Important_Academic_Pictures/WhatsApp Image 2024-08-30 at 17.18.36_3c395956.jpg",
+            "tags": [
+                "Group Photo",
+                "Conference",
+                "Team"
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": "conference",
+            "name": "Conferences",
+            "count": 10
+        },
+        {
+            "id": "workshop",
+            "name": "Workshops",
+            "count": 4
+        },
+        {
+            "id": "awards",
+            "name": "Awards & Scholarships",
+            "count": 4
+        },
+        {
+            "id": "lab",
+            "name": "Lab & Team",
+            "count": 2
+        }
+    ]
+}

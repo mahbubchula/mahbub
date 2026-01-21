@@ -1,1 +1,569 @@
-
+{
+    "lab_info": {
+        "name": "Transportation AI Research Group",
+        "director": "Mahbub Hassan",
+        "affiliation": "Chulalongkorn University",
+        "department": "Department of Civil Engineering",
+        "focus_areas": [
+            "AI in Transportation",
+            "Machine Learning for ITS",
+            "Sustainable Mobility",
+            "Traffic Engineering",
+            "Public Transit Analysis"
+        ],
+        "established": "2024"
+    },
+    "current_students": [
+        {
+            "id": 1,
+            "name": "Sumon",
+            "status": "Current Student",
+            "research_focus": "Transportation AI & Machine Learning"
+        },
+        {
+            "id": 2,
+            "name": "Turjo",
+            "status": "Current Student",
+            "research_focus": "Intelligent Transportation Systems"
+        },
+        {
+            "id": 3,
+            "name": "Pretom",
+            "status": "Current Student",
+            "research_focus": "Traffic Engineering & Analysis"
+        }
+    ],
+    "lab_alumni": [
+        {
+            "id": 1,
+            "name": "Hridoy Deb Mahin",
+            "publications": 7,
+            "research_highlights": [
+                "Public Transit Network Analysis using GTFS",
+                "Traffic Engineering & Roundabout Performance",
+                "Socioeconomic Mobility and Travel Patterns"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Abdullah Al Nafees",
+            "publications": 4,
+            "research_highlights": [
+                "Machine Learning in Intelligent Transport Systems",
+                "Public Transit Ridership Forecasting",
+                "Big Data Applications in ITS"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Saikat Sarkar Shraban",
+            "publications": 4,
+            "research_highlights": [
+                "Extended Reality in Transportation Systems",
+                "Post-COVID Vehicle Ownership Dynamics",
+                "Big Data Applications in ITS"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Md. Emtiaz Kabir",
+            "publications": 4,
+            "research_highlights": [
+                "Large Language Models in Transportation",
+                "Machine Learning in Autonomous Vehicles",
+                "Energy-Optimal Routing for CAVs"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Arpita Paul",
+            "publications": 3,
+            "research_highlights": [
+                "Roundabout Performance Analysis using VISSIM",
+                "Gap Parameters in Traffic Engineering",
+                "Public Transit Network Efficiency"
+            ]
+        }
+    ],
+    "team_members": [
+        {
+            "id": 1,
+            "name": "Mahbub Hassan",
+            "role": "Principal Investigator",
+            "title": "Graduate Student & IEEE Member",
+            "affiliation": "Chulalongkorn University",
+            "department": "Civil Engineering",
+            "country": "Thailand",
+            "research_interests": [
+                "LLMs in Transportation",
+                "Machine Learning",
+                "Intelligent Transportation Systems",
+                "Explainable AI"
+            ],
+            "publications": 19,
+            "email": "mahbub.hassan@ieee.org",
+            "image": "assets/images/team/mahbub.jpg",
+            "social": {
+                "scholar": "https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ",
+                "researchgate": "https://www.researchgate.net/profile/Mahbub-Hassan-4",
+                "orcid": "https://orcid.org/0000-0002-8587-3318"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Hridoy Deb Mahin",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Shahjalal University of Science and Technology",
+            "department": "School of Applied Sciences & Technology",
+            "country": "Bangladesh",
+            "research_interests": [
+                "Public Transit Analysis",
+                "GTFS Data",
+                "Traffic Engineering",
+                "Roundabout Analysis"
+            ],
+            "publications": 7,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 7
+        },
+        {
+            "id": 3,
+            "name": "Md. Emtiaz Kabir",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Atish Dipankar University of Science and Technology",
+            "department": "Civil Engineering",
+            "country": "Bangladesh",
+            "research_interests": [
+                "LLMs in Transportation",
+                "Autonomous Vehicles",
+                "Optimization",
+                "Machine Learning"
+            ],
+            "publications": 4,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 4
+        },
+        {
+            "id": 4,
+            "name": "Abdullah Al Nafees",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Chulalongkorn University",
+            "department": "Civil Engineering",
+            "country": "Thailand",
+            "research_interests": [
+                "Machine Learning",
+                "Public Transit Forecasting",
+                "ITS",
+                "Data Analysis"
+            ],
+            "publications": 4,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 4
+        },
+        {
+            "id": 5,
+            "name": "Saikat Sarkar Shraban",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Shahjalal University of Science and Technology",
+            "department": "School of Applied Sciences & Technology",
+            "country": "Bangladesh",
+            "research_interests": [
+                "Machine Learning",
+                "Vehicle Ownership Analysis",
+                "Extended Reality",
+                "Big Data"
+            ],
+            "publications": 4,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 4
+        },
+        {
+            "id": 6,
+            "name": "Muzammil Jusoh",
+            "role": "International Collaborator",
+            "title": "Senior Member, IEEE",
+            "affiliation": "Universiti Malaysia Perlis",
+            "department": "Centre of Excellence for Advanced Computing",
+            "country": "Malaysia",
+            "research_interests": [
+                "LLMs in Transportation",
+                "Computer Vision",
+                "Advanced Computing"
+            ],
+            "publications": 3,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 3
+        },
+        {
+            "id": 7,
+            "name": "Hong Ki An",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Universiti Malaysia Perlis",
+            "department": "Civil Engineering & Technology",
+            "country": "Malaysia",
+            "research_interests": [
+                "Traffic Engineering",
+                "Roundabout Performance",
+                "Travel Behavior",
+                "Microsimulation"
+            ],
+            "publications": 3,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 3
+        },
+        {
+            "id": 8,
+            "name": "Arpita Paul",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Chulalongkorn University",
+            "department": "Civil Engineering",
+            "country": "Thailand",
+            "research_interests": [
+                "Traffic Engineering",
+                "Roundabout Analysis",
+                "Public Transit",
+                "VISSIM Simulation"
+            ],
+            "publications": 3,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 3
+        },
+        {
+            "id": 9,
+            "name": "Md Ashequl Islam",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Universiti Malaysia Perlis",
+            "department": "Mechanical Engineering & Technology",
+            "country": "Malaysia",
+            "research_interests": [
+                "Extended Reality",
+                "Computer Vision",
+                "Machine Learning",
+                "Transportation Technology"
+            ],
+            "publications": 3,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 3
+        },
+        {
+            "id": 10,
+            "name": "Touhid Bhuiyan",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Chulalongkorn University",
+            "department": "Civil Engineering",
+            "country": "Thailand",
+            "research_interests": [
+                "Autonomous Vehicles",
+                "Optimization",
+                "Energy-Optimal Routing",
+                "Urban Planning"
+            ],
+            "publications": 3,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 3
+        },
+        {
+            "id": 11,
+            "name": "Md Maruf Hassan",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Southeast University",
+            "department": "Computer Science & Engineering",
+            "country": "Bangladesh",
+            "research_interests": [
+                "Machine Learning",
+                "Mode Choice Analysis",
+                "Autonomous Vehicles",
+                "Computer Science"
+            ],
+            "publications": 3,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 3
+        },
+        {
+            "id": 12,
+            "name": "Ferdoushi Ahmed",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Prince of Songkla University",
+            "department": "Faculty of Economics",
+            "country": "Thailand",
+            "research_interests": [
+                "Public Transit Analysis",
+                "Vehicle Ownership",
+                "Post-COVID Mobility",
+                "Economics"
+            ],
+            "publications": 2,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 2
+        },
+        {
+            "id": 13,
+            "name": "Farhana Mehjabin",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Chulalongkorn University",
+            "department": "Civil Engineering",
+            "country": "Thailand",
+            "research_interests": [
+                "Environmental Analysis",
+                "Vehicle Emissions",
+                "Travel Behavior",
+                "Metro Rail Impact"
+            ],
+            "publications": 2,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 2
+        },
+        {
+            "id": 14,
+            "name": "Syeda Tamzida Akter",
+            "role": "Research Collaborator",
+            "title": "Graduate Researcher",
+            "affiliation": "Chulalongkorn University",
+            "department": "Civil Engineering",
+            "country": "Thailand",
+            "research_interests": [
+                "Travel Mode Choice",
+                "Environmental Analysis",
+                "Machine Learning"
+            ],
+            "publications": 2,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 2
+        },
+        {
+            "id": 15,
+            "name": "Chengjiang Li",
+            "role": "International Collaborator",
+            "title": "Professor",
+            "affiliation": "Guizhou University",
+            "department": "School of Management",
+            "country": "China",
+            "research_interests": [
+                "LLMs in Transportation",
+                "Management",
+                "Transportation Research"
+            ],
+            "publications": 1,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 1
+        },
+        {
+            "id": 16,
+            "name": "Michael Negnevitsky",
+            "role": "International Collaborator",
+            "title": "Fellow, IEEE",
+            "affiliation": "University of Tasmania",
+            "department": "School of Engineering",
+            "country": "Australia",
+            "research_interests": [
+                "LLMs",
+                "Engineering",
+                "AI Applications"
+            ],
+            "publications": 1,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 1
+        },
+        {
+            "id": 17,
+            "name": "Hiroshi Takemura",
+            "role": "International Collaborator",
+            "title": "Professor",
+            "affiliation": "Tokyo University of Science",
+            "department": "Mechanical & Aerospace Engineering",
+            "country": "Japan",
+            "research_interests": [
+                "Extended Reality",
+                "Mechanical Engineering",
+                "Transportation Technology"
+            ],
+            "publications": 1,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 1
+        },
+        {
+            "id": 18,
+            "name": "Zoltán Nagy",
+            "role": "International Collaborator",
+            "title": "Professor",
+            "affiliation": "University of Debrecen",
+            "department": "Faculty of Economics and Business",
+            "country": "Hungary",
+            "research_interests": [
+                "Vehicle Ownership",
+                "Economics",
+                "Transportation Policy"
+            ],
+            "publications": 1,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 1
+        },
+        {
+            "id": 19,
+            "name": "Masuk Abdullah",
+            "role": "International Collaborator",
+            "title": "Researcher",
+            "affiliation": "University of Debrecen",
+            "department": "Vehicles Engineering",
+            "country": "Hungary",
+            "research_interests": [
+                "Vehicle Engineering",
+                "Data Science",
+                "Transportation"
+            ],
+            "publications": 1,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 1
+        },
+        {
+            "id": 20,
+            "name": "Mostafa Sameer",
+            "role": "International Collaborator",
+            "title": "Researcher",
+            "affiliation": "Florida International University",
+            "department": "Civil and Environmental Engineering",
+            "country": "USA",
+            "research_interests": [
+                "Machine Learning",
+                "Autonomous Vehicles",
+                "Transportation Engineering"
+            ],
+            "publications": 2,
+            "email": "",
+            "image": "assets/images/team/placeholder.jpg",
+            "collaboration_count": 2
+        }
+    ],
+    "affiliations": [
+        {
+            "name": "Chulalongkorn University",
+            "country": "Thailand",
+            "logo": "assets/images/logo_Affiliation/Chula logo.png",
+            "website": "https://www.chula.ac.th",
+            "members": 5
+        },
+        {
+            "name": "Shahjalal University of Science and Technology",
+            "country": "Bangladesh",
+            "logo": "assets/images/affiliations/sust.png",
+            "website": "https://www.sust.edu",
+            "members": 2
+        },
+        {
+            "name": "Universiti Malaysia Perlis",
+            "country": "Malaysia",
+            "logo": "assets/images/affiliations/unimap.png",
+            "website": "https://www.unimap.edu.my",
+            "members": 3
+        },
+        {
+            "name": "Atish Dipankar University",
+            "country": "Bangladesh",
+            "logo": "assets/images/affiliations/adust.png",
+            "website": "https://www.adust.edu.bd",
+            "members": 1
+        },
+        {
+            "name": "Prince of Songkla University",
+            "country": "Thailand",
+            "logo": "assets/images/affiliations/psu.png",
+            "website": "https://www.psu.ac.th",
+            "members": 1
+        },
+        {
+            "name": "Southeast University",
+            "country": "Bangladesh",
+            "logo": "assets/images/affiliations/seu.png",
+            "website": "https://www.seu.edu.bd",
+            "members": 1
+        },
+        {
+            "name": "University of Debrecen",
+            "country": "Hungary",
+            "logo": "assets/images/affiliations/debrecen.png",
+            "website": "https://www.unideb.hu",
+            "members": 2
+        },
+        {
+            "name": "Guizhou University",
+            "country": "China",
+            "logo": "assets/images/affiliations/guizhou.png",
+            "website": "http://www.gzu.edu.cn",
+            "members": 1
+        },
+        {
+            "name": "University of Tasmania",
+            "country": "Australia",
+            "logo": "assets/images/affiliations/tasmania.png",
+            "website": "https://www.utas.edu.au",
+            "members": 1
+        },
+        {
+            "name": "Tokyo University of Science",
+            "country": "Japan",
+            "logo": "assets/images/affiliations/tokyo.png",
+            "website": "https://www.tus.ac.jp",
+            "members": 1
+        },
+        {
+            "name": "Florida International University",
+            "country": "USA",
+            "logo": "assets/images/affiliations/fiu.png",
+            "website": "https://www.fiu.edu",
+            "members": 1
+        },
+        {
+            "name": "IEEE",
+            "country": "International",
+            "logo": "assets/images/logo_Affiliation/IEEE-Logo.jpg",
+            "website": "https://www.ieee.org",
+            "members": 1
+        },
+        {
+            "name": "B'Deshi Research Lab",
+            "country": "Bangladesh",
+            "logo": "assets/images/logo_Affiliation/logo bdeshi .jpg",
+            "website": "#",
+            "members": 1
+        }
+    ],
+    "stats": {
+        "total_members": 20,
+        "current_students": 3,
+        "lab_alumni": 5,
+        "total_publications": 19,
+        "total_citations": 0,
+        "active_projects": 15,
+        "countries_represented": 9,
+        "institutions": 13
+    }
+}

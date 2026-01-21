@@ -1,47 +1,54 @@
 {
   "personal": {
-    "name": "MAHBUB",
-    "full_name": "Your Full Name Here",
-    "title": "Transportation Engineering Researcher",
+    "name": "MAHBUB HASSAN",
+    "full_name": "Mahbub Hassan",
+    "title": "Transportation Engineering Researcher & IEEE Graduate Student Member",
     "affiliation": "Chulalongkorn University",
-    "department": "Department of Civil Engineering",
+    "department": "Department of Civil Engineering, Faculty of Engineering",
     "location": "Bangkok, Thailand",
-    "email": "your.email@chula.ac.th",
-    "phone": "+66-XX-XXX-XXXX",
-    "bio_short": "Transportation Engineering Researcher specializing in AI applications, sustainable mobility, and intelligent transportation systems.",
-    "bio_long": "I am a Transportation Engineering Researcher at Chulalongkorn University, focusing on sustainable mobility and AI applications in transportation systems. My research involves GTFS transit analysis, EV adoption patterns, and developing AI-powered tools for transportation planning.",
+    "email": "mahbub.hassan@ieee.org",
+    "phone": "+66 095 225 6651",
+    "bio_short": "Master's student and Transportation Engineering Researcher specializing in Intelligent Transportation Systems, Large Language Models, Machine Learning in Autonomous Vehicles, and Sustainable Mobility.",
+    "bio_long": "I am a Master's student and Transportation Engineering Researcher at Chulalongkorn University's Department of Civil Engineering, originally from Naogaon, Bangladesh. My research focuses on integrating engineering and computer science to enhance transportation safety, efficiency, and sustainability. I specialize in applying cutting-edge AI technologies including Large Language Models and Machine Learning to solve complex transportation challenges. My work spans intelligent transportation systems, autonomous vehicles, EV infrastructure equity, and traffic simulation. I am passionate about building open-source tools and conducting bibliometric research to advance the field of transportation engineering.",
     "profile_image": "assets/images/profile/main.jpg",
     "cv_download": "assets/docs/cv.pdf"
   },
   "social": {
     "github": "https://github.com/mahbubchula",
     "linkedin": "https://linkedin.com/in/yourprofile",
-    "google_scholar": "https://scholar.google.com/citations?user=yourID",
-    "researchgate": "https://www.researchgate.net/profile/yourprofile",
-    "orcid": "https://orcid.org/0000-0000-0000-0000",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ",
+    "researchgate": "https://www.researchgate.net/profile/Mahbub-Hassan-4",
+    "orcid": "https://orcid.org/0009-0006-1956-8159",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=59417109900",
     "twitter": "",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/@dailymahbub"
   },
   "site": {
-    "title": "MAHBUB | AI & Transportation Research",
-    "description": "Transportation Engineering Researcher specializing in AI applications, sustainable mobility, and intelligent transportation systems.",
-    "keywords": "Transportation Engineering, AI, Machine Learning, Sustainable Mobility, GTFS, SUMO, EV, Research, Chulalongkorn University",
+    "title": "Mahbub Hassan | AI & Transportation Research",
+    "description": "Transportation Engineering Researcher at Chulalongkorn University specializing in Intelligent Transportation Systems, Large Language Models, Machine Learning, and Sustainable Mobility.",
+    "keywords": "Mahbub Hassan, Transportation Engineering, AI, Machine Learning, LLM, Large Language Models, Intelligent Transportation Systems, Autonomous Vehicles, SUMO, GTFS, EV Infrastructure, Chulalongkorn University, Research",
     "url": "https://mahbubchula.github.io/mahbub",
     "logo_emoji": "🚀",
     "copyright_year": "2025"
   },
   "stats": {
-    "publications": 10,
-    "tools_built": 8,
+    "publications": 30,
+    "tools_built": 6,
     "active_projects": 5,
-    "citations": 50
+    "citations": 45,
+    "h_index": 3,
+    "students_mentored": 15,
+    "countries_presented": 5
   },
   "research_interests": [
-    "AI in Transportation",
-    "Sustainable Mobility",
-    "Electric Vehicle Infrastructure",
-    "Transit Network Analysis",
-    "Traffic Microsimulation",
-    "Digital Twin Systems"
+    "Intelligent Transportation Systems",
+    "Large Language Models in Transportation",
+    "Machine Learning in Autonomous Vehicles",
+    "Explainable AI",
+    "Sustainable Mobility & EV Infrastructure",
+    "Transit Network Analysis (GTFS)",
+    "Traffic Microsimulation (SUMO)",
+    "Digital Twin Systems",
+    "Bibliometric Analysis"
   ]
 }
