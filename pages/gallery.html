@@ -93,18 +93,36 @@
         </div>
     </section>
 
-    <!-- Gallery Coming Soon -->
-    <section class="section">
+    <!-- Gallery Filter -->
+    <section class="section" style="padding-bottom: 0;">
         <div class="container">
-            <div class="verification-banner animate-on-scroll" style="max-width: 700px; margin: 0 auto; flex-direction: column; text-align: center; gap: var(--space-4);">
-                <div class="verification-icon"><i data-lucide="images"></i></div>
-                <div class="verification-content">
-                    <h3>Photo Gallery Coming Soon</h3>
-                    <p>I'm curating photos from conferences, workshops, and lab activities to share here. Check back soon, or follow along on <a href="https://www.linkedin.com/in/mahbub-hassan-93b8073b7/" target="_blank" style="color: var(--accent-cyan-400); text-decoration: underline;">LinkedIn</a> in the meantime.</p>
+            <div class="category-filter-bar animate-on-scroll"></div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="section" style="padding-top: var(--space-6);">
+        <div class="container">
+            <div class="gallery-grid"></div>
+            <p style="text-align: center; color: var(--dark-text-secondary); margin-top: var(--space-10);">More photos from conferences, workshops, and lab activities coming soon.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Lightbox -->
+    <div class="cert-lightbox-overlay" id="galleryLightbox">
+        <div class="cert-lightbox-box">
+            <div class="cert-lightbox-close"><i data-lucide="x"></i></div>
+            <div class="cert-lightbox-img-wrap">
+                <img src="" alt="">
+            </div>
+            <div class="cert-lightbox-info">
+                <div>
+                    <h4 class="cert-lightbox-title"></h4>
+                    <p class="cert-lightbox-meta"></p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -184,5 +202,6 @@
 
     <!-- JavaScript -->
     <script src="../js/main.js?v=20260915"></script>
+    <script src="../js/gallery.js?v=20260915"></script>
 </body>
 </html>
