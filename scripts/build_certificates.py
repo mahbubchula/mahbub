@@ -53,18 +53,68 @@ add(19, "Sustainable Regional Principles, Planning and Transportation", "Courser
 add(20, "Exploratory Data Analysis for Machine Learning", "Coursera", "IBM", "Machine Learning", "2024", "Z18BLOOBJ2WY", "https://coursera.org/verify/Z18BLOOBJ2WY", "certificates/Coursera Z18BLOOBJ2WY Exploratory Data Analysis for Machine Learning.pdf", ["Exploratory Data Analysis", "Machine Learning", "Data Visualization"])
 add(21, "Transportation, Sustainable Buildings, Green Construction", "Coursera", "Johns Hopkins University", "Sustainable Cities", "2024", "ZYT3DVBM6BJE", "https://coursera.org/verify/ZYT3DVBM6BJE", "certificates/Coursera ZYT3DVBM6BJE Transportation, Sustainable Buildings, Green Construction.pdf", ["Green Construction", "Sustainable Buildings", "Transportation Planning"])
 
-# ---------- Elsevier Researcher Academy (11) ----------
-add(22, "Certified Peer Reviewer Course", "Elsevier Researcher Academy", "Elsevier", "Academic Publishing", "2024", "ELSEVIER-CPR", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Certified Peer Reviewer Course/certified-peer-reviewer-course-certificate.pdf", ["Peer Review", "Academic Publishing", "Research Evaluation", "Manuscript Review"])
-add(23, "Fundamentals of Manuscript Preparation", "Elsevier Researcher Academy", "Elsevier", "Academic Writing", "2024", "ELSEVIER-FMP", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Fundamentals of manuscript preparation/fundamentals-manuscript-preparation-certificate.pdf", ["Manuscript Writing", "Academic Writing", "Data Visualization", "Reference Management"])
-add(24, "Fundamentals of Peer Review", "Elsevier Researcher Academy", "Elsevier", "Academic Publishing", "2024", "ELSEVIER-FPR", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Fundamentals of peer review/fundamentals-peer-review-certificate.pdf", ["Peer Review", "Research Ethics", "Transparency", "Diversity in Review"])
-add(25, "Fundamentals of Publishing", "Elsevier Researcher Academy", "Elsevier", "Academic Publishing", "2024", "ELSEVIER-FP", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Fundamentals of publishing/fundamentals-publishing-certificate.pdf", ["Academic Publishing", "Journal Publishing", "ORCID", "Scholarly Communication"])
-add(26, "Becoming a Peer Reviewer", "Elsevier Researcher Academy", "Elsevier", "Academic Publishing", "2024", "ELSEVIER-BPR", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Becoming a peer reviewer/becoming-peer-reviewer-certificate.pdf", ["Peer Review", "Manuscript Evaluation", "Editorial Process"])
-add(27, "Going Through Peer Review", "Elsevier Researcher Academy", "Elsevier", "Academic Publishing", "2024", "ELSEVIER-GTPR", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Going through peer review/going-peer-review-certificate.pdf", ["Peer Review Process", "Responding to Reviewers", "Manuscript Revision"])
-add(28, "Research Data Management", "Elsevier Researcher Academy", "Elsevier", "Research Skills", "2024", "ELSEVIER-RDM", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Research data management/research-data-management-certificate.pdf", ["Data Management", "Research Data", "Data Sharing", "Open Science"])
-add(29, "Research Design", "Elsevier Researcher Academy", "Elsevier", "Research Skills", "2024", "ELSEVIER-RD", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Research design/research-design-certificate.pdf", ["Research Methodology", "Study Design", "Research Planning"])
-add(30, "Research Metrics", "Elsevier Researcher Academy", "Elsevier", "Research Skills", "2024", "ELSEVIER-RM", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Research metrics/research-metrics-certificate.pdf", ["Research Metrics", "Citation Analysis", "Impact Factor", "Bibliometrics"])
-add(31, "Technical Writing Skills", "Elsevier Researcher Academy", "Elsevier", "Academic Writing", "2024", "ELSEVIER-TWS", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Technical writing skills/technical-writing-skills-certificate.pdf", ["Technical Writing", "Scientific Communication", "Writing Clarity"])
-add(32, "Writing Skills", "Elsevier Researcher Academy", "Elsevier", "Academic Writing", "2024", "ELSEVIER-WS", "https://researcheracademy.elsevier.com/", "Research Academy _Elsevier/Writing Skills/writing-skills-certificate.pdf", ["Academic Writing", "Writing Skills", "Scientific Writing"])
+# ---------- Elsevier Researcher Academy: EVERY module certificate ----------
+# Auto-generated from every PDF actually present in each course folder,
+# rather than just one representative certificate per course.
+ELSEVIER_FOLDER_CATEGORY = {
+    "Becoming a peer reviewer": "Academic Publishing",
+    "Certified Peer Reviewer Course": "Academic Publishing",
+    "Fundamentals of manuscript preparation": "Academic Writing",
+    "Fundamentals of peer review": "Academic Publishing",
+    "Fundamentals of publishing": "Academic Publishing",
+    "Going through peer review": "Academic Publishing",
+    "Research data management": "Research Skills",
+    "Research design": "Research Skills",
+    "Research metrics": "Research Skills",
+    "Technical writing skills": "Academic Writing",
+    "Writing Skills": "Academic Writing",
+}
+
+ACRONYMS = {"ai": "AI", "orcid": "ORCID", "qa": "Q&A", "id": "ID", "sjr": "SJR",
+            "snip": "SNIP", "plumx": "PlumX", "fair": "FAIR"}
+SMALL_WORDS = {"a", "an", "the", "of", "to", "in", "on", "for", "and", "or",
+               "is", "are", "not", "your", "you"}
+
+def slug_to_title(stem: str) -> str:
+    s = stem
+    if s.endswith("-certificate"):
+        s = s[: -len("-certificate")]
+    parts = s.split("-")
+    if parts and parts[0].isdigit():
+        parts = parts[1:]
+    words = []
+    for i, w in enumerate(parts):
+        lw = w.lower()
+        if lw in ACRONYMS:
+            words.append(ACRONYMS[lw])
+        elif i > 0 and lw in SMALL_WORDS:
+            words.append(lw)
+        else:
+            words.append(w.capitalize())
+    return " ".join(words)
+
+_elsevier_id = 100
+ELSEVIER_ROOT = ASSETS / "Research Academy _Elsevier"
+for folder in sorted(ELSEVIER_ROOT.iterdir()):
+    if not folder.is_dir():
+        continue
+    category = ELSEVIER_FOLDER_CATEGORY.get(folder.name, "Academic Publishing")
+    for pdf in sorted(folder.glob("*.pdf")):
+        title = slug_to_title(pdf.stem)
+        rel = f"Research Academy _Elsevier/{folder.name}/{pdf.name}"
+        add(
+            _elsevier_id,
+            title,
+            "Elsevier Researcher Academy",
+            "Elsevier",
+            category,
+            "2024",
+            f"ELSEVIER-{_elsevier_id}",
+            "https://researcheracademy.elsevier.com/",
+            rel,
+            [folder.name, "Elsevier Researcher Academy"],
+        )
+        _elsevier_id += 1
 
 # ---------- Conference / Competition / Awards ----------
 add(33, "Best International Student Award 2024", "Conference Award", "Chulalongkorn University", "Awards & Honors", "2024", "AWARD-BISA-2024", "", "conference certificate/Best International Student Award_2024.pdf", ["Academic Excellence", "International Recognition"])

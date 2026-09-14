@@ -370,199 +370,6 @@
             ]
         },
         {
-            "id": 22,
-            "title": "Certified Peer Reviewer Course",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Academic Publishing",
-            "date": "2024",
-            "credential_id": "ELSEVIER-CPR",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/certified-peer-reviewer-course-certificate.pdf",
-            "image": "assets/images/cert-thumbs/22.jpg",
-            "skills": [
-                "Peer Review",
-                "Academic Publishing",
-                "Research Evaluation",
-                "Manuscript Review"
-            ]
-        },
-        {
-            "id": 23,
-            "title": "Fundamentals of Manuscript Preparation",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Academic Writing",
-            "date": "2024",
-            "credential_id": "ELSEVIER-FMP",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/fundamentals-manuscript-preparation-certificate.pdf",
-            "image": "assets/images/cert-thumbs/23.jpg",
-            "skills": [
-                "Manuscript Writing",
-                "Academic Writing",
-                "Data Visualization",
-                "Reference Management"
-            ]
-        },
-        {
-            "id": 24,
-            "title": "Fundamentals of Peer Review",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Academic Publishing",
-            "date": "2024",
-            "credential_id": "ELSEVIER-FPR",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/fundamentals-peer-review-certificate.pdf",
-            "image": "assets/images/cert-thumbs/24.jpg",
-            "skills": [
-                "Peer Review",
-                "Research Ethics",
-                "Transparency",
-                "Diversity in Review"
-            ]
-        },
-        {
-            "id": 25,
-            "title": "Fundamentals of Publishing",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Academic Publishing",
-            "date": "2024",
-            "credential_id": "ELSEVIER-FP",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/fundamentals-publishing-certificate.pdf",
-            "image": "assets/images/cert-thumbs/25.jpg",
-            "skills": [
-                "Academic Publishing",
-                "Journal Publishing",
-                "ORCID",
-                "Scholarly Communication"
-            ]
-        },
-        {
-            "id": 26,
-            "title": "Becoming a Peer Reviewer",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Academic Publishing",
-            "date": "2024",
-            "credential_id": "ELSEVIER-BPR",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Becoming a peer reviewer/becoming-peer-reviewer-certificate.pdf",
-            "image": "assets/images/cert-thumbs/26.jpg",
-            "skills": [
-                "Peer Review",
-                "Manuscript Evaluation",
-                "Editorial Process"
-            ]
-        },
-        {
-            "id": 27,
-            "title": "Going Through Peer Review",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Academic Publishing",
-            "date": "2024",
-            "credential_id": "ELSEVIER-GTPR",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Going through peer review/going-peer-review-certificate.pdf",
-            "image": "assets/images/cert-thumbs/27.jpg",
-            "skills": [
-                "Peer Review Process",
-                "Responding to Reviewers",
-                "Manuscript Revision"
-            ]
-        },
-        {
-            "id": 28,
-            "title": "Research Data Management",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Research Skills",
-            "date": "2024",
-            "credential_id": "ELSEVIER-RDM",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/research-data-management-certificate.pdf",
-            "image": "assets/images/cert-thumbs/28.jpg",
-            "skills": [
-                "Data Management",
-                "Research Data",
-                "Data Sharing",
-                "Open Science"
-            ]
-        },
-        {
-            "id": 29,
-            "title": "Research Design",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Research Skills",
-            "date": "2024",
-            "credential_id": "ELSEVIER-RD",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Research design/research-design-certificate.pdf",
-            "image": "assets/images/cert-thumbs/29.jpg",
-            "skills": [
-                "Research Methodology",
-                "Study Design",
-                "Research Planning"
-            ]
-        },
-        {
-            "id": 30,
-            "title": "Research Metrics",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Research Skills",
-            "date": "2024",
-            "credential_id": "ELSEVIER-RM",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics/research-metrics-certificate.pdf",
-            "image": "assets/images/cert-thumbs/30.jpg",
-            "skills": [
-                "Research Metrics",
-                "Citation Analysis",
-                "Impact Factor",
-                "Bibliometrics"
-            ]
-        },
-        {
-            "id": 31,
-            "title": "Technical Writing Skills",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Academic Writing",
-            "date": "2024",
-            "credential_id": "ELSEVIER-TWS",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/technical-writing-skills-certificate.pdf",
-            "image": "assets/images/cert-thumbs/31.jpg",
-            "skills": [
-                "Technical Writing",
-                "Scientific Communication",
-                "Writing Clarity"
-            ]
-        },
-        {
-            "id": 32,
-            "title": "Writing Skills",
-            "provider": "Elsevier Researcher Academy",
-            "issuer": "Elsevier",
-            "category": "Academic Writing",
-            "date": "2024",
-            "credential_id": "ELSEVIER-WS",
-            "credential_url": "https://researcheracademy.elsevier.com/",
-            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills/writing-skills-certificate.pdf",
-            "image": "assets/images/cert-thumbs/32.jpg",
-            "skills": [
-                "Academic Writing",
-                "Writing Skills",
-                "Scientific Writing"
-            ]
-        },
-        {
             "id": 33,
             "title": "Best International Student Award 2024",
             "provider": "Conference Award",
@@ -1192,17 +999,1473 @@
                 "Transportation Research",
                 "Manuscript Evaluation"
             ]
+        },
+        {
+            "id": 100,
+            "title": "Tips Writing Truly Terrible Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-100",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Becoming a peer reviewer/10-tips-writing-truly-terrible-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/100.jpg",
+            "skills": [
+                "Becoming a peer reviewer",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 101,
+            "title": "Become Reviewer Editors Expect",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-101",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Becoming a peer reviewer/become-reviewer-editors-expect-certificate.pdf",
+            "image": "assets/images/cert-thumbs/101.jpg",
+            "skills": [
+                "Becoming a peer reviewer",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 102,
+            "title": "Becoming Peer Reviewer",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-102",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Becoming a peer reviewer/becoming-peer-reviewer-certificate.pdf",
+            "image": "assets/images/cert-thumbs/102.jpg",
+            "skills": [
+                "Becoming a peer reviewer",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 103,
+            "title": "Review Manuscript",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-103",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Becoming a peer reviewer/review-manuscript-certificate.pdf",
+            "image": "assets/images/cert-thumbs/103.jpg",
+            "skills": [
+                "Becoming a peer reviewer",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 104,
+            "title": "Reviewers Become Editors",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-104",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Becoming a peer reviewer/reviewers-become-editors-certificate.pdf",
+            "image": "assets/images/cert-thumbs/104.jpg",
+            "skills": [
+                "Becoming a peer reviewer",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 105,
+            "title": "Peer Review Peer Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-105",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/11-peer-review-peer-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/105.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 106,
+            "title": "Models Peer Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-106",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/12-models-peer-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/106.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 107,
+            "title": "Typical Peer Review Process",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-107",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/13-typical-peer-review-process-certificate.pdf",
+            "image": "assets/images/cert-thumbs/107.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 108,
+            "title": "Get Involved",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-108",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/14-get-involved-certificate.pdf",
+            "image": "assets/images/cert-thumbs/108.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 109,
+            "title": "Just Got Review Invite Next",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-109",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/20-just-got-review-invite-next-certificate.pdf",
+            "image": "assets/images/cert-thumbs/109.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 110,
+            "title": "Write Helpful Peer Review Report",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-110",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/31-write-helpful-peer-review-report-certificate.pdf",
+            "image": "assets/images/cert-thumbs/110.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 111,
+            "title": "Comments Editors Decision Recommendations",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-111",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/32-comments-editors-decision-recommendations-certificate.pdf",
+            "image": "assets/images/cert-thumbs/111.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 112,
+            "title": "Peer Review Review Article",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-112",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/33-peer-review-review-article-certificate.pdf",
+            "image": "assets/images/cert-thumbs/112.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 113,
+            "title": "Next",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-113",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/40-next-certificate.pdf",
+            "image": "assets/images/cert-thumbs/113.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 114,
+            "title": "Certified Peer Reviewer Course Assessment",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-114",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/certified-peer-reviewer-course-assessment-certificate.pdf",
+            "image": "assets/images/cert-thumbs/114.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 115,
+            "title": "Certified Peer Reviewer Course",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-115",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/certified-peer-reviewer-course-certificate.pdf",
+            "image": "assets/images/cert-thumbs/115.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 116,
+            "title": "Expect Certified Peer Reviewer Course",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-116",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/expect-certified-peer-reviewer-course-certificate.pdf",
+            "image": "assets/images/cert-thumbs/116.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 117,
+            "title": "Introduction Certified Peer Reviewer Course",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-117",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Certified Peer Reviewer Course/introduction-certified-peer-reviewer-course-certificate.pdf",
+            "image": "assets/images/cert-thumbs/117.jpg",
+            "skills": [
+                "Certified Peer Reviewer Course",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 118,
+            "title": "Article Art Creating Visual Abstracts Part 3 Designing",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-118",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/article-art-creating-visual-abstracts-part-3-designing-certificate.pdf",
+            "image": "assets/images/cert-thumbs/118.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 119,
+            "title": "Article Art Creating Visual Abstracts Part 4 Sketching Appropriate Visual Elements",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-119",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/article-art-creating-visual-abstracts-part-4-sketching-appropriate-visual-elements-certificate.pdf",
+            "image": "assets/images/cert-thumbs/119.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 120,
+            "title": "Article Art Creating Visual Abstracts Parts 1 2 Guide Visual Abstracts",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-120",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/article-art-creating-visual-abstracts-parts-1-2-guide-visual-abstracts-certificate.pdf",
+            "image": "assets/images/cert-thumbs/120.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 121,
+            "title": "Author Policies Use Generative AI",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-121",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/author-policies-use-generative-ai-certificate.pdf",
+            "image": "assets/images/cert-thumbs/121.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 122,
+            "title": "Data Visualization",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-122",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/data-visualization-certificate.pdf",
+            "image": "assets/images/cert-thumbs/122.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 123,
+            "title": "Data Visualization Choosing Right Plot",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-123",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/data-visualization-choosing-right-plot-certificate.pdf",
+            "image": "assets/images/cert-thumbs/123.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 124,
+            "title": "Evolution Data Visualization",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-124",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/evolution-data-visualization-certificate.pdf",
+            "image": "assets/images/cert-thumbs/124.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 125,
+            "title": "Fundamentals Manuscript Preparation",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-125",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/fundamentals-manuscript-preparation-certificate.pdf",
+            "image": "assets/images/cert-thumbs/125.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 126,
+            "title": "Generative AI New Policies Opportunities Risks",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-126",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/generative-ai-new-policies-opportunities-risks-certificate.pdf",
+            "image": "assets/images/cert-thumbs/126.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 127,
+            "title": "Generative AI Publishing Community",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-127",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/generative-ai-publishing-community-certificate.pdf",
+            "image": "assets/images/cert-thumbs/127.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 128,
+            "title": "Generative AI Q&A",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-128",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/generative-ai-qa-certificate.pdf",
+            "image": "assets/images/cert-thumbs/128.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 129,
+            "title": "Guide Reference Managers Effectively Manage References",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-129",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/guide-reference-managers-effectively-manage-references-certificate.pdf",
+            "image": "assets/images/cert-thumbs/129.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 130,
+            "title": "Prepare Manuscript",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-130",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/prepare-manuscript-certificate.pdf",
+            "image": "assets/images/cert-thumbs/130.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 131,
+            "title": "Structuring Article Correctly",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-131",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/structuring-article-correctly-certificate.pdf",
+            "image": "assets/images/cert-thumbs/131.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 132,
+            "title": "Three Contexts Data Visualisation",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-132",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/three-contexts-data-visualisation-certificate.pdf",
+            "image": "assets/images/cert-thumbs/132.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 133,
+            "title": "Write Abstract Improve Article",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-133",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of manuscript preparation/write-abstract-improve-article-certificate.pdf",
+            "image": "assets/images/cert-thumbs/133.jpg",
+            "skills": [
+                "Fundamentals of manuscript preparation",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 134,
+            "title": "Building Trust Engagement Peer Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-134",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/building-trust-engagement-peer-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/134.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 135,
+            "title": "Diversity Peer Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-135",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/diversity-peer-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/135.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 136,
+            "title": "Ethics Responsibilities Peer Reviewers",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-136",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/ethics-responsibilities-peer-reviewers-certificate.pdf",
+            "image": "assets/images/cert-thumbs/136.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 137,
+            "title": "Fundamentals Peer Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-137",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/fundamentals-peer-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/137.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 138,
+            "title": "Generative AI Research Evaluation",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-138",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/generative-ai-research-evaluation-certificate.pdf",
+            "image": "assets/images/cert-thumbs/138.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 139,
+            "title": "Get Involved Peer Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-139",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/get-involved-peer-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/139.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 140,
+            "title": "Recognizing Peer Reviewers Webinar Celebrate Editors Researchers",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-140",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/recognizing-peer-reviewers-webinar-celebrate-editors-researchers-certificate.pdf",
+            "image": "assets/images/cert-thumbs/140.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 141,
+            "title": "Review Data Article",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-141",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/review-data-article-certificate.pdf",
+            "image": "assets/images/cert-thumbs/141.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 142,
+            "title": "Transparency Peer Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-142",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of peer review/transparency-peer-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/142.jpg",
+            "skills": [
+                "Fundamentals of peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 143,
+            "title": "Reasons Get Use ORCID ID",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-143",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/10-reasons-get-use-orcid-id-certificate.pdf",
+            "image": "assets/images/cert-thumbs/143.jpg",
+            "skills": [
+                "Fundamentals of publishing",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 144,
+            "title": "Fundamentals Publishing",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-144",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/fundamentals-publishing-certificate.pdf",
+            "image": "assets/images/cert-thumbs/144.jpg",
+            "skills": [
+                "Fundamentals of publishing",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 145,
+            "title": "Gender Bias Academic Publishing",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-145",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/gender-bias-academic-publishing-certificate.pdf",
+            "image": "assets/images/cert-thumbs/145.jpg",
+            "skills": [
+                "Fundamentals of publishing",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 146,
+            "title": "Journal Publishing Cycle",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-146",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/journal-publishing-cycle-certificate.pdf",
+            "image": "assets/images/cert-thumbs/146.jpg",
+            "skills": [
+                "Fundamentals of publishing",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 147,
+            "title": "Making Sense Science Stories",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-147",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/making-sense-science-stories-certificate.pdf",
+            "image": "assets/images/cert-thumbs/147.jpg",
+            "skills": [
+                "Fundamentals of publishing",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 148,
+            "title": "Origins Scientific Publishing",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-148",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/origins-scientific-publishing-certificate.pdf",
+            "image": "assets/images/cert-thumbs/148.jpg",
+            "skills": [
+                "Fundamentals of publishing",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 149,
+            "title": "Takes Village Safeguarding Quality Scholarly Communication",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-149",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Fundamentals of publishing/takes-village-safeguarding-quality-scholarly-communication-certificate.pdf",
+            "image": "assets/images/cert-thumbs/149.jpg",
+            "skills": [
+                "Fundamentals of publishing",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 150,
+            "title": "Editors Look Paper",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-150",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Going through peer review/editors-look-paper-certificate.pdf",
+            "image": "assets/images/cert-thumbs/150.jpg",
+            "skills": [
+                "Going through peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 151,
+            "title": "Going Peer Review",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-151",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Going through peer review/going-peer-review-certificate.pdf",
+            "image": "assets/images/cert-thumbs/151.jpg",
+            "skills": [
+                "Going through peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 152,
+            "title": "Respond Reviewers Comments",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Publishing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-152",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Going through peer review/respond-reviewers-comments-certificate.pdf",
+            "image": "assets/images/cert-thumbs/152.jpg",
+            "skills": [
+                "Going through peer review",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 153,
+            "title": "Conduct Evidence Based Research",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-153",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/conduct-evidence-based-research-certificate.pdf",
+            "image": "assets/images/cert-thumbs/153.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 154,
+            "title": "Creating Good Research Data Management Plan",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-154",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/creating-good-research-data-management-plan-certificate.pdf",
+            "image": "assets/images/cert-thumbs/154.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 155,
+            "title": "Data Repositories Store Data",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-155",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/data-repositories-store-data-certificate.pdf",
+            "image": "assets/images/cert-thumbs/155.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 156,
+            "title": "Make Data Accessible not FAIR Improving Data Publishing Practices Research",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-156",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/make-data-accessible-not-fair-improving-data-publishing-practices-research-certificate.pdf",
+            "image": "assets/images/cert-thumbs/156.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 157,
+            "title": "Make Data Findable not FAIR Improving Data Publishing Practices Research",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-157",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/make-data-findable-not-fair-improving-data-publishing-practices-research-certificate.pdf",
+            "image": "assets/images/cert-thumbs/157.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 158,
+            "title": "Make Data Interoperable not FAIR Improving Data Publishing Practices Research",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-158",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/make-data-interoperable-not-fair-improving-data-publishing-practices-research-certificate.pdf",
+            "image": "assets/images/cert-thumbs/158.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 159,
+            "title": "Make Data Reusable not FAIR Improving Data Publishing Practices Research",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-159",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/make-data-reusable-not-fair-improving-data-publishing-practices-research-certificate.pdf",
+            "image": "assets/images/cert-thumbs/159.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 160,
+            "title": "Manage Publish Research Data",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-160",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/manage-publish-research-data-certificate.pdf",
+            "image": "assets/images/cert-thumbs/160.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 161,
+            "title": "Research Data Management",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-161",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/research-data-management-certificate.pdf",
+            "image": "assets/images/cert-thumbs/161.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 162,
+            "title": "Researchers Benefit Citing Data",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-162",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/researchers-benefit-citing-data-certificate.pdf",
+            "image": "assets/images/cert-thumbs/162.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 163,
+            "title": "Researchers Store Share Use Data",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-163",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research data management/researchers-store-share-use-data-certificate.pdf",
+            "image": "assets/images/cert-thumbs/163.jpg",
+            "skills": [
+                "Research data management",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 164,
+            "title": "Enhance Chances Serendipitous Research Discovery",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-164",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research design/enhance-chances-serendipitous-research-discovery-certificate.pdf",
+            "image": "assets/images/cert-thumbs/164.jpg",
+            "skills": [
+                "Research design",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 165,
+            "title": "Gen AI Use Research Workflow",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-165",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research design/gen-ai-use-research-workflow-certificate.pdf",
+            "image": "assets/images/cert-thumbs/165.jpg",
+            "skills": [
+                "Research design",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 166,
+            "title": "Identify Research Gaps",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-166",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research design/identify-research-gaps-certificate.pdf",
+            "image": "assets/images/cert-thumbs/166.jpg",
+            "skills": [
+                "Research design",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 167,
+            "title": "Integrate Sex Gender Intersectional Analysis Research",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-167",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research design/integrate-sex-gender-intersectional-analysis-research-certificate.pdf",
+            "image": "assets/images/cert-thumbs/167.jpg",
+            "skills": [
+                "Research design",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 168,
+            "title": "Research Design",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-168",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research design/research-design-certificate.pdf",
+            "image": "assets/images/cert-thumbs/168.jpg",
+            "skills": [
+                "Research design",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 169,
+            "title": "Citescore Early Career Researchers",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-169",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics/citescore-early-career-researchers-certificate.pdf",
+            "image": "assets/images/cert-thumbs/169.jpg",
+            "skills": [
+                "Research metrics",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 170,
+            "title": "Introduction Journal Impact Factor H Index",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-170",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics/introduction-journal-impact-factor-h-index-certificate.pdf",
+            "image": "assets/images/cert-thumbs/170.jpg",
+            "skills": [
+                "Research metrics",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 171,
+            "title": "Introduction PlumX",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-171",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics/introduction-plumx-certificate.pdf",
+            "image": "assets/images/cert-thumbs/171.jpg",
+            "skills": [
+                "Research metrics",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 172,
+            "title": "Journal Acceptance Rates Really Mean",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-172",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics/journal-acceptance-rates-really-mean-certificate.pdf",
+            "image": "assets/images/cert-thumbs/172.jpg",
+            "skills": [
+                "Research metrics",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 173,
+            "title": "Know SNIP SJR",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-173",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics/know-snip-sjr-certificate.pdf",
+            "image": "assets/images/cert-thumbs/173.jpg",
+            "skills": [
+                "Research metrics",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 174,
+            "title": "Research Metrics",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-174",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics/research-metrics-certificate.pdf",
+            "image": "assets/images/cert-thumbs/174.jpg",
+            "skills": [
+                "Research metrics",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 175,
+            "title": "Responsible Use Research Metrics",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Research Skills",
+            "date": "2024",
+            "credential_id": "ELSEVIER-175",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Research metrics/responsible-use-research-metrics-certificate.pdf",
+            "image": "assets/images/cert-thumbs/175.jpg",
+            "skills": [
+                "Research metrics",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 176,
+            "title": "Beginners Guide Writing Manuscript Latex",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-176",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/beginners-guide-writing-manuscript-latex-certificate.pdf",
+            "image": "assets/images/cert-thumbs/176.jpg",
+            "skills": [
+                "Technical writing skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 177,
+            "title": "Design Effective Figures Review Articles",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-177",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/design-effective-figures-review-articles-certificate.pdf",
+            "image": "assets/images/cert-thumbs/177.jpg",
+            "skills": [
+                "Technical writing skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 178,
+            "title": "Editor Guide Writing Review Article",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-178",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/editor-guide-writing-review-article-certificate.pdf",
+            "image": "assets/images/cert-thumbs/178.jpg",
+            "skills": [
+                "Technical writing skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 179,
+            "title": "Systematic Reviews 101",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-179",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/systematic-reviews-101-certificate.pdf",
+            "image": "assets/images/cert-thumbs/179.jpg",
+            "skills": [
+                "Technical writing skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 180,
+            "title": "Technical Writing Skills",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-180",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/technical-writing-skills-certificate.pdf",
+            "image": "assets/images/cert-thumbs/180.jpg",
+            "skills": [
+                "Technical writing skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 181,
+            "title": "Write Case Reports",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-181",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/write-case-reports-certificate.pdf",
+            "image": "assets/images/cert-thumbs/181.jpg",
+            "skills": [
+                "Technical writing skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 182,
+            "title": "Write Interdisciplinary Audience",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-182",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/write-interdisciplinary-audience-certificate.pdf",
+            "image": "assets/images/cert-thumbs/182.jpg",
+            "skills": [
+                "Technical writing skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 183,
+            "title": "Write Review Methods Article",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-183",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Technical writing skills/write-review-methods-article-certificate.pdf",
+            "image": "assets/images/cert-thumbs/183.jpg",
+            "skills": [
+                "Technical writing skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 184,
+            "title": "Tips Writing Truly Terrible Journal Article",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-184",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills/10-tips-writing-truly-terrible-journal-article-certificate.pdf",
+            "image": "assets/images/cert-thumbs/184.jpg",
+            "skills": [
+                "Writing Skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 185,
+            "title": "Diseases Ailing Research Cure",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-185",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills/5-diseases-ailing-research-cure-certificate.pdf",
+            "image": "assets/images/cert-thumbs/185.jpg",
+            "skills": [
+                "Writing Skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 186,
+            "title": "Prepare Proposal Review Article",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-186",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills/prepare-proposal-review-article-certificate.pdf",
+            "image": "assets/images/cert-thumbs/186.jpg",
+            "skills": [
+                "Writing Skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 187,
+            "title": "Turn Thesis Article",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-187",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills/turn-thesis-article-certificate.pdf",
+            "image": "assets/images/cert-thumbs/187.jpg",
+            "skills": [
+                "Writing Skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 188,
+            "title": "Using Proper Manuscript Language",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-188",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills/using-proper-manuscript-language-certificate.pdf",
+            "image": "assets/images/cert-thumbs/188.jpg",
+            "skills": [
+                "Writing Skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 189,
+            "title": "Writing Persuasive Cover Letter Manuscript",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-189",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills/writing-persuasive-cover-letter-manuscript-certificate.pdf",
+            "image": "assets/images/cert-thumbs/189.jpg",
+            "skills": [
+                "Writing Skills",
+                "Elsevier Researcher Academy"
+            ]
+        },
+        {
+            "id": 190,
+            "title": "Writing Skills",
+            "provider": "Elsevier Researcher Academy",
+            "issuer": "Elsevier",
+            "category": "Academic Writing",
+            "date": "2024",
+            "credential_id": "ELSEVIER-190",
+            "credential_url": "https://researcheracademy.elsevier.com/",
+            "certificate_file": "assets/images/Research Academy _Elsevier/Writing Skills/writing-skills-certificate.pdf",
+            "image": "assets/images/cert-thumbs/190.jpg",
+            "skills": [
+                "Writing Skills",
+                "Elsevier Researcher Academy"
+            ]
         }
     ],
     "categories": [
         {
             "name": "Academic Publishing",
-            "count": 5,
+            "count": 37,
             "icon": "book-open-check"
         },
         {
             "name": "Academic Writing",
-            "count": 3,
+            "count": 31,
             "icon": "pen-line"
         },
         {
@@ -1237,7 +2500,7 @@
         },
         {
             "name": "Research Skills",
-            "count": 3,
+            "count": 23,
             "icon": "flask-conical"
         },
         {
@@ -1267,7 +2530,7 @@
         }
     ],
     "stats": {
-        "total_certificates": 71,
+        "total_certificates": 151,
         "specializations": 1,
         "providers": [
             "Academic Honor",
