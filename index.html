@@ -390,6 +390,8 @@
             background: var(--dark-bg-secondary);
             border-top: 1px solid var(--dark-border);
             border-bottom: 1px solid var(--dark-border);
+            position: relative;
+            overflow: hidden;
         }
 
         body.light-mode .stats-section {
@@ -400,13 +402,49 @@
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: var(--space-8);
+            gap: var(--space-6);
         }
 
         .stat-card {
             text-align: center;
-            padding: var(--space-6);
+            padding: var(--space-8) var(--space-6);
+            background: var(--gradient-card);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius-xl);
+            transition: all var(--duration-300);
         }
+
+        body.light-mode .stat-card {
+            background: var(--light-bg-card);
+            border-color: var(--light-border);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-cyan-500);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .stat-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto var(--space-4);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .stat-icon svg {
+            width: 22px;
+            height: 22px;
+            color: #fff;
+        }
+
+        .stat-icon.teal { background: linear-gradient(135deg, var(--accent-cyan-600), var(--accent-cyan-400)); }
+        .stat-icon.indigo { background: linear-gradient(135deg, var(--accent-purple-600), var(--accent-purple-400)); }
+        .stat-icon.amber { background: linear-gradient(135deg, var(--accent-amber-600), var(--accent-amber-400)); }
+        .stat-icon.emerald { background: linear-gradient(135deg, var(--accent-green-600), var(--accent-green-400)); }
 
         .stat-number {
             font-family: var(--font-display);
@@ -1190,18 +1228,22 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-card animate-on-scroll">
+                    <div class="stat-icon teal"><i data-lucide="file-text"></i></div>
                     <div class="stat-number" data-count="43" data-suffix="">0</div>
                     <div class="stat-label">Publications</div>
                 </div>
                 <div class="stat-card animate-on-scroll">
+                    <div class="stat-icon indigo"><i data-lucide="wrench"></i></div>
                     <div class="stat-number" data-count="23" data-suffix="+">0</div>
                     <div class="stat-label">AI Tools Built</div>
                 </div>
                 <div class="stat-card animate-on-scroll">
+                    <div class="stat-icon amber"><i data-lucide="users"></i></div>
                     <div class="stat-number" data-count="20" data-suffix="+">0</div>
                     <div class="stat-label">Students Mentored</div>
                 </div>
                 <div class="stat-card animate-on-scroll">
+                    <div class="stat-icon emerald"><i data-lucide="quote"></i></div>
                     <div class="stat-number" data-count="200" data-suffix="+">0</div>
                     <div class="stat-label">Citations</div>
                 </div>

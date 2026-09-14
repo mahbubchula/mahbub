@@ -1015,6 +1015,183 @@
                 "Academic Excellence",
                 "Dean's List"
             ]
+        },
+        {
+            "id": 62,
+            "title": "Peer Reviewer Certificate – 01 March 2026",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-03",
+            "credential_id": "REVIEW-2026-03-01",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 01 March 2026.pdf",
+            "image": "assets/images/cert-thumbs/62.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 63,
+            "title": "Peer Reviewer Certificate – 02 May 2026",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-05",
+            "credential_id": "REVIEW-2026-05-02",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 02 May 2026.pdf",
+            "image": "assets/images/cert-thumbs/63.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 64,
+            "title": "Peer Reviewer Certificate – 13 March 2026",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-03",
+            "credential_id": "REVIEW-2026-03-13-1",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 13 March 2026.pdf",
+            "image": "assets/images/cert-thumbs/64.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 65,
+            "title": "Peer Reviewer Certificate – 13 March 2026 (2)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-03",
+            "credential_id": "REVIEW-2026-03-13-2",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 13 March 2026 (1).pdf",
+            "image": "assets/images/cert-thumbs/65.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 66,
+            "title": "Peer Reviewer Certificate – 17 April 2026",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-04",
+            "credential_id": "REVIEW-2026-04-17",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 17 April 2026.pdf",
+            "image": "assets/images/cert-thumbs/66.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 67,
+            "title": "Peer Reviewer Certificate – 19 November 2025 (2)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2025-11",
+            "credential_id": "REVIEW-2025-11-19-2",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 19 November 2025.pdf",
+            "image": "assets/images/cert-thumbs/67.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 68,
+            "title": "Peer Reviewer Certificate – 09 September 2026",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-09",
+            "credential_id": "REVIEW-2026-09-09",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 09 September 2026.pdf",
+            "image": "assets/images/cert-thumbs/68.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 69,
+            "title": "Peer Reviewer Certificate – 11 June 2026",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-06",
+            "credential_id": "REVIEW-2026-06-11-1",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 11 June 2026.pdf",
+            "image": "assets/images/cert-thumbs/69.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 70,
+            "title": "Peer Reviewer Certificate – 11 June 2026 (2)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-06",
+            "credential_id": "REVIEW-2026-06-11-2",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 11 June 2026 (1).pdf",
+            "image": "assets/images/cert-thumbs/70.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 71,
+            "title": "Peer Reviewer Certificate – 11 June 2026 (3)",
+            "provider": "Peer Review",
+            "issuer": "Academic Journal",
+            "category": "Peer Review",
+            "date": "2026-06",
+            "credential_id": "REVIEW-2026-06-11-3",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/Reviewer Certificate 11 June 2026 (2).pdf",
+            "image": "assets/images/cert-thumbs/71.jpg",
+            "skills": [
+                "Peer Review",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 72,
+            "title": "TRB Annual Meeting 2027 – Peer Reviewer",
+            "provider": "Peer Review",
+            "issuer": "Transportation Research Board (TRB)",
+            "category": "Peer Review",
+            "date": "2027",
+            "credential_id": "TRB-2027",
+            "credential_url": "",
+            "certificate_file": "assets/images/Reviewer Certification/TRB Annual Meeting 2027.jpeg",
+            "image": "assets/images/cert-thumbs/72.jpg",
+            "skills": [
+                "Peer Review",
+                "Transportation Research",
+                "Manuscript Evaluation"
+            ]
         }
     ],
     "categories": [
@@ -1050,7 +1227,7 @@
         },
         {
             "name": "Peer Review",
-            "count": 12,
+            "count": 23,
             "icon": "clipboard-check"
         },
         {
@@ -1090,7 +1267,7 @@
         }
     ],
     "stats": {
-        "total_certificates": 60,
+        "total_certificates": 71,
         "specializations": 1,
         "providers": [
             "Academic Honor",

@@ -100,6 +100,17 @@ add(50, "Peer Reviewer Certificate – 19 November 2025", "Peer Review", "Academ
 add(51, "Peer Reviewer Certificate – 08 November 2025", "Peer Review", "Academic Journal", "Peer Review", "2025-11", "REVIEW-2025-11-08", "", "Reviewer Certification/Reviewer Certificate 08 November 2025.pdf", ["Peer Review", "Manuscript Evaluation"])
 add(52, "Peer Reviewer Certificate – 16 October 2025", "Peer Review", "Academic Journal", "Peer Review", "2025-10", "REVIEW-2025-10-16", "", "Reviewer Certification/Reviewer Certificate 16 October 2025.pdf", ["Peer Review", "Manuscript Evaluation"])
 add(53, "Peer Reviewer Certificate – 26 September 2025", "Peer Review", "Academic Journal", "Peer Review", "2025-09", "REVIEW-2025-09-26", "", "Reviewer Certification/Reviewer Certificate 26 September 2025.pdf", ["Peer Review", "Manuscript Evaluation"])
+add(62, "Peer Reviewer Certificate – 01 March 2026", "Peer Review", "Academic Journal", "Peer Review", "2026-03", "REVIEW-2026-03-01", "", "Reviewer Certification/Reviewer Certificate 01 March 2026.pdf", ["Peer Review", "Manuscript Evaluation"])
+add(63, "Peer Reviewer Certificate – 02 May 2026", "Peer Review", "Academic Journal", "Peer Review", "2026-05", "REVIEW-2026-05-02", "", "Reviewer Certification/Reviewer Certificate 02 May 2026.pdf", ["Peer Review", "Manuscript Evaluation"])
+add(64, "Peer Reviewer Certificate – 13 March 2026", "Peer Review", "Academic Journal", "Peer Review", "2026-03", "REVIEW-2026-03-13-1", "", "Reviewer Certification/Reviewer Certificate 13 March 2026.pdf", ["Peer Review", "Manuscript Evaluation"])
+add(65, "Peer Reviewer Certificate – 13 March 2026 (2)", "Peer Review", "Academic Journal", "Peer Review", "2026-03", "REVIEW-2026-03-13-2", "", "Reviewer Certification/Reviewer Certificate 13 March 2026 (1).pdf", ["Peer Review", "Manuscript Evaluation"])
+add(66, "Peer Reviewer Certificate – 17 April 2026", "Peer Review", "Academic Journal", "Peer Review", "2026-04", "REVIEW-2026-04-17", "", "Reviewer Certification/Reviewer Certificate 17 April 2026.pdf", ["Peer Review", "Manuscript Evaluation"])
+add(67, "Peer Reviewer Certificate – 19 November 2025 (2)", "Peer Review", "Academic Journal", "Peer Review", "2025-11", "REVIEW-2025-11-19-2", "", "Reviewer Certification/Reviewer Certificate 19 November 2025.pdf", ["Peer Review", "Manuscript Evaluation"])
+add(68, "Peer Reviewer Certificate – 09 September 2026", "Peer Review", "Academic Journal", "Peer Review", "2026-09", "REVIEW-2026-09-09", "", "Reviewer Certification/Reviewer Certificate 09 September 2026.pdf", ["Peer Review", "Manuscript Evaluation"])
+add(69, "Peer Reviewer Certificate – 11 June 2026", "Peer Review", "Academic Journal", "Peer Review", "2026-06", "REVIEW-2026-06-11-1", "", "Reviewer Certification/Reviewer Certificate 11 June 2026.pdf", ["Peer Review", "Manuscript Evaluation"])
+add(70, "Peer Reviewer Certificate – 11 June 2026 (2)", "Peer Review", "Academic Journal", "Peer Review", "2026-06", "REVIEW-2026-06-11-2", "", "Reviewer Certification/Reviewer Certificate 11 June 2026 (1).pdf", ["Peer Review", "Manuscript Evaluation"])
+add(71, "Peer Reviewer Certificate – 11 June 2026 (3)", "Peer Review", "Academic Journal", "Peer Review", "2026-06", "REVIEW-2026-06-11-3", "", "Reviewer Certification/Reviewer Certificate 11 June 2026 (2).pdf", ["Peer Review", "Manuscript Evaluation"])
+add(72, "TRB Annual Meeting 2027 – Peer Reviewer", "Peer Review", "Transportation Research Board (TRB)", "Peer Review", "2027", "TRB-2027", "", "Reviewer Certification/TRB Annual Meeting 2027.jpeg", ["Peer Review", "Transportation Research", "Manuscript Evaluation"])
 
 # ---------- Categories summary ----------
 from collections import Counter
@@ -145,18 +156,30 @@ print(f"Wrote {len(CERTS)} certificates to {out_path}")
 # ---------- Generate thumbnails ----------
 ok, fail = 0, 0
 for c in CERTS:
-    pdf_path = ROOT / c["certificate_file"]
+    src_path = ROOT / c["certificate_file"]
     thumb_path = ROOT / c["image"]
-    if not pdf_path.exists():
-        print("MISSING PDF:", pdf_path)
+    if not src_path.exists():
+        print("MISSING SOURCE:", src_path)
         fail += 1
         continue
     if thumb_path.exists():
         ok += 1
         continue
+
+    if src_path.suffix.lower() in (".jpg", ".jpeg", ".png"):
+        # Already an image — just copy and resize in place.
+        subprocess.run(["cp", str(src_path), str(thumb_path)], capture_output=True, text=True)
+        subprocess.run(["sips", "-Z", "1100", "-s", "format", "jpeg", str(thumb_path)], capture_output=True, text=True)
+        if thumb_path.exists():
+            ok += 1
+        else:
+            print("FAILED to copy image:", src_path)
+            fail += 1
+        continue
+
     prefix = str(thumb_path.with_suffix(""))
     result = subprocess.run(
-        ["pdftoppm", "-jpeg", "-r", "120", "-f", "1", "-l", "1", str(pdf_path), prefix],
+        ["pdftoppm", "-jpeg", "-r", "120", "-f", "1", "-l", "1", str(src_path), prefix],
         capture_output=True, text=True
     )
     generated = thumb_path.with_name(thumb_path.stem + "-1.jpg")
@@ -166,7 +189,7 @@ for c in CERTS:
         subprocess.run(["sips", "-Z", "1100", str(thumb_path)], capture_output=True, text=True)
         ok += 1
     else:
-        print("FAILED to convert:", pdf_path, result.stderr[:200])
+        print("FAILED to convert:", src_path, result.stderr[:200])
         fail += 1
 
 print(f"Thumbnails: {ok} ok, {fail} failed")
