@@ -3119,6 +3119,14 @@ body.light-mode .pi-card {
 .pi-image {
     border-radius: var(--radius-xl);
     overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.pi-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
 }
 
 .pi-image-placeholder {
@@ -3183,8 +3191,8 @@ body.light-mode .pi-bio {
     font-size: var(--text-xs);
     font-weight: 500;
     color: var(--accent-cyan-400);
-    background: rgba(0, 212, 255, 0.1);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    background: rgba(20, 184, 166, 0.1);
+    border: 1px solid rgba(20, 184, 166, 0.2);
     border-radius: var(--radius-full);
 }
 
@@ -3234,12 +3242,30 @@ body.light-mode .team-card {
 .team-image-placeholder {
     width: 100%;
     height: 100%;
-    background: var(--gradient-card);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4rem;
 }
+
+.avatar-initials {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: #fff;
+}
+
+.team-image .avatar-initials {
+    font-size: var(--text-3xl);
+}
+
+.avatar-initials.teal { background: linear-gradient(135deg, var(--accent-cyan-600), var(--accent-cyan-400)); }
+.avatar-initials.indigo { background: linear-gradient(135deg, var(--accent-purple-600), var(--accent-purple-400)); }
+.avatar-initials.amber { background: linear-gradient(135deg, var(--accent-amber-600), var(--accent-amber-400)); }
+.avatar-initials.emerald { background: linear-gradient(135deg, var(--accent-green-600), var(--accent-green-400)); }
 
 .team-content {
     padding: var(--space-4);
@@ -3303,7 +3329,7 @@ body.light-mode .team-links a {
 /* Collaborators Grid */
 .collaborators-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: var(--space-6);
 }
 
@@ -3327,9 +3353,25 @@ body.light-mode .collaborator-card {
 }
 
 .collaborator-logo {
-    font-size: 3rem;
-    margin-bottom: var(--space-3);
+    width: 56px;
+    height: 56px;
+    margin: 0 auto var(--space-3);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.collaborator-logo svg {
+    width: 26px;
+    height: 26px;
+    color: #fff;
+}
+
+.collaborator-logo.teal { background: linear-gradient(135deg, var(--accent-cyan-600), var(--accent-cyan-400)); }
+.collaborator-logo.indigo { background: linear-gradient(135deg, var(--accent-purple-600), var(--accent-purple-400)); }
+.collaborator-logo.amber { background: linear-gradient(135deg, var(--accent-amber-600), var(--accent-amber-400)); }
+.collaborator-logo.emerald { background: linear-gradient(135deg, var(--accent-green-600), var(--accent-green-400)); }
 
 .collaborator-card h4 {
     font-size: var(--text-base);
@@ -3358,7 +3400,7 @@ body.light-mode .collaborator-location {
 /* Alumni Grid */
 .alumni-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: var(--space-6);
 }
 
@@ -3383,8 +3425,16 @@ body.light-mode .alumni-card {
 }
 
 .alumni-avatar {
-    font-size: 2.5rem;
     flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.alumni-avatar .avatar-initials {
+    font-size: var(--text-lg);
+    border-radius: 50%;
 }
 
 .alumni-info h4 {
