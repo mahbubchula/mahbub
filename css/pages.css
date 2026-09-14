@@ -1776,8 +1776,15 @@ body.light-mode .tool-stat-card {
 }
 
 .tool-stat-icon {
-    font-size: 2rem;
     margin-bottom: var(--space-2);
+    display: flex;
+    justify-content: center;
+}
+
+.tool-stat-icon svg {
+    width: 32px;
+    height: 32px;
+    color: var(--accent-green-500);
 }
 
 .tool-stat-number {
@@ -1836,8 +1843,13 @@ body.light-mode .tool-showcase-card {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 6rem;
     background: var(--gradient-card);
+}
+
+.tool-image-placeholder svg {
+    width: 72px;
+    height: 72px;
+    color: var(--accent-cyan-400);
 }
 
 .tool-showcase-content {
@@ -1979,8 +1991,24 @@ body.light-mode .tool-card {
 }
 
 .tool-card-icon {
-    font-size: 2.5rem;
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.tool-card-icon svg {
+    width: 22px;
+    height: 22px;
+    color: #fff;
+}
+
+.tool-card-icon.teal { background: linear-gradient(135deg, var(--accent-cyan-600), var(--accent-cyan-400)); }
+.tool-card-icon.indigo { background: linear-gradient(135deg, var(--accent-purple-600), var(--accent-purple-400)); }
+.tool-card-icon.amber { background: linear-gradient(135deg, var(--accent-amber-600), var(--accent-amber-400)); }
+.tool-card-icon.emerald { background: linear-gradient(135deg, var(--accent-green-600), var(--accent-green-400)); }
 
 .tool-card h4 {
     font-size: var(--text-lg);
@@ -2032,7 +2060,20 @@ body.light-mode .opensource-banner {
 }
 
 .opensource-icon {
-    font-size: 3rem;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--accent-amber-600), var(--accent-amber-400));
+}
+
+.opensource-icon svg {
+    width: 26px;
+    height: 26px;
+    color: #fff;
 }
 
 .opensource-text h3 {
@@ -2556,8 +2597,20 @@ body.light-mode .philosophy-card {
 }
 
 .philosophy-icon {
-    font-size: 4rem;
     flex-shrink: 0;
+    width: 72px;
+    height: 72px;
+    border-radius: var(--radius-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--accent-purple-600), var(--accent-purple-400));
+}
+
+.philosophy-icon svg {
+    width: 32px;
+    height: 32px;
+    color: #fff;
 }
 
 .philosophy-content h3 {
@@ -2708,8 +2761,20 @@ body.light-mode .resource-card {
 }
 
 .resource-icon {
-    font-size: 2.5rem;
+    width: 52px;
+    height: 52px;
     margin-bottom: var(--space-3);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--accent-cyan-600), var(--accent-cyan-400));
+}
+
+.resource-icon svg {
+    width: 24px;
+    height: 24px;
+    color: #fff;
 }
 
 .resource-card h4 {
@@ -2890,7 +2955,20 @@ body.light-mode .mentorship-banner {
 }
 
 .mentorship-icon {
-    font-size: 3rem;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: var(--radius-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--accent-amber-600), var(--accent-amber-400));
+}
+
+.mentorship-icon svg {
+    width: 28px;
+    height: 28px;
+    color: #fff;
 }
 
 .mentorship-text h3 {
