@@ -257,7 +257,7 @@
 
                         <div class="form-note">
                             <i data-lucide="info"></i>
-                            <span>I typically respond within 1-2 business days.</span>
+                            <span>Submitting opens your email app with this pre-filled, addressed to mahbub.hassan@ieee.org. I typically respond within 1-2 business days.</span>
                         </div>
                     </div>
                 </div>
@@ -274,25 +274,25 @@
 
             <div class="faq-grid">
                 <div class="faq-card animate-on-scroll">
-                    <div class="faq-icon">🤝</div>
+                    <div class="faq-icon teal"><i data-lucide="handshake"></i></div>
                     <h4>Are you open to research collaborations?</h4>
                     <p>Yes! I'm always interested in collaborating with researchers, institutions, and industry partners on transportation and AI projects. Please reach out with your ideas.</p>
                 </div>
 
                 <div class="faq-card animate-on-scroll">
-                    <div class="faq-icon">🎓</div>
+                    <div class="faq-icon indigo"><i data-lucide="graduation-cap"></i></div>
                     <h4>Do you supervise students?</h4>
-                    <p>I work with graduate students interested in AI applications for transportation. Contact me with your research interests and background to discuss opportunities.</p>
+                    <p>I mentor undergraduate researchers through B'Deshi Emerging Research Lab, interested in AI applications for transportation. Contact me with your research interests and background to discuss opportunities.</p>
                 </div>
 
                 <div class="faq-card animate-on-scroll">
-                    <div class="faq-icon">🛠️</div>
+                    <div class="faq-icon amber"><i data-lucide="wrench"></i></div>
                     <h4>Can I contribute to your open-source tools?</h4>
                     <p>Absolutely! All my tools are open source. Check out the GitHub repositories, review the contribution guidelines, and submit pull requests.</p>
                 </div>
 
                 <div class="faq-card animate-on-scroll">
-                    <div class="faq-icon">🎤</div>
+                    <div class="faq-icon emerald"><i data-lucide="mic"></i></div>
                     <h4>Are you available for speaking engagements?</h4>
                     <p>I enjoy sharing knowledge at conferences, workshops, and seminars. Please provide event details and I'll do my best to participate.</p>
                 </div>
@@ -400,37 +400,36 @@
     
     <!-- Form Handling Script -->
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
             e.preventDefault();
-            
-            // Get form data
+
             const formData = new FormData(this);
             const data = Object.fromEntries(formData);
-            
-            // Show loading state
-            const submitBtn = this.querySelector('button[type="submit"]');
-            const originalText = submitBtn.innerHTML;
-            submitBtn.innerHTML = '<span class="spinner"></span> Sending...';
-            submitBtn.disabled = true;
-            
-            // Simulate form submission (replace with actual form handling)
-            setTimeout(() => {
-                // Reset button
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-                
-                // Show success message
-                alert('Thank you for your message! I will get back to you soon.');
-                
-                // Reset form
-                this.reset();
-            }, 1500);
-            
-            // For actual implementation, you can use:
-            // 1. Formspree: https://formspree.io
-            // 2. Netlify Forms
-            // 3. EmailJS
-            // 4. Your own backend
+
+            const subjectMap = {
+                collaboration: 'Research Collaboration',
+                partnership: 'Industry Partnership',
+                tools: 'Question about Tools',
+                speaking: 'Speaking Invitation',
+                student: 'Student Inquiry',
+                other: 'General Inquiry'
+            };
+            const subjectLine = subjectMap[data.subject] || 'Website Inquiry';
+
+            const bodyLines = [
+                `Name: ${data.name}`,
+                `Email: ${data.email}`,
+                data.organization ? `Organization: ${data.organization}` : null,
+                '',
+                data.message
+            ].filter(Boolean).join('\n');
+
+            const mailtoUrl = `mailto:mahbub.hassan@ieee.org?subject=${encodeURIComponent('[Website] ' + subjectLine)}&body=${encodeURIComponent(bodyLines)}`;
+
+            // Opens the visitor's own email app with the message pre-filled —
+            // this is a static site with no backend, so this is what actually
+            // delivers the message rather than just simulating success.
+            window.location.href = mailtoUrl;
         });
     </script>
 </body>

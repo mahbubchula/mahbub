@@ -2482,9 +2482,25 @@ body.light-mode .faq-card {
 }
 
 .faq-icon {
-    font-size: 2rem;
+    width: 48px;
+    height: 48px;
     margin-bottom: var(--space-3);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.faq-icon svg {
+    width: 22px;
+    height: 22px;
+    color: #fff;
+}
+
+.faq-icon.teal { background: linear-gradient(135deg, var(--accent-cyan-600), var(--accent-cyan-400)); }
+.faq-icon.indigo { background: linear-gradient(135deg, var(--accent-purple-600), var(--accent-purple-400)); }
+.faq-icon.amber { background: linear-gradient(135deg, var(--accent-amber-600), var(--accent-amber-400)); }
+.faq-icon.emerald { background: linear-gradient(135deg, var(--accent-green-600), var(--accent-green-400)); }
 
 .faq-card h4 {
     font-size: var(--text-base);
