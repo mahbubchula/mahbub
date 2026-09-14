@@ -134,10 +134,12 @@ function setupLightbox() {
         metaEl.textContent = `${imageBlock.dataset.issuer} • ${imageBlock.dataset.date}`;
         downloadEl.href = imageBlock.dataset.pdf;
         overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
     });
 
     function close() {
         overlay.classList.remove('active');
+        document.body.style.overflow = '';
     }
 
     closeEl.addEventListener('click', close);
