@@ -15,46 +15,46 @@
    Easy to customize - change colors here only!
    ============================================ */
 :root {
-    /* ========== PRIMARY COLORS ========== */
-    --primary-900: #0A1628;    /* Darkest - backgrounds */
-    --primary-800: #0F2137;    /* Dark sections */
-    --primary-700: #152A46;    /* Cards in dark mode */
-    --primary-600: #1E3A5F;    /* Primary brand */
-    --primary-500: #2E5077;    /* Primary lighter */
-    --primary-400: #4A6FA5;    /* Hover states */
-    --primary-300: #7B9CC7;    /* Borders */
-    --primary-200: #B5CAE4;    /* Subtle elements */
-    --primary-100: #E8F0F8;    /* Light backgrounds */
-    --primary-50:  #F5F8FC;    /* Lightest */
+    /* ========== PRIMARY COLORS (Aurora Indigo) ========== */
+    --primary-900: #05060F;    /* Darkest - backgrounds */
+    --primary-800: #0A0C1F;    /* Dark sections */
+    --primary-700: #12142E;    /* Cards in dark mode */
+    --primary-600: #1E2148;    /* Primary brand */
+    --primary-500: #2E3266;    /* Primary lighter */
+    --primary-400: #4B4F8C;    /* Hover states */
+    --primary-300: #8083B8;    /* Borders */
+    --primary-200: #B8BAE0;    /* Subtle elements */
+    --primary-100: #E4E5F7;    /* Light backgrounds */
+    --primary-50:  #F6F6FC;    /* Lightest */
 
     /* ========== ACCENT COLORS ========== */
-    /* Cyan - AI, Technology, Innovation */
-    --accent-cyan-600: #0891B2;
-    --accent-cyan-500: #00D4FF;
-    --accent-cyan-400: #22D3EE;
-    --accent-cyan-300: #67E8F9;
-    --accent-cyan-200: #A5F3FC;
-    --accent-cyan-glow: rgba(0, 212, 255, 0.4);
-    
-    /* Green - Sustainability, EV, Growth */
+    /* Teal - AI, Technology, Innovation (was Cyan) */
+    --accent-cyan-600: #0D9488;
+    --accent-cyan-500: #14B8A6;
+    --accent-cyan-400: #2DD4BF;
+    --accent-cyan-300: #5EEAD4;
+    --accent-cyan-200: #99F6E4;
+    --accent-cyan-glow: rgba(20, 184, 166, 0.4);
+
+    /* Emerald - Sustainability, EV, Growth */
     --accent-green-600: #059669;
     --accent-green-500: #10B981;
     --accent-green-400: #34D399;
     --accent-green-300: #6EE7B7;
     --accent-green-glow: rgba(16, 185, 129, 0.4);
-    
-    /* Amber - Energy, Alerts, Highlights */
-    --accent-amber-600: #D97706;
+
+    /* Amber/Gold - Energy, Highlights, Signature Warm Accent */
+    --accent-amber-600: #B45309;
     --accent-amber-500: #F59E0B;
     --accent-amber-400: #FBBF24;
     --accent-amber-300: #FCD34D;
-    --accent-amber-glow: rgba(245, 158, 11, 0.4);
-    
-    /* Purple - Premium, Innovation */
-    --accent-purple-600: #7C3AED;
-    --accent-purple-500: #8B5CF6;
-    --accent-purple-400: #A78BFA;
-    --accent-purple-glow: rgba(139, 92, 246, 0.4);
+    --accent-amber-glow: rgba(245, 158, 11, 0.45);
+
+    /* Electric Indigo - Premium, Innovation (was Purple) */
+    --accent-purple-600: #4338CA;
+    --accent-purple-500: #6366F1;
+    --accent-purple-400: #818CF8;
+    --accent-purple-glow: rgba(99, 102, 241, 0.4);
 
     /* ========== SEMANTIC COLORS ========== */
     --success: #10B981;
@@ -64,15 +64,15 @@
 
     /* ========== NEUTRAL COLORS ========== */
     /* Dark Mode */
-    --dark-bg-primary: #0A0F1C;
-    --dark-bg-secondary: #111827;
-    --dark-bg-tertiary: #1F2937;
-    --dark-bg-card: rgba(17, 24, 39, 0.8);
+    --dark-bg-primary: #06070F;
+    --dark-bg-secondary: #0C0E1C;
+    --dark-bg-tertiary: #161930;
+    --dark-bg-card: rgba(14, 16, 32, 0.8);
     --dark-border: rgba(255, 255, 255, 0.08);
-    --dark-border-hover: rgba(255, 255, 255, 0.15);
-    --dark-text-primary: #F9FAFB;
-    --dark-text-secondary: #9CA3AF;
-    --dark-text-tertiary: #6B7280;
+    --dark-border-hover: rgba(255, 255, 255, 0.16);
+    --dark-text-primary: #F8F8FC;
+    --dark-text-secondary: #A0A3C0;
+    --dark-text-tertiary: #6C6F94;
     
     /* Light Mode */
     --light-bg-primary: #FFFFFF;
@@ -87,14 +87,15 @@
 
     /* ========== GRADIENTS ========== */
     --gradient-primary: linear-gradient(135deg, var(--primary-900) 0%, var(--primary-700) 100%);
-    --gradient-accent: linear-gradient(135deg, var(--accent-cyan-500) 0%, var(--accent-green-500) 100%);
-    --gradient-accent-reverse: linear-gradient(135deg, var(--accent-green-500) 0%, var(--accent-cyan-500) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--accent-cyan-500) 0%, var(--accent-purple-500) 100%);
+    --gradient-accent-reverse: linear-gradient(135deg, var(--accent-purple-500) 0%, var(--accent-cyan-500) 100%);
     --gradient-purple: linear-gradient(135deg, var(--accent-purple-500) 0%, var(--accent-cyan-500) 100%);
-    --gradient-warm: linear-gradient(135deg, var(--accent-amber-500) 0%, var(--accent-green-500) 100%);
+    --gradient-warm: linear-gradient(135deg, var(--accent-amber-500) 0%, var(--accent-purple-500) 100%);
     --gradient-hero: linear-gradient(180deg, var(--dark-bg-primary) 0%, var(--primary-900) 50%, var(--primary-800) 100%);
-    --gradient-card: linear-gradient(145deg, rgba(30, 58, 95, 0.4) 0%, rgba(10, 22, 40, 0.6) 100%);
+    --gradient-card: linear-gradient(145deg, rgba(99, 102, 241, 0.14) 0%, rgba(6, 7, 15, 0.6) 100%);
     --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
-    --gradient-text: linear-gradient(135deg, var(--accent-cyan-400) 0%, var(--accent-green-400) 50%, var(--accent-cyan-400) 100%);
+    --gradient-text: linear-gradient(100deg, var(--accent-cyan-400) 0%, var(--accent-purple-400) 55%, var(--accent-amber-400) 100%);
+    --gradient-signature: linear-gradient(135deg, var(--accent-cyan-500) 0%, var(--accent-purple-500) 55%, var(--accent-amber-500) 100%);
 
     /* ========== SHADOWS ========== */
     --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
