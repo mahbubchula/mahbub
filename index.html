@@ -107,6 +107,39 @@
             color: var(--light-text-secondary);
         }
 
+        .hero-rotator {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-2) var(--space-4);
+            margin-bottom: var(--space-6);
+            background: var(--dark-bg-secondary);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius-full);
+            font-size: var(--text-sm);
+            font-weight: 500;
+            color: var(--dark-text-secondary);
+            animation: fadeInUp 0.6s ease 0.25s forwards;
+            opacity: 0;
+        }
+
+        body.light-mode .hero-rotator {
+            background: var(--light-bg-secondary);
+            border-color: var(--light-border);
+            color: var(--light-text-secondary);
+        }
+
+        .hero-rotator svg {
+            width: 16px;
+            height: 16px;
+            color: var(--accent-amber-400);
+            flex-shrink: 0;
+        }
+
+        .hero-rotator span {
+            transition: opacity var(--duration-300) ease;
+        }
+
         .hero-description {
             font-size: var(--text-base);
             color: var(--dark-text-tertiary);
@@ -179,50 +212,8 @@
 
         .hero-visual-container {
             position: relative;
-            width: 400px;
-            height: 400px;
-        }
-
-        .hero-ring {
-            position: absolute;
-            border-radius: 50%;
-            border: 1px solid rgba(45, 212, 191, 0.2);
-        }
-
-        .hero-ring-1 {
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            animation: rotate 20s linear infinite;
-        }
-
-        .hero-ring-2 {
-            width: 80%;
-            height: 80%;
-            top: 10%;
-            left: 10%;
-            border-color: rgba(99, 102, 241, 0.25);
-            animation: rotate 15s linear infinite reverse;
-        }
-
-        .hero-ring-3 {
-            width: 60%;
-            height: 60%;
-            top: 20%;
-            left: 20%;
-            border-color: rgba(245, 158, 11, 0.25);
-            animation: rotate 10s linear infinite;
-        }
-
-        @keyframes rotate {
-            from {
-                transform: rotate(0deg);
-            }
-
-            to {
-                transform: rotate(360deg);
-            }
+            width: 460px;
+            height: 460px;
         }
 
         /* Photo Frame */
@@ -311,21 +302,39 @@
 
         .floating-icon {
             position: absolute;
-            width: 50px;
-            height: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: 9px 16px 9px 11px;
             background: var(--dark-bg-secondary);
             border: 1px solid var(--dark-border);
-            border-radius: var(--radius-lg);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            border-radius: var(--radius-full);
+            white-space: nowrap;
             animation: float 3s ease-in-out infinite;
             z-index: 3;
+            transition: transform var(--duration-300), border-color var(--duration-300);
+        }
+
+        .floating-icon:hover {
+            transform: translateY(-4px) scale(1.05);
+            border-color: currentColor;
         }
 
         .floating-icon svg {
-            width: 22px;
-            height: 22px;
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+        }
+
+        .floating-icon span {
+            font-size: var(--text-xs);
+            font-weight: 600;
+            color: var(--dark-text-primary);
+            letter-spacing: 0.01em;
+        }
+
+        body.light-mode .floating-icon span {
+            color: var(--light-text-primary);
         }
 
         .floating-icon.teal { color: var(--accent-cyan-400); box-shadow: 0 0 22px var(--accent-cyan-glow); }
@@ -338,38 +347,38 @@
         }
 
         .floating-icon-1 {
-            top: 5%;
-            left: 20%;
+            top: -3%;
+            left: 4%;
             animation-delay: 0s;
         }
 
         .floating-icon-2 {
-            top: 15%;
-            right: 10%;
+            top: 10%;
+            right: -8%;
             animation-delay: 0.5s;
         }
 
         .floating-icon-3 {
-            bottom: 20%;
-            left: 5%;
+            bottom: 16%;
+            left: -12%;
             animation-delay: 1s;
         }
 
         .floating-icon-4 {
-            bottom: 10%;
-            right: 15%;
+            bottom: -3%;
+            right: 2%;
             animation-delay: 1.5s;
         }
 
         .floating-icon-5 {
-            top: 40%;
-            left: 0%;
+            top: 44%;
+            left: -15%;
             animation-delay: 2s;
         }
 
         .floating-icon-6 {
-            top: 35%;
-            right: 0%;
+            top: 40%;
+            right: -13%;
             animation-delay: 2.5s;
         }
 
@@ -586,6 +595,7 @@
         .featured-card-image.teal svg { color: var(--accent-cyan-400); }
         .featured-card-image.indigo svg { color: var(--accent-purple-400); }
         .featured-card-image.amber svg { color: var(--accent-amber-400); }
+        .featured-card-image.emerald svg { color: var(--accent-green-400); }
 
         .featured-card-content {
             padding: var(--space-5);
@@ -987,12 +997,25 @@
             .floating-icon {
                 width: 40px;
                 height: 40px;
+                padding: 0;
+                justify-content: center;
+            }
+
+            .floating-icon span {
+                display: none;
             }
 
             .floating-icon svg {
                 width: 18px;
                 height: 18px;
             }
+
+            .floating-icon-1 { top: 4%; left: 18%; }
+            .floating-icon-2 { top: 14%; right: 8%; }
+            .floating-icon-3 { bottom: 18%; left: 3%; }
+            .floating-icon-4 { bottom: 8%; right: 12%; }
+            .floating-icon-5 { top: 40%; left: -2%; }
+            .floating-icon-6 { top: 36%; right: -2%; }
 
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -1145,6 +1168,11 @@
                         Transportation & AI Researcher
                     </p>
 
+                    <p class="hero-rotator">
+                        <i data-lucide="sparkles"></i>
+                        <span id="heroRotatorText">Open to collaboration</span>
+                    </p>
+
                     <p class="hero-description">
                         IEEE Graduate Student Member at Chulalongkorn University, Thailand. I leverage <strong>AI,
                             Machine Learning, and LLMs</strong> to solve complex transportation challenges and build
@@ -1199,10 +1227,6 @@
 
                 <div class="hero-visual">
                     <div class="hero-visual-container">
-                        <div class="hero-ring hero-ring-1"></div>
-                        <div class="hero-ring hero-ring-2"></div>
-                        <div class="hero-ring hero-ring-3"></div>
-
                         <div class="mh-photo-frame">
                             <div class="mh-photo-glow"></div>
                             <div class="mh-photo-ring"></div>
@@ -1212,12 +1236,12 @@
                             </div>
                         </div>
 
-                        <div class="floating-icon floating-icon-1 indigo"><i data-lucide="bot"></i></div>
-                        <div class="floating-icon floating-icon-2 teal"><i data-lucide="route"></i></div>
-                        <div class="floating-icon floating-icon-3 amber"><i data-lucide="network"></i></div>
-                        <div class="floating-icon floating-icon-4 indigo"><i data-lucide="bar-chart-3"></i></div>
-                        <div class="floating-icon floating-icon-5 teal"><i data-lucide="bus"></i></div>
-                        <div class="floating-icon floating-icon-6 amber"><i data-lucide="zap"></i></div>
+                        <div class="floating-icon floating-icon-1 indigo"><i data-lucide="bot"></i><span>AI &amp; ML</span></div>
+                        <div class="floating-icon floating-icon-2 teal"><i data-lucide="route"></i><span>Transportation</span></div>
+                        <div class="floating-icon floating-icon-3 amber"><i data-lucide="network"></i><span>Smart Networks</span></div>
+                        <div class="floating-icon floating-icon-4 indigo"><i data-lucide="bar-chart-3"></i><span>Data Analytics</span></div>
+                        <div class="floating-icon floating-icon-5 teal"><i data-lucide="bus"></i><span>Public Transit</span></div>
+                        <div class="floating-icon floating-icon-6 amber"><i data-lucide="zap"></i><span>EV &amp; Energy</span></div>
                     </div>
                 </div>
             </div>
@@ -1309,25 +1333,49 @@
 
             <div class="featured-grid">
                 <div class="featured-card animate-on-scroll">
-                    <div class="featured-card-image amber"><i data-lucide="zap"></i></div>
+                    <div class="featured-card-image teal"><i data-lucide="gauge"></i></div>
+                    <div class="featured-card-content">
+                        <span class="featured-card-badge">Transportation Research Part F</span>
+                        <h4>The Trapped Driver Phenomenon</h4>
+                        <p>Risky driving intention among professional drivers in Bangladesh, via an extended job demands-resources model</p>
+                        <a href="https://doi.org/10.1016/j.trf.2026.103789" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">
+                            Read Paper <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-card animate-on-scroll">
+                    <div class="featured-card-image indigo"><i data-lucide="car-front"></i></div>
+                    <div class="featured-card-content">
+                        <span class="featured-card-badge">IEEE Access</span>
+                        <h4>ML in Autonomous Vehicles</h4>
+                        <p>Scientometric review of machine learning applications, trends, and challenges in AVs</p>
+                        <a href="https://doi.org/10.1109/ACCESS.2025.3620637" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">
+                            Read Paper <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-card animate-on-scroll">
+                    <div class="featured-card-image amber"><i data-lucide="shield-check"></i></div>
+                    <div class="featured-card-content">
+                        <span class="featured-card-badge">Results in Engineering</span>
+                        <h4>Explainable ML for Casualty Prediction</h4>
+                        <p>Explainable machine learning for binary casualty prediction, evidence from New South Wales</p>
+                        <a href="https://doi.org/10.1016/j.rineng.2026.112401" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">
+                            Read Paper <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-card animate-on-scroll">
+                    <div class="featured-card-image emerald"><i data-lucide="zap"></i></div>
                     <div class="featured-card-content">
                         <span class="featured-card-badge">AI Tool</span>
                         <h4>EVChargeAdvisor-AI</h4>
                         <p>Global EV charging infrastructure equity analysis with LLM-powered insights</p>
                         <a href="pages/tools.html" class="btn btn-ghost btn-sm">
                             Learn More <i data-lucide="arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="featured-card animate-on-scroll">
-                    <div class="featured-card-image indigo"><i data-lucide="book-open-check"></i></div>
-                    <div class="featured-card-content">
-                        <span class="featured-card-badge">IEEE Access</span>
-                        <h4>ML in Autonomous Vehicles</h4>
-                        <p>Scientometric review of machine learning applications in AVs</p>
-                        <a href="pages/publications.html" class="btn btn-ghost btn-sm">
-                            Read Paper <i data-lucide="arrow-right"></i>
                         </a>
                     </div>
                 </div>

@@ -19,6 +19,7 @@ function initApp() {
     initScrollAnimations();
     initCounterAnimation();
     initScrollToTop();
+    initHeroRotator();
     
     // Initialize icons if Lucide is available
     initLucideIcons();
@@ -312,6 +313,31 @@ function animateCounter(element) {
     }
     
     requestAnimationFrame(updateCounter);
+}
+
+/* ============================================
+   HERO ROTATOR (cycling tagline)
+   ============================================ */
+function initHeroRotator() {
+    const el = document.getElementById('heroRotatorText');
+    if (!el) return;
+
+    const phrases = [
+        'Open to collaboration',
+        'Always learning, always growing',
+        'Building intelligent mobility, together',
+        "Let's create something meaningful"
+    ];
+    let i = 0;
+
+    setInterval(() => {
+        i = (i + 1) % phrases.length;
+        el.style.opacity = '0';
+        setTimeout(() => {
+            el.textContent = phrases[i];
+            el.style.opacity = '1';
+        }, 300);
+    }, 3200);
 }
 
 /* ============================================
