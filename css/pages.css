@@ -859,7 +859,7 @@ body.light-mode .about-section h2 {
 /* Research Interests Grid */
 .interests-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: var(--space-4);
 }
 
@@ -885,8 +885,25 @@ body.light-mode .interest-item {
 }
 
 .interest-icon {
-    font-size: 1.5rem;
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.interest-icon svg {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+}
+
+.interest-icon.teal { background: linear-gradient(135deg, var(--accent-cyan-600), var(--accent-cyan-400)); }
+.interest-icon.indigo { background: linear-gradient(135deg, var(--accent-purple-600), var(--accent-purple-400)); }
+.interest-icon.amber { background: linear-gradient(135deg, var(--accent-amber-600), var(--accent-amber-400)); }
+.interest-icon.emerald { background: linear-gradient(135deg, var(--accent-green-600), var(--accent-green-400)); }
 
 .interest-item span {
     font-size: var(--text-sm);
@@ -1009,8 +1026,8 @@ body.light-mode .timeline-description {
 }
 
 .skill-tags .tag {
-    background: rgba(0, 212, 255, 0.1);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    background: rgba(20, 184, 166, 0.1);
+    border: 1px solid rgba(20, 184, 166, 0.2);
     color: var(--accent-cyan-400);
 }
 
@@ -1043,9 +1060,20 @@ body.light-mode .personal-interest-card {
 }
 
 .personal-interest-icon {
-    font-size: 2.5rem;
-    display: block;
-    margin-bottom: var(--space-3);
+    width: 52px;
+    height: 52px;
+    margin: 0 auto var(--space-3);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(20, 184, 166, 0.1);
+}
+
+.personal-interest-icon svg {
+    width: 24px;
+    height: 24px;
+    color: var(--accent-cyan-400);
 }
 
 .personal-interest-card h5 {

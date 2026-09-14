@@ -285,7 +285,7 @@ body.light-mode .card-glass {
 .card-icon {
     width: 56px;
     height: 56px;
-    background: rgba(0, 212, 255, 0.1);
+    background: rgba(20, 184, 166, 0.1);
     border-radius: var(--radius-lg);
     display: flex;
     align-items: center;
@@ -296,8 +296,14 @@ body.light-mode .card-glass {
 }
 
 .card:hover .card-icon {
-    background: rgba(0, 212, 255, 0.2);
+    background: rgba(20, 184, 166, 0.2);
     transform: scale(1.05);
+}
+
+.card-icon svg {
+    width: 26px;
+    height: 26px;
+    color: var(--accent-cyan-400);
 }
 
 .card-icon-sm {
@@ -306,17 +312,26 @@ body.light-mode .card-glass {
     font-size: 1.25rem;
 }
 
+.card-icon-sm svg { width: 20px; height: 20px; }
+
 .card-icon-lg {
     width: 72px;
     height: 72px;
     font-size: 2rem;
 }
 
+.card-icon-lg svg { width: 32px; height: 32px; }
+
 /* Card Icon Colors */
-.card-icon-cyan { background: rgba(0, 212, 255, 0.1); }
+.card-icon-cyan { background: rgba(20, 184, 166, 0.1); }
 .card-icon-green { background: rgba(16, 185, 129, 0.1); }
-.card-icon-purple { background: rgba(139, 92, 246, 0.1); }
+.card-icon-purple { background: rgba(99, 102, 241, 0.1); }
 .card-icon-amber { background: rgba(245, 158, 11, 0.1); }
+
+.card-icon-cyan svg { color: var(--accent-cyan-400); }
+.card-icon-green svg { color: var(--accent-green-400); }
+.card-icon-purple svg { color: var(--accent-purple-400); }
+.card-icon-amber svg { color: var(--accent-amber-400); }
 
 /* Card Title */
 .card-title {
