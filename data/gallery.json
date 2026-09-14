@@ -2,13 +2,118 @@
   "photos": [
     {
       "id": 1,
+      "caption": "Delivering a lecture on transportation engineering — Functions of Roads",
+      "category": "Teaching",
+      "date": "2024",
+      "image": "assets/images/gallery/classroom-lecture.jpg"
+    },
+    {
+      "id": 2,
+      "caption": "Presenting at CIVENTECH — International Conference on Civil Engineering Technology, UniMAP, Perlis",
+      "category": "Conferences",
+      "date": "December 2023",
+      "image": "assets/images/gallery/civentech-2023-podium.jpg"
+    },
+    {
+      "id": 3,
+      "caption": "Receiving a Certificate of Appreciation as presenter at CIVENTECH 2023",
+      "category": "Awards",
+      "date": "December 2023",
+      "image": "assets/images/gallery/civentech-2023-certificate.jpg"
+    },
+    {
+      "id": 4,
+      "caption": "Handing over my Master's thesis — Traffic Signal Optimization at Roundabout Using Metering Method, UniMAP",
+      "category": "Milestones",
+      "date": "2024",
+      "image": "assets/images/gallery/thesis-handover.jpg"
+    },
+    {
+      "id": 5,
+      "caption": "At the 13th Asia-Pacific Conference on Transportation and the Environment (APTE), NUS Singapore",
+      "category": "Conferences",
+      "date": "July 2024",
+      "image": "assets/images/gallery/apte-2024-nus-01.jpg"
+    },
+    {
+      "id": 6,
+      "caption": "Visiting NUS Engineering, Singapore",
+      "category": "Campus Visits",
+      "date": "July 2024",
+      "image": "assets/images/gallery/nus-engineering-visit.jpg"
+    },
+    {
+      "id": 7,
+      "caption": "With Dr. Ashim Debnath at APTE 2024, NUS Singapore",
+      "category": "Conferences",
+      "date": "July 2024",
+      "image": "assets/images/gallery/apte-2024-ashim-debnath.jpg"
+    },
+    {
+      "id": 8,
+      "caption": "With fellow researchers at APTE 2024, NUS Singapore",
+      "category": "Conferences",
+      "date": "July 2024",
+      "image": "assets/images/gallery/apte-2024-group.jpg"
+    },
+    {
+      "id": 9,
+      "caption": "At APTE 2024, NUS Singapore",
+      "category": "Conferences",
+      "date": "July 2024",
+      "image": "assets/images/gallery/apte-2024-nus-02.jpg"
+    },
+    {
+      "id": 10,
+      "caption": "With a fellow delegate at APTE 2024, NUS Singapore",
+      "category": "Conferences",
+      "date": "July 2024",
+      "image": "assets/images/gallery/apte-2024-nus-03.jpg"
+    },
+    {
+      "id": 11,
+      "caption": "Presenting research at a poster session, APTE 2024",
+      "category": "Conferences",
+      "date": "July 2024",
+      "image": "assets/images/gallery/apte-2024-poster-session.jpg"
+    },
+    {
+      "id": 12,
+      "caption": "Delivering a workshop talk on managing third-party claims (FIDIC & PWD contract clauses)",
+      "category": "Workshops",
+      "date": "2024",
+      "image": "assets/images/gallery/fidic-pwd-workshop.jpg"
+    },
+    {
+      "id": 13,
+      "caption": "Receiving the Best International Student Award for Social Development, UniMAP",
+      "category": "Awards",
+      "date": "2023",
+      "image": "assets/images/gallery/unimap-best-student-award.jpg"
+    },
+    {
+      "id": 14,
+      "caption": "At the UniMAP Dean's Award ceremony",
+      "category": "Awards",
+      "date": "2024",
+      "image": "assets/images/gallery/unimap-dean-award.jpg"
+    },
+    {
+      "id": 15,
+      "caption": "At the 36th KKHTCNN Symposium on Civil Engineering, Hong Kong",
+      "category": "Conferences",
+      "date": "December 2025",
+      "image": "assets/images/gallery/kkhtcnn-2025-hongkong-group.jpg"
+    },
+    {
+      "id": 16,
       "caption": "Visiting HKUST — The Hong Kong University of Science and Technology",
       "category": "Campus Visits",
       "date": "December 2025",
       "image": "assets/images/gallery/hkust-visit.jpg"
     },
     {
-      "id": 2,
+      "id": 17,
       "caption": "Overlooking Hong Kong during the 36th KKHTCNN Symposium on Civil Engineering",
       "category": "Conferences",
       "date": "December 2025",
@@ -20,6 +125,7 @@
     { "name": "Campus Visits", "icon": "landmark" },
     { "name": "Teaching", "icon": "graduation-cap" },
     { "name": "Awards", "icon": "award" },
-    { "name": "Workshops", "icon": "briefcase" }
+    { "name": "Workshops", "icon": "briefcase" },
+    { "name": "Milestones", "icon": "flag" }
   ]
 }
