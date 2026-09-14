@@ -370,6 +370,142 @@
             ]
         },
         {
+            "id": 22,
+            "title": "Recognized Reviewer – Acta Psychologica",
+            "provider": "Elsevier",
+            "issuer": "Acta Psychologica",
+            "category": "Peer Review",
+            "date": "2026-04",
+            "credential_id": "ELSEVIER-REVIEWER-ACTPSY",
+            "credential_url": "",
+            "certificate_file": "assets/images/Elsevier Reviewer Certificate/Certificate_ACTPSY_Recognised.pdf",
+            "image": "assets/images/cert-thumbs/22.jpg",
+            "skills": [
+                "Peer Review",
+                "Psychology",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Recognized Reviewer – Ain Shams Engineering Journal",
+            "provider": "Elsevier",
+            "issuer": "Ain Shams Engineering Journal",
+            "category": "Peer Review",
+            "date": "2026-03",
+            "credential_id": "ELSEVIER-REVIEWER-ASEJ",
+            "credential_url": "",
+            "certificate_file": "assets/images/Elsevier Reviewer Certificate/Certificate_ASEJ_Recognised.pdf",
+            "image": "assets/images/cert-thumbs/23.jpg",
+            "skills": [
+                "Peer Review",
+                "Engineering",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Recognized Reviewer – Engineering Applications of Artificial Intelligence",
+            "provider": "Elsevier",
+            "issuer": "Engineering Applications of Artificial Intelligence",
+            "category": "Peer Review",
+            "date": "2026-05",
+            "credential_id": "ELSEVIER-REVIEWER-EAAI",
+            "credential_url": "",
+            "certificate_file": "assets/images/Elsevier Reviewer Certificate/Certificate_EAAI_Recognised.pdf",
+            "image": "assets/images/cert-thumbs/24.jpg",
+            "skills": [
+                "Peer Review",
+                "Artificial Intelligence",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Recognized Reviewer – Economic Analysis and Policy",
+            "provider": "Elsevier",
+            "issuer": "Economic Analysis and Policy",
+            "category": "Peer Review",
+            "date": "2026-05",
+            "credential_id": "ELSEVIER-REVIEWER-EAP",
+            "credential_url": "",
+            "certificate_file": "assets/images/Elsevier Reviewer Certificate/Certificate_EAP_Recognised.pdf",
+            "image": "assets/images/cert-thumbs/25.jpg",
+            "skills": [
+                "Peer Review",
+                "Economics",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Recognized Reviewer – Journal of Cleaner Production",
+            "provider": "Elsevier",
+            "issuer": "Journal of Cleaner Production",
+            "category": "Peer Review",
+            "date": "2026-03",
+            "credential_id": "ELSEVIER-REVIEWER-JCLP",
+            "credential_url": "",
+            "certificate_file": "assets/images/Elsevier Reviewer Certificate/Certificate_JCLP_Recognised.pdf",
+            "image": "assets/images/cert-thumbs/26.jpg",
+            "skills": [
+                "Peer Review",
+                "Sustainability",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 27,
+            "title": "Recognized Reviewer – Journal of Traffic and Transportation Engineering",
+            "provider": "Elsevier",
+            "issuer": "Journal of Traffic and Transportation Engineering (English Edition)",
+            "category": "Peer Review",
+            "date": "2026-05",
+            "credential_id": "ELSEVIER-REVIEWER-JTTE",
+            "credential_url": "",
+            "certificate_file": "assets/images/Elsevier Reviewer Certificate/Certificate_JTTE_Recognised.pdf",
+            "image": "assets/images/cert-thumbs/27.jpg",
+            "skills": [
+                "Peer Review",
+                "Transportation Engineering",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 28,
+            "title": "Recognized Reviewer – Measurement",
+            "provider": "Elsevier",
+            "issuer": "Measurement",
+            "category": "Peer Review",
+            "date": "2026-02",
+            "credential_id": "ELSEVIER-REVIEWER-MEASUR",
+            "credential_url": "",
+            "certificate_file": "assets/images/Elsevier Reviewer Certificate/Certificate_MEASUR_Recognised.pdf",
+            "image": "assets/images/cert-thumbs/28.jpg",
+            "skills": [
+                "Peer Review",
+                "Measurement Science",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
+            "id": 29,
+            "title": "Recognized Reviewer – Transportation Research Interdisciplinary Perspectives",
+            "provider": "Elsevier",
+            "issuer": "Transportation Research Interdisciplinary Perspectives",
+            "category": "Peer Review",
+            "date": "2026-06",
+            "credential_id": "ELSEVIER-REVIEWER-TRIP",
+            "credential_url": "",
+            "certificate_file": "assets/images/Elsevier Reviewer Certificate/Certificate_TRIP_Recognised.pdf",
+            "image": "assets/images/cert-thumbs/29.jpg",
+            "skills": [
+                "Peer Review",
+                "Transportation Research",
+                "Manuscript Evaluation"
+            ]
+        },
+        {
             "id": 33,
             "title": "Best International Student Award 2024",
             "provider": "Conference Award",
@@ -547,40 +683,6 @@
             "skills": [
                 "International Presentation",
                 "Research"
-            ]
-        },
-        {
-            "id": 44,
-            "title": "Recognized Reviewer – ACTPSY Journal",
-            "provider": "Peer Review",
-            "issuer": "ACTPSY Journal",
-            "category": "Peer Review",
-            "date": "2025",
-            "credential_id": "ACTPSY-REVIEWER",
-            "credential_url": "",
-            "certificate_file": "assets/images/Reviewer Certification/Certificate_ACTPSY_Recognised.pdf",
-            "image": "assets/images/cert-thumbs/44.jpg",
-            "skills": [
-                "Peer Review",
-                "Academic Evaluation",
-                "Research Assessment"
-            ]
-        },
-        {
-            "id": 45,
-            "title": "Recognized Reviewer – MEASUR Journal",
-            "provider": "Peer Review",
-            "issuer": "MEASUR Journal",
-            "category": "Peer Review",
-            "date": "2025",
-            "credential_id": "MEASUR-REVIEWER",
-            "credential_url": "",
-            "certificate_file": "assets/images/Reviewer Certification/Certificate_MEASUR_Recognised (1).pdf",
-            "image": "assets/images/cert-thumbs/45.jpg",
-            "skills": [
-                "Peer Review",
-                "Academic Evaluation",
-                "Research Assessment"
             ]
         },
         {
@@ -2490,7 +2592,7 @@
         },
         {
             "name": "Peer Review",
-            "count": 23,
+            "count": 29,
             "icon": "clipboard-check"
         },
         {
@@ -2530,7 +2632,7 @@
         }
     ],
     "stats": {
-        "total_certificates": 151,
+        "total_certificates": 157,
         "specializations": 1,
         "providers": [
             "Academic Honor",
@@ -2538,6 +2640,7 @@
             "Conference Award",
             "Conference Presentation",
             "Coursera",
+            "Elsevier",
             "Elsevier Researcher Academy",
             "Peer Review"
         ]
