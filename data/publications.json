@@ -276,15 +276,14 @@
     },
 
     {
-      "id": "accepted-2026-maas-adoption",
-      "category": "accepted-journal",
+      "id": "journal-2026-maas-adoption",
+      "category": "published-journal",
       "year": 2026,
       "title": "Willingness to adopt Mobility as a Service in a pre-deployment context: Evidence from Bangladesh using a dual-method framework",
       "authors": "Hassan, M.; Sarkar, P.; Islam, M. K.; Rahman, M. M. H.",
       "venue": "Journal of Public Transportation",
-      "details": "Accepted for publication; proofing in progress",
+      "details": "28, 100176",
       "doi": "10.1016/j.jpubtr.2026.100176",
-      "doiStatus": "pending-activation",
       "topics": ["Mobility-as-a-Service", "Adoption", "Dual-method"],
       "visual": {"icon": "panels-top-left", "label": "Mobility-as-a-Service", "theme": "sustainable"}
     },
@@ -302,15 +301,14 @@
       "visual": {"icon": "waypoints", "label": "Travel Mode Choice", "theme": "ai"}
     },
     {
-      "id": "accepted-2026-maas-review",
-      "category": "accepted-journal",
+      "id": "journal-2026-maas-review",
+      "category": "published-journal",
       "year": 2026,
       "title": "Mobility-as-a-Service for sustainable transportation: A bibliometric and thematic review",
       "authors": "Hassan, M.; Paul, A.; Parven, A.; Amin, M. B.",
       "venue": "Journal of Transformative Technologies and Sustainable Development",
-      "details": "Accepted for publication; proofing in progress",
+      "details": "Published online 16 September 2026",
       "doi": "10.1007/s41314-026-00097-6",
-      "doiStatus": "pending-activation",
       "topics": ["Mobility-as-a-Service", "Sustainable transport", "Thematic review"],
       "visual": {"icon": "leaf", "label": "Sustainable MaaS", "theme": "sustainable"}
     },
