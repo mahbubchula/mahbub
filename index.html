@@ -604,172 +604,53 @@
             flex: 0 0 100%;
             min-width: 0;
             display: grid;
-            grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.92fr);
+            grid-template-columns: minmax(0, 1.28fr) minmax(300px, 0.72fr);
             align-items: center;
             gap: clamp(28px, 5vw, 64px);
             padding: clamp(28px, 5vw, 60px);
         }
 
         .article-preview {
-            min-width: 0;
-            border-radius: 18px;
-            background: #f7f9fc;
-            border: 1px solid rgba(148, 163, 184, 0.45);
-            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
-            overflow: hidden;
-            transform: perspective(1100px) rotateY(2deg) rotateX(1deg);
-        }
-
-        .article-browser-bar {
-            height: 38px;
-            display: flex;
-            align-items: center;
-            gap: 7px;
-            padding: 0 14px;
-            background: #e8edf4;
-            border-bottom: 1px solid #d7dee9;
-        }
-
-        .browser-dot {
-            width: 9px;
-            height: 9px;
-            border-radius: 50%;
-            background: #f87171;
-        }
-
-        .browser-dot:nth-child(2) { background: #fbbf24; }
-        .browser-dot:nth-child(3) { background: #34d399; }
-
-        .article-domain {
-            margin-left: 8px;
-            flex: 1;
-            padding: 5px 12px;
-            border-radius: 7px;
-            background: rgba(255, 255, 255, 0.88);
-            color: #64748b;
-            font-size: 10px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-
-        .article-preview-body {
-            display: grid;
-            grid-template-columns: 118px minmax(0, 1fr);
-            min-height: 330px;
-            color: #172033;
-        }
-
-        .journal-panel {
-            padding: 24px 16px;
-            color: #fff;
-            background: linear-gradient(160deg, var(--preview-a), var(--preview-b));
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
             position: relative;
-            overflow: hidden;
-        }
-
-        .journal-panel::after {
-            content: '';
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            border: 1px solid rgba(255, 255, 255, 0.18);
-            border-radius: 50%;
-            bottom: -70px;
-            right: -75px;
-        }
-
-        .journal-mark {
-            width: 38px;
-            height: 38px;
-            border-radius: 11px;
-            display: grid;
-            place-items: center;
-            background: rgba(255, 255, 255, 0.16);
-            border: 1px solid rgba(255, 255, 255, 0.24);
-        }
-
-        .journal-mark svg { width: 20px; height: 20px; }
-
-        .journal-panel small {
-            font-size: 9px;
-            line-height: 1.45;
-            letter-spacing: 0.09em;
-            text-transform: uppercase;
-            opacity: 0.9;
-        }
-
-        .article-sheet {
-            padding: 23px 24px 21px;
-            background: linear-gradient(180deg, #ffffff, #f5f8fc);
-        }
-
-        .article-type {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            color: #0f766e;
-            font-size: 9px;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-        }
-
-        .article-type::before {
-            content: '';
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            background: #10b981;
-        }
-
-        .article-sheet h3 {
-            color: #172033;
-            font-family: Georgia, 'Times New Roman', serif;
-            font-size: clamp(16px, 1.55vw, 23px);
-            line-height: 1.25;
-            margin-bottom: 9px;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        .preview-authors {
-            color: #536176;
-            font-size: 10px;
-            margin-bottom: 15px;
-        }
-
-        .preview-highlights {
-            padding: 13px 15px 12px;
-            background: #eaf6fb;
-            border-left: 3px solid #0891b2;
-            border-radius: 4px 10px 10px 4px;
-        }
-
-        .preview-highlights strong {
+            min-width: 0;
             display: block;
-            color: #155e75;
+            aspect-ratio: 1.93 / 1;
+            border-radius: 20px;
+            background: #fff;
+            border: 1px solid rgba(148, 163, 184, 0.5);
+            box-shadow: 0 26px 70px rgba(0, 0, 0, 0.36);
+            overflow: hidden;
+            transform: perspective(1200px) rotateY(1.3deg);
+            transition: transform var(--duration-300), box-shadow var(--duration-300);
+        }
+
+        .article-preview:hover {
+            transform: perspective(1200px) rotateY(0) translateY(-4px);
+            box-shadow: 0 32px 84px rgba(0, 0, 0, 0.42);
+        }
+
+        .article-preview img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            object-position: center top;
+        }
+
+        .article-preview::after {
+            content: 'View publication';
+            position: absolute;
+            right: 14px;
+            bottom: 14px;
+            padding: 7px 11px;
+            border-radius: var(--radius-full);
+            color: #fff;
+            background: rgba(2, 8, 23, 0.82);
+            backdrop-filter: blur(8px);
             font-size: 10px;
-            margin-bottom: 7px;
-        }
-
-        .preview-highlights ul {
-            margin: 0;
-            padding-left: 15px;
-            display: grid;
-            gap: 4px;
-        }
-
-        .preview-highlights li {
-            color: #334155;
-            font-size: 9px;
-            line-height: 1.35;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
         }
 
         .publication-story {
@@ -1316,7 +1197,7 @@
             }
 
             .article-preview {
-                width: min(680px, 100%);
+                width: min(820px, 100%);
                 margin: 0 auto;
                 transform: none;
             }
@@ -1343,19 +1224,6 @@
             .publication-slide {
                 padding: 24px 18px 30px;
                 gap: 28px;
-            }
-
-            .article-preview-body {
-                grid-template-columns: 84px minmax(0, 1fr);
-                min-height: 300px;
-            }
-
-            .journal-panel {
-                padding: 18px 11px;
-            }
-
-            .article-sheet {
-                padding: 19px 16px;
             }
 
             .publication-story h3 {
@@ -1602,6 +1470,75 @@
         </div>
     </section>
 
+    <!-- Featured Work Section -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <div class="badge badge-green animate-on-scroll">Published research</div>
+                <h2 class="animate-on-scroll" style="font-size: var(--text-3xl); margin-top: var(--space-4);">Featured
+                    <span class="text-gradient">Publications</span>
+                </h2>
+                <p class="animate-on-scroll" style="max-width: 680px; margin: var(--space-3) auto 0; color: var(--dark-text-tertiary);">
+                    Selected 2026 publications in explainable AI, mobility adoption, and road-user safety.
+                </p>
+            </div>
+
+            <div class="publication-carousel animate-on-scroll" id="publicationCarousel" role="region" aria-roledescription="carousel" aria-label="Featured publications">
+                <div class="publication-viewport">
+                    <div class="publication-track">
+                        <article class="publication-slide" aria-label="1 of 3">
+                            <a class="article-preview" href="https://www.sciencedirect.com/science/article/pii/S2590123026034195" target="_blank" rel="noopener" aria-label="View Explainable machine learning for binary casualty prediction on ScienceDirect">
+                                <img src="assets/images/publications/explainable-ml-sciencedirect.jpg" alt="ScienceDirect page for Explainable machine learning for binary casualty prediction" width="1905" height="929">
+                            </a>
+                            <div class="publication-story">
+                                <span class="publication-kicker"><i data-lucide="scan-search"></i> Explainable AI</span>
+                                <p class="publication-journal">Results in Engineering · Volume 32 · Article 112401</p>
+                                <h3>Explainable machine learning for binary casualty prediction: Evidence from New South Wales</h3>
+                                <p class="publication-summary">Four tree-based ensembles model casualty outcomes across 92,189 NSW crashes. XGBoost achieved an AUC-ROC of 0.839, while SHAP analysis tested the stability of model explanations.</p>
+                                <div class="publication-tags"><span>Explainable AI</span><span>SHAP</span><span>Road safety</span></div>
+                                <div class="publication-actions"><a href="https://doi.org/10.1016/j.rineng.2026.112401" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
+                            </div>
+                        </article>
+
+                        <article class="publication-slide" aria-label="2 of 3">
+                            <a class="article-preview" href="https://www.sciencedirect.com/science/article/pii/S1077291X26000305" target="_blank" rel="noopener" aria-label="View Willingness to adopt mobility as a service on ScienceDirect">
+                                <img src="assets/images/publications/maas-adoption-sciencedirect.jpg" alt="ScienceDirect page for Willingness to adopt mobility as a service in a pre-deployment context" width="1905" height="984">
+                            </a>
+                            <div class="publication-story">
+                                <span class="publication-kicker"><i data-lucide="bus"></i> Mobility as a Service</span>
+                                <p class="publication-journal">Journal of Public Transportation · Volume 28 · Article 100176</p>
+                                <h3>Willingness to adopt mobility as a service in a pre-deployment context</h3>
+                                <p class="publication-summary">Evidence from Bangladesh using a dual-method PLS-SEM and fsQCA framework. The model explains 70.8% of willingness and highlights performance expectancy, platform trust, risk, and privacy.</p>
+                                <div class="publication-tags"><span>MaaS</span><span>PLS-SEM</span><span>fsQCA</span></div>
+                                <div class="publication-actions"><a href="https://doi.org/10.1016/j.jpubtr.2026.100176" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
+                            </div>
+                        </article>
+
+                        <article class="publication-slide" aria-label="3 of 3">
+                            <a class="article-preview" href="https://www.sciencedirect.com/science/article/pii/S1369847826000471" target="_blank" rel="noopener" aria-label="View Investigating risky riding behaviors on ScienceDirect">
+                                <img src="assets/images/publications/risky-riding-sciencedirect.jpg" alt="ScienceDirect page for Investigating risky riding behaviors among young motorcyclists in Bangladesh" width="1905" height="929">
+                            </a>
+                            <div class="publication-story">
+                                <span class="publication-kicker"><i data-lucide="shield-alert"></i> Rider behaviour</span>
+                                <p class="publication-journal">Transportation Research Part F · Volume 118 · Article 103552</p>
+                                <h3>Investigating risky riding behaviors among young motorcyclists in Bangladesh</h3>
+                                <p class="publication-summary">A modified motorcycle rider behavior questionnaire reveals five behavioural factors. Traffic errors predicted near-crashes and crashes, while education, engine capacity, and exposure shaped risk.</p>
+                                <div class="publication-tags"><span>MRBQ</span><span>Motorcycle safety</span><span>Bangladesh</span></div>
+                                <div class="publication-actions"><a href="https://doi.org/10.1016/j.trf.2026.103552" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="publication-controls">
+                    <button class="publication-arrow publication-prev" type="button" aria-label="Previous publication"><i data-lucide="arrow-left"></i></button>
+                    <div class="publication-dots" aria-label="Choose publication slide"></div>
+                    <span class="publication-counter" aria-live="polite">01 / 03</span>
+                    <button class="publication-arrow publication-next" type="button" aria-label="Next publication"><i data-lucide="arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Research Areas Section -->
     <section class="research-areas">
         <div class="container">
@@ -1647,171 +1584,6 @@
                     <div class="area-icon amber"><i data-lucide="waypoints"></i></div>
                     <h4>Digital Twin Systems</h4>
                     <p>Real-time digital replicas for transit monitoring and analysis</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Featured Work Section -->
-    <section class="featured-section">
-        <div class="container">
-            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
-                <div class="badge badge-green animate-on-scroll">Highlights</div>
-                <h2 class="animate-on-scroll" style="font-size: var(--text-3xl); margin-top: var(--space-4);">Featured
-                    <span class="text-gradient">Publications</span>
-                </h2>
-                <p class="animate-on-scroll" style="max-width: 680px; margin: var(--space-3) auto 0; color: var(--dark-text-tertiary);">
-                    Recent research across intelligent mobility, road safety, sustainability, and AI.
-                </p>
-            </div>
-
-            <div class="publication-carousel animate-on-scroll" id="publicationCarousel" role="region" aria-roledescription="carousel" aria-label="Featured publications">
-                <div class="publication-viewport">
-                    <div class="publication-track">
-                        <article class="publication-slide" aria-label="1 of 6">
-                            <div class="article-preview" style="--preview-a:#064e3b; --preview-b:#0f766e;">
-                                <div class="article-browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span><span class="article-domain">sciencedirect.com · Journal of Public Transportation</span></div>
-                                <div class="article-preview-body">
-                                    <div class="journal-panel"><span class="journal-mark"><i data-lucide="panels-top-left"></i></span><small>Journal of<br>Public Transportation<br><br>Volume 28<br>Article 100176</small></div>
-                                    <div class="article-sheet">
-                                        <span class="article-type">Research article · Open access</span>
-                                        <h3>Willingness to adopt mobility as a service in a pre-deployment context</h3>
-                                        <p class="preview-authors">Mahbub Hassan · Pretom Sarkar · Md Kamrul Islam · M M Hafizur Rahman</p>
-                                        <div class="preview-highlights"><strong>Highlights</strong><ul><li>PLS-SEM explains 70.8% of willingness.</li><li>Performance expectancy and trust lead positive associations.</li><li>Findings support staged MaaS pilots.</li></ul></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="publication-story">
-                                <span class="publication-kicker"><i data-lucide="sparkles"></i> Latest publication</span>
-                                <p class="publication-journal">Journal of Public Transportation · Volume 28 · 100176</p>
-                                <h3>Willingness to adopt Mobility as a Service in a pre-deployment context</h3>
-                                <p class="publication-summary">Evidence from Bangladesh using PLS-SEM and fsQCA shows how expected performance, platform trust, risk, and privacy shape willingness to adopt MaaS.</p>
-                                <div class="publication-tags"><span>Mobility-as-a-Service</span><span>PLS-SEM</span><span>fsQCA</span></div>
-                                <div class="publication-actions"><a href="https://doi.org/10.1016/j.jpubtr.2026.100176" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
-                            </div>
-                        </article>
-
-                        <article class="publication-slide" aria-label="2 of 6">
-                            <div class="article-preview" style="--preview-a:#14532d; --preview-b:#65a30d;">
-                                <div class="article-browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span><span class="article-domain">link.springer.com · Sustainable Development</span></div>
-                                <div class="article-preview-body">
-                                    <div class="journal-panel"><span class="journal-mark"><i data-lucide="leaf"></i></span><small>Transformative<br>Technologies &amp;<br>Sustainable<br>Development<br><br>Open Access</small></div>
-                                    <div class="article-sheet">
-                                        <span class="article-type">Review · Open access</span>
-                                        <h3>Mobility-as-a-Service for Sustainable Transportation</h3>
-                                        <p class="preview-authors">Mahbub Hassan · Arpita Paul · Afshana Parven · Mohammad Bin Amin</p>
-                                        <div class="preview-highlights"><strong>Research map</strong><ul><li>396 publications reviewed.</li><li>Five major thematic clusters identified.</li><li>Governance, equity, and Global South gaps highlighted.</li></ul></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="publication-story">
-                                <span class="publication-kicker"><i data-lucide="leaf"></i> Sustainable mobility</span>
-                                <p class="publication-journal">Journal of Transformative Technologies and Sustainable Development · 2026</p>
-                                <h3>Mobility-as-a-Service for sustainable transportation</h3>
-                                <p class="publication-summary">A bibliometric and thematic review mapping the intellectual structure of MaaS research and setting an agenda for governance, inclusion, and sustainability.</p>
-                                <div class="publication-tags"><span>MaaS</span><span>Bibliometrics</span><span>Sustainability</span></div>
-                                <div class="publication-actions"><a href="https://doi.org/10.1007/s41314-026-00097-6" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
-                            </div>
-                        </article>
-
-                        <article class="publication-slide" aria-label="3 of 6">
-                            <div class="article-preview" style="--preview-a:#1e3a8a; --preview-b:#2563eb;">
-                                <div class="article-browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span><span class="article-domain">techscience.com · Computers, Materials &amp; Continua</span></div>
-                                <div class="article-preview-body">
-                                    <div class="journal-panel"><span class="journal-mark"><i data-lucide="radio-tower"></i></span><small>Computers,<br>Materials &amp;<br>Continua<br><br>2026</small></div>
-                                    <div class="article-sheet">
-                                        <span class="article-type">Review article</span>
-                                        <h3>Applications of IoT in Intelligent Transportation Systems</h3>
-                                        <p class="preview-authors">Mahbub Hassan · Md Kamrul Islam · Md Shafiul Alam · et al.</p>
-                                        <div class="preview-highlights"><strong>Review focus</strong><ul><li>Maps the IoT–ITS research landscape.</li><li>Reviews enabling technological innovations.</li><li>Identifies challenges and future opportunities.</li></ul></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="publication-story">
-                                <span class="publication-kicker"><i data-lucide="radio-tower"></i> Connected mobility</span>
-                                <p class="publication-journal">Computers, Materials &amp; Continua · 2026</p>
-                                <h3>Applications of IoT in intelligent transportation systems</h3>
-                                <p class="publication-summary">A comprehensive view of the research landscape, technological innovations, implementation challenges, and future opportunities at the intersection of IoT and ITS.</p>
-                                <div class="publication-tags"><span>Internet of Things</span><span>ITS</span><span>Smart mobility</span></div>
-                                <div class="publication-actions"><a href="https://doi.org/10.32604/cmc.2026.085434" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
-                            </div>
-                        </article>
-
-                        <article class="publication-slide" aria-label="4 of 6">
-                            <div class="article-preview" style="--preview-a:#7c2d12; --preview-b:#ea580c;">
-                                <div class="article-browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span><span class="article-domain">frontiersin.org · Frontiers in Future Transportation</span></div>
-                                <div class="article-preview-body">
-                                    <div class="journal-panel"><span class="journal-mark"><i data-lucide="shield-alert"></i></span><small>Frontiers in<br>Future<br>Transportation<br><br>Volume 7<br>1874850</small></div>
-                                    <div class="article-sheet">
-                                        <span class="article-type">Original research</span>
-                                        <h3>Determinants of commuter tolerance toward underage and unlicensed bus drivers</h3>
-                                        <p class="preview-authors">Mahbub Hassan · Subir Chandra Ray · Mohammad Bin Amin · et al.</p>
-                                        <div class="preview-highlights"><strong>Road-safety focus</strong><ul><li>Introduces the SITE framework.</li><li>Examines tolerance of unsafe licensing practices.</li><li>Connects enforcement institutions and commuter attitudes.</li></ul></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="publication-story">
-                                <span class="publication-kicker"><i data-lucide="shield-check"></i> Road safety</span>
-                                <p class="publication-journal">Frontiers in Future Transportation · Volume 7 · 1874850</p>
-                                <h3>Determinants of commuter tolerance toward underage and unlicensed bus drivers</h3>
-                                <p class="publication-summary">An empirical investigation using the Structural and Institutional Tolerance of Enforcement framework to understand a critical public-transport safety problem.</p>
-                                <div class="publication-tags"><span>Bus safety</span><span>Enforcement</span><span>Commuter tolerance</span></div>
-                                <div class="publication-actions"><a href="https://doi.org/10.3389/ffutr.2026.1874850" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
-                            </div>
-                        </article>
-
-                        <article class="publication-slide" aria-label="5 of 6">
-                            <div class="article-preview" style="--preview-a:#4c1d95; --preview-b:#7c3aed;">
-                                <div class="article-browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span><span class="article-domain">sciencedirect.com · Transportation Research Part F</span></div>
-                                <div class="article-preview-body">
-                                    <div class="journal-panel"><span class="journal-mark"><i data-lucide="gauge"></i></span><small>Transportation<br>Research<br>Part F<br><br>Volume 122<br>103789</small></div>
-                                    <div class="article-sheet">
-                                        <span class="article-type">Research article</span>
-                                        <h3>The trapped driver phenomenon</h3>
-                                        <p class="preview-authors">Mahbub Hassan · Tahmidul Durrani Turjo · Md Kamrul Islam · M M Rahman</p>
-                                        <div class="preview-highlights"><strong>Behavioural insight</strong><ul><li>Studies risky-driving intention among professional drivers.</li><li>Extends the job demands–resources model.</li><li>Provides evidence from Bangladesh.</li></ul></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="publication-story">
-                                <span class="publication-kicker"><i data-lucide="gauge"></i> Driver behaviour</span>
-                                <p class="publication-journal">Transportation Research Part F · Volume 122 · 103789</p>
-                                <h3>The trapped driver phenomenon</h3>
-                                <p class="publication-summary">A behavioural study of risky-driving intention among professional drivers in Bangladesh through an extended job demands–resources framework.</p>
-                                <div class="publication-tags"><span>Driver behaviour</span><span>Road safety</span><span>Behavioural modelling</span></div>
-                                <div class="publication-actions"><a href="https://doi.org/10.1016/j.trf.2026.103789" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
-                            </div>
-                        </article>
-
-                        <article class="publication-slide" aria-label="6 of 6">
-                            <div class="article-preview" style="--preview-a:#831843; --preview-b:#db2777;">
-                                <div class="article-browser-bar"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span><span class="article-domain">sciencedirect.com · Results in Engineering</span></div>
-                                <div class="article-preview-body">
-                                    <div class="journal-panel"><span class="journal-mark"><i data-lucide="scan-search"></i></span><small>Results in<br>Engineering<br><br>2026<br>Article 112401</small></div>
-                                    <div class="article-sheet">
-                                        <span class="article-type">Research article · Open access</span>
-                                        <h3>Explainable machine learning for binary casualty prediction</h3>
-                                        <p class="preview-authors">Mahbub Hassan · Kasem Choocharukul · Md Alamin Islam · et al.</p>
-                                        <div class="preview-highlights"><strong>AI for safety</strong><ul><li>Builds an explainable casualty-prediction framework.</li><li>Uses road-crash evidence from New South Wales.</li><li>Translates model outputs into safety insight.</li></ul></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="publication-story">
-                                <span class="publication-kicker"><i data-lucide="scan-search"></i> Explainable AI</span>
-                                <p class="publication-journal">Results in Engineering · Article 112401</p>
-                                <h3>Explainable machine learning for binary casualty prediction</h3>
-                                <p class="publication-summary">An interpretable machine-learning framework using New South Wales evidence to support clearer, evidence-led road-safety decisions.</p>
-                                <div class="publication-tags"><span>Explainable AI</span><span>Crash severity</span><span>Machine learning</span></div>
-                                <div class="publication-actions"><a href="https://doi.org/10.1016/j.rineng.2026.112401" class="btn btn-primary" target="_blank" rel="noopener">Read article <i data-lucide="external-link"></i></a><a href="pages/publications.html" class="btn btn-secondary">All publications</a></div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="publication-controls">
-                    <button class="publication-arrow publication-prev" type="button" aria-label="Previous publication"><i data-lucide="arrow-left"></i></button>
-                    <div class="publication-dots" aria-label="Choose publication slide"></div>
-                    <span class="publication-counter" aria-live="polite">01 / 06</span>
-                    <button class="publication-arrow publication-next" type="button" aria-label="Next publication"><i data-lucide="arrow-right"></i></button>
                 </div>
             </div>
         </div>
