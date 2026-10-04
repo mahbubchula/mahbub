@@ -20,6 +20,7 @@
     <meta name="theme-color" content="#16324F">
     <meta property="og:image" content="https://mahbubchula.github.io/mahbub/assets/images/profile-new.jpg">
     <link rel="stylesheet" href="../css/theme-academic.css?v=20261004">
+    <link rel="stylesheet" href="../css/publications.css?v=20261004">
 </head>
 <body>
     <script src="../js/theme-init.js"></script>
@@ -64,115 +65,110 @@
         </div>
     </nav>
 
-    <main>
-        <section class="publication-hero">
-            <div class="container publication-hero-grid">
-                <div class="publication-hero-copy animate-on-scroll">
-                    <span class="publication-eyebrow">RESEARCH RECORD · UPDATED AUGUST 2026</span>
-                    <h1>Publications built around <span class="text-gradient">safer, smarter mobility.</span></h1>
-                    <p>Peer-reviewed work spanning road safety, travel behaviour, intelligent transportation systems, sustainable mobility, simulation, and interpretable artificial intelligence.</p>
-                    <div class="publication-profile-links">
-                        <a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" class="btn btn-primary" target="_blank" rel="noopener">
-                            <i data-lucide="graduation-cap"></i> Google Scholar
-                        </a>
-                        <a href="https://orcid.org/0009-0006-1956-8159" class="btn btn-secondary" target="_blank" rel="noopener">
-                            <i data-lucide="fingerprint"></i> ORCID
-                        </a>
-                    </div>
-                </div>
-                <div class="publication-metrics" id="publicationMetrics" aria-label="Publication totals">
-                    <div class="metric-card"><strong data-metric="published-journal">—</strong><span>Published journal articles</span></div>
-                    <div class="metric-card"><strong data-metric="accepted-journal">—</strong><span>Accepted journal articles</span></div>
-                    <div class="metric-card"><strong data-metric="book-chapter">—</strong><span>Book chapters</span></div>
-                    <div class="metric-card"><strong data-metric="conference">—</strong><span>Conference papers</span></div>
+    <main id="main">
+        <section class="pubs-hero">
+            <div class="container">
+                <p class="eyebrow">Research record</p>
+                <h1>Publications</h1>
+                <p class="pubs-lede">Peer-reviewed work on road safety, travel behaviour, intelligent transportation systems, sustainable mobility and interpretable AI. Every entry links to the published version and can be cited in APA or BibTeX.</p>
+                <dl class="pubs-stats">
+                    <div><dd data-metric="published-journal">23</dd><dt>Journal articles</dt></div>
+                    <div><dd data-metric="accepted-journal">2</dd><dt>Accepted articles</dt></div>
+                    <div><dd data-metric="conference">16</dd><dt>Conference papers</dt></div>
+                    <div><dd data-metric="book-chapter">2</dd><dt>Book chapters</dt></div>
+                    <div><dd data-metric="venues">16</dd><dt>Journals</dt></div>
+                </dl>
+                <div class="pubs-profiles">
+                    <a href="https://scholar.google.com/citations?hl=en&amp;user=PGwRExQAAAAJ" class="btn btn-primary" target="_blank" rel="noopener"><i data-lucide="graduation-cap"></i> Google Scholar</a>
+                    <a href="https://orcid.org/0009-0006-1956-8159" class="btn btn-secondary" target="_blank" rel="noopener"><i data-lucide="fingerprint"></i> ORCID</a>
+                    <a href="https://www.scopus.com/authid/detail.uri?authorId=59417109900" class="btn btn-ghost" target="_blank" rel="noopener"><i data-lucide="search"></i> Scopus</a>
                 </div>
             </div>
         </section>
 
-        <section class="publisher-section section-sm" aria-labelledby="publisherHeading">
+        <section class="pubs-insights" aria-labelledby="insightsHeading">
             <div class="container">
-                <div class="section-heading-row">
-                    <div>
-                        <span class="section-kicker">SCHOLARLY OUTLETS</span>
-                        <h2 id="publisherHeading">Published and accepted with</h2>
-                    </div>
-                    <p>A selective publisher-level view keeps the record readable; individual venues appear on every publication card.</p>
+                <h2 id="insightsHeading" class="sr-only">Research output at a glance</h2>
+                <div class="insight-grid">
+                    <figure class="insight-card">
+                        <figcaption>
+                            <h3>Output by year</h3>
+                            <p>All publication types. Hover a column for the breakdown.</p>
+                        </figcaption>
+                        <div class="chart" id="yearChart"></div>
+                        <details class="chart-table">
+                            <summary>View as table</summary>
+                            <div id="yearChartTable"></div>
+                        </details>
+                    </figure>
+                    <figure class="insight-card">
+                        <figcaption>
+                            <h3>Most frequent topics</h3>
+                            <p>Number of publications tagged with each topic. Select a bar to filter the list.</p>
+                        </figcaption>
+                        <div class="chart" id="topicChart"></div>
+                    </figure>
                 </div>
-                <div class="publisher-strip" id="publisherStrip"></div>
+                <div class="publisher-line">
+                    <span>Published with</span>
+                    <div id="publisherStrip"></div>
+                </div>
             </div>
         </section>
 
-        <section class="section publication-library" aria-labelledby="libraryHeading">
+        <section class="pubs-library" aria-labelledby="libraryHeading">
             <div class="container">
-                <div class="library-heading">
-                    <div>
-                        <span class="section-kicker">PUBLICATION LIBRARY</span>
-                        <h2 id="libraryHeading">Explore the research</h2>
-                    </div>
-                    <label class="publication-search">
+                <div class="library-head">
+                    <h2 id="libraryHeading">All publications</h2>
+                    <label class="pubs-search">
                         <i data-lucide="search"></i>
                         <span class="sr-only">Search publications</span>
-                        <input id="publicationSearch" type="search" placeholder="Search title, venue, year, or topic">
+                        <input id="publicationSearch" type="search" placeholder="Search title, author, venue, year or topic">
                     </label>
                 </div>
 
-                <div class="publication-filter-bar" role="tablist" aria-label="Publication categories">
-                    <button class="publication-filter active" data-filter="all" role="tab" aria-selected="true">All <span data-publication-count="all">0</span></button>
-                    <button class="publication-filter" data-filter="published-journal" role="tab" aria-selected="false">Published journals <span data-publication-count="published-journal">0</span></button>
-                    <button class="publication-filter" data-filter="accepted-journal" role="tab" aria-selected="false">Accepted journals <span data-publication-count="accepted-journal">0</span></button>
-                    <button class="publication-filter" data-filter="book-chapter" role="tab" aria-selected="false">Book chapters <span data-publication-count="book-chapter">0</span></button>
-                    <button class="publication-filter" data-filter="conference" role="tab" aria-selected="false">Conference papers <span data-publication-count="conference">0</span></button>
-                </div>
-
-                <div class="accepted-doi-note" id="acceptedDoiNote" hidden>
-                    <i data-lucide="info"></i>
-                    <p><strong>Accepted-article DOI note.</strong> Where a DOI has already been assigned, activation may remain pending while publisher proofing and production are in progress. These identifiers are displayed as records rather than active links until publication.</p>
-                </div>
-
-                <div class="publication-results-meta">
-                    <p id="publicationResultCount" aria-live="polite">Loading publications…</p>
+                <div class="library-controls">
+                    <div class="publication-filter-bar" role="tablist" aria-label="Publication categories">
+                        <button class="publication-filter active" data-filter="all" role="tab" aria-selected="true">All <span data-publication-count="all">43</span></button>
+                        <button class="publication-filter" data-filter="published-journal" role="tab" aria-selected="false">Journal articles <span data-publication-count="published-journal">23</span></button>
+                        <button class="publication-filter" data-filter="accepted-journal" role="tab" aria-selected="false">Accepted <span data-publication-count="accepted-journal">2</span></button>
+                        <button class="publication-filter" data-filter="conference" role="tab" aria-selected="false">Conference papers <span data-publication-count="conference">16</span></button>
+                        <button class="publication-filter" data-filter="book-chapter" role="tab" aria-selected="false">Book chapters <span data-publication-count="book-chapter">2</span></button>
+                    </div>
                     <select id="publicationSort" aria-label="Sort publications">
                         <option value="newest">Newest first</option>
                         <option value="oldest">Oldest first</option>
                         <option value="title">Title A–Z</option>
                     </select>
                 </div>
-                <div class="publication-grid" id="publicationGrid"></div>
+
+                <div class="library-status">
+                    <p id="publicationResultCount" aria-live="polite">Loading publications…</p>
+                    <button type="button" class="text-link" id="publicationClear" hidden><i data-lucide="x"></i> Clear filter</button>
+                </div>
+
+                <div class="accepted-doi-note" id="acceptedDoiNote" hidden>
+                    <i data-lucide="info"></i>
+                    <p><strong>About accepted articles.</strong> Where a DOI has already been assigned, it may stay inactive while the publisher completes proofing. These identifiers are shown as records rather than links until publication.</p>
+                </div>
+
+                <div class="pub-list" id="publicationGrid"></div>
                 <div class="publication-empty" id="publicationEmpty" hidden>
                     <i data-lucide="search-x"></i>
                     <h3>No matching publications</h3>
-                    <p>Try another keyword or publication category.</p>
+                    <p>Try another keyword or publication type.</p>
                 </div>
             </div>
         </section>
 
-        <section class="section-sm work-in-review" aria-labelledby="reviewHeading">
-            <div class="container work-in-review-card">
-                <div class="review-symbol"><i data-lucide="orbit"></i></div>
+        <section class="pubs-review" aria-labelledby="reviewHeading">
+            <div class="container pubs-review-inner">
                 <div>
-                    <span class="section-kicker">ONGOING SCHOLARSHIP</span>
-                    <h2 id="reviewHeading">Current work under review</h2>
-                    <p>Several manuscripts are progressing through peer review across the following research themes. Titles, target journals, and submission details remain private until an editorial decision is available.</p>
-                    <div class="review-theme-list" id="reviewThemeList"></div>
+                    <p class="eyebrow">Ongoing scholarship</p>
+                    <h2 id="reviewHeading">Work under review</h2>
+                    <p>Several manuscripts are in peer review. Titles and target journals stay private until an editorial decision is made.</p>
                 </div>
-            </div>
-        </section>
-
-        <section class="section section-alt">
-            <div class="container">
-                <div class="scholar-cta">
-                    <div class="scholar-cta-content">
-                        <div class="scholar-icon"><i data-lucide="library-big"></i></div>
-                        <div class="scholar-text">
-                            <h3>Complete and current citation record</h3>
-                            <p>Google Scholar provides citation counts and the most recent indexing status; ORCID provides the persistent researcher record.</p>
-                        </div>
-                    </div>
-                    <div class="publication-profile-links">
-                        <a href="https://scholar.google.com/citations?hl=en&user=PGwRExQAAAAJ" class="btn btn-primary" target="_blank" rel="noopener">Google Scholar</a>
-                        <a href="https://orcid.org/0009-0006-1956-8159" class="btn btn-secondary" target="_blank" rel="noopener">ORCID</a>
-                    </div>
-                </div>
+                <ul class="review-themes" id="reviewThemeList"></ul>
             </div>
         </section>
     </main>
@@ -210,6 +206,7 @@
 
     <button class="scroll-top" aria-label="Scroll to top"><i data-lucide="chevron-up"></i></button>
     <script src="../js/main.js?v=20261004"></script>
+    <script src="../js/covers.js?v=20261004"></script>
     <script src="../js/publications.js?v=20261004"></script>
     <script src="../js/site-data.js?v=20261004"></script>
 </body>

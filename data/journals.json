@@ -1,0 +1,33 @@
+{
+    "_readme": "Cover and publisher details per venue. Keys must match the 'venue' field in publications.json exactly. Add 'cover' (a path under assets/images/journals/) when a cover image is available; without it the site draws a typographic cover plate in the publisher colour.",
+    "publishers": {
+        "Elsevier": { "color": "#E9711C" },
+        "Springer": { "color": "#0B4C7A" },
+        "Springer Nature": { "color": "#0B4C7A" },
+        "Nature Portfolio": { "color": "#1F1F1F" },
+        "IEEE": { "color": "#00629B" },
+        "Frontiers": { "color": "#D8432E" },
+        "MDPI": { "color": "#4F5671" },
+        "Tech Science Press": { "color": "#1F5FA8" },
+        "Penerbit UTHM": { "color": "#5A2D82" },
+        "Thaksin University": { "color": "#7A1E3A" }
+    },
+    "venues": {
+        "Results in Engineering": { "publisher": "Elsevier" },
+        "Transportation Research Part F: Traffic Psychology and Behaviour": { "publisher": "Elsevier", "short": "Transportation Research Part F" },
+        "Journal of Public Transportation": { "publisher": "Elsevier" },
+        "Energy Conversion and Management: X": { "publisher": "Elsevier" },
+        "Archives of Computational Methods in Engineering": { "publisher": "Springer Nature" },
+        "Discover Civil Engineering": { "publisher": "Springer Nature" },
+        "Journal of Transformative Technologies and Sustainable Development": { "publisher": "Springer Nature" },
+        "Scientific Reports": { "publisher": "Nature Portfolio" },
+        "IEEE Access": { "publisher": "IEEE" },
+        "Computers, Materials & Continua": { "publisher": "Tech Science Press" },
+        "Energy Engineering": { "publisher": "Tech Science Press" },
+        "Frontiers in Future Transportation": { "publisher": "Frontiers" },
+        "Frontiers in Sustainable Cities": { "publisher": "Frontiers" },
+        "Future Transportation": { "publisher": "MDPI" },
+        "International Journal of Integrated Engineering": { "publisher": "Penerbit UTHM" },
+        "ASEAN Journal of Scientific and Technological Reports": { "publisher": "Thaksin University" }
+    }
+}

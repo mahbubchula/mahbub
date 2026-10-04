@@ -43,7 +43,7 @@
         return escapeHtml(authors).replace(/Hassan, M\.(\s*\*)?/g, (match) => `<strong>${match}</strong>`);
     }
 
-    function renderRecent(publications) {
+    function renderRecent(publications, journals) {
         const list = document.getElementById('recentPublications');
         if (!list) return;
 
@@ -67,6 +67,7 @@
             const details = publication.details ? `, ${escapeHtml(publication.details)}` : '';
             return `
                 <li class="recent-item">
+                    ${window.PubCovers ? window.PubCovers.render(publication, journals) : ''}
                     <div class="recent-meta">
                         <span class="recent-year">${escapeHtml(publication.year)}</span>
                         <span class="recent-type">${CATEGORY_LABELS[publication.category] || 'Publication'}</span>
@@ -86,10 +87,11 @@
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
             return response.json();
         })
-        .then((data) => {
+        .then(async (data) => {
             const publications = Array.isArray(data) ? data : data.publications || [];
             applyCounts(countPublications(publications));
-            renderRecent(publications);
+            const journals = window.PubCovers ? await window.PubCovers.load(base) : {};
+            renderRecent(publications, journals);
         })
         .catch(() => {
             const list = document.getElementById('recentPublications');
