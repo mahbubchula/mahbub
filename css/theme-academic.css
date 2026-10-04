@@ -254,6 +254,11 @@ body:not(.light-mode) .nav-logo-icon { background: #16324F; }
     background: var(--paper-2) !important;
 }
 
+@media (min-width: 1025px) and (max-width: 1240px) {
+    .nav-menu { gap: 0; }
+    .nav-link { padding: 8px 9px !important; font-size: 0.85rem; }
+}
+
 .nav-link.active {
     color: var(--brand) !important;
     background: transparent !important;
@@ -574,6 +579,120 @@ body.light-mode .publication-hero h1 { color: #fff !important; }
 }
 
 /* ============================================
+   FOOTER (all pages)
+   ============================================ */
+.footer-new { padding: 64px 0 28px; }
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1.6fr repeat(4, 1fr);
+    gap: 36px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--line);
+}
+
+.footer-brand-section { padding-right: 24px; }
+
+.footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    color: var(--ink);
+}
+
+.footer-logo-icon {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+}
+
+.footer-logo-icon svg { width: 20px; height: 20px; }
+
+.footer-logo-text { font-size: 1.3rem; font-weight: 600; color: var(--ink); }
+
+.footer-brand-desc { font-size: 0.9rem; line-height: 1.7; margin-bottom: 18px; }
+
+.footer-social-links { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.footer-social-link {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--ink-2);
+    transition: all 200ms ease;
+}
+
+.footer-social-link:hover { color: var(--brand); border-color: var(--brand); }
+.footer-social-link svg { width: 16px; height: 16px; }
+
+.footer-column ul { display: grid; gap: 10px; margin-top: 14px; }
+
+.footer-column a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+    color: var(--ink-2);
+}
+
+.footer-column a:hover { color: var(--brand); }
+.footer-column a svg { display: none; }
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 26px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.footer-contact-item { display: flex; align-items: center; gap: 12px; }
+
+.footer-contact-icon {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: var(--brand-soft);
+    color: var(--brand);
+}
+
+.footer-contact-icon svg { width: 16px; height: 16px; }
+.footer-contact-info { display: flex; flex-direction: column; }
+.footer-contact-label { font-size: 0.74rem; color: var(--ink-3); }
+.footer-contact-value { font-size: 0.92rem; color: var(--ink); font-weight: 500; }
+a.footer-contact-value:hover { color: var(--brand); }
+
+.footer-bottom-new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding-top: 24px;
+}
+
+.footer-copyright { font-size: 0.85rem; color: var(--ink-3) !important; }
+.footer-legal-links { display: flex; gap: 20px; }
+.footer-legal-links a { font-size: 0.85rem; color: var(--ink-3); }
+
+@media (max-width: 1024px) {
+    .footer-top { grid-template-columns: 1fr 1fr; }
+    .footer-brand-section { grid-column: span 2; }
+}
+
+@media (max-width: 720px) {
+    .footer-middle, .footer-bottom-new { flex-direction: column; align-items: flex-start; }
+}
+
+/* ============================================
    MOTION & ACCESSIBILITY
    ============================================ */
 @media (prefers-reduced-motion: reduce) {
@@ -761,3 +880,77 @@ body.light-mode .publication-hero h1 { color: #fff !important; }
     .cover-plate-publisher { font-size: max(6px, 8.5cqi); padding-bottom: 6%; letter-spacing: 0.08em; }
     .cover-plate-title { margin-top: 10%; font-size: max(8px, 12.5cqi); -webkit-line-clamp: 4; overflow-wrap: anywhere; }
 }
+
+/* ============================================
+   ABOUT PAGE REFINEMENTS
+   ============================================ */
+.award-list {
+    max-width: 920px;
+    margin: 0 auto;
+    border-top: 1px solid var(--ink);
+}
+
+.award-row {
+    display: grid;
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 24px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.award-year {
+    font-family: var(--font-mono);
+    font-size: 0.86rem;
+    color: var(--gold);
+    padding-top: 4px;
+}
+
+.award-row h3 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-bottom: 4px;
+}
+
+.award-row p { font-size: 0.92rem; color: var(--ink-3); }
+
+/* Calmer in-text emphasis in long biographies */
+.about-section strong,
+body.light-mode .about-section strong {
+    color: var(--ink) !important;
+    font-weight: 600;
+    background: none !important;
+    -webkit-text-fill-color: currentColor;
+}
+
+.about-section a {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--brand) 40%, transparent);
+    text-underline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+    .award-row { grid-template-columns: 1fr; gap: 4px; }
+}
+
+/* Contact page location panel: a stylised street grid instead of a grey box */
+.map-placeholder,
+body.light-mode .map-placeholder {
+    background:
+        radial-gradient(circle at 50% 46%, rgba(255, 255, 255, 0.16) 0 46px, transparent 47px),
+        linear-gradient(90deg, transparent 49.6%, rgba(255, 255, 255, 0.22) 49.6% 50.4%, transparent 50.4%),
+        linear-gradient(0deg, transparent 49.6%, rgba(255, 255, 255, 0.22) 49.6% 50.4%, transparent 50.4%),
+        linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px) 0 0 / 44px 44px,
+        linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px) 0 0 / 44px 44px,
+        linear-gradient(150deg, #16324F 0%, #0B6E78 100%) !important;
+    border: 0 !important;
+}
+
+.map-placeholder h3,
+.map-placeholder h4,
+.map-placeholder p,
+.map-placeholder svg,
+body.light-mode .map-placeholder h3,
+body.light-mode .map-placeholder h4,
+body.light-mode .map-placeholder p { color: #fff !important; }
