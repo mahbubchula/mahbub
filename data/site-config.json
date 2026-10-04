@@ -10,8 +10,7 @@
     "phone": "+66 095 225 6651",
     "bio_short": "Master's student and Transportation Engineering Researcher specializing in Intelligent Transportation Systems, Large Language Models, Machine Learning in Autonomous Vehicles, and Sustainable Mobility.",
     "bio_long": "I am a Master's student and Transportation Engineering Researcher at Chulalongkorn University's Department of Civil Engineering, originally from Naogaon, Bangladesh. My research focuses on integrating engineering and computer science to enhance transportation safety, efficiency, and sustainability. I specialize in applying cutting-edge AI technologies including Large Language Models and Machine Learning to solve complex transportation challenges. My work spans intelligent transportation systems, autonomous vehicles, EV infrastructure equity, and traffic simulation. I am passionate about building open-source tools and conducting bibliometric research to advance the field of transportation engineering.",
-    "profile_image": "assets/images/profile/main.jpg",
-    "cv_download": "assets/docs/cv.pdf"
+    "profile_image": "assets/images/profile/main.jpg"
   },
   "social": {
     "github": "https://github.com/mahbubchula",
