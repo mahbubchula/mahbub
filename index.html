@@ -337,6 +337,177 @@
         </div>
     </section>
 
+    <!-- Research Visualizations Section -->
+    <section class="home-section" id="research-visuals">
+        <div class="container">
+            <header class="home-section-head home-section-head-row">
+                <div>
+                    <p class="eyebrow">Empirical evidence &amp; XAI</p>
+                    <h2>Research visualizations</h2>
+                </div>
+                <p class="section-lead-note">High-dimensional risk surfaces, nested validation benchmarks, and explainable AI diagnostics from our recent driver behaviour and safety investigations.</p>
+            </header>
+
+            <div class="visuals-grid">
+                <!-- Figure 4 Card -->
+                <div class="visual-card animate-on-scroll">
+                    <div class="visual-card-media" onclick="openFigureLightbox(0)">
+                        <span class="visual-category-tag tag-cyan">Bayesian Interaction</span>
+                        <div class="visual-image-wrapper">
+                            <img src="assets/images/research/Fig04_risk_landscape_thumb.png" 
+                                 data-full="assets/images/research/Fig04_risk_landscape.png"
+                                 alt="Figure 4: Model-implied risk landscape" 
+                                 loading="lazy">
+                        </div>
+                        <div class="visual-media-overlay">
+                            <span class="visual-zoom-btn">
+                                <i data-lucide="zoom-in"></i>
+                                <span>Inspect High-Res Figure</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="visual-card-body">
+                        <div class="visual-meta">
+                            <span class="visual-fig-number">Figure 04</span>
+                            <span class="visual-pill"><i data-lucide="activity"></i> Risk Landscape</span>
+                        </div>
+                        <h3 class="visual-card-title">Model-Implied Risk Landscape</h3>
+                        <p class="visual-card-desc">
+                            Posterior mean probability surfaces showing how daily driving hours and sleepiness interact to exponentially elevate unsafe overtaking risk on undivided roadways.
+                        </p>
+                        <div class="visual-tags">
+                            <span class="tech-tag">Driving Hours × Sleepiness</span>
+                            <span class="tech-tag">Posterior Draws</span>
+                            <span class="tech-tag">Exposure Surface</span>
+                        </div>
+                        <div class="visual-card-footer">
+                            <button type="button" class="visual-action-btn" onclick="openFigureLightbox(0)">
+                                <i data-lucide="maximize-2"></i> View High-Res &amp; Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Figure 5 Card -->
+                <div class="visual-card animate-on-scroll">
+                    <div class="visual-card-media" onclick="openFigureLightbox(1)">
+                        <span class="visual-category-tag tag-purple">Model Evaluation</span>
+                        <div class="visual-image-wrapper">
+                            <img src="assets/images/research/Fig05_model_performance_thumb.png" 
+                                 data-full="assets/images/research/Fig05_model_performance.png"
+                                 alt="Figure 5: Out-of-fold predictive performance (5x4 nested cross-validation)" 
+                                 loading="lazy">
+                        </div>
+                        <div class="visual-media-overlay">
+                            <span class="visual-zoom-btn">
+                                <i data-lucide="zoom-in"></i>
+                                <span>Inspect High-Res Figure</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="visual-card-body">
+                        <div class="visual-meta">
+                            <span class="visual-fig-number">Figure 05</span>
+                            <span class="visual-pill"><i data-lucide="git-compare"></i> 5×4 Nested CV</span>
+                        </div>
+                        <h3 class="visual-card-title">Out-of-Fold Predictive Performance</h3>
+                        <p class="visual-card-desc">
+                            Rigorous multi-model evaluation across ROC curves, Precision-Recall curves, decile calibration plots, and paired bootstrap differences against ensemble classifiers.
+                        </p>
+                        <div class="visual-tags">
+                            <span class="tech-tag">ROC &amp; PR Curves</span>
+                            <span class="tech-tag">Decile Calibration</span>
+                            <span class="tech-tag">Bootstrap CIs</span>
+                        </div>
+                        <div class="visual-card-footer">
+                            <button type="button" class="visual-action-btn" onclick="openFigureLightbox(1)">
+                                <i data-lucide="maximize-2"></i> View High-Res &amp; Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Figure 6 Card -->
+                <div class="visual-card animate-on-scroll">
+                    <div class="visual-card-media" onclick="openFigureLightbox(2)">
+                        <span class="visual-category-tag tag-amber">Policy Utility</span>
+                        <div class="visual-image-wrapper">
+                            <img src="assets/images/research/Fig06_clinical_utility_thumb.png" 
+                                 data-full="assets/images/research/Fig06_clinical_utility.png"
+                                 alt="Figure 6: Decision utility and threshold dynamics" 
+                                 loading="lazy">
+                        </div>
+                        <div class="visual-media-overlay">
+                            <span class="visual-zoom-btn">
+                                <i data-lucide="zoom-in"></i>
+                                <span>Inspect High-Res Figure</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="visual-card-body">
+                        <div class="visual-meta">
+                            <span class="visual-fig-number">Figure 06</span>
+                            <span class="visual-pill"><i data-lucide="shield-check"></i> Decision Curves</span>
+                        </div>
+                        <h3 class="visual-card-title">Decision Utility &amp; Threshold Dynamics</h3>
+                        <p class="visual-card-desc">
+                            Standardized decision curve analysis quantifying net benefit across practical intervention thresholds, mirrored prediction densities, and diagnostic trade-offs.
+                        </p>
+                        <div class="visual-tags">
+                            <span class="tech-tag">Net Benefit Analysis</span>
+                            <span class="tech-tag">Discrimination Slope</span>
+                            <span class="tech-tag">Optimal Threshold</span>
+                        </div>
+                        <div class="visual-card-footer">
+                            <button type="button" class="visual-action-btn" onclick="openFigureLightbox(2)">
+                                <i data-lucide="maximize-2"></i> View High-Res &amp; Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Figure 7 Card -->
+                <div class="visual-card animate-on-scroll">
+                    <div class="visual-card-media" onclick="openFigureLightbox(3)">
+                        <span class="visual-category-tag tag-green">Explainable AI</span>
+                        <div class="visual-image-wrapper">
+                            <img src="assets/images/research/Fig07_shap_global_thumb.png" 
+                                 data-full="assets/images/research/Fig07_shap_global.png"
+                                 alt="Figure 7: Global SHAP explanation of driving risk" 
+                                 loading="lazy">
+                        </div>
+                        <div class="visual-media-overlay">
+                            <span class="visual-zoom-btn">
+                                <i data-lucide="zoom-in"></i>
+                                <span>Inspect High-Res Figure</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="visual-card-body">
+                        <div class="visual-meta">
+                            <span class="visual-fig-number">Figure 07</span>
+                            <span class="visual-pill"><i data-lucide="brain-circuit"></i> SHAP Analysis</span>
+                        </div>
+                        <h3 class="visual-card-title">Global SHAP Explanation Landscape</h3>
+                        <p class="visual-card-desc">
+                            Transparent feature attributions via SHAP beeswarm distributions, outer-fold ranking stability, and per-driver cumulative risk contribution profiles.
+                        </p>
+                        <div class="visual-tags">
+                            <span class="tech-tag">SHAP Beeswarm</span>
+                            <span class="tech-tag">Feature Importance</span>
+                            <span class="tech-tag">Contribution Landscape</span>
+                        </div>
+                        <div class="visual-card-footer">
+                            <button type="button" class="visual-action-btn" onclick="openFigureLightbox(3)">
+                                <i data-lucide="maximize-2"></i> View High-Res &amp; Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Recent publications (rendered from data/publications.json) -->
     <section class="home-section" id="recent">
         <div class="container home-two-col">
@@ -573,9 +744,146 @@
         <i data-lucide="chevron-up"></i>
     </button>
 
+    <!-- Figure Lightbox Modal -->
+    <div class="fig-lightbox-overlay" id="figureLightbox" onclick="handleLightboxBackdrop(event)">
+        <div class="fig-lightbox-modal" role="dialog" aria-modal="true" aria-labelledby="figLightboxTitle">
+            <div class="fig-lightbox-header">
+                <div class="fig-lightbox-header-left">
+                    <span class="fig-lightbox-badge" id="figLightboxBadge">Figure 04 · Bayesian Modeling</span>
+                    <h3 class="fig-lightbox-header-title" id="figLightboxTitle">Model-Implied Risk Landscape</h3>
+                </div>
+                <div class="fig-lightbox-controls">
+                    <a href="#" id="figLightboxDownload" target="_blank" class="fig-lightbox-btn" title="Open full resolution in new tab" aria-label="Open full resolution">
+                        <i data-lucide="external-link"></i>
+                    </a>
+                    <button type="button" class="fig-lightbox-btn" onclick="closeFigureLightbox()" title="Close (Esc)" aria-label="Close modal">
+                        <i data-lucide="x"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="fig-lightbox-viewport">
+                <button type="button" class="fig-lightbox-nav-btn prev" onclick="navigateFigureLightbox(-1)" aria-label="Previous figure" title="Previous figure">
+                    <i data-lucide="chevron-left"></i>
+                </button>
+                <img id="figLightboxImg" src="" alt="Research Figure">
+                <button type="button" class="fig-lightbox-nav-btn next" onclick="navigateFigureLightbox(1)" aria-label="Next figure" title="Next figure">
+                    <i data-lucide="chevron-right"></i>
+                </button>
+            </div>
+            <div class="fig-lightbox-caption">
+                <p class="fig-lightbox-caption-text" id="figLightboxCaption"></p>
+                <div class="fig-lightbox-caption-footer">
+                    <span id="figLightboxCounter">1 of 4</span>
+                    <span>Use keyboard arrow keys ← → to browse, Esc to close</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/main.js?v=20261004"></script>
     <script src="js/featured-publications.js?v=20261004"></script>
     <script src="js/site-data.js?v=20261004"></script>
+    <script>
+    const figureData = [
+        {
+            num: "Figure 04",
+            category: "Bayesian Modeling",
+            title: "Model-Implied Risk Landscape",
+            fullSrc: "assets/images/research/Fig04_risk_landscape.png",
+            caption: "<strong>Figure 4. Model-implied risk landscape.</strong> Posterior mean probability of unsafe overtaking at the reference profile. (a) Driving hours × sleepiness surface with probability contours; observed drivers (jittered) show empirical support. (b) Overtaking frequency × undivided-road share at mean driving hours, with observed cell counts. (c) Probability against driving hours across three sleepiness levels: 150 posterior draws (thin trajectories) and posterior mean curve (thick)."
+        },
+        {
+            num: "Figure 05",
+            category: "Model Evaluation",
+            title: "Out-of-Fold Predictive Performance",
+            fullSrc: "assets/images/research/Fig05_model_performance.png",
+            caption: "<strong>Figure 5. Out-of-fold predictive performance (5 × 4 nested cross-validation).</strong> (a) Discrimination ROC curves across algorithms with an inset magnifying the false-positive rate 0.05–0.30. (b) Precision–recall curves benchmarked against base outcome prevalence. (c) Decile probability calibration with logistic predicted-probability distribution. (d) ROC-AUC in each outer fold. (e) Pooled metric performance matrix. (f) Paired bootstrap hypothesis differences against logistic regression (95% CI)."
+        },
+        {
+            num: "Figure 06",
+            category: "Policy & Decision Utility",
+            title: "Decision Utility & Threshold Dynamics",
+            fullSrc: "assets/images/research/Fig06_clinical_utility.png",
+            caption: "<strong>Figure 6. Decision utility and threshold behaviour.</strong> (a) Decision curve analysis demonstrating net benefit across practical intervention thresholds against treat-all and treat-none baselines. (b) Mirrored out-of-fold predictive densities with discrimination slope. (c) Sensitivity, specificity, PPV, and NPV dynamic trade-offs across thresholds, marking 0.50 and the Youden-optimal threshold. (d) Diagnostic confusion matrix at threshold 0.50."
+        },
+        {
+            num: "Figure 07",
+            category: "Explainable AI",
+            title: "Global SHAP Explanation Landscape",
+            fullSrc: "assets/images/research/Fig07_shap_global.png",
+            caption: "<strong>Figure 7. Global SHAP explanation of driving risk.</strong> (a) Beeswarm distribution of per-driver SHAP values (log-odds scale) coloured by within-feature percentile. (b) Mean |SHAP| feature ranking, held-out mean |SHAP| across all 5 outer folds, and bootstrap top-3 stability counts. (c) Contribution landscape: each column represents one driver ranked by model log-odds, showing stacked positive and negative risk attributions."
+        }
+    ];
+
+    let currentFigIndex = 0;
+
+    function openFigureLightbox(index) {
+        currentFigIndex = index;
+        updateFigureLightbox();
+        const overlay = document.getElementById('figureLightbox');
+        if (overlay) {
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        }
+    }
+
+    function closeFigureLightbox() {
+        const overlay = document.getElementById('figureLightbox');
+        if (overlay) {
+            overlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    }
+
+    function handleLightboxBackdrop(event) {
+        if (event.target.id === 'figureLightbox') {
+            closeFigureLightbox();
+        }
+    }
+
+    function navigateFigureLightbox(direction) {
+        currentFigIndex = (currentFigIndex + direction + figureData.length) % figureData.length;
+        updateFigureLightbox();
+    }
+
+    function updateFigureLightbox() {
+        const fig = figureData[currentFigIndex];
+        if (!fig) return;
+
+        const badge = document.getElementById('figLightboxBadge');
+        const title = document.getElementById('figLightboxTitle');
+        const img = document.getElementById('figLightboxImg');
+        const caption = document.getElementById('figLightboxCaption');
+        const download = document.getElementById('figLightboxDownload');
+        const counter = document.getElementById('figLightboxCounter');
+
+        if (badge) badge.textContent = `${fig.num} · ${fig.category}`;
+        if (title) title.textContent = fig.title;
+        if (img) {
+            img.src = fig.fullSrc;
+            img.alt = fig.title;
+        }
+        if (caption) caption.innerHTML = fig.caption;
+        if (download) download.href = fig.fullSrc;
+        if (counter) counter.textContent = `${currentFigIndex + 1} of ${figureData.length}`;
+
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+    }
+
+    document.addEventListener('keydown', (e) => {
+        const overlay = document.getElementById('figureLightbox');
+        if (overlay && overlay.classList.contains('active')) {
+            if (e.key === 'Escape') closeFigureLightbox();
+            if (e.key === 'ArrowLeft') navigateFigureLightbox(-1);
+            if (e.key === 'ArrowRight') navigateFigureLightbox(1);
+        }
+    });
+    </script>
 </body>
 
 </html>
