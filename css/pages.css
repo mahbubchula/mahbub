@@ -35,8 +35,8 @@
     align-items: center;
     gap: var(--space-2);
     padding: var(--space-2) var(--space-4);
-    background: rgba(0, 212, 255, 0.1);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    background: rgba(255, 138, 31, 0.1);
+    border: 1px solid rgba(255, 138, 31, 0.2);
     border-radius: var(--radius-full);
     font-size: var(--text-sm);
     font-weight: 500;
@@ -1026,8 +1026,8 @@ body.light-mode .timeline-description {
 }
 
 .skill-tags .tag {
-    background: rgba(20, 184, 166, 0.1);
-    border: 1px solid rgba(20, 184, 166, 0.2);
+    background: rgba(255, 138, 31, 0.1);
+    border: 1px solid rgba(255, 138, 31, 0.2);
     color: var(--accent-cyan-400);
 }
 
@@ -1067,7 +1067,7 @@ body.light-mode .personal-interest-card {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(20, 184, 166, 0.1);
+    background: rgba(255, 138, 31, 0.1);
 }
 
 .personal-interest-icon svg {
@@ -1229,7 +1229,7 @@ body.light-mode .research-project-card {
 }
 
 .research-project-card:hover {
-    border-color: rgba(0, 212, 255, 0.3);
+    border-color: rgba(255, 138, 31, 0.3);
     box-shadow: var(--shadow-lg);
 }
 
@@ -1585,7 +1585,7 @@ body.light-mode .pub-card {
 }
 
 .pub-card:hover {
-    border-color: rgba(0, 212, 255, 0.3);
+    border-color: rgba(255, 138, 31, 0.3);
     box-shadow: var(--shadow-lg);
 }
 
@@ -2185,7 +2185,7 @@ body.light-mode .contact-card {
 .contact-card-icon {
     width: 48px;
     height: 48px;
-    background: rgba(0, 212, 255, 0.1);
+    background: rgba(255, 138, 31, 0.1);
     border-radius: var(--radius-lg);
     display: flex;
     align-items: center;
@@ -2741,7 +2741,7 @@ body.light-mode .course-detail {
     font-size: var(--text-xs);
     font-weight: 500;
     color: var(--accent-cyan-400);
-    background: rgba(0, 212, 255, 0.1);
+    background: rgba(255, 138, 31, 0.1);
     border-radius: var(--radius-full);
 }
 
@@ -3207,8 +3207,8 @@ body.light-mode .pi-bio {
     font-size: var(--text-xs);
     font-weight: 500;
     color: var(--accent-cyan-400);
-    background: rgba(20, 184, 166, 0.1);
-    border: 1px solid rgba(20, 184, 166, 0.2);
+    background: rgba(255, 138, 31, 0.1);
+    border: 1px solid rgba(255, 138, 31, 0.2);
     border-radius: var(--radius-full);
 }
 
@@ -4479,7 +4479,7 @@ body.light-mode .verification-content p {
     padding: calc(var(--navbar-height) + var(--space-20)) 0 var(--space-20);
     overflow: hidden;
     background:
-        radial-gradient(circle at 82% 22%, rgba(0, 212, 255, 0.13), transparent 34%),
+        radial-gradient(circle at 82% 22%, rgba(255, 138, 31, 0.13), transparent 34%),
         radial-gradient(circle at 70% 78%, rgba(16, 185, 129, 0.10), transparent 30%),
         linear-gradient(145deg, #07111f 0%, #0b1f34 58%, #103f4b 100%);
 }
@@ -4566,7 +4566,7 @@ body.light-mode .verification-content p {
 }
 
 .metric-card strong {
-    color: #7be2dc;
+    color: #FFA94D;
     font-family: var(--font-display);
     font-size: 2.7rem;
     line-height: 1;
@@ -4643,7 +4643,7 @@ body.light-mode .publisher-mark {
 
 .publisher-mark:hover {
     transform: translateY(-3px);
-    border-color: rgba(103, 232, 249, 0.45);
+    border-color: rgba(255, 169, 77, 0.45);
 }
 
 .publisher-monogram {
@@ -4654,7 +4654,7 @@ body.light-mode .publisher-mark {
     place-items: center;
     border-radius: 10px;
     color: #08131f;
-    background: #7be2dc;
+    background: #FFA94D;
     font-family: var(--font-display);
     font-size: 0.72rem;
     font-weight: 800;
@@ -4706,7 +4706,7 @@ body.light-mode .publication-search input {
 
 .publication-search input:focus {
     border-color: var(--accent-cyan-500);
-    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.12);
+    box-shadow: 0 0 0 3px rgba(255, 138, 31, 0.12);
 }
 
 .publication-filter-bar {
@@ -4753,7 +4753,7 @@ body.light-mode .publication-filter {
 
 .publication-filter.active {
     color: #071522;
-    background: linear-gradient(135deg, #67e8f9, #6ee7b7);
+    background: linear-gradient(135deg, #FFA94D, #6ee7b7);
 }
 
 .publication-filter.active span {
@@ -4847,7 +4847,7 @@ body.light-mode .publication-card {
 
 .publication-card:hover {
     transform: translateY(-4px);
-    border-color: rgba(103, 232, 249, 0.34);
+    border-color: rgba(255, 169, 77, 0.34);
     box-shadow: var(--shadow-xl);
 }
 
@@ -4890,12 +4890,12 @@ body.light-mode .publication-card {
     bottom: 18px;
 }
 
-.theme-ai { background: linear-gradient(155deg, #312e81, #0e7490); }
+.theme-ai { background: linear-gradient(155deg, #312e81, #9A3412); }
 .theme-safety { background: linear-gradient(155deg, #7f1d1d, #c2410c); }
-.theme-behaviour { background: linear-gradient(155deg, #713f12, #0f766e); }
+.theme-behaviour { background: linear-gradient(155deg, #713f12, #C2410C); }
 .theme-policy { background: linear-gradient(155deg, #4c1d95, #1d4ed8); }
-.theme-systems { background: linear-gradient(155deg, #0f3d56, #0f766e); }
-.theme-sustainable { background: linear-gradient(155deg, #14532d, #0f766e); }
+.theme-systems { background: linear-gradient(155deg, #0f3d56, #C2410C); }
+.theme-sustainable { background: linear-gradient(155deg, #14532d, #C2410C); }
 .theme-energy { background: linear-gradient(155deg, #854d0e, #b91c1c); }
 .theme-future { background: linear-gradient(155deg, #581c87, #0369a1); }
 .theme-simulation { background: linear-gradient(155deg, #1e3a8a, #334155); }
@@ -4970,7 +4970,7 @@ body.light-mode .publication-card {
 .category-published-journal { color: #8bf3c8; background: rgba(16, 185, 129, 0.13); }
 .category-accepted-journal { color: #f8d27a; background: rgba(245, 158, 11, 0.13); }
 .category-book-chapter { color: #c4b5fd; background: rgba(139, 92, 246, 0.14); }
-.category-conference { color: #89e9f7; background: rgba(0, 212, 255, 0.12); }
+.category-conference { color: #89e9f7; background: rgba(255, 138, 31, 0.12); }
 
 .publication-year {
     color: var(--dark-text-tertiary);
@@ -5144,8 +5144,8 @@ body.light-mode .work-in-review-card {
     display: grid;
     place-items: center;
     color: var(--accent-cyan-300);
-    background: rgba(0, 212, 255, 0.08);
-    border: 1px solid rgba(0, 212, 255, 0.18);
+    background: rgba(255, 138, 31, 0.08);
+    border: 1px solid rgba(255, 138, 31, 0.18);
     border-radius: 20px;
 }
 

@@ -11,7 +11,7 @@
         content="Mahbub Hassan is a transportation engineering researcher at Chulalongkorn University working on road safety, driver behaviour, intelligent transportation systems, explainable AI and large language models for transportation.">
     <meta name="author" content="Mahbub Hassan">
     <link rel="canonical" href="https://mahbubchula.github.io/mahbub/">
-    <meta name="theme-color" content="#16324F">
+    <meta name="theme-color" content="#0B2545">
 
     <!-- Open Graph / social sharing -->
     <meta property="og:type" content="profile">
@@ -41,7 +41,7 @@
         "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universiti Malaysia Perlis" },
         "memberOf": [
             { "@type": "Organization", "name": "IEEE" },
-            { "@type": "Organization", "name": "B'Deshi Emerging Research Lab" }
+            { "@type": "Organization", "name": "B'deshi Emerging Research Lab" }
         ],
         "knowsAbout": ["Road safety", "Driver behaviour", "Intelligent transportation systems", "Explainable artificial intelligence", "Large language models in transportation", "Sustainable mobility", "Traffic simulation"],
         "sameAs": [
@@ -67,6 +67,7 @@
     <link rel="stylesheet" href="css/home.css?v=20261004">
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="css/theme-brand.css?v=20261112j">
 </head>
 
 <body>
@@ -78,17 +79,7 @@
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
                 <div class="nav-logo-icon">
-                    <svg viewBox="0 0 40 40" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="20" cy="20" r="6" fill="#fff" />
-                        <circle cx="8" cy="8" r="3" fill="#fff" opacity="0.9" />
-                        <circle cx="32" cy="8" r="3" fill="#fff" opacity="0.9" />
-                        <circle cx="8" cy="32" r="3" fill="#fff" opacity="0.9" />
-                        <circle cx="32" cy="32" r="3" fill="#fff" opacity="0.9" />
-                        <line x1="10.5" y1="10.5" x2="15.5" y2="15.5" stroke="#fff" stroke-width="1.6" opacity="0.55" />
-                        <line x1="29.5" y1="10.5" x2="24.5" y2="15.5" stroke="#fff" stroke-width="1.6" opacity="0.55" />
-                        <line x1="10.5" y1="29.5" x2="15.5" y2="24.5" stroke="#fff" stroke-width="1.6" opacity="0.55" />
-                        <line x1="29.5" y1="29.5" x2="24.5" y2="24.5" stroke="#fff" stroke-width="1.6" opacity="0.55" />
-                    </svg>
+                    <svg viewBox="0 46 200 108" width="26" height="14" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M100 100 C116 76 136 64 152 64 A36 36 0 0 1 152 136 C136 136 116 124 100 100" fill="none" stroke="#FF8A1F" stroke-width="24"/><path d="M100 100 C84 124 64 136 48 136 A36 36 0 0 1 48 64 C64 64 84 76 100 100" fill="none" stroke="#FFFFFF" stroke-width="24"/><circle cx="100" cy="100" r="15" fill="#0B2545"/><circle cx="100" cy="100" r="8" fill="#FF8A1F"/></svg>
                 </div>
                 <span>Mahbub Hassan</span>
             </a>
@@ -97,10 +88,10 @@
                 <li><a href="index.html" class="nav-link active">Home</a></li>
                 <li><a href="pages/about.html" class="nav-link">About</a></li>
                 <li><a href="pages/publications.html" class="nav-link">Publications</a></li>
-                <li><a href="pages/certificates.html" class="nav-link">Certificates</a></li>
+                <li><a href="pages/certificates.html" class="nav-link">Credentials</a></li>
                 <li><a href="pages/tools.html" class="nav-link">Tools</a></li>
                 <li><a href="pages/teaching.html" class="nav-link">Teaching</a></li>
-                <li><a href="pages/team.html" class="nav-link">Lab</a></li>
+                <li><a href="pages/team.html" class="nav-link">Team</a></li>
                 <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
             </ul>
 
@@ -123,19 +114,25 @@
     <section class="home-hero">
         <div class="container home-hero-grid">
             <div class="home-hero-copy">
-                <p class="eyebrow">Transportation Engineering · Chulalongkorn University</p>
-                <h1 class="home-name">Mahbub Hassan</h1>
-                <p class="home-role">Researcher in road safety, travel behaviour &amp; intelligent transportation systems</p>
+                <div class="hero-identity">
+                    <img class="hero-photo" src="assets/images/profile-new.jpg" alt="Portrait of Mahbub Hassan" width="600" height="750" fetchpriority="high">
+                    <div class="hero-identity-text">
+                        <p class="eyebrow">Transportation Engineering · Chulalongkorn University</p>
+                        <h1 class="home-name">Mahbub Hassan</h1>
+                        <p class="hero-status"><span class="status-dot" aria-hidden="true"></span><strong>Open to learn and collaborate</strong><span class="hero-status-topics">AI &middot; Mobility &middot; Intelligent Transportation Systems</span></p>
+                    </div>
+                </div>
+                <p class="home-role">Researcher in AI for transportation, mobility and intelligent transportation systems</p>
                 <p class="home-lede">
-                    I use <strong>explainable machine learning</strong>, <strong>behavioural modelling</strong> and
+                    I use <strong>AI</strong>, <strong>behavioural modelling</strong> and
                     <strong>large language models</strong> to turn transportation data into evidence for safer, more
                     sustainable mobility&nbsp;&mdash; with a focus on methods that practitioners and policymakers can trust.
                 </p>
 
                 <ul class="home-credentials" aria-label="Current positions">
                     <li><i data-lucide="graduation-cap"></i><span><strong>M.Eng. (Transportation)</strong>, Chulalongkorn University &middot; First Class</span></li>
-                    <li><i data-lucide="users"></i><span><strong>Founder &amp; Team Leader</strong>, B&rsquo;Deshi Emerging Research Lab</span></li>
-                    <li><i data-lucide="badge-check"></i><span><strong>IEEE Graduate Student Member</strong> &middot; BEM Graduate Engineer</span></li>
+                    <li><i data-lucide="users"></i><span><strong>Founder &amp; Team Leader</strong>, B&rsquo;deshi Emerging Research Lab</span></li>
+                    <li><i data-lucide="badge-check"></i><span><strong>Graduate Engineer</strong>, Board of Engineers Malaysia</span></li>
                 </ul>
 
                 <div class="home-cta">
@@ -153,15 +150,58 @@
                 </nav>
             </div>
 
-            <figure class="home-portrait">
-                <div class="home-portrait-frame">
-                    <img src="assets/images/profile-new.jpg" alt="Portrait of Mahbub Hassan" width="600" height="750" fetchpriority="high">
+            <div class="hero-visual">
+                <p class="eyebrow hero-deck-label">Research highlights</p>
+                <div class="hero-deck" id="heroDeck" role="region" aria-roledescription="carousel" aria-label="Research highlights">
+                    <div class="hero-deck-stage">
+                    <button type="button" class="hero-deck-slide is-active" data-figure="0" data-full="assets/images/research/showcase/figure-01.webp" data-text="Riders, e-scooter share, recorded severity and SHAP attribution by département, 2020–2025." data-title="Micromobility crashes across France" aria-label="View figure 1 in full: Micromobility crashes across France">
+                        <img src="assets/images/research/showcase/figure-01-thumb.webp" alt="Micromobility crashes across France. Riders, e-scooter share, recorded severity and SHAP attribution by département, 2020–2025." width="1066" height="900">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="1" data-full="assets/images/research/showcase/figure-02.webp" data-text="Global SHAP importance of the leading variables, ranking stability, and age and speed-limit dependence." data-title="What drives crash severity" aria-label="View figure 2 in full: What drives crash severity" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-02-thumb.webp" alt="What drives crash severity. Global SHAP importance of the leading variables, ranking stability, and age and speed-limit dependence." width="720" height="900" loading="lazy">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="2" data-full="assets/images/research/showcase/figure-03.webp" data-text="E-assist share of riders by prefecture, deaths in Greater Tokyo and Osaka–Kyoto–Kobe, and spatial clustering." data-title="E-assist bicycles in Japan" aria-label="View figure 3 in full: E-assist bicycles in Japan" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-03-thumb.webp" alt="E-assist bicycles in Japan. E-assist share of riders by prefecture, deaths in Greater Tokyo and Osaka–Kyoto–Kobe, and spatial clustering." width="720" height="900" loading="lazy">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="3" data-full="assets/images/research/showcase/figure-04.webp" data-text="Adjusted risks, common support, misclassification and robustness checks for the estimated risk ratio." data-title="Fatality risk of e-assist riders" aria-label="View figure 4 in full: Fatality risk of e-assist riders" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-04-thumb.webp" alt="Fatality risk of e-assist riders. Adjusted risks, common support, misclassification and robustness checks for the estimated risk ratio." width="852" height="900" loading="lazy">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="4" data-full="assets/images/research/showcase/figure-05.webp" data-text="Discrimination, precision–recall, calibration, model selection and decision-curve analysis." data-title="Validating the fatality model" aria-label="View figure 5 in full: Validating the fatality model" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-05-thumb.webp" alt="Validating the fatality model. Discrimination, precision–recall, calibration, model selection and decision-curve analysis." width="1012" height="900" loading="lazy">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="5" data-full="assets/images/research/showcase/figure-06.webp" data-text="Effects of broad data access and a personal agent on efficiency, privacy concern, delegation, trust and intention." data-title="What moves adoption of AI agents" aria-label="View figure 6 in full: What moves adoption of AI agents" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-06-thumb.webp" alt="What moves adoption of AI agents. Effects of broad data access and a personal agent on efficiency, privacy concern, delegation, trust and intention." width="1761" height="900" loading="lazy">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="6" data-full="assets/images/research/showcase/figure-07.webp" data-text="Eight testable hypotheses placed on near-, medium- and long-term horizons." data-title="Roadmap for agentic travel simulation" aria-label="View figure 7 in full: Roadmap for agentic travel simulation" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-07-thumb.webp" alt="Roadmap for agentic travel simulation. Eight testable hypotheses placed on near-, medium- and long-term horizons." width="1141" height="900" loading="lazy">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="7" data-full="assets/images/research/showcase/figure-08.webp" data-text="Study cities, record funnel, fieldwork calendar and weekly interviews, August 2025 to April 2026." data-title="Two-round survey in seven cities of Bangladesh" aria-label="View figure 8 in full: Two-round survey in seven cities of Bangladesh" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-08-thumb.webp" alt="Two-round survey in seven cities of Bangladesh. Study cities, record funnel, fieldwork calendar and weekly interviews, August 2025 to April 2026." width="757" height="900" loading="lazy">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="8" data-full="assets/images/research/showcase/figure-09.webp" data-text="SHAP decision paths, low, median and high cases, and a heatmap ordered by clustering of SHAP profiles." data-title="Explaining individual predictions" aria-label="View figure 9 in full: Explaining individual predictions" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-09-thumb.webp" alt="Explaining individual predictions. SHAP decision paths, low, median and high cases, and a heatmap ordered by clustering of SHAP profiles." width="723" height="900" loading="lazy">
+                    </button>
+                    <button type="button" class="hero-deck-slide" data-figure="9" data-full="assets/images/research/showcase/figure-10.webp" data-text="SHAP dependence curves, interaction values, mean SHAP by subgroup, and linear versus boosted models." data-title="Dependence, interactions and subgroups" aria-label="View figure 10 in full: Dependence, interactions and subgroups" tabindex="-1" aria-hidden="true">
+                        <img src="assets/images/research/showcase/figure-10-thumb.webp" alt="Dependence, interactions and subgroups. SHAP dependence curves, interaction values, mean SHAP by subgroup, and linear versus boosted models." width="757" height="900" loading="lazy">
+                    </button>
+                    </div>
+                    <div class="hero-deck-bar">
+                        <p class="hero-deck-caption" aria-live="polite"><span class="figure-card-num" id="heroDeckNum">01</span><strong id="heroDeckTitle">Micromobility crashes across France</strong></p>
+                        <div class="hero-deck-actions">
+                            <span class="hero-deck-count" id="heroDeckCount">1 / 10</span>
+                            <button type="button" class="figure-rail-btn" id="heroDeckPause" aria-label="Pause the rotating figures" aria-pressed="false"><i data-lucide="pause"></i></button>
+                            <button type="button" class="figure-rail-btn" id="heroDeckPrev" aria-label="Previous figure"><i data-lucide="arrow-left"></i></button>
+                            <button type="button" class="figure-rail-btn" id="heroDeckNext" aria-label="Next figure"><i data-lucide="arrow-right"></i></button>
+                        </div>
+                    </div>
                 </div>
-                <figcaption>
-                    <span class="status-dot" aria-hidden="true"></span>
-                    <span><strong>Open to collaboration</strong><br>Road safety &middot; ITS &middot; interpretable transport analytics</span>
-                </figcaption>
-            </figure>
+            </div>
+        </div>
+            <div class="brand-motif" aria-hidden="true">
+            <svg viewBox="0 0 1200 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <line class="brand-motif-road" x1="0" y1="12" x2="600" y2="12"/>
+                <line class="brand-motif-data" x1="612" y1="12" x2="1200" y2="12"/>
+            </svg>
         </div>
     </section>
 
@@ -169,7 +209,7 @@
     <section class="home-metrics" aria-label="Research record at a glance">
         <div class="container">
             <dl class="metrics-row">
-                <div><dt>Journal articles</dt><dd data-pub-stat="journals">25</dd><span>published &amp; accepted</span></div>
+                <div><dt>Journal articles</dt><dd data-pub-stat="journals">30</dd><span>published &amp; accepted</span></div>
                 <div><dt>Conference papers</dt><dd data-pub-stat="conference">16</dd><span>international venues</span></div>
                 <div><dt>Book chapters</dt><dd data-pub-stat="book-chapter">2</dd><span>edited volumes</span></div>
                 <div><dt>Peer review</dt><dd>31+</dd><span>manuscripts, 21 journals</span></div>
@@ -237,7 +277,7 @@
                     <p class="eyebrow">Selected work</p>
                     <h2>Featured publications</h2>
                 </div>
-                <a href="pages/publications.html" class="text-link">Full publication list <i data-lucide="arrow-right"></i></a>
+                <a href="pages/publications.html" class="text-link">Browse all <span data-pub-stat="total">48</span> publications <i data-lucide="arrow-right"></i></a>
             </header>
 
             <div class="publication-carousel animate-on-scroll" id="publicationCarousel" role="region" aria-roledescription="carousel" aria-label="Featured publications">
@@ -337,192 +377,6 @@
         </div>
     </section>
 
-    <!-- Research Visualizations Section -->
-    <section class="home-section" id="research-visuals">
-        <div class="container">
-            <header class="home-section-head home-section-head-row">
-                <div>
-                    <p class="eyebrow">Empirical evidence &amp; XAI</p>
-                    <h2>Research visualizations</h2>
-                </div>
-                <p class="section-lead-note">High-dimensional risk surfaces, nested validation benchmarks, and explainable AI diagnostics from our recent driver behaviour and safety investigations.</p>
-            </header>
-
-            <div class="visuals-grid">
-                <!-- Figure 4 Card -->
-                <div class="visual-card animate-on-scroll">
-                    <div class="visual-card-media" onclick="openFigureLightbox(0)">
-                        <span class="visual-category-tag tag-cyan">Bayesian Interaction</span>
-                        <div class="visual-image-wrapper">
-                            <img src="assets/images/research/Fig04_risk_landscape_thumb.png" 
-                                 data-full="assets/images/research/Fig04_risk_landscape.png"
-                                 alt="Figure 4: Model-implied risk landscape" 
-                                 loading="lazy">
-                        </div>
-                        <div class="visual-media-overlay">
-                            <span class="visual-zoom-btn">
-                                <i data-lucide="zoom-in"></i>
-                                <span>Inspect High-Res Figure</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="visual-card-body">
-                        <div class="visual-meta">
-                            <span class="visual-fig-number">Figure 04</span>
-                            <span class="visual-pill"><i data-lucide="activity"></i> Risk Landscape</span>
-                        </div>
-                        <h3 class="visual-card-title">Model-Implied Risk Landscape</h3>
-                        <p class="visual-card-desc">
-                            Posterior mean probability surfaces showing how daily driving hours and sleepiness interact to exponentially elevate unsafe overtaking risk on undivided roadways.
-                        </p>
-                        <div class="visual-tags">
-                            <span class="tech-tag">Driving Hours × Sleepiness</span>
-                            <span class="tech-tag">Posterior Draws</span>
-                            <span class="tech-tag">Exposure Surface</span>
-                        </div>
-                        <div class="visual-card-footer">
-                            <button type="button" class="visual-action-btn" onclick="openFigureLightbox(0)">
-                                <i data-lucide="maximize-2"></i> View High-Res &amp; Details
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Figure 5 Card -->
-                <div class="visual-card animate-on-scroll">
-                    <div class="visual-card-media" onclick="openFigureLightbox(1)">
-                        <span class="visual-category-tag tag-purple">Model Evaluation</span>
-                        <div class="visual-image-wrapper">
-                            <img src="assets/images/research/Fig05_model_performance_thumb.png" 
-                                 data-full="assets/images/research/Fig05_model_performance.png"
-                                 alt="Figure 5: Out-of-fold predictive performance (5x4 nested cross-validation)" 
-                                 loading="lazy">
-                        </div>
-                        <div class="visual-media-overlay">
-                            <span class="visual-zoom-btn">
-                                <i data-lucide="zoom-in"></i>
-                                <span>Inspect High-Res Figure</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="visual-card-body">
-                        <div class="visual-meta">
-                            <span class="visual-fig-number">Figure 05</span>
-                            <span class="visual-pill"><i data-lucide="git-compare"></i> 5×4 Nested CV</span>
-                        </div>
-                        <h3 class="visual-card-title">Out-of-Fold Predictive Performance</h3>
-                        <p class="visual-card-desc">
-                            Rigorous multi-model evaluation across ROC curves, Precision-Recall curves, decile calibration plots, and paired bootstrap differences against ensemble classifiers.
-                        </p>
-                        <div class="visual-tags">
-                            <span class="tech-tag">ROC &amp; PR Curves</span>
-                            <span class="tech-tag">Decile Calibration</span>
-                            <span class="tech-tag">Bootstrap CIs</span>
-                        </div>
-                        <div class="visual-card-footer">
-                            <button type="button" class="visual-action-btn" onclick="openFigureLightbox(1)">
-                                <i data-lucide="maximize-2"></i> View High-Res &amp; Details
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Figure 6 Card -->
-                <div class="visual-card animate-on-scroll">
-                    <div class="visual-card-media" onclick="openFigureLightbox(2)">
-                        <span class="visual-category-tag tag-amber">Policy Utility</span>
-                        <div class="visual-image-wrapper">
-                            <img src="assets/images/research/Fig06_clinical_utility_thumb.png" 
-                                 data-full="assets/images/research/Fig06_clinical_utility.png"
-                                 alt="Figure 6: Decision utility and threshold dynamics" 
-                                 loading="lazy">
-                        </div>
-                        <div class="visual-media-overlay">
-                            <span class="visual-zoom-btn">
-                                <i data-lucide="zoom-in"></i>
-                                <span>Inspect High-Res Figure</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="visual-card-body">
-                        <div class="visual-meta">
-                            <span class="visual-fig-number">Figure 06</span>
-                            <span class="visual-pill"><i data-lucide="shield-check"></i> Decision Curves</span>
-                        </div>
-                        <h3 class="visual-card-title">Decision Utility &amp; Threshold Dynamics</h3>
-                        <p class="visual-card-desc">
-                            Standardized decision curve analysis quantifying net benefit across practical intervention thresholds, mirrored prediction densities, and diagnostic trade-offs.
-                        </p>
-                        <div class="visual-tags">
-                            <span class="tech-tag">Net Benefit Analysis</span>
-                            <span class="tech-tag">Discrimination Slope</span>
-                            <span class="tech-tag">Optimal Threshold</span>
-                        </div>
-                        <div class="visual-card-footer">
-                            <button type="button" class="visual-action-btn" onclick="openFigureLightbox(2)">
-                                <i data-lucide="maximize-2"></i> View High-Res &amp; Details
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Figure 7 Card -->
-                <div class="visual-card animate-on-scroll">
-                    <div class="visual-card-media" onclick="openFigureLightbox(3)">
-                        <span class="visual-category-tag tag-green">Explainable AI</span>
-                        <div class="visual-image-wrapper">
-                            <img src="assets/images/research/Fig07_shap_global_thumb.png" 
-                                 data-full="assets/images/research/Fig07_shap_global.png"
-                                 alt="Figure 7: Global SHAP explanation of driving risk" 
-                                 loading="lazy">
-                        </div>
-                        <div class="visual-media-overlay">
-                            <span class="visual-zoom-btn">
-                                <i data-lucide="zoom-in"></i>
-                                <span>Inspect High-Res Figure</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="visual-card-body">
-                        <div class="visual-meta">
-                            <span class="visual-fig-number">Figure 07</span>
-                            <span class="visual-pill"><i data-lucide="brain-circuit"></i> SHAP Analysis</span>
-                        </div>
-                        <h3 class="visual-card-title">Global SHAP Explanation Landscape</h3>
-                        <p class="visual-card-desc">
-                            Transparent feature attributions via SHAP beeswarm distributions, outer-fold ranking stability, and per-driver cumulative risk contribution profiles.
-                        </p>
-                        <div class="visual-tags">
-                            <span class="tech-tag">SHAP Beeswarm</span>
-                            <span class="tech-tag">Feature Importance</span>
-                            <span class="tech-tag">Contribution Landscape</span>
-                        </div>
-                        <div class="visual-card-footer">
-                            <button type="button" class="visual-action-btn" onclick="openFigureLightbox(3)">
-                                <i data-lucide="maximize-2"></i> View High-Res &amp; Details
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Recent publications (rendered from data/publications.json) -->
-    <section class="home-section" id="recent">
-        <div class="container home-two-col">
-            <header class="home-section-head">
-                <p class="eyebrow">Latest record</p>
-                <h2>Recent publications</h2>
-                <p>The five most recent entries from the publication database. The full, searchable list includes journals, conference papers and book chapters.</p>
-                <a href="pages/publications.html" class="btn btn-secondary"><i data-lucide="library"></i> Browse all <span data-pub-stat="total">43</span></a>
-            </header>
-            <ol class="recent-list" id="recentPublications" aria-live="polite">
-                <li class="recent-placeholder">Loading recent publications&hellip;</li>
-            </ol>
-        </div>
-    </section>
-
     <!-- Service, recognition, leadership -->
     <section class="home-section home-section-alt">
         <div class="container">
@@ -534,8 +388,9 @@
                 <article class="service-card animate-on-scroll">
                     <i data-lucide="users-round"></i>
                     <h3>Research leadership</h3>
-                    <p>Founded B&rsquo;Deshi Emerging Research Lab in 2023, an international group that has produced 25+ peer-reviewed papers and mentored 20+ undergraduates to co-authored publications.</p>
-                    <a href="pages/team.html" class="text-link">Meet the lab <i data-lucide="arrow-right"></i></a>
+                    <p>Founded B&rsquo;deshi Emerging Research Lab in 2023, an international group that has produced 25+ peer-reviewed papers and mentored 20+ undergraduates to co-authored publications.</p>
+                    <p class="lab-slogan">From classroom to real-world impact</p>
+                    <a href="pages/team.html" class="text-link">Meet the team <i data-lucide="arrow-right"></i></a>
                 </article>
                 <article class="service-card animate-on-scroll">
                     <i data-lucide="clipboard-check"></i>
@@ -570,7 +425,7 @@
             <ul class="affiliation-row">
                 <li><img src="assets/images/logo_Affiliation/Chula logo.png" alt="" loading="lazy"><span>Chulalongkorn University</span></li>
                 <li><img src="assets/images/logo_Affiliation/IEEE-Logo.jpg" alt="" loading="lazy"><span>IEEE</span></li>
-                <li><img src="assets/images/logo_Affiliation/logo bdeshi .jpg" alt="" loading="lazy"><span>B&rsquo;Deshi Emerging Research Lab</span></li>
+                <li><img src="assets/images/logo_Affiliation/bdeshi-lab-mark.png" alt="" loading="lazy"><span>B&rsquo;deshi Emerging Research Lab</span></li>
                 <li><img src="assets/images/logo_Affiliation/BEM logo.webp" alt="" loading="lazy"><span>Board of Engineers Malaysia</span></li>
             </ul>
         </div>
@@ -600,17 +455,7 @@
                 <div class="footer-brand-section">
                     <a href="index.html" class="footer-logo">
                         <div class="footer-logo-icon">
-                            <svg viewBox="0 0 40 40" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="20" cy="20" r="6" fill="#fff" />
-                                <circle cx="8" cy="8" r="3" fill="#fff" opacity="0.9" />
-                                <circle cx="32" cy="8" r="3" fill="#fff" opacity="0.9" />
-                                <circle cx="8" cy="32" r="3" fill="#fff" opacity="0.9" />
-                                <circle cx="32" cy="32" r="3" fill="#fff" opacity="0.9" />
-                                <line x1="10.5" y1="10.5" x2="15.5" y2="15.5" stroke="#fff" stroke-width="1.6" opacity="0.55" />
-                                <line x1="29.5" y1="10.5" x2="24.5" y2="15.5" stroke="#fff" stroke-width="1.6" opacity="0.55" />
-                                <line x1="10.5" y1="29.5" x2="15.5" y2="24.5" stroke="#fff" stroke-width="1.6" opacity="0.55" />
-                                <line x1="29.5" y1="29.5" x2="24.5" y2="24.5" stroke="#fff" stroke-width="1.6" opacity="0.55" />
-                            </svg>
+                            <svg viewBox="0 46 200 108" width="26" height="14" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M100 100 C116 76 136 64 152 64 A36 36 0 0 1 152 136 C136 136 116 124 100 100" fill="none" stroke="#FF8A1F" stroke-width="24"/><path d="M100 100 C84 124 64 136 48 136 A36 36 0 0 1 48 64 C64 64 84 76 100 100" fill="none" stroke="#FFFFFF" stroke-width="24"/><circle cx="100" cy="100" r="15" fill="#0B2545"/><circle cx="100" cy="100" r="8" fill="#FF8A1F"/></svg>
                         </div>
                         <span class="footer-logo-text">Mahbub Hassan</span>
                     </a>
@@ -651,7 +496,7 @@
                 <div class="footer-column">
                     <h5>Research</h5>
                     <ul>
-                        <li><a href="pages/certificates.html"><i data-lucide="chevron-right"></i> Certificates</a></li>
+                        <li><a href="pages/certificates.html"><i data-lucide="chevron-right"></i> Credentials</a></li>
                         <li><a href="pages/publications.html"><i data-lucide="chevron-right"></i> Publications</a></li>
                         <li><a href="pages/tools.html"><i data-lucide="chevron-right"></i> AI Tools</a></li>
                     </ul>
@@ -663,7 +508,7 @@
                     <ul>
                         <li><a href="pages/teaching.html"><i data-lucide="chevron-right"></i> Teaching</a></li>
                         <li><a href="pages/gallery.html"><i data-lucide="chevron-right"></i> Gallery</a></li>
-                        <li><a href="pages/certificates.html"><i data-lucide="chevron-right"></i> Certificates</a></li>
+                        <li><a href="pages/certificates.html"><i data-lucide="chevron-right"></i> Credentials</a></li>
                         <li><a href="pages/team.html"><i data-lucide="chevron-right"></i> Lab Team</a></li>
                     </ul>
                 </div>
@@ -744,146 +589,27 @@
         <i data-lucide="chevron-up"></i>
     </button>
 
-    <!-- Figure Lightbox Modal -->
-    <div class="fig-lightbox-overlay" id="figureLightbox" onclick="handleLightboxBackdrop(event)">
-        <div class="fig-lightbox-modal" role="dialog" aria-modal="true" aria-labelledby="figLightboxTitle">
-            <div class="fig-lightbox-header">
-                <div class="fig-lightbox-header-left">
-                    <span class="fig-lightbox-badge" id="figLightboxBadge">Figure 04 · Bayesian Modeling</span>
-                    <h3 class="fig-lightbox-header-title" id="figLightboxTitle">Model-Implied Risk Landscape</h3>
-                </div>
-                <div class="fig-lightbox-controls">
-                    <a href="#" id="figLightboxDownload" target="_blank" class="fig-lightbox-btn" title="Open full resolution in new tab" aria-label="Open full resolution">
-                        <i data-lucide="external-link"></i>
-                    </a>
-                    <button type="button" class="fig-lightbox-btn" onclick="closeFigureLightbox()" title="Close (Esc)" aria-label="Close modal">
-                        <i data-lucide="x"></i>
-                    </button>
-                </div>
+    <!-- Figure viewer -->
+    <dialog class="figure-dialog" id="figureDialog" aria-labelledby="figureDialogTitle">
+        <div class="figure-dialog-bar">
+            <div class="figure-dialog-caption">
+                <span class="figure-card-num" id="figureDialogNum"></span>
+                <strong id="figureDialogTitle"></strong>
+                <span id="figureDialogText"></span>
             </div>
-            <div class="fig-lightbox-viewport">
-                <button type="button" class="fig-lightbox-nav-btn prev" onclick="navigateFigureLightbox(-1)" aria-label="Previous figure" title="Previous figure">
-                    <i data-lucide="chevron-left"></i>
-                </button>
-                <img id="figLightboxImg" src="" alt="Research Figure">
-                <button type="button" class="fig-lightbox-nav-btn next" onclick="navigateFigureLightbox(1)" aria-label="Next figure" title="Next figure">
-                    <i data-lucide="chevron-right"></i>
-                </button>
-            </div>
-            <div class="fig-lightbox-caption">
-                <p class="fig-lightbox-caption-text" id="figLightboxCaption"></p>
-                <div class="fig-lightbox-caption-footer">
-                    <span id="figLightboxCounter">1 of 4</span>
-                    <span>Use keyboard arrow keys ← → to browse, Esc to close</span>
-                </div>
+            <div class="figure-dialog-actions">
+                <button type="button" class="figure-rail-btn" id="figureDialogPrev" aria-label="Previous figure"><i data-lucide="arrow-left"></i></button>
+                <button type="button" class="figure-rail-btn" id="figureDialogNext" aria-label="Next figure"><i data-lucide="arrow-right"></i></button>
+                <button type="button" class="figure-rail-btn" id="figureDialogClose" aria-label="Close figure viewer"><i data-lucide="x"></i></button>
             </div>
         </div>
-    </div>
+        <div class="figure-dialog-stage"><img id="figureDialogImg" src="" alt=""></div>
+    </dialog>
 
     <script src="js/main.js?v=20261004"></script>
     <script src="js/featured-publications.js?v=20261004"></script>
     <script src="js/site-data.js?v=20261004"></script>
-    <script>
-    const figureData = [
-        {
-            num: "Figure 04",
-            category: "Bayesian Modeling",
-            title: "Model-Implied Risk Landscape",
-            fullSrc: "assets/images/research/Fig04_risk_landscape.png",
-            caption: "<strong>Figure 4. Model-implied risk landscape.</strong> Posterior mean probability of unsafe overtaking at the reference profile. (a) Driving hours × sleepiness surface with probability contours; observed drivers (jittered) show empirical support. (b) Overtaking frequency × undivided-road share at mean driving hours, with observed cell counts. (c) Probability against driving hours across three sleepiness levels: 150 posterior draws (thin trajectories) and posterior mean curve (thick)."
-        },
-        {
-            num: "Figure 05",
-            category: "Model Evaluation",
-            title: "Out-of-Fold Predictive Performance",
-            fullSrc: "assets/images/research/Fig05_model_performance.png",
-            caption: "<strong>Figure 5. Out-of-fold predictive performance (5 × 4 nested cross-validation).</strong> (a) Discrimination ROC curves across algorithms with an inset magnifying the false-positive rate 0.05–0.30. (b) Precision–recall curves benchmarked against base outcome prevalence. (c) Decile probability calibration with logistic predicted-probability distribution. (d) ROC-AUC in each outer fold. (e) Pooled metric performance matrix. (f) Paired bootstrap hypothesis differences against logistic regression (95% CI)."
-        },
-        {
-            num: "Figure 06",
-            category: "Policy & Decision Utility",
-            title: "Decision Utility & Threshold Dynamics",
-            fullSrc: "assets/images/research/Fig06_clinical_utility.png",
-            caption: "<strong>Figure 6. Decision utility and threshold behaviour.</strong> (a) Decision curve analysis demonstrating net benefit across practical intervention thresholds against treat-all and treat-none baselines. (b) Mirrored out-of-fold predictive densities with discrimination slope. (c) Sensitivity, specificity, PPV, and NPV dynamic trade-offs across thresholds, marking 0.50 and the Youden-optimal threshold. (d) Diagnostic confusion matrix at threshold 0.50."
-        },
-        {
-            num: "Figure 07",
-            category: "Explainable AI",
-            title: "Global SHAP Explanation Landscape",
-            fullSrc: "assets/images/research/Fig07_shap_global.png",
-            caption: "<strong>Figure 7. Global SHAP explanation of driving risk.</strong> (a) Beeswarm distribution of per-driver SHAP values (log-odds scale) coloured by within-feature percentile. (b) Mean |SHAP| feature ranking, held-out mean |SHAP| across all 5 outer folds, and bootstrap top-3 stability counts. (c) Contribution landscape: each column represents one driver ranked by model log-odds, showing stacked positive and negative risk attributions."
-        }
-    ];
-
-    let currentFigIndex = 0;
-
-    function openFigureLightbox(index) {
-        currentFigIndex = index;
-        updateFigureLightbox();
-        const overlay = document.getElementById('figureLightbox');
-        if (overlay) {
-            overlay.classList.add('active');
-            document.body.style.overflow = 'hidden';
-            if (typeof lucide !== 'undefined') {
-                lucide.createIcons();
-            }
-        }
-    }
-
-    function closeFigureLightbox() {
-        const overlay = document.getElementById('figureLightbox');
-        if (overlay) {
-            overlay.classList.remove('active');
-            document.body.style.overflow = '';
-        }
-    }
-
-    function handleLightboxBackdrop(event) {
-        if (event.target.id === 'figureLightbox') {
-            closeFigureLightbox();
-        }
-    }
-
-    function navigateFigureLightbox(direction) {
-        currentFigIndex = (currentFigIndex + direction + figureData.length) % figureData.length;
-        updateFigureLightbox();
-    }
-
-    function updateFigureLightbox() {
-        const fig = figureData[currentFigIndex];
-        if (!fig) return;
-
-        const badge = document.getElementById('figLightboxBadge');
-        const title = document.getElementById('figLightboxTitle');
-        const img = document.getElementById('figLightboxImg');
-        const caption = document.getElementById('figLightboxCaption');
-        const download = document.getElementById('figLightboxDownload');
-        const counter = document.getElementById('figLightboxCounter');
-
-        if (badge) badge.textContent = `${fig.num} · ${fig.category}`;
-        if (title) title.textContent = fig.title;
-        if (img) {
-            img.src = fig.fullSrc;
-            img.alt = fig.title;
-        }
-        if (caption) caption.innerHTML = fig.caption;
-        if (download) download.href = fig.fullSrc;
-        if (counter) counter.textContent = `${currentFigIndex + 1} of ${figureData.length}`;
-
-        if (typeof lucide !== 'undefined') {
-            lucide.createIcons();
-        }
-    }
-
-    document.addEventListener('keydown', (e) => {
-        const overlay = document.getElementById('figureLightbox');
-        if (overlay && overlay.classList.contains('active')) {
-            if (e.key === 'Escape') closeFigureLightbox();
-            if (e.key === 'ArrowLeft') navigateFigureLightbox(-1);
-            if (e.key === 'ArrowRight') navigateFigureLightbox(1);
-        }
-    });
-    </script>
+    <script src="js/figure-showcase.js?v=20261112j"></script>
 </body>
 
 </html>

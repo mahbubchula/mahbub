@@ -1002,7 +1002,7 @@ body:not(.light-mode) .metrics-row dd { color: var(--brand-strong); }
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
-.tag-cyan { background: #0891b2; }
+.tag-cyan { background: #C2410C; }
 .tag-purple { background: #7c3aed; }
 .tag-amber { background: #d97706; }
 .tag-green { background: #059669; }

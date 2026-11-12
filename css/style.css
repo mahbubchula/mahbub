@@ -29,12 +29,12 @@
 
     /* ========== ACCENT COLORS ========== */
     /* Teal - AI, Technology, Innovation (was Cyan) */
-    --accent-cyan-600: #0D9488;
-    --accent-cyan-500: #14B8A6;
-    --accent-cyan-400: #2DD4BF;
-    --accent-cyan-300: #5EEAD4;
-    --accent-cyan-200: #99F6E4;
-    --accent-cyan-glow: rgba(20, 184, 166, 0.4);
+    --accent-cyan-600: #C2410C;
+    --accent-cyan-500: #F2540F;
+    --accent-cyan-400: #FF8A1F;
+    --accent-cyan-300: #FFA94D;
+    --accent-cyan-200: #FFD3AE;
+    --accent-cyan-glow: rgba(255, 138, 31, 0.4);
 
     /* Emerald - Sustainability, EV, Growth */
     --accent-green-600: #059669;
